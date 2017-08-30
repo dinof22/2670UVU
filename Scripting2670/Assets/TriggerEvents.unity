@@ -14100,10 +14100,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1524743843}
   - component: {fileID: 1524743848}
-  - component: {fileID: 1524743847}
-  - component: {fileID: 1524743846}
   - component: {fileID: 1524743845}
   - component: {fileID: 1524743844}
+  - component: {fileID: 1524743847}
+  - component: {fileID: 1524743846}
   m_Layer: 16
   m_Name: AnimRoot
   m_TagString: Untagged
@@ -14157,25 +14157,23 @@ Rigidbody:
 --- !u!114 &1524743846
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 114150962163048078, guid: ed4b3f4613faf46d58af2eec0104d675,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524743842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 8eb557629eccba94caac9bcc8f7cdf59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1524743847
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11499370, guid: ed4b3f4613faf46d58af2eec0104d675,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1524743842}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: dbed1999eec0efc41b379d3834c25187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &1524743848
@@ -14343,6 +14341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c16e488b32b1c649b90c5cca5647c48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &1791437400
 GameObject:
   m_ObjectHideFlags: 0
