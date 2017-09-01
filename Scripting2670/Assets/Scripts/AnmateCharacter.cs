@@ -7,11 +7,23 @@ public class AnmateCharacter : MonoBehaviour {
 
     Animator anims;
 
-	// Use this for initialization
+
 	void Start () {
         anims = GetComponent<Animator>();
-        MoveInputs.KeyAction += Animate;
+
+        PlayButton.Play += Onplay;
+        
 	}
+
+
+
+    void Onplay()
+    {
+        MoveInputs.KeyAction += Animate;
+        PlayButton.Play -= Onplay;
+    }
+
+
 
     private void Animate(float obj)
     {

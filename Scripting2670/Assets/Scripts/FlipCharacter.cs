@@ -11,8 +11,15 @@ public class FlipCharacter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        PlayButton.Play += Onplay;
+    }
+
+
+    void Onplay()
+    {
         MoveInputs.KeyAction += Flip;
-	}
+        PlayButton.Play -= Onplay;
+    }
 
     private void Flip(float obj)
     {
