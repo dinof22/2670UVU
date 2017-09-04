@@ -1,10 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
-public class MoveCharacter : MonoBehaviour {
-
+public class CharacterMovement : MonoBehaviour {
 
     CharacterController cc;
 
@@ -12,28 +10,28 @@ public class MoveCharacter : MonoBehaviour {
 
     public float speed;
     public float gravity;
-    public float jumpHeight;
+    public float jumpHeight ;
     private bool doubleJump;
+
+
+
+
 
     void Start()
     {
         cc = GetComponent<CharacterController>();
-        PlayButton.Play += Onplay;
+        MoveInput.JumpAction += Jump;
+        MoveInput.KeyAction = MoveInput.KeyAction + Move;
+        doubleJump = false;
     }
 
 
 
-    void Onplay()
-    {
-        MoveInputs.JumpAction = Jump;
-        MoveInputs.KeyAction += Move;
-        PlayButton.Play -= Onplay;
-        
-    }
 
 
     void Jump()
     {
+        
         if (cc.isGrounded)
         {
             print("Jump");
@@ -47,7 +45,7 @@ public class MoveCharacter : MonoBehaviour {
                 print("Jump");
                 tempMove.y = jumpHeight;
                 doubleJump = false;
-            }
+            }           
         }
     }
 

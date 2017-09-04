@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -324,7 +324,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -2002709684
+  randomSeed: -1980774080
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -3812,7 +3812,7 @@ Transform:
   m_LocalScale: {x: 3.0647736, y: 0.2118719, z: 3.0647743}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &373460914
 GameObject:
@@ -4072,7 +4072,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: 1842403005
+  randomSeed: 246943995
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7339,7 +7339,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -532810835
+  randomSeed: -1438287423
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10707,7 +10707,7 @@ RectTransform:
   m_Children:
   - {fileID: 1014600052}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -10774,7 +10774,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &718880036
 GameObject:
@@ -11073,6 +11073,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c173d527dff1d474d995e163d3ec4c67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  thePlayButton: {fileID: 1014600051}
 --- !u!114 &1014600054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11238,7 +11239,7 @@ Transform:
   m_LocalScale: {x: 3.0647736, y: 0.2118719, z: 3.0647743}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1167526895
 GameObject:
@@ -11391,7 +11392,7 @@ Transform:
   m_LocalScale: {x: 3.0647736, y: 0.2118719, z: 3.0647743}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1392692982
 GameObject:
@@ -11546,7 +11547,7 @@ Transform:
   m_LocalScale: {x: 3.0647736, y: 0.2118719, z: 3.0647743}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1510124196
 GameObject:
@@ -11707,7 +11708,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -877283468
+  randomSeed: 1737573621
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -15008,8 +15009,9 @@ Transform:
   - {fileID: 1963365678}
   - {fileID: 295004473}
   - {fileID: 948164360}
+  - {fileID: 1981003512}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1775461899
 MonoBehaviour:
@@ -15035,6 +15037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   gravity: 1
+  jumpHeight: 1
 --- !u!1 &1791437400
 GameObject:
   m_ObjectHideFlags: 0
@@ -15112,7 +15115,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1812987710
 GameObject:
@@ -15457,11 +15460,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1981003507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 444, y: -193, z: -10}
+  m_LocalPosition: {x: 0.63, y: 0.75, z: -4.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_Father: {fileID: 1775461898}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1983186994
 GameObject:
@@ -15616,7 +15619,7 @@ Transform:
   m_LocalScale: {x: 3.0647736, y: 0.2118719, z: 3.0647743}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2041684855
 GameObject:
