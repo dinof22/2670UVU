@@ -5,9 +5,15 @@ using System;
 
 public class grabbableScript : MonoBehaviour {
 
-
+    CharacterController cc;
 
     public GameObject grabHolder;
+
+
+    private void Start()
+    {
+        cc = GetComponent<CharacterController>();
+    }
 
     private void Update()
     {
@@ -26,7 +32,19 @@ public class grabbableScript : MonoBehaviour {
             this.transform.parent = null;
             //GetComponent<Rigidbody>().useGravity = true;
         }
+
+
+        if (!cc.isGrounded)
+        {
+            GetComponent<Rigidbody>().useGravity = false;
+        }
+        if (cc.isGrounded)
+        {
+            GetComponent<Rigidbody>().useGravity = true;
+        }
     }
+
+
 
 
 

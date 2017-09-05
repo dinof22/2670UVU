@@ -6,6 +6,14 @@ public class grabTrigger : MonoBehaviour {
 
 
     public GameObject grabHolder;
+    CharacterController cc;
+
+    private void Start()
+    {
+        cc = GetComponent<CharacterController>();
+    }
+
+
 
     private void grab()
     {
@@ -23,6 +31,16 @@ public class grabTrigger : MonoBehaviour {
             print("control let go");
             this.transform.parent.parent = null;
             //GetComponent<Rigidbody>().useGravity = true;
+        }
+
+
+        if (!cc.isGrounded)
+        {
+            GetComponent<Rigidbody>().useGravity = false;
+        }
+        if (cc.isGrounded)
+        {
+            GetComponent<Rigidbody>().useGravity = true;
         }
     }
 

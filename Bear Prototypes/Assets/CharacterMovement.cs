@@ -58,7 +58,6 @@ public class CharacterMovement : MonoBehaviour {
     {
         
         tempMove.x = _movement * speed;
-        //print("move");
         cc.Move(tempMove * Time.deltaTime);
         if (!cc.isGrounded)
         {
@@ -76,6 +75,8 @@ public class CharacterMovement : MonoBehaviour {
                 onLandAction = null;
             }
         }
+
+
     }
 
 
