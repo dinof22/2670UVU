@@ -8,6 +8,7 @@ public class MoveInput : MonoBehaviour {
     public static Action<float> KeyAction;
 
     public static Action JumpAction;
+    public static Action GrabAction;
 
 
     void Update()

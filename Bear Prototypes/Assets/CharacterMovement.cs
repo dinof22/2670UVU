@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class CharacterMovement : MonoBehaviour {
 
@@ -10,8 +11,11 @@ public class CharacterMovement : MonoBehaviour {
 
     public float speed;
     public float gravity;
-    public float jumpHeight ;
+    public float jumpHeight;
     private bool doubleJump;
+
+
+    private Action onLandAction;
 
 
 
@@ -21,7 +25,7 @@ public class CharacterMovement : MonoBehaviour {
     {
         cc = GetComponent<CharacterController>();
         MoveInput.JumpAction += Jump;
-        MoveInput.KeyAction = MoveInput.KeyAction + Move;
+        MoveInput.KeyAction += Move;
         doubleJump = false;
     }
 
@@ -52,9 +56,31 @@ public class CharacterMovement : MonoBehaviour {
 
     void Move(float _movement)
     {
-        tempMove.y -= gravity * Time.deltaTime;
-        tempMove.x = _movement * speed * Time.deltaTime;
-        print("move");
-        cc.Move(tempMove);
+        
+        tempMove.x = _movement * speed;
+        //print("move");
+        cc.Move(tempMove * Time.deltaTime);
+        if (!cc.isGrounded)
+        {
+            tempMove.y -= gravity * Time.deltaTime;
+            if (onLandAction == null)
+            {
+                onLandAction += resetGravity;
+            }
+        }
+        if (cc.isGrounded)
+        {
+            if (onLandAction != null)
+            {
+                onLandAction();
+                onLandAction = null;
+            }
+        }
+    }
+
+
+    void resetGravity()
+    {
+        tempMove.y = -.1f;
     }
 }
