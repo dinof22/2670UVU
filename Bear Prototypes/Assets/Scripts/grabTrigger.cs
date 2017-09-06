@@ -6,12 +6,8 @@ public class grabTrigger : MonoBehaviour {
 
 
     public GameObject grabHolder;
-    CharacterController cc;
 
-    private void Start()
-    {
-        cc = GetComponent<CharacterController>();
-    }
+
 
 
 
@@ -33,15 +29,6 @@ public class grabTrigger : MonoBehaviour {
             //GetComponent<Rigidbody>().useGravity = true;
         }
 
-
-        if (!cc.isGrounded)
-        {
-            GetComponent<Rigidbody>().useGravity = false;
-        }
-        if (cc.isGrounded)
-        {
-            GetComponent<Rigidbody>().useGravity = true;
-        }
     }
 
     private void OnTriggerStay(Collider other)
