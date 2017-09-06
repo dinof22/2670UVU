@@ -22,7 +22,11 @@ public class MoveInputs : MonoBehaviour
 
         if (KeyAction != null)
         {
-            KeyAction(Input.GetAxis("Horizontal"));
+            if (Input.GetKey(KeyCode.LeftShift))
+            KeyAction(Input.GetAxis("Horizontal")* 1.5f);
+            else
+                KeyAction(Input.GetAxis("Horizontal"));
         }
+
     }
 }
