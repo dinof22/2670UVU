@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class BearTrigger : MonoBehaviour {
 
@@ -8,14 +9,16 @@ public class BearTrigger : MonoBehaviour {
 
     private void Start()
     {
-        Bear.GetComponent<BackAndForthScript>();
+        Bear.GetComponent<bearBackAndForthScript>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
         print("RRRAWWWWRRRR");
-        Bear.GetComponent<BackAndForthScript>().enabled = true;
-        Bear.GetComponent<BackAndForthScript>().speed = 7.5f;
-        Bear.transform.position = new Vector3(371f, -34.9f, -2.95f);
+        MoveInput.constantAction += Bear.GetComponent<bearBackAndForthScript>().Move;
+
+        //Bear.GetComponent<bearBackAndForthScript>().enabled = true;
+        //Bear.GetComponent<bearBackAndForthScript>().speed = 7.5f;
+        //Bear.transform.position = new Vector3(371f, -34.9f, -2.95f);
     }
 }

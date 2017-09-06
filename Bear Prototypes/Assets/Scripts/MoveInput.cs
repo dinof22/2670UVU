@@ -9,6 +9,7 @@ public class MoveInput : MonoBehaviour {
 
     public static Action JumpAction;
     public static Action GrabAction;
+    public static Action constantAction;
 
 
     void Update()
@@ -36,6 +37,12 @@ public class MoveInput : MonoBehaviour {
         if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             this.transform.localScale = new Vector3(1f, 1f, 1f);
+        }
+
+
+        if (constantAction != null)
+        {
+            constantAction();
         }
 
     }
