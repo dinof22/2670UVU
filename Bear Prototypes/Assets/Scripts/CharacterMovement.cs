@@ -12,10 +12,13 @@ public class CharacterMovement : MonoBehaviour {
     public float speed;
     public float gravity;
     public float jumpHeight;
-    private bool doubleJump;
-
+    [HideInInspector] public bool doubleJump;
+    public bool inWater;
 
     private Action onLandAction;
+
+
+    public Transform respawnPoint;
 
 
 
@@ -27,6 +30,8 @@ public class CharacterMovement : MonoBehaviour {
         MoveInput.JumpAction += Jump;
         MoveInput.KeyAction += Move;
         doubleJump = false;
+        inWater = false;   
+
     }
 
 
@@ -35,7 +40,7 @@ public class CharacterMovement : MonoBehaviour {
 
     void Jump()
     {
-        
+
         if (cc.isGrounded)
         {
             print("Jump");
@@ -46,17 +51,25 @@ public class CharacterMovement : MonoBehaviour {
         {
             if (doubleJump)
             {
-                print("Jump");
-                tempMove.y = jumpHeight;
-                doubleJump = false;
-            }           
+                if (inWater)
+                {
+                    print("waterJump!!");
+                    tempMove.y = jumpHeight;
+                    doubleJump = true;
+                }
+                else {
+                    print("Jump");
+                    tempMove.y = jumpHeight;
+                    doubleJump = false;
+                }
+            }
         }
     }
 
 
     void Move(float _movement)
     {
-        
+
         tempMove.x = _movement * speed;
         cc.Move(tempMove * Time.deltaTime);
         if (!cc.isGrounded)
@@ -80,7 +93,7 @@ public class CharacterMovement : MonoBehaviour {
     }
 
 
-    void resetGravity()
+    [HideInInspector] public void resetGravity()
     {
         tempMove.y = -.1f;
     }

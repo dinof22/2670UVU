@@ -8,7 +8,8 @@ public class MoveInput : MonoBehaviour {
     public static Action<float> KeyAction;
 
     public static Action JumpAction;
-    public static Action GrabAction;
+    public static Action Grab;
+    public static Action offGrab;
     public static Action constantAction;
 
 
@@ -25,6 +26,19 @@ public class MoveInput : MonoBehaviour {
         {
             KeyAction(Input.GetAxis("Horizontal"));
         }
+
+
+
+
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            Grab();
+        }
+        if (Input.GetKeyUp(KeyCode.LeftControl))
+        {
+            offGrab();
+        }
+
 
 
 

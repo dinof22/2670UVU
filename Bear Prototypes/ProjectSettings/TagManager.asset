@@ -6,6 +6,7 @@ TagManager:
   tags:
   - circleDestroyer
   - cubeDestroyer
+  - Plug
   layers:
   - Default
   - TransparentFX
