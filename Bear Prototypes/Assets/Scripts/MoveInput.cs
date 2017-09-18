@@ -32,11 +32,17 @@ public class MoveInput : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.LeftControl))
         {
-            Grab();
+            if (Grab != null)
+            {
+                Grab();
+            }
         }
         if (Input.GetKeyUp(KeyCode.LeftControl))
         {
-            offGrab();
+            if (offGrab != null)
+            {
+                offGrab();
+            }
         }
 
 
