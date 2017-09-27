@@ -14,11 +14,14 @@ public class BearTrigger : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        print("RRRAWWWWRRRR");
-        MoveInput.constantAction += Bear.GetComponent<bearBackAndForthScript>().Move;
+        if (other.tag == "Player")
+        {
+            print("RRRAWWWWRRRR");
+            MoveInput.constantAction += Bear.GetComponent<bearBackAndForthScript>().Move;
 
-        //Bear.GetComponent<bearBackAndForthScript>().enabled = true;
-        //Bear.GetComponent<bearBackAndForthScript>().speed = 7.5f;
-        //Bear.transform.position = new Vector3(371f, -34.9f, -2.95f);
+            //Bear.GetComponent<bearBackAndForthScript>().enabled = true;
+            //Bear.GetComponent<bearBackAndForthScript>().speed = 7.5f;
+            //Bear.transform.position = new Vector3(371f, -34.9f, -2.95f);
+        }
     }
 }
