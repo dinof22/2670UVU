@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class BearMovement : MonoBehaviour {
 
@@ -26,8 +27,8 @@ public class BearMovement : MonoBehaviour {
     void Start()
     {
         cc = GetComponent<CharacterController>();
-        MoveInput.JumpAction += Jump;
-        MoveInput.KeyAction += Move;
+        BearMoveInputs.BearJumpAction += Jump;
+        BearMoveInputs.BearKeyAction += Move;
         doubleJump = false;
         inWater = false;
 

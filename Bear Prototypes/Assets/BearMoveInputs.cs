@@ -27,9 +27,9 @@ public class BearMoveInputs : MonoBehaviour {
         }
 
 
-        if (constantAction != null)
+        if (BearConstantAction != null)
         {
-            constantAction();
+            BearConstantAction();
         }
 
     }

@@ -7,10 +7,13 @@ public class MoveInput : MonoBehaviour {
 
     public static Action<float> KeyAction;
 
+
     public static Action JumpAction;
     public static Action Grab;
     public static Action offGrab;
     public static Action constantAction;
+
+  
 
 
     void Update()
@@ -22,10 +25,12 @@ public class MoveInput : MonoBehaviour {
         }
 
 
+
         if (KeyAction != null)
         {
             KeyAction(Input.GetAxis("Horizontal"));
         }
+
 
 
 
@@ -65,5 +70,16 @@ public class MoveInput : MonoBehaviour {
             constantAction();
         }
 
+
+
+
+
     }
+
+
+
+
+
+
+
 }
