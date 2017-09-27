@@ -15,7 +15,7 @@ public class BearMoveInputs : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             BearJumpAction();
         }
@@ -23,7 +23,7 @@ public class BearMoveInputs : MonoBehaviour {
 
         if (BearKeyAction != null)
         {
-            BearKeyAction(Input.GetAxis("HorizontalBear"));
+            BearKeyAction(Input.GetAxis("Horizontal2"));
         }
 
 

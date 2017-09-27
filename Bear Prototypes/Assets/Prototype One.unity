@@ -5389,7 +5389,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 99070795}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 644, y: -25.1, z: 0}
+  m_LocalPosition: {x: 376.9, y: -23.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 843364760}
@@ -63777,8 +63777,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1445335914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 393.93, y: -34.05, z: 0}
-  m_LocalScale: {x: 32.7979, y: 3.951713, z: 5.224393}
+  m_LocalPosition: {x: 390.44, y: -34.628, z: 0}
+  m_LocalScale: {x: 25.182306, y: 6.876695, z: 5.224393}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 19
@@ -65539,7 +65539,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1485266732}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 371, y: -34.9, z: -2.95}
+  m_LocalPosition: {x: 371, y: -33.58, z: -2.95}
   m_LocalScale: {x: 1.209907, y: 1.2099073, z: 1.2099073}
   m_Children:
   - {fileID: 1318062775}
@@ -65607,13 +65607,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
+  m_Height: 1
+  m_Radius: 3
   m_SlopeLimit: 45
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: -2, y: 0, z: 2}
 --- !u!65 &1485266737
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65648,9 +65648,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d2b748d17454144a9c50d07dd8ef1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  gravity: 0
-  jumpHeight: 0
+  speed: 8
+  gravity: 40
+  jumpHeight: 15
   doubleJump: 0
   inWater: 0
   respawnPoint: {fileID: 0}
