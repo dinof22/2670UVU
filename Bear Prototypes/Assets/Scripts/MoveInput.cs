@@ -12,6 +12,7 @@ public class MoveInput : MonoBehaviour {
     public static Action Grab;
     public static Action offGrab;
     public static Action constantAction;
+    public static Action CenterPlayers;
 
   
 
@@ -71,8 +72,12 @@ public class MoveInput : MonoBehaviour {
         }
 
 
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            print("resetting bear and player z axis");
+        }
 
-
+       
 
     }
 
