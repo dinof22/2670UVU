@@ -14,6 +14,11 @@ public class MoveInput : MonoBehaviour {
     public static Action constantAction;
     public static Action CenterPlayers;
 
+
+    public static Action<bool> RotateClockwise;
+    public static Action<bool> RotateCounterClockwise;
+
+
   
 
 
@@ -48,6 +53,34 @@ public class MoveInput : MonoBehaviour {
             if (offGrab != null)
             {
                 offGrab();
+            }
+        }
+
+
+
+        if (RotateClockwise != null)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                RotateClockwise(true);
+            }
+
+            if (Input.GetKeyUp(KeyCode.Alpha2))
+            {
+                RotateClockwise(false);
+            }
+        }
+
+
+        if (RotateCounterClockwise != null)
+        {
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                RotateCounterClockwise(true);
+            }
+            if (Input.GetKeyUp(KeyCode.Alpha1))
+            {
+                RotateCounterClockwise(false);
             }
         }
 
