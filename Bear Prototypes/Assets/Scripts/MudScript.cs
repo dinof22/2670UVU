@@ -25,19 +25,19 @@ public class MudScript : MonoBehaviour {
         if (other.tag == "Player")
         {
             cc.gravity = 5f;
-            cc.inWater = true;
+            cc.inWater = false;
             cc.doubleJump = false;
             cc.speed = 2f;
-            cc.jumpHeight = .1f;
+            cc.jumpHeight = 1f;
             cc.resetGravity();
         }
         if (other.tag == "Bear")
         {
             bcc.gravity = 5f;
-            bcc.inWater = true;
+            bcc.inWater = false;
             bcc.doubleJump = false;
             bcc.speed = 2f;
-            bcc.jumpHeight = .1f;
+            bcc.jumpHeight = 1f;
             bcc.resetGravity();
         }
     }

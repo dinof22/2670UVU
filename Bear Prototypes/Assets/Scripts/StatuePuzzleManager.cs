@@ -5,6 +5,9 @@ using System;
 
 public class StatuePuzzleManager : MonoBehaviour {
 
+
+    public GameObject leftPlatform, CenterPlatform, RightPlatform;
+
     public float[] statues, answerSheet;
     private bool puzzleComplete;
     public static Action ActionPuzzleComplete;
@@ -26,7 +29,13 @@ public class StatuePuzzleManager : MonoBehaviour {
         }
         if (puzzleComplete) {
             print(puzzleComplete);
-            ActionPuzzleComplete();
+            if (ActionPuzzleComplete != null)
+            {
+                ActionPuzzleComplete();
+                leftPlatform.SetActive(false);
+                CenterPlatform.SetActive(false);
+                RightPlatform.SetActive(false);
+            }
         }
     }
 
