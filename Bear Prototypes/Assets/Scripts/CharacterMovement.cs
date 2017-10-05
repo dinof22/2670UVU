@@ -16,6 +16,7 @@ public class CharacterMovement : MonoBehaviour {
     public bool inWater;
 
     private Action onLandAction;
+    public static Action PlayerGroundedAction;
 
 
     public Transform respawnPoint;
@@ -46,6 +47,8 @@ public class CharacterMovement : MonoBehaviour {
             print("Jump");
             tempMove.y = jumpHeight;
             doubleJump = true;
+            PlayerGroundedAction();
+
         }
         else
         {
