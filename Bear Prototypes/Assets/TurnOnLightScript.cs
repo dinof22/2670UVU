@@ -5,22 +5,43 @@ using System;
 
 public class TurnOnLightScript : MonoBehaviour {
 
-    //private Transform ThisThingsChild;
+    //public GameObject thisObjectsLight;
 
-    private void Start()
+
+    private void OnTriggerEnter(Collider other)
     {
-        LightRaycastingRay.turnOffLight += TurnOffLightHandler;
+        if (other.tag == "Light")
+        {
+            TurnOnLightHandler();
+        }
+
     }
 
-    public void TurnOnLights()
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Light")
+        {
+            TurnOffLightHandler();
+        }
+
+    }
+
+
+
+
+
+
+    public void TurnOnLightHandler()
     {
         //print(this.transform.GetChild(0).name);
         this.transform.GetChild(0).gameObject.SetActive(true);
+        //thisObjectsLight.SetActive(true);
     }
 
     public void TurnOffLightHandler()
     {
         this.transform.GetChild(0).gameObject.SetActive(false);
+        //thisObjectsLight.SetActive(false);
     }
 
 }

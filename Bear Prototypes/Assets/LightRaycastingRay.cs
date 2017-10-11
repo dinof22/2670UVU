@@ -7,28 +7,24 @@ public class LightRaycastingRay : MonoBehaviour {
 
 
     public static Action turnOffLight;
+    public static Action turnOnLight;
 
-
-    private void FixedUpdate()
+    private void OnTriggerEnter(Collider other)
     {
-        RaycastHit hit;
-
-        if (Physics.Raycast(transform.position, transform.forward, out hit))
+        if (other.tag == "Light")
         {
-            //Debug.Log(hit.transform.name);
-            turnOffLight();
-
-
-            TurnOnLightScript target = hit.transform.GetComponent<TurnOnLightScript>();
-
-
-            if (target != null)
-            {
-                target.TurnOnLights();
-            }
-
-
+            turnOnLight();
         }
-
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "Light")
+        {
+            turnOffLight();
+        }
+    }
+
+
+
 }
