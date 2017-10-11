@@ -8,6 +8,7 @@ TagManager:
   - cubeDestroyer
   - Plug
   - Bear
+  - Light
   layers:
   - Default
   - TransparentFX
