@@ -61,7 +61,7 @@ public class CharacterMovement : MonoBehaviour {
                     doubleJump = true;
                 }
                 else {
-                    print("Jump");
+                    //print("Jump");
                     tempMove.y = jumpHeight;
                     doubleJump = false;
                 }

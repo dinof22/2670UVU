@@ -9,6 +9,9 @@ TagManager:
   - Plug
   - Bear
   - Light
+  - DropZone
+  - BluePickup
+  - RedPickup
   layers:
   - Default
   - TransparentFX

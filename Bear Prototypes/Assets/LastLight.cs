@@ -3,15 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class TurnOnLightScript : MonoBehaviour {
+public class LastLight : MonoBehaviour {
 
 
+    public static Action openTheDangDoor;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Light")
         {
             TurnOnLightHandler();
+            openTheDangDoor();
         }
 
     }
@@ -42,5 +44,4 @@ public class TurnOnLightScript : MonoBehaviour {
         this.transform.GetChild(0).gameObject.SetActive(false);
         //thisObjectsLight.SetActive(false);
     }
-
 }
