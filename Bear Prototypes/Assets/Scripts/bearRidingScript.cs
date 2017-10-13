@@ -9,6 +9,7 @@ public class bearRidingScript : MonoBehaviour {
         if (other.tag == "Player")
         {
             other.transform.parent = this.transform;
+            CharacterMovement.RidingBear = true;
         }
 
     }
@@ -19,6 +20,7 @@ public class bearRidingScript : MonoBehaviour {
         {
 
             other.transform.parent = null;
+            CharacterMovement.RidingBear = false;
         }
     }
 }

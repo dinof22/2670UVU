@@ -7,7 +7,7 @@ public class BearMovement : MonoBehaviour {
 
     CharacterController cc;
 
-    Vector3 tempMove;
+    public static Vector3 tempMove;
 
     public float speed;
     public float gravity;
