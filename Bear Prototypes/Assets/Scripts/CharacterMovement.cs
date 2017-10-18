@@ -45,7 +45,7 @@ public class CharacterMovement : MonoBehaviour {
 
         if (cc.isGrounded)
         {
-            print("Jump");
+            //print("Jump");
             tempMove.y = jumpHeight;
             doubleJump = true;
             PlayerGroundedAction();
@@ -57,7 +57,7 @@ public class CharacterMovement : MonoBehaviour {
             {
                 if (inWater)
                 {
-                    print("waterJump!!");
+                    //print("waterJump!!");
                     tempMove.y = jumpHeight;
                     doubleJump = true;
                 }

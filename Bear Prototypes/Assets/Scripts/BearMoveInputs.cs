@@ -32,5 +32,17 @@ public class BearMoveInputs : MonoBehaviour {
             BearConstantAction();
         }
 
+
+        //if (transform.position.z != -2.95)
+        //{
+        //    StartCoroutine(resetZPosition());
+        //}
     }
+
+    //private IEnumerator resetZPosition()
+    //{
+    //    yield return new WaitForSeconds(5);
+    //    transform.position = new Vector3(transform.position.x, transform.position.y, -2.95f);
+    //    yield return new WaitForSeconds(3);
+    //}
 }

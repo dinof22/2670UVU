@@ -36,7 +36,7 @@ public class newGrapScript : MonoBehaviour {
     void offGrabHandler()
     {
         GetComponent<Rigidbody>().useGravity = true;
-        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ;
         transform.parent = null;
     }
 }

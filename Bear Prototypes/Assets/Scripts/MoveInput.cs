@@ -5,6 +5,8 @@ using System;
 
 public class MoveInput : MonoBehaviour {
 
+    public GameObject Bear;
+
     public static Action<float> KeyAction;
 
 
@@ -107,16 +109,29 @@ public class MoveInput : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            print("resetting bear and player z axis");
+            transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+            Bear.transform.position = new Vector3(Bear.transform.position.x, Bear.transform.position.y, -2.95f);
+
         }
 
-       
+        //if (transform.position.z != 0)
+        //{
+        //    StartCoroutine(resetZPosition());
+        //}
+
+        
+
 
     }
 
 
 
-
+    //private IEnumerator resetZPosition()
+    //{
+    //    yield return new WaitForSeconds(5);
+    //    transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+    //    yield return new WaitForSeconds(3);
+    //}
 
 
 
