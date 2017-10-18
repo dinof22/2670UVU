@@ -7,6 +7,7 @@ public class newGrapScript : MonoBehaviour {
 
     GameObject player;
 
+    public static Action KeepGravity;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -21,6 +22,7 @@ public class newGrapScript : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
+            KeepGravity();
             MoveInput.Grab -= GrabHandler;
         }
     }
@@ -38,5 +40,6 @@ public class newGrapScript : MonoBehaviour {
         GetComponent<Rigidbody>().useGravity = true;
         GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezePositionZ;
         transform.parent = null;
+        KeepGravity();
     }
 }

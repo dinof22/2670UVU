@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour {
     Vector3 tempMove;
 
     public float speed;
-    public float gravity;
+    public float gravity = 40f;
     public float jumpHeight;
     [HideInInspector] public bool doubleJump;
     public bool inWater;
@@ -31,14 +31,23 @@ public class CharacterMovement : MonoBehaviour {
         cc = GetComponent<CharacterController>();
         MoveInput.JumpAction += Jump;
         MoveInput.KeyAction += Move;
+        newGrapScript.KeepGravity += KeepGravityHandler;
         doubleJump = false;
         inWater = false;   
 
     }
 
-
-
-
+    private void KeepGravityHandler()
+    {
+        if (inWater)
+        {
+            gravity = 5f;
+        }
+        if (inWater == false)
+        {
+            gravity = 40f;
+        }
+    }
 
     void Jump()
     {
