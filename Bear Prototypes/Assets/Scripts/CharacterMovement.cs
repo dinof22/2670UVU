@@ -22,6 +22,8 @@ public class CharacterMovement : MonoBehaviour {
 
     public Transform respawnPoint;
 
+    private bool gameIsPaused = false;
+
 
 
 
