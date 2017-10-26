@@ -7,6 +7,11 @@ public class MoveInput : MonoBehaviour {
 
     public GameObject Bear;
 
+
+    private bool gameIsPaused = false;
+    public GameObject PauseMenu;
+    public GameObject StartMenu;
+
     public static Action<float> KeyAction;
 
 
@@ -21,6 +26,7 @@ public class MoveInput : MonoBehaviour {
     public static Action<bool> RotateCounterClockwise;
 
 
+
   
 
 
@@ -30,6 +36,26 @@ public class MoveInput : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             JumpAction();
+        }
+
+        if (Input.GetKeyDown(KeyCode.P) || Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (gameIsPaused == false)
+            {
+                print("Freezing Time and space");
+                Time.timeScale = 0;
+                PauseMenu.SetActive(true);
+                gameIsPaused = true;
+            }
+            else
+            {
+                print("Unfreeezing timeand space");
+                Time.timeScale = 1;
+                PauseMenu.SetActive(false);
+                gameIsPaused = false;
+            }
+
+
         }
 
 

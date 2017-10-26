@@ -6,6 +6,11 @@ using System;
 public class TurnOnLightScript : MonoBehaviour {
 
 
+    private void Start()
+    {
+        ObjectStartingPoints.ResetAllObjects += TurnOffLightHandler;
+    }
+
 
     private void OnTriggerEnter(Collider other)
     {

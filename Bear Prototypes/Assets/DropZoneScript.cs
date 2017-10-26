@@ -11,8 +11,15 @@ public class DropZoneScript : MonoBehaviour {
 
     private void Start()
     {
+        ObjectStartingPoints.ResetAllObjects += makeTotalPickupsZero;
         redPickup.SetActive(false);
         BluePickup.SetActive(false);
+        WinningPortal.SetActive(false);
+    }
+
+    private void makeTotalPickupsZero()
+    {
+        totalPickups = 0;
         WinningPortal.SetActive(false);
     }
 
