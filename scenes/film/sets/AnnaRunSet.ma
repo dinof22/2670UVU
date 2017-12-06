@@ -1,6 +1,6 @@
 //Maya ASCII 2017ff05 scene
 //Name: AnnaRunSet.ma
-//Last modified: Wed, Nov 29, 2017 04:56:10 PM
+//Last modified: Mon, Dec 04, 2017 10:34:06 AM
 //Codeset: 1252
 file -rdi 1 -ns "Bamboo_DE" -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -rdi 1 -ns "Bamboo_DE1" -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -117,7 +117,7 @@ file -rdi 1 -ns "boulder1_model_JonathanFranklin" -rfn "boulder1_model_JonathanF
 file -rdi 1 -ns "FallenTrunk_DE" -rfn "FallenTrunk_DERN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
 file -rdi 1 -ns "MushroomBunch1" -rfn "MushroomBunch1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Mon, Nov 06, 2017 05:28:46 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1_CB.mb";
 file -rdi 1 -ns "Grass_DE" -rfn "Grass_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
 file -rdi 1 -ns "BigFallenLog_JonathanFranklin" -rfn "BigFallenLog_JonathanFranklinRN"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
@@ -129,18 +129,39 @@ file -rdi 1 -ns "BananaTree_SC" -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAsci
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
 file -rdi 1 -ns "AnotherRock_JonathanFranklin" -rfn "AnotherRock_JonathanFranklinRN"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -rdi 1 -ns "Mushroom" -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+file -rdi 1 -ns "Mushroom" -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom_CB.ma";
 file -rdi 1 -ns "Mushroom1" -rfn "Mushroom1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:34 PM|ICON|undef|INFO|undef|OBJN|165|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1_CB.mb";
 file -rdi 1 -ns "Mushroom2" -rfn "Mushroom2RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:30 PM|ICON|undef|INFO|undef|OBJN|173|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
-file -rdi 1 -ns "Mushroom3" -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2_CB.mb";
+file -rdi 1 -ns "Mushroom3" -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom_CB.ma";
 file -rdi 1 -ns "AddisonM_Rock2" -rfn "AddisonM_Rock2RN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -rdi 1 -ns "AnotherRock_JonathanFranklin1" -rfn "AnotherRock_JonathanFranklinRN1"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -rdi 1 -ns "ImageProjectionRig" -rfn "ImageProjectionRigRN" -op "v=0;"
-		 -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/ImageProjectionRig.ma";
+file -rdi 1 -ns "PalmTree_SC" -rfn "PalmTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC1" -rfn "PalmTree_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "PalmTree_SC2" -rfn "PalmTree_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -rdi 1 -ns "ShortPalm_SC" -rfn "ShortPalm_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -rdi 1 -ns "ShortPalm_SC1" -rfn "ShortPalm_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -rdi 1 -ns "ShortPalm_SC2" -rfn "ShortPalm_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -rdi 1 -ns "SmallBush_SC" -rfn "SmallBush_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC1" -rfn "SmallBush_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC2" -rfn "SmallBush_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC3" -rfn "SmallBush_SC2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC4" -rfn "SmallBush_SC3RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC5" -rfn "SmallBush_SC4RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC6" -rfn "SmallBush_SC5RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC7" -rfn "SmallBush_SC6RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC8" -rfn "SmallBush_SC7RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC9" -rfn "SmallBush_SC8RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC10" -rfn "SmallBush_SC9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC11" -rfn "SmallBush_SC10RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC12" -rfn "SmallBush_SC11RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -rdi 1 -ns "SmallBush_SC13" -rfn "SmallBush_SC12RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
 file -r -ns "Bamboo_DE" -dr 1 -rfn "Bamboo_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE1" -dr 1 -rfn "Bamboo_DERN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
 file -r -ns "Bamboo_DE2" -dr 1 -rfn "Bamboo_DERN2" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/other/Bamboo_DE.ma";
@@ -256,7 +277,7 @@ file -r -ns "boulder1_model_JonathanFranklin" -dr 1 -rfn "boulder1_model_Jonatha
 file -r -ns "FallenTrunk_DE" -dr 1 -rfn "FallenTrunk_DERN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/FallenTrunk_DE.ma";
 file -r -ns "MushroomBunch1" -dr 1 -rfn "MushroomBunch1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Mon, Nov 06, 2017 05:28:46 PM|ICON|undef|INFO|undef|OBJN|75|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1.mb";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/MushroomBunch1_CB.mb";
 file -r -ns "Grass_DE" -dr 1 -rfn "Grass_DERN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/grass/Grass_DE.ma";
 file -r -ns "BigFallenLog_JonathanFranklin" -dr 1 -rfn "BigFallenLog_JonathanFranklinRN"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BigFallenLog_JonathanFranklin.ma";
@@ -268,21 +289,44 @@ file -r -ns "BananaTree_SC" -dr 1 -rfn "BananaTree_SCRN" -op "v=0;" -typ "mayaAs
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/BananaTree_SC.ma";
 file -r -ns "AnotherRock_JonathanFranklin" -dr 1 -rfn "AnotherRock_JonathanFranklinRN"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -r -ns "Mushroom" -dr 1 -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+file -r -ns "Mushroom" -dr 1 -rfn "MushroomRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom_CB.ma";
 file -r -ns "Mushroom1" -dr 1 -rfn "Mushroom1RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:34 PM|ICON|undef|INFO|undef|OBJN|165|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1.mb";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom1_CB.mb";
 file -r -ns "Mushroom2" -dr 1 -rfn "Mushroom2RN" -op "VERS|2017ff05|UVER|undef|MADE|undef|CHNG|Thu, Nov 02, 2017 03:20:30 PM|ICON|undef|INFO|undef|OBJN|173|INCL|undef(|LUNI|cm|TUNI|film|AUNI|deg|"
-		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2.mb";
-file -r -ns "Mushroom3" -dr 1 -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom.ma";
+		 -typ "mayaBinary" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom2_CB.mb";
+file -r -ns "Mushroom3" -dr 1 -rfn "MushroomRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/mushrooms/Mushroom_CB.ma";
 file -r -ns "AddisonM_Rock2" -dr 1 -rfn "AddisonM_Rock2RN" -op "v=0;" -typ "mayaAscii"
 		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AddisonM_Rock2.ma";
 file -r -ns "AnotherRock_JonathanFranklin1" -dr 1 -rfn "AnotherRock_JonathanFranklinRN1"
 		 -op "v=0;" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/rocks/AnotherRock_JonathanFranklin.ma";
-file -r -ns "ImageProjectionRig" -dr 1 -rfn "ImageProjectionRigRN" -op "v=0;" -typ
-		 "mayaAscii" "C:/Users/10734984/Documents/2670UVU//scenes/ImageProjectionRig.ma";
+file -r -ns "PalmTree_SC" -dr 1 -rfn "PalmTree_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC1" -dr 1 -rfn "PalmTree_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "PalmTree_SC2" -dr 1 -rfn "PalmTree_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/PalmTree_SC.ma";
+file -r -ns "ShortPalm_SC" -dr 1 -rfn "ShortPalm_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -r -ns "ShortPalm_SC1" -dr 1 -rfn "ShortPalm_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -r -ns "ShortPalm_SC2" -dr 1 -rfn "ShortPalm_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/trees/ShortPalm_SC.ma";
+file -r -ns "SmallBush_SC" -dr 1 -rfn "SmallBush_SCRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC1" -dr 1 -rfn "SmallBush_SCRN1" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC2" -dr 1 -rfn "SmallBush_SC1RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC3" -dr 1 -rfn "SmallBush_SC2RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC4" -dr 1 -rfn "SmallBush_SC3RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC5" -dr 1 -rfn "SmallBush_SC4RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC6" -dr 1 -rfn "SmallBush_SC5RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC7" -dr 1 -rfn "SmallBush_SC6RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC8" -dr 1 -rfn "SmallBush_SC7RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC9" -dr 1 -rfn "SmallBush_SC8RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC10" -dr 1 -rfn "SmallBush_SC9RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC11" -dr 1 -rfn "SmallBush_SC10RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC12" -dr 1 -rfn "SmallBush_SC11RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
+file -r -ns "SmallBush_SC13" -dr 1 -rfn "SmallBush_SC12RN" -typ "mayaAscii" "C:/Users/10734984/Documents/2670UVU//assets/ma/environmentalMeshes/plants/bushes/SmallBush_SC.ma";
 requires maya "2017ff05";
 requires -nodeType "houdiniAsset" "houdiniEngine" "3.0 (API: 60)";
 requires "stereoCamera" "10.0";
+requires -nodeType "simpleSelector" -nodeType "renderSetupLayer" -nodeType "renderSetup"
+		 -nodeType "collection" "renderSetup.py" "1.0";
 requires "stereoCamera" "10.0";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
@@ -293,24 +337,21 @@ fileInfo "osv" "Microsoft Windows 8 Enterprise Edition, 64-bit  (Build 9200)\n";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "546C077D-406B-55FA-40DB-15A792481F8F";
-	setAttr ".t" -type "double3" 99.180767829561873 72.046296097267799 65.650811443479711 ;
+	setAttr ".t" -type "double3" 226.60833388641527 38.944069267665107 42.313118281806837 ;
 	setAttr -av ".tx";
 	setAttr -av ".ty";
 	setAttr -av ".tz";
-	setAttr ".r" -type "double3" 336.26164203326795 5844.9999999957254 1.8246386173082881e-014 ;
-	setAttr -av ".rx";
-	setAttr -av ".ry";
-	setAttr -av ".rz";
 	setAttr ".rp" -type "double3" 1.1102230246251565e-016 1.7763568394002505e-015 4.4408920985006262e-016 ;
 	setAttr ".rpt" -type "double3" 1.7849976010464665e-016 7.0344876724068756e-018 -1.2679258421052118e-016 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7E27FED8-4A03-85C0-4E37-7C837D701059";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 200.92837891057616;
+	setAttr ".coi" 182.5084677813268;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
+	setAttr ".tp" -type "double3" 7.6985003519462367 5.5487644672393799 32.186689449945426 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "C096FF9C-40CE-6815-8F9C-7CBB77ED65AD";
@@ -462,133 +503,6 @@ createNode mesh -n "polySurfaceShape1" -p "pCube7";
 	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
 	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
 	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
-createNode houdiniAsset -n "Palm_Tree1";
-	rename -uid "BEF694AC-4C21-42C1-A9D1-76A461923E09";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".t" -type "double3" -19.645858350888517 0 30.726959404958386 ;
-	setAttr ".r" -type "double3" 0 -37.368967492188453 0 ;
-	setAttr ".s" -type "double3" 1.7148775538328429 1.7148775538328429 1.7148775538328429 ;
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Palm_Tree";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Palm_Tree1";
-	rename -uid "8F3CA7A8-4413-E2A9-8337-3190C766437D";
-createNode transform -n "merge3_0" -p "|Palm_Tree1|line_object1";
-	rename -uid "2B9731CD-4BCF-6829-FFA8-2FAB2E564715";
-createNode mesh -n "merge3_0Shape" -p "|Palm_Tree1|line_object1|merge3_0";
-	rename -uid "E246E239-479E-2E5D-0804-ED852959ECF8";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "merge3_1" -p "|Palm_Tree1|line_object1";
-	rename -uid "A9135C06-4085-685C-0131-3F8C3D95A5BA";
-createNode mesh -n "merge3_1Shape" -p "|Palm_Tree1|line_object1|merge3_1";
-	rename -uid "9C00286B-43CA-93B2-8874-D3896C1EE0B1";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Tree_Anna1";
 	rename -uid "AFD60BAD-4519-B710-2F38-D2BBD453BA0D";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -814,1345 +728,10 @@ createNode mesh -n "merge1_0Shape" -p "|Tree_Anna1|Tree_Anna1|merge1_0";
 	setAttr ".clst[0].clsn" -type "string" "Cd";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush1";
-	rename -uid "084659A0-45E3-9D19-6A1C-7CB0BDEB0D2F";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush1";
-	rename -uid "F4639C10-4F1F-D29C-E66B-F19C226B1EBB";
-createNode transform -n "color1_0" -p "|Small_Bush1|line_object1";
-	rename -uid "9CF8FB87-4675-AB17-7A0A-279C5C48882D";
-	setAttr ".t" -type "double3" -13.349525701490958 0 37.718251049534942 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush1|line_object1|color1_0";
-	rename -uid "15404DDD-42F8-C854-C923-6487A799F7DB";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush2";
-	rename -uid "D24F48BA-4FBC-2787-3505-DCAFBA72047F";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush2";
-	rename -uid "79411520-41BF-95DC-EB5D-E3A673AFE4F9";
-createNode transform -n "color1_0" -p "|Small_Bush2|line_object1";
-	rename -uid "47755C38-40B2-3AB1-77F6-B99B5DE1FB37";
-	setAttr ".t" -type "double3" -14.419432706410642 0 25.032405731152149 ;
-	setAttr ".r" -type "double3" 0 72.091009737961073 0 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush2|line_object1|color1_0";
-	rename -uid "43031185-40A4-A593-4585-7296459C68F3";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush3";
-	rename -uid "62704C2C-47F3-F0BC-121A-9780F734B6BD";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush3";
-	rename -uid "96D66E64-4A77-147F-8BE9-B0BAB5F2DFD1";
-createNode transform -n "color1_0" -p "|Small_Bush3|line_object1";
-	rename -uid "859B3D1F-471F-61A4-2E31-26B963C3FAF6";
-	setAttr ".t" -type "double3" -9.741154773343311 0 29.295742764097739 ;
-	setAttr ".r" -type "double3" 0 -88.808267695890336 0 ;
-	setAttr ".s" -type "double3" 1.3109864233517026 1.3109864233517026 1.3109864233517026 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush3|line_object1|color1_0";
-	rename -uid "11222199-4AA2-AF47-A3B4-B2A7B5140F18";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush4";
-	rename -uid "9685DC9E-48DB-FB5E-CEBF-8497AEC91F25";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush4";
-	rename -uid "24D4F58A-49D3-1323-C055-E9AE3F8B40B8";
-createNode transform -n "color1_0" -p "|Small_Bush4|line_object1";
-	rename -uid "698A3805-46B5-EA0F-CC73-CAB731DDB218";
-	setAttr ".t" -type "double3" 46.980996654191948 0 76.18621307929412 ;
-	setAttr ".s" -type "double3" 1.4904004251314287 1.4904004251314287 1.4904004251314287 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush4|line_object1|color1_0";
-	rename -uid "7C28E57E-43E2-9332-F361-FE9042419685";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush5";
-	rename -uid "3F0994A3-4067-F51A-F17C-FCBF8EC2ED85";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush5";
-	rename -uid "FF418F8C-4ED1-D0BB-1357-BD8ED0F3E9B6";
-createNode transform -n "color1_0" -p "|Small_Bush5|line_object1";
-	rename -uid "9B695556-42DA-F77B-2692-988C9A555AB4";
-	setAttr ".t" -type "double3" 50.653364158726198 0 27.404676302494853 ;
-	setAttr ".r" -type "double3" 0 106.0071313412631 0 ;
-	setAttr ".s" -type "double3" 2.1064802537853029 2.1064802537853029 2.1064802537853029 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush5|line_object1|color1_0";
-	rename -uid "7E6F9A7C-4F6C-0C8B-6C19-59892E5AF0E0";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "shaun_bush_fern1";
-	rename -uid "5C782CE1-4594-2752-2811-13ACA30FAD50";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		9;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
-		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
-		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
-		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
-		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
-		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
-		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
-		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
-		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
-	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
-		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
-		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
-		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
-		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
-		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
-		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
-		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
-		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
-		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
-		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
-		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
-	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
-		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
-		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
-	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
-		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
-		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
-		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
-		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
-		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
-		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
-	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
-		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
-		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
-		-p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
-		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
-		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
-		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
-		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
-		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
-		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
-		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
-		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
-		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
-		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
-		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
-		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
-		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
-		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
-		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
-		3;
-	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
-		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
-		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
-		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
-		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
-		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
-		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
-		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
-		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
-	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
-	setAttr ".houdiniAssetParm_categories" -type "string" "";
-	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
-	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
-	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
-	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
-	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
-	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
-	setAttr ".houdiniAssetParm_vm_pointscale" 1;
-	setAttr ".houdiniAssetParm_vm_coving" 1;
-	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
-	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
-	setAttr ".houdiniAssetParm_use_dcolor" yes;
-	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-	setAttr ".houdiniAssetParm_renderable" yes;
-	setAttr ".houdiniAssetParm_Branches" 10;
-	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
-	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
-	setAttr ".houdiniAssetParm_Size" 0.5;
-	setAttr ".houdiniAssetParm_Leaf" 7.5;
-createNode transform -n "shaun_bush_fern1" -p "|shaun_bush_fern1";
-	rename -uid "5E4B58C2-440D-A8C8-8ECC-AAABEC323EA8";
-createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern1|shaun_bush_fern1";
-	rename -uid "1DF0C76E-48EC-53B8-60A3-139D9285ED6C";
-	setAttr ".t" -type "double3" -10.780522520972111 0 34.659484368143566 ;
-	setAttr ".r" -type "double3" 0 51.201256440185979 0 ;
-	setAttr ".s" -type "double3" 1.9947279212087274 1.9947279212087274 1.9947279212087274 ;
-createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0";
-	rename -uid "0A1D3245-4C81-F623-F6B4-CA989E036C12";
-	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
-	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
-	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
-	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
-	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
-	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush6";
-	rename -uid "A78476F8-493C-0247-1640-C89E28D4E18D";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush6";
-	rename -uid "912DF227-43B0-114E-C67D-DB9C239D3CE9";
-createNode transform -n "color1_0" -p "|Small_Bush6|line_object1";
-	rename -uid "6A81F0DD-464E-C06B-6683-B9AFCD780901";
-	setAttr ".t" -type "double3" 38.752062313193996 0 38.935107348155022 ;
-	setAttr ".r" -type "double3" 0 -81.310891229877896 0 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush6|line_object1|color1_0";
-	rename -uid "A029DAC7-42D9-9AA2-33DD-EDAA18ACF70D";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush7";
-	rename -uid "2556462A-44FF-2881-6EF4-69AD8334B2ED";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush7";
-	rename -uid "C94BD1F5-4D37-5ECD-657D-AABBC20E10B2";
-createNode transform -n "color1_0" -p "|Small_Bush7|line_object1";
-	rename -uid "F0D969B9-480E-6282-C356-4D83C3350F81";
-	setAttr ".t" -type "double3" -12.315742437600186 -0.62793406256506046 67.378553614636118 ;
-	setAttr ".r" -type "double3" 0 59.157322764748351 0 ;
-	setAttr ".s" -type "double3" 1.2028545404082005 1.2028545404082005 1.2028545404082005 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush7|line_object1|color1_0";
-	rename -uid "76326782-4DCE-AB4B-44D4-37B33772A64E";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Palm_Tree2";
-	rename -uid "8A728D53-42B4-DC3E-24CF-E0BBA36444BF";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".t" -type "double3" -26.575818710054229 0 66.555127675104401 ;
-	setAttr ".r" -type "double3" 0 140.76771314997984 0 ;
-	setAttr ".s" -type "double3" 1.8278237961431583 1.8278237961431583 1.8278237961431583 ;
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Palm_Tree";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Palm_Tree2";
-	rename -uid "F89BC10E-4C8F-C435-ABE2-4EBDE373B92B";
-createNode transform -n "merge3_0" -p "|Palm_Tree2|line_object1";
-	rename -uid "09050AE8-43E1-0630-9C5C-0BA15DEE919B";
-createNode mesh -n "merge3_0Shape" -p "|Palm_Tree2|line_object1|merge3_0";
-	rename -uid "B25E672E-4FF9-3E39-2789-B2B30D3866AD";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "merge3_1" -p "|Palm_Tree2|line_object1";
-	rename -uid "3AA92461-4DEB-B742-F10F-0A960412E3FE";
-createNode mesh -n "merge3_1Shape" -p "|Palm_Tree2|line_object1|merge3_1";
-	rename -uid "CB7E4C77-4333-2BE0-8D9A-FE8B6B49C064";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Short_Palm1";
-	rename -uid "D8F02996-46BC-7345-C04D-43BDFF6FB224";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:grid1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Short_Palm_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Short_Palm";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "grid1" -p "Short_Palm1";
-	rename -uid "BD7D0CC2-4396-C24C-BDAB-55B9DFC0BEEB";
-createNode transform -n "merge3_0" -p "|Short_Palm1|grid1";
-	rename -uid "67BA6456-49AC-8DB9-91C0-A38F5988CDCA";
-	setAttr ".t" -type "double3" -25.20396248711133 0 58.682582721935532 ;
-	setAttr ".s" -type "double3" 0.28271459132196891 0.28271459132196891 0.28271459132196891 ;
-createNode mesh -n "merge3_0Shape" -p "|Short_Palm1|grid1|merge3_0";
-	rename -uid "F19FE53E-4929-5451-D9C6-14B3FC207E91";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush8";
-	rename -uid "1A9725EA-4DCB-6115-5FA4-7FBEB29FD388";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush8";
-	rename -uid "8993397A-4FAC-2D4C-3DA1-959EA3848B3D";
-createNode transform -n "color1_0" -p "|Small_Bush8|line_object1";
-	rename -uid "7795F12F-4E14-0510-C488-DCA80AEC62D3";
-	setAttr ".t" -type "double3" 39.049567068118243 0 29.180131519227899 ;
-	setAttr ".r" -type "double3" 0 71.411677219682701 0 ;
-	setAttr ".s" -type "double3" 1.3176743214766435 1.3176743214766435 1.3176743214766435 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush8|line_object1|color1_0";
-	rename -uid "8E97BDE8-4067-9240-628B-A086C912EE3A";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "Ground";
 	rename -uid "99345922-4857-BFC7-849E-FDA96FC6A822";
 	setAttr ".t" -type "double3" 0 0 50.935358093604052 ;
-	setAttr ".s" -type "double3" 97.264999344777564 1 162.13229819129819 ;
+	setAttr ".s" -type "double3" 142.17227448527282 1 162.13229819129819 ;
 createNode mesh -n "GroundShape" -p "Ground";
 	rename -uid "D585DFC6-48A8-F78F-C636-56BFA01ACAE3";
 	setAttr -k off ".v";
@@ -2183,945 +762,12 @@ createNode mesh -n "GroundShape" -p "Ground";
 	setAttr ".pt[83]" -type "float3" 0 0.15167896 0 ;
 	setAttr ".pt[85]" -type "float3" 0 0.6959064 0 ;
 	setAttr ".pt[90]" -type "float3" 0 0.98193681 0 ;
-createNode houdiniAsset -n "Small_Bush9";
-	rename -uid "D873FEA2-4F0D-5EBE-E1AF-CEA8A073490F";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush9";
-	rename -uid "B42DF054-41B3-46A8-4BE2-6E92FF3DADC9";
-createNode transform -n "color1_0" -p "|Small_Bush9|line_object1";
-	rename -uid "C66EE5BD-4F97-E06F-9B4A-A7936F6A6447";
-	setAttr ".t" -type "double3" 43.165046197181837 0 16.111135630218243 ;
-	setAttr ".s" -type "double3" 1.5939489400286848 1.5939489400286848 1.5939489400286848 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush9|line_object1|color1_0";
-	rename -uid "29E98D99-47EB-CC65-EB00-3E9C3847CFC8";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush10";
-	rename -uid "64EA8EB8-4AF3-263F-4D9E-548CDBA55BB0";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush10";
-	rename -uid "E5E15D0F-4D17-0DC6-8601-799126DB636B";
-createNode transform -n "color1_0" -p "|Small_Bush10|line_object1";
-	rename -uid "3B3BC52D-4083-258F-B781-E9938166BA18";
-	setAttr ".t" -type "double3" 39.231100321266986 0 18.6028301034988 ;
-	setAttr ".r" -type "double3" 0 -95.654766264067916 0 ;
-	setAttr ".s" -type "double3" 1.4731457657855342 1.4731457657855342 1.4731457657855342 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush10|line_object1|color1_0";
-	rename -uid "8A87E243-4FFA-3E69-1BD2-3DB1A896B16D";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "shaun_bush_fern2";
-	rename -uid "B0E5886E-4D05-0AB4-0005-BB9E67A86D98";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		9;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
-		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
-		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
-		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
-		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
-		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
-		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
-		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
-		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
-	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
-		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
-		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
-		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
-		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
-		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
-		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
-		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
-		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
-		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
-		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
-		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
-	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
-		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
-		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
-	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
-		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
-		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
-		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
-		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
-		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
-		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
-	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
-		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
-		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
-		-p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
-		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
-		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
-		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
-		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
-		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
-		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
-		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
-		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
-		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
-		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
-		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
-		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
-		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
-		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
-		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
-		3;
-	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
-		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
-		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
-		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
-		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
-		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
-		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
-		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
-		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
-	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
-	setAttr ".houdiniAssetParm_categories" -type "string" "";
-	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
-	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
-	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
-	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
-	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
-	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
-	setAttr ".houdiniAssetParm_vm_pointscale" 1;
-	setAttr ".houdiniAssetParm_vm_coving" 1;
-	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
-	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
-	setAttr ".houdiniAssetParm_use_dcolor" yes;
-	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-	setAttr ".houdiniAssetParm_renderable" yes;
-	setAttr ".houdiniAssetParm_Branches" 10;
-	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
-	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
-	setAttr ".houdiniAssetParm_Size" 0.5;
-	setAttr ".houdiniAssetParm_Leaf" 7.5;
-createNode transform -n "shaun_bush_fern2" -p "|shaun_bush_fern2";
-	rename -uid "CA80CA8F-41DF-DCDC-BA01-329B0533F6AD";
-createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern2|shaun_bush_fern2";
-	rename -uid "9A73599E-4209-91A7-4C99-CE8A6891223B";
-	setAttr ".t" -type "double3" -9.6714491287223829 0 20.381196228584834 ;
-	setAttr ".s" -type "double3" 2.1752096174732021 2.1752096174732021 2.1752096174732021 ;
-createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0";
-	rename -uid "CCE8A5A3-4230-9DE0-B9F5-F7B2D6AE0AF7";
-	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
-	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
-	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
-	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
-	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
-	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "shaun_bush_fern3";
-	rename -uid "AA1F6DBE-4725-65C2-A07B-E7AC70243ED6";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		9;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher4_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_1__folder" -ln "houdiniAssetParm_stdswitcher4_1__folder" 
-		-nn "Render" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_materialpath__node" 
-		-ln "houdiniAssetParm_shop_materialpath__node" -nn "Material" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_viewportlod" -ln "houdiniAssetParm_viewportlod" 
-		-nn "Display As" -min 0 -max 5 -en "Full Geometry:Point Cloud:Bounding Box:Centroid:Hidden:Subdivision Surface / Curves" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendervisibility" -ln "houdiniAssetParm_vm_rendervisibility" 
-		-nn "Render Visibility" -min 0 -max 6 -en "Visible to all:Visible only to primary rays:Visible only to primary and shadow rays:Invisible to primary rays (Phantom):Invisible to diffuse rays:Invisible to secondary rays:Invisible (Unrenderable)" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubd" -ln "houdiniAssetParm_vm_rendersubd" 
-		-nn "Render Polygons As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdstyle" -ln "houdiniAssetParm_vm_subdstyle" 
-		-nn "Subdivision Style" -min 0 -max 1 -en "Mantra Catmull-Clark:OpenSubdiv Catmull-Clark" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_subdgroup" -ln "houdiniAssetParm_vm_subdgroup" 
-		-nn "Subdivision Group" -dt "string" -p "houdiniAssetParm_stdswitcher4_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_0__folder" -ln "houdiniAssetParm_folder0_0__folder" 
-		-nn "Shading" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 9;
-	addAttr -ci true -sn "houdiniAssetParm_categories" -ln "houdiniAssetParm_categories" 
-		-nn "Categories" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_reflectmask" -ln "houdiniAssetParm_reflectmask" 
-		-nn "Reflection Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_refractmask" -ln "houdiniAssetParm_refractmask" 
-		-nn "Refraction Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightmask" -ln "houdiniAssetParm_lightmask" 
-		-nn "Light Mask" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_lightcategories" -ln "houdiniAssetParm_lightcategories" 
-		-nn "Light Selection" -dt "string" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilter" -ln "houdiniAssetParm_vm_volumefilter" 
-		-nn "Volume Filter" -min 0 -max 6 -en "Box Filter:Gaussian:Bartlett (triangle):Catmull-Rom:Hanning:Blackman:Sinc (sharpening)" 
-		-at "enum" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_volumefilterwidth" -ln "houdiniAssetParm_vm_volumefilterwidth" 
-		-nn "Volume Filter Width" -smn 0.0010000000474974513 -smx 5 -at "float" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_matte" -ln "houdiniAssetParm_vm_matte" 
-		-nn "Matte shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rayshade" -ln "houdiniAssetParm_vm_rayshade" 
-		-nn "Raytrace Shading" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_1__folder" -ln "houdiniAssetParm_folder0_1__folder" 
-		-nn "Sampling" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 1;
-	addAttr -ci true -sn "houdiniAssetParm_geo_velocityblur" -ln "houdiniAssetParm_geo_velocityblur" 
-		-nn "Geometry Velocity Blur" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_2__folder" -ln "houdiniAssetParm_folder0_2__folder" 
-		-nn "Dicing" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 4;
-	addAttr -ci true -sn "houdiniAssetParm_vm_shadingquality" -ln "houdiniAssetParm_vm_shadingquality" 
-		-nn "Shading Quality" -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_flatness" -ln "houdiniAssetParm_vm_flatness" 
-		-nn "Dicing Flatness" -smn 0 -smx 1 -at "float" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_raypredice" -ln "houdiniAssetParm_vm_raypredice" 
-		-nn "Ray Predicing" -min 0 -max 2 -en "Disable Predicing:Full Predicing:Precompute Bounds" 
-		-at "enum" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_curvesurface" -ln "houdiniAssetParm_vm_curvesurface" 
-		-nn "Shade Curves As Surfaces" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_folder0_3__folder" -ln "houdiniAssetParm_folder0_3__folder" 
-		-nn "Geometry" -at "compound" -p "houdiniAssetParm_stdswitcher4_1__folder" -nc 14;
-	addAttr -ci true -sn "houdiniAssetParm_vm_rmbackface" -ln "houdiniAssetParm_vm_rmbackface" 
-		-nn "Backface Removal" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_shop_geometrypath__node" 
-		-ln "houdiniAssetParm_shop_geometrypath__node" -nn "Procedural Shader" -dv -1 -at "long" 
-		-p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_forcegeometry" -ln "houdiniAssetParm_vm_forcegeometry" 
-		-nn "Force Procedural Geometry Output" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_rendersubdcurves" -ln "houdiniAssetParm_vm_rendersubdcurves" 
-		-nn "Render Polygon Curves As Subdivision (Mantra)" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpoints" -ln "houdiniAssetParm_vm_renderpoints" 
-		-nn "Render As Points (Mantra)" -min 0 -max 2 -en "No Point Rendering:Render Only Points:Render Unconnected Points" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_renderpointsas" -ln "houdiniAssetParm_vm_renderpointsas" 
-		-nn "Render Points As (Mantra)" -min 0 -max 1 -en "Spheres:Circles" -at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_usenforpoints" -ln "houdiniAssetParm_vm_usenforpoints" 
-		-nn "Use N For Point Rendering" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pointscale" -ln "houdiniAssetParm_vm_pointscale" 
-		-nn "Point Scale" -min 0 -smn 0 -smx 10 -at "float" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_pscalediameter" -ln "houdiniAssetParm_vm_pscalediameter" 
-		-nn "Treat Point Scale as Diameter Instead of Radius" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_metavolume" -ln "houdiniAssetParm_vm_metavolume" 
-		-nn "Metaballs as Volume" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_coving" -ln "houdiniAssetParm_vm_coving" 
-		-nn "Coving" -min 0 -max 2 -en "Disable Coving:Coving for displacement/sub-d:Coving for all primitives" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_materialoverride" -ln "houdiniAssetParm_vm_materialoverride" 
-		-nn "Material Override" -min 0 -max 2 -en "Disabled:Evaluate for Each Primitve/Point:Evaluate Once" 
-		-at "enum" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_overridedetail" -ln "houdiniAssetParm_vm_overridedetail" 
-		-nn "Ignore Geometry Attribute Shaders" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vm_procuseroottransform" -ln "houdiniAssetParm_vm_procuseroottransform" 
-		-nn "Proc Use Root Transform" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_folder0_3__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_2__folder" -ln "houdiniAssetParm_stdswitcher4_2__folder" 
-		-nn "Misc" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_use_dcolor" -ln "houdiniAssetParm_use_dcolor" 
-		-nn "Set Wireframe Color" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uac -sn "houdiniAssetParm_dcolor" -ln "houdiniAssetParm_dcolor" 
-		-nn "Wireframe Color" -at "float3" -p "houdiniAssetParm_stdswitcher4_2__folder" -nc 
-		3;
-	addAttr -ci true -sn "houdiniAssetParm_dcolorr" -ln "houdiniAssetParm_dcolorR" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorg" -ln "houdiniAssetParm_dcolorG" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_dcolorb" -ln "houdiniAssetParm_dcolorB" -at "float" 
-		-p "houdiniAssetParm_dcolor";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_shadeopen" -ln "houdiniAssetParm_vport_shadeopen" 
-		-nn "Shade Open Curves In Viewport" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_vport_onionskin" -ln "houdiniAssetParm_vport_onionskin" 
-		-nn "Onion Skinning" -min 0 -max 2 -en "Off:Transform only:Full Deformation" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher4_2__folder";
-	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
-		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
-		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
-		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
-		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
-		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
-		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
-	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_vm_subdgroup" -type "string" "";
-	setAttr ".houdiniAssetParm_categories" -type "string" "";
-	setAttr ".houdiniAssetParm_reflectmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_refractmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightmask" -type "string" "*";
-	setAttr ".houdiniAssetParm_lightcategories" -type "string" "*";
-	setAttr ".houdiniAssetParm_vm_volumefilterwidth" 1;
-	setAttr ".houdiniAssetParm_vm_shadingquality" 1;
-	setAttr ".houdiniAssetParm_vm_flatness" 0.05000000074505806;
-	setAttr ".houdiniAssetParm_vm_forcegeometry" yes;
-	setAttr ".houdiniAssetParm_vm_renderpoints" 2;
-	setAttr ".houdiniAssetParm_vm_pointscale" 1;
-	setAttr ".houdiniAssetParm_vm_coving" 1;
-	setAttr ".houdiniAssetParm_vm_materialoverride" 2;
-	setAttr ".houdiniAssetParm_vm_procuseroottransform" yes;
-	setAttr ".houdiniAssetParm_use_dcolor" yes;
-	setAttr ".houdiniAssetParm_dcolor" -type "float3" 1 1 1 ;
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-	setAttr ".houdiniAssetParm_renderable" yes;
-	setAttr ".houdiniAssetParm_Branches" 10;
-	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
-	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
-	setAttr ".houdiniAssetParm_Size" 0.5;
-	setAttr ".houdiniAssetParm_Leaf" 7.5;
-createNode transform -n "shaun_bush_fern3" -p "|shaun_bush_fern3";
-	rename -uid "37644118-4E3F-DAFD-8080-AE9574D95971";
-createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern3|shaun_bush_fern3";
-	rename -uid "4AA9435E-49FE-9673-A26F-048E71E52ADC";
-	setAttr ".t" -type "double3" 35.606300737219073 0 32.735056826410279 ;
-	setAttr ".r" -type "double3" 0 -100.73467277214586 0 ;
-	setAttr ".s" -type "double3" 2.1184883610963081 2.1184883610963081 2.1184883610963081 ;
-createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0";
-	rename -uid "6A486B03-405E-1DD2-AD83-28AC2737E71F";
-	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
-	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
-	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
-	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
-	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
-	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "Bamboo";
 	rename -uid "7F903D66-4733-BFF4-C5B0-5CAEC7062924";
-createNode houdiniAsset -n "Palm_Tree3";
-	rename -uid "551E1CE2-428D-9010-6A8F-48B8BC8FE9D7";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".t" -type "double3" 38.8633861583046 0 15.801753089846507 ;
-	setAttr ".r" -type "double3" 0 84.629912380130634 0 ;
-	setAttr ".s" -type "double3" 1.9166873696562587 1.9166873696562587 1.9166873696562587 ;
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Palm_Tree_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Palm_Tree";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Palm_Tree3";
-	rename -uid "CB260631-4B13-E79B-5798-26B4AF4916AA";
-createNode transform -n "merge3_0" -p "|Palm_Tree3|line_object1";
-	rename -uid "1314AE8E-402E-2068-B772-38A52DA41363";
-createNode mesh -n "merge3_0Shape" -p "|Palm_Tree3|line_object1|merge3_0";
-	rename -uid "790E5F96-43E2-6165-D200-EC8608DB529D";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "merge3_1" -p "|Palm_Tree3|line_object1";
-	rename -uid "158DDBBD-4A71-1F46-1054-E6B32F75C1DA";
-createNode mesh -n "merge3_1Shape" -p "|Palm_Tree3|line_object1|merge3_1";
-	rename -uid "C48712A6-4404-9027-5790-34AB40EC3FB5";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode transform -n "Mushroom_Bunch";
 	rename -uid "49CEEC9C-4D20-027B-2FD5-2695E0D24022";
 	setAttr ".t" -type "double3" -18.47508591810027 0 23.365105604845951 ;
 	setAttr ".s" -type "double3" 0.24672586066026383 0.24672586066026383 0.24672586066026383 ;
-createNode houdiniAsset -n "Small_Bush11";
-	rename -uid "F379B809-47EA-13F5-3FF3-81B51DC41A9A";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush11";
-	rename -uid "8D268770-42BB-1F57-2136-30BF02DA15A6";
-createNode transform -n "color1_0" -p "|Small_Bush11|line_object1";
-	rename -uid "779B37F1-42D7-6B08-C715-A79922C83AAC";
-	setAttr ".t" -type "double3" 45.998925480410328 0 67.95482947663362 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush11|line_object1|color1_0";
-	rename -uid "A37553DB-4B75-413C-565C-6FAB26C84C3E";
-	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
 createNode houdiniAsset -n "Tree_Anna2";
 	rename -uid "496F0081-40CF-5D8F-1DBB-4595112E210B";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
@@ -3346,222 +992,474 @@ createNode mesh -n "merge1_0Shape" -p "|Tree_Anna2|Tree_Anna2|merge1_0";
 	setAttr ".clst[0].clsn" -type "string" "Cd";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Short_Palm2";
-	rename -uid "4226460A-4633-D6E4-3F28-499DE2C70CE7";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:grid1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Short_Palm_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Short_Palm";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "grid1" -p "Short_Palm2";
-	rename -uid "65430B32-4237-C35F-409B-01A7F7A48C37";
-createNode transform -n "merge3_0" -p "|Short_Palm2|grid1";
-	rename -uid "657D85A2-4AAA-DCC5-F65A-B88526AEFF5C";
-	setAttr ".t" -type "double3" -11.763929159710385 -3.5937799872124661 0 ;
-	setAttr ".s" -type "double3" 0.18796407121948838 0.18796407121948838 0.18796407121948838 ;
-createNode mesh -n "merge3_0Shape" -p "|Short_Palm2|grid1|merge3_0";
-	rename -uid "47CD3377-42F8-8D9E-7FB0-E69F86883D26";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
+createNode transform -n "group1";
+	rename -uid "3B1F20A0-46DB-4D90-BC6B-60AE08D16146";
+	setAttr ".t" -type "double3" 5.7637895813917108 0 32.087363803417396 ;
+	setAttr ".r" -type "double3" 0 87.061086074424935 0 ;
+createNode transform -n "group2";
+	rename -uid "777A48C9-4C1C-3F8E-9779-7CB611C69B8E";
+	setAttr ".t" -type "double3" 0 3.1102415914560027 47.169787334211698 ;
+	setAttr ".r" -type "double3" 0 87.707522640732208 0 ;
+createNode transform -n "ImageProjectionRig:group1" -p "group2";
+	rename -uid "0E7C5DFF-4665-9BF1-4FC2-F9BB7AAF2FE0";
+	setAttr ".t" -type "double3" 0 0 24.218026883733053 ;
+createNode transform -n "ImageProjectionRig:YB_Projection_Rig" -p "group2";
+	rename -uid "5B283E69-4FE5-028F-E2B2-1EA155ED6D43";
+	setAttr ".t" -type "double3" 0 0 22.280768172139314 ;
+createNode nurbsCurve -n "ImageProjectionRig:YB_Projection_RigShape" -p "ImageProjectionRig:YB_Projection_Rig";
+	rename -uid "070C48B2-4A4B-4DB3-55BE-E5AFC48825FA";
+	setAttr -k off ".v";
+	setAttr ".tw" yes;
+createNode transform -n "ImageProjectionRig:YB_Front2" -p "ImageProjectionRig:YB_Projection_Rig";
+	rename -uid "17738AD5-44AA-E721-722C-B38B2AF693F2";
+	setAttr ".v" no;
+createNode mesh -n "ImageProjectionRig:YB_FrontShape2" -p "ImageProjectionRig:YB_Front2";
+	rename -uid "5C5CCAF6-42AD-6CB7-E53A-1B8D8CF39DDD";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Short_Palm3";
-	rename -uid "B32CD96F-4DAA-2E33-89E7-A9981018451D";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:grid1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Short_Palm_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Short_Palm";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "grid1" -p "Short_Palm3";
-	rename -uid "5F7DEFE7-4DC6-213B-ADA6-2FA0A0C43B41";
-createNode transform -n "merge3_0" -p "|Short_Palm3|grid1";
-	rename -uid "A884AFDB-46F3-BEB1-3CA6-27A6965B2E16";
-	setAttr ".t" -type "double3" 49.154782657962386 -1.7361813639874102 57.65731121185204 ;
-	setAttr ".s" -type "double3" 0.20366006048317306 0.20366006048317306 0.20366006048317306 ;
-createNode mesh -n "merge3_0Shape" -p "|Short_Palm3|grid1|merge3_0";
-	rename -uid "65E19A76-4D17-8621-01B1-9DA33E49B9AA";
-	addAttr -ci true -sn "rest" -ln "rest" -dt "vectorArray";
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -4.3024354 0 
+		0.14876397 -4.3024354 0 10.948764 6.4975648 0 10.948764 6.4975648;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:YB_Back" -p "ImageProjectionRig:YB_Projection_Rig";
+	rename -uid "33A640A6-41A9-878D-4EB6-BC90B482201B";
+	setAttr ".v" no;
+createNode mesh -n "ImageProjectionRig:YB_BackShape" -p "ImageProjectionRig:YB_Back";
+	rename -uid "2EA55D4C-420B-3DBE-3356-B08EC9E2F12F";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "shaun_bush_fern4";
-	rename -uid "C31490E5-4076-6370-B3EA-239C3F2663AB";
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -6.4387169 0 
+		0.14876397 -6.4387169 0 10.948764 4.3612833 0 10.948764 4.3612833;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:YB_Mid1" -p "ImageProjectionRig:YB_Projection_Rig";
+	rename -uid "D751D9BE-458B-2845-D612-948C1EBDC434";
+createNode mesh -n "ImageProjectionRig:YB_MidShape1" -p "ImageProjectionRig:YB_Mid1";
+	rename -uid "697D9B07-45B5-08AB-C424-F0A91DA078DA";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -5.4187255 0 
+		0.14876397 -5.4187255 0 10.948764 5.3812747 0 10.948764 5.3812747;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:YB_SuperFront1" -p "ImageProjectionRig:YB_Projection_Rig";
+	rename -uid "C5D10C8A-4812-B4DC-47FE-46B46A6D740C";
+createNode mesh -n "ImageProjectionRig:YB_SuperFrontShape1" -p "ImageProjectionRig:YB_SuperFront1";
+	rename -uid "F72AA1AF-43B6-A3F8-5582-BA8D574AC192";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+createNode transform -n "ImageProjectionRig:YB_SuperBack1" -p "ImageProjectionRig:YB_Projection_Rig";
+	rename -uid "F2D73CA0-4CCC-97DD-FF42-8A8BD5D8DDBE";
+	setAttr ".v" no;
+createNode mesh -n "ImageProjectionRig:YB_SuperBack1Shape" -p "ImageProjectionRig:YB_SuperBack1";
+	rename -uid "92E6F1B4-4EFC-13A0-6073-36809FE70661";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -7.4322867 0 
+		0.14876397 -7.4322867 0 10.948764 3.3677137 0 10.948764 3.3677137;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:OB_Projection_Rig1" -p "group2";
+	rename -uid "9F3582DC-4E7A-393E-0C68-F89131B355CA";
+	setAttr ".t" -type "double3" 0 0 22.280768172139314 ;
+createNode nurbsCurve -n "ImageProjectionRig:OB_Projection_Rig" -p "ImageProjectionRig:OB_Projection_Rig1";
+	rename -uid "C243C81E-40A7-3D17-5A52-8A8264BF8C7E";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		3.5805425138412099 2.1924499643933241e-016 -3.5805425138412041
+		-5.7770212223899138e-016 3.1005924744694505e-016 -5.06365178372769
+		-3.5805425138412064 2.1924499643933256e-016 -3.5805425138412064
+		-5.06365178372769 8.9847412840218631e-032 -1.4673196043589695e-015
+		-3.5805425138412073 -2.1924499643933249e-016 3.5805425138412055
+		-1.5257771052646282e-015 -3.100592474469451e-016 5.0636517837276909
+		3.5805425138412041 -2.1924499643933258e-016 3.5805425138412068
+		5.06365178372769 -1.6653342664701472e-031 2.7196972508802012e-015
+		3.5805425138412099 2.1924499643933241e-016 -3.5805425138412041
+		-5.7770212223899138e-016 3.1005924744694505e-016 -5.06365178372769
+		-3.5805425138412064 2.1924499643933256e-016 -3.5805425138412064
+		;
+createNode transform -n "ImageProjectionRig:OB_SuperFront3" -p "ImageProjectionRig:OB_Projection_Rig1";
+	rename -uid "8B977800-4BC4-EC6B-231A-048C639C0B73";
+	setAttr ".rp" -type "double3" 0 5.5487640652250896 1.9498034030788389 ;
+	setAttr ".sp" -type "double3" 0 5.5487640652250896 1.9498034030788389 ;
+createNode mesh -n "ImageProjectionRig:OB_SuperFrontShape3" -p "ImageProjectionRig:OB_SuperFront3";
+	rename -uid "1A9BF98E-4574-420B-F1C0-FBA781A12FA9";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -3.4501967 0 
+		0.14876397 -3.4501967 0 10.948764 7.3498034 0 10.948764 7.3498034;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:OB_Front3" -p "ImageProjectionRig:OB_Projection_Rig1";
+	rename -uid "8468F40D-4133-DE45-6FAE-389145842E04";
+	setAttr ".rp" -type "double3" 0 5.5487640652250878 1.0084993418656669 ;
+	setAttr ".sp" -type "double3" 0 5.5487640652250878 1.0084993418656669 ;
+createNode mesh -n "ImageProjectionRig:OB_FrontShape3" -p "ImageProjectionRig:OB_Front3";
+	rename -uid "11384131-4D0E-479D-E73C-6E81CD31FC43";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -4.3915009 0 
+		0.14876397 -4.3915009 0 10.948764 6.4084992 0 10.948764 6.4084992;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:OB_Mid2" -p "ImageProjectionRig:OB_Projection_Rig1";
+	rename -uid "01105874-4002-0170-E4E4-82A6F0A59B6C";
+	setAttr ".rp" -type "double3" 0 5.5487640652250887 -0.0061804669968612558 ;
+	setAttr ".sp" -type "double3" 0 5.5487640652250887 -0.0061804669968612558 ;
+createNode mesh -n "ImageProjectionRig:OB_MidShape2" -p "ImageProjectionRig:OB_Mid2";
+	rename -uid "54D0D355-4FCF-8E22-B5E9-6B9E355B7C26";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -5.4061804 0 
+		0.14876397 -5.4061804 0 10.948764 5.3938198 0 10.948764 5.3938198;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:OB_Back2" -p "ImageProjectionRig:OB_Projection_Rig1";
+	rename -uid "95FDE142-452B-04D5-EAB7-CC88C962CD40";
+	setAttr ".rp" -type "double3" 0 5.5487640652250887 -1.0261721979651011 ;
+	setAttr ".sp" -type "double3" 0 5.5487640652250887 -1.0261721979651011 ;
+createNode mesh -n "ImageProjectionRig:OB_Back2Shape" -p "ImageProjectionRig:OB_Back2";
+	rename -uid "52217E4E-42BA-9488-F87D-3D9AF193BB11";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -6.4261723 0 
+		0.14876397 -6.4261723 0 10.948764 4.3738279 0 10.948764 4.3738279;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:OB_SuperBack2" -p "ImageProjectionRig:OB_Projection_Rig1";
+	rename -uid "2480B45F-43D8-6E61-894B-C19B3FB0DB13";
+	setAttr ".rp" -type "double3" 0 5.5487640652250887 -2.0197417670252076 ;
+	setAttr ".sp" -type "double3" 0 5.5487640652250887 -2.0197417670252076 ;
+createNode mesh -n "ImageProjectionRig:OB_SuperBack2Shape" -p "ImageProjectionRig:OB_SuperBack2";
+	rename -uid "F2CA1173-4A58-BEC1-8ABC-E7A2157CCE2B";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -7.4197416 0 
+		0.14876397 -7.4197416 0 10.948764 3.3802583 0 10.948764 3.3802583;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:Bear_Projection_Rig" -p "group2";
+	rename -uid "45983C22-4F2E-ABE0-2B8A-0386CDA08262";
+	setAttr ".t" -type "double3" 0 0 22.280768172139314 ;
+createNode nurbsCurve -n "ImageProjectionRig:Bear_Projection_RigShape" -p "ImageProjectionRig:Bear_Projection_Rig";
+	rename -uid "ABC80459-4F9A-1E56-9A20-1E84EF81B41C";
+	setAttr -k off ".v";
+	setAttr ".cc" -type "nurbsCurve" 
+		3 8 2 no 3
+		13 -2 -1 0 1 2 3 4 5 6 7 8 9 10
+		11
+		3.5805425138412099 2.1924499643933241e-016 -3.5805425138412041
+		-5.7770212223899138e-016 3.1005924744694505e-016 -5.06365178372769
+		-3.5805425138412064 2.1924499643933256e-016 -3.5805425138412064
+		-5.06365178372769 8.9847412840218631e-032 -1.4673196043589695e-015
+		-3.5805425138412073 -2.1924499643933249e-016 3.5805425138412055
+		-1.5257771052646282e-015 -3.100592474469451e-016 5.0636517837276909
+		3.5805425138412041 -2.1924499643933258e-016 3.5805425138412068
+		5.06365178372769 -1.6653342664701472e-031 2.7196972508802012e-015
+		3.5805425138412099 2.1924499643933241e-016 -3.5805425138412041
+		-5.7770212223899138e-016 3.1005924744694505e-016 -5.06365178372769
+		-3.5805425138412064 2.1924499643933256e-016 -3.5805425138412064
+		;
+createNode transform -n "ImageProjectionRig:Bear_Front2" -p "ImageProjectionRig:Bear_Projection_Rig";
+	rename -uid "6536E5DC-4986-2B2B-099F-A2910490ECEB";
+createNode mesh -n "ImageProjectionRig:Bear_FrontShape2" -p "ImageProjectionRig:Bear_Front2";
+	rename -uid "DFBF9BFD-441E-09EA-BD6B-28B4AC769A00";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -4.3024354 0 
+		0.14876397 -4.3024354 0 10.948764 6.4975648 0 10.948764 6.4975648;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:Bear_Back" -p "ImageProjectionRig:Bear_Projection_Rig";
+	rename -uid "4A4C5678-446B-8808-7CA4-D08A303F5C12";
+createNode mesh -n "ImageProjectionRig:Bear_BackShape" -p "ImageProjectionRig:Bear_Back";
+	rename -uid "2F1D5FAB-43DB-D3DE-DFAC-2CAF15C9E0B9";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -6.4387169 0 
+		0.14876397 -6.4387169 0 10.948764 4.3612833 0 10.948764 4.3612833;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:Bear_Mid1" -p "ImageProjectionRig:Bear_Projection_Rig";
+	rename -uid "769F3B89-4AB2-A0EF-229D-8E8B733790C1";
+createNode mesh -n "ImageProjectionRig:Bear_MidShape1" -p "ImageProjectionRig:Bear_Mid1";
+	rename -uid "7B89305D-4C86-9C4D-8795-4192F6A72D46";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -5.4187255 0 
+		0.14876397 -5.4187255 0 10.948764 5.3812747 0 10.948764 5.3812747;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:Bear_SuperFront1" -p "ImageProjectionRig:Bear_Projection_Rig";
+	rename -uid "3A6B0994-40B0-36CA-9CC0-8A88D56CEC37";
+createNode mesh -n "ImageProjectionRig:Bear_SuperFrontShape1" -p "ImageProjectionRig:Bear_SuperFront1";
+	rename -uid "E1DCBB7A-4A42-12B7-9C54-51BC88CE3716";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 0.14876413 1.93725872 9.60000038 0.14876413 1.93725872
+		 -9.60000038 10.9487648 1.93725872 9.60000038 10.9487648 1.93725872;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode transform -n "ImageProjectionRig:Bear_SuperBack1" -p "ImageProjectionRig:Bear_Projection_Rig";
+	rename -uid "5DAB8447-4404-99AE-3577-378C63D0F290";
+createNode mesh -n "ImageProjectionRig:Bear_SuperBack1Shape" -p "ImageProjectionRig:Bear_SuperBack1";
+	rename -uid "BB694E1D-405B-BE5B-BB97-C2A2C2BEAACA";
+	setAttr -k off ".v";
+	setAttr ".vir" yes;
+	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 0.5 0.99915283529157062 ;
+	setAttr ".uvst[0].uvsn" -type "string" "map1";
+	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 0.99915284
+		 1 0.99915284;
+	setAttr ".cuvs" -type "string" "map1";
+	setAttr ".dcc" -type "string" "Ambient+Diffuse";
+	setAttr ".covm[0]"  0 1 1;
+	setAttr ".cdvm[0]"  0 1 1;
+	setAttr -s 4 ".pt[0:3]" -type "float3"  0 0.14876397 -7.4322867 0 
+		0.14876397 -7.4322867 0 10.948764 3.3677137 0 10.948764 3.3677137;
+	setAttr -s 4 ".vt[0:3]"  -9.60000038 -1.1990409e-015 5.4000001 9.60000038 -1.1990409e-015 5.4000001
+		 -9.60000038 1.1990409e-015 -5.4000001 9.60000038 1.1990409e-015 -5.4000001;
+	setAttr -s 4 ".ed[0:3]"  0 1 0 0 2 0 1 3 0 2 3 0;
+	setAttr -ch 4 ".fc[0]" -type "polyFaces" 
+		f 4 0 2 -4 -2
+		mu 0 4 0 1 3 2;
+	setAttr ".cd" -type "dataPolyComponent" Index_Data Edge 0 ;
+	setAttr ".cvd" -type "dataPolyComponent" Index_Data Vertex 0 ;
+	setAttr ".pd[0]" -type "dataPolyComponent" Index_Data UV 0 ;
+	setAttr ".hfd" -type "dataPolyComponent" Index_Data Face 0 ;
+createNode houdiniAsset -n "Tree_Anna3";
+	rename -uid "79879049-444E-8111-7FF8-379977864871";
 	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		9;
+		4;
 	addAttr -ci true -sn "houdiniAssetParm_stdswitcher4_0__folder" -ln "houdiniAssetParm_stdswitcher4_0__folder" 
 		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
 	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
@@ -3732,18 +1630,8 @@ createNode houdiniAsset -n "shaun_bush_fern4";
 		-p "houdiniAssetParm_stdswitcher4_2__folder";
 	addAttr -ci true -sn "houdiniAssetParm_renderable" -ln "houdiniAssetParm_renderable" 
 		-nn "Renderable" -min 0 -max 1 -at "bool" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branches" -ln "houdiniAssetParm_Branches" 
-		-nn "Number of Branches" -smn 3 -smx 17 -at "long" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Variation" -ln "houdiniAssetParm_Variation" 
-		-nn "Randomization" -smn 0 -smx 30 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Branch_Angles" -ln "houdiniAssetParm_Branch_Angles" 
-		-nn "Branch Angle Variation" -smn 0.5 -smx 1.25 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Size" -ln "houdiniAssetParm_Size" -nn "Branch Size Variation" 
-		-smn 0 -smx 1 -at "float" -p "houdiniAssetParm";
-	addAttr -ci true -sn "houdiniAssetParm_Leaf" -ln "houdiniAssetParm_Leaf" -nn "Leaf Jitter" 
-		-smn 0 -smx 15 -at "float" -p "houdiniAssetParm";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/shaun_bush_fern.hdanc";
-	setAttr ".assetName" -type "string" "Object/shaun_bush_fern";
+	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/trees/Tree_Anna.hdanc";
+	setAttr ".assetName" -type "string" "Object/Tree.Anna";
 	setAttr ".houdiniAssetParm_s__tuple0" 1;
 	setAttr ".houdiniAssetParm_s__tuple1" 1;
 	setAttr ".houdiniAssetParm_s__tuple2" 1;
@@ -3770,132 +1658,16 @@ createNode houdiniAsset -n "shaun_bush_fern4";
 	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
 	setAttr ".houdiniAssetParm_caching" yes;
 	setAttr ".houdiniAssetParm_renderable" yes;
-	setAttr ".houdiniAssetParm_Branches" 10;
-	setAttr ".houdiniAssetParm_Variation" 15.119999885559082;
-	setAttr ".houdiniAssetParm_Branch_Angles" 0.875;
-	setAttr ".houdiniAssetParm_Size" 0.5;
-	setAttr ".houdiniAssetParm_Leaf" 7.5;
-createNode transform -n "shaun_bush_fern4" -p "|shaun_bush_fern4";
-	rename -uid "43F884B3-4A44-B448-EBE7-BAA2224714F7";
-createNode transform -n "foreach_end2_0" -p "|shaun_bush_fern4|shaun_bush_fern4";
-	rename -uid "3431DF79-400F-803B-A3D0-C9A22EC66FE1";
-	setAttr ".t" -type "double3" 42.679902331460688 0 53.462297306380016 ;
-	setAttr ".r" -type "double3" 0 63.540847916170364 0 ;
-	setAttr ".s" -type "double3" 2.1041948087960467 2.1041948087960467 2.1041948087960467 ;
-createNode mesh -n "foreach_end2_0Shape" -p "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0";
-	rename -uid "E3FCD51F-4C5A-D06E-D3E4-E79E74E9003E";
-	addAttr -ci true -sn "branchbend" -ln "branchbend" -dt "floatArray";
-	addAttr -ci true -sn "leafsize" -ln "leafsize" -dt "floatArray";
-	addAttr -ci true -sn "branchangle" -ln "branchangle" -dt "floatArray";
-	addAttr -ci true -sn "branchsize" -ln "branchsize" -dt "floatArray";
-	addAttr -ci true -sn "rotation" -ln "rotation" -dt "floatArray";
-	addAttr -ci true -sn "leafjitter" -ln "leafjitter" -dt "floatArray";
+createNode transform -n "Tree_Anna3" -p "|Tree_Anna3";
+	rename -uid "86F2AD91-446F-8F3D-54CA-048B8E62B0F4";
+createNode transform -n "merge1_0" -p "|Tree_Anna3|Tree_Anna3";
+	rename -uid "D7963781-42EC-B741-FEE2-6BAA6E711F0B";
+	setAttr ".t" -type "double3" -27.230766697340531 0 67.908442734501236 ;
+	setAttr ".s" -type "double3" 10.953813666055904 10.953813666055904 10.953813666055904 ;
+createNode mesh -n "merge1_0Shape" -p "|Tree_Anna3|Tree_Anna3|merge1_0";
+	rename -uid "61CA95C4-42A5-4DFF-3761-2FA3917B07E0";
 	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".cuvs" -type "string" "";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush12";
-	rename -uid "929F638A-4EC8-4420-B5E7-ED906073EE61";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush12";
-	rename -uid "517A6F6E-4407-4A46-3C86-BA81A863F77F";
-createNode transform -n "color1_0" -p "|Small_Bush12|line_object1";
-	rename -uid "AE6613DA-4506-2425-C0CD-4EB2A0A7CECA";
-	setAttr ".t" -type "double3" 44.338465538029524 0 45.242026305116383 ;
-	setAttr ".s" -type "double3" 0.66955608253369425 0.66955608253369425 0.66955608253369425 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush12|line_object1|color1_0";
-	rename -uid "C6CD107E-4850-E612-C1D9-F5B0CB49A49E";
-	setAttr -k off ".v";
+	setAttr -s 2 ".iog[0].og";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
 	setAttr -s 2 ".uvst";
@@ -3908,243 +1680,89 @@ createNode mesh -n "color1_0Shape" -p "|Small_Bush12|line_object1|color1_0";
 	setAttr ".clst[0].clsn" -type "string" "Cd";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush13";
-	rename -uid "FBECC337-40E9-0D08-95E9-BF9FC421141C";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush13";
-	rename -uid "FE24DE1F-417A-FEB8-0F59-5B86D78A6441";
-createNode transform -n "color1_0" -p "|Small_Bush13|line_object1";
-	rename -uid "FF507D97-4B4F-E3EE-C8C5-D089AD9A4078";
-	setAttr ".t" -type "double3" -7.0431845664187263 0 86.245822563493832 ;
-	setAttr ".r" -type "double3" 0 -61.538916506485016 0 ;
-	setAttr ".s" -type "double3" 1.4505001300490985 1.4505001300490985 1.4505001300490985 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush13|line_object1|color1_0";
-	rename -uid "7F406031-4EF4-5A46-2E85-C4B8DF38FB60";
+createNode transform -n "Bushes";
+	rename -uid "39D6A2EE-468D-6AE9-D286-ED864A9A9E0E";
+createNode transform -n "pPlane1";
+	rename -uid "A9DD789F-4F0B-DA7C-31B1-D0A153D6430B";
+	setAttr ".t" -type "double3" -46.031995198218674 30.641755845249392 51.782900423840061 ;
+	setAttr ".r" -type "double3" 180 0 90 ;
+	setAttr ".s" -type "double3" 137.86189743764967 1 233.30279849911659 ;
+createNode mesh -n "pPlaneShape1" -p "pPlane1";
+	rename -uid "69FE84D0-4BE9-8EAD-45E6-DC880B705C9B";
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
+	setAttr ".cuvs" -type "string" "map1";
 	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
-createNode houdiniAsset -n "Small_Bush14";
-	rename -uid "FB63FBCD-4FD3-178F-FD7A-40A8EC714D12";
-	addAttr -ci true -sn "houdiniAssetParm" -ln "houdiniAssetParm" -at "compound" -nc 
-		2;
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_0__folder" -ln "houdiniAssetParm_stdswitcher3_0__folder" 
-		-nn "Transform" -at "compound" -p "houdiniAssetParm" -nc 12;
-	addAttr -ci true -sn "houdiniAssetParm_xOrd" -ln "houdiniAssetParm_xOrd" -nn "Transform Order" 
-		-min 0 -max 5 -en "Scale Rot Trans:Scale Trans Rot:Rot Scale Trans:Rot Trans Scale:Trans Scale Rot:Trans Rot Scale" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_rOrd" -ln "houdiniAssetParm_rOrd" -nn "Rotate Order" 
-		-min 0 -max 5 -en "Rx Ry Rz:Rx Rz Ry:Ry Rx Rz:Ry Rz Rx:Rz Rx Ry:Rz Ry Rx" -at "enum" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_t" -ln "houdiniAssetParm_t" -nn "Translate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple0" -ln "houdiniAssetParm_t__tuple0" 
-		-nn "Translate 0" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple1" -ln "houdiniAssetParm_t__tuple1" 
-		-nn "Translate 1" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_t__tuple2" -ln "houdiniAssetParm_t__tuple2" 
-		-nn "Translate 2" -at "float" -p "houdiniAssetParm_t";
-	addAttr -ci true -sn "houdiniAssetParm_r" -ln "houdiniAssetParm_r" -nn "Rotate" 
-		-at "compound" -p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple0" -ln "houdiniAssetParm_r__tuple0" 
-		-nn "Rotate 0" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple1" -ln "houdiniAssetParm_r__tuple1" 
-		-nn "Rotate 1" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_r__tuple2" -ln "houdiniAssetParm_r__tuple2" 
-		-nn "Rotate 2" -at "float" -p "houdiniAssetParm_r";
-	addAttr -ci true -sn "houdiniAssetParm_s" -ln "houdiniAssetParm_s" -nn "Scale" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple0" -ln "houdiniAssetParm_s__tuple0" 
-		-nn "Scale 0" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple1" -ln "houdiniAssetParm_s__tuple1" 
-		-nn "Scale 1" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_s__tuple2" -ln "houdiniAssetParm_s__tuple2" 
-		-nn "Scale 2" -at "float" -p "houdiniAssetParm_s";
-	addAttr -ci true -sn "houdiniAssetParm_p" -ln "houdiniAssetParm_p" -nn "Pivot" -at "compound" 
-		-p "houdiniAssetParm_stdswitcher3_0__folder" -nc 3;
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple0" -ln "houdiniAssetParm_p__tuple0" 
-		-nn "Pivot 0" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple1" -ln "houdiniAssetParm_p__tuple1" 
-		-nn "Pivot 1" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_p__tuple2" -ln "houdiniAssetParm_p__tuple2" 
-		-nn "Pivot 2" -at "float" -p "houdiniAssetParm_p";
-	addAttr -ci true -sn "houdiniAssetParm_scale" -ln "houdiniAssetParm_scale" -nn "Uniform Scale" 
-		-at "float" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_pre_xform" -ln "houdiniAssetParm_pre_xform" 
-		-nn "Modify Pre-Transform" -min 0 -max 6 -en "Modify Pre-Transform:Clean Transform:Clean Translates:Clean Rotates:Clean Scales:Extract Pre-transform:Reset Pre-transform" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_keeppos" -ln "houdiniAssetParm_keeppos" -nn "Keep Position When Parenting" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_childcomp" -ln "houdiniAssetParm_childcomp" 
-		-nn "Child Compensation" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_constraints_on" -ln "houdiniAssetParm_constraints_on" 
-		-nn "Enable Constraints" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -s false -dcb 1 -ci true -sn "houdiniAssetParm_constraints_path__node" -ln "houdiniAssetParm_constraints_path__node" 
-		-nn "Constraints" -dv -1 -at "long" -p "houdiniAssetParm_stdswitcher3_0__folder";
-	addAttr -ci true -sn "houdiniAssetParm_stdswitcher3_1__folder" -ln "houdiniAssetParm_stdswitcher3_1__folder" 
-		-nn "Subnet" -at "compound" -p "houdiniAssetParm" -nc 7;
-	addAttr -ci true -sn "houdiniAssetParm_tdisplay" -ln "houdiniAssetParm_tdisplay" 
-		-nn "Display" -min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_display" -ln "houdiniAssetParm_display" -nn "Display" 
-		-min 0 -max 1 -smn 0 -smx 1 -at "long" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_outputobj" -ln "houdiniAssetParm_outputobj" 
-		-nn "Output Transform" -min 0 -max 6 -en "No Object:Input Object 1:Input Object 2:Input Object 3:Input Object 4:_separator_:line_object1" 
-		-at "enum" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_visibleobjects" -ln "houdiniAssetParm_visibleobjects" 
-		-nn "Visible Children" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_picking" -ln "houdiniAssetParm_picking" -nn "Viewport Selecting Enabled" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -uaf -sn "houdiniAssetParm_pickscript" -ln "houdiniAssetParm_pickscript" 
-		-nn "Select Script" -ct "hapiParmFile_read" -dt "string" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	addAttr -ci true -sn "houdiniAssetParm_caching" -ln "houdiniAssetParm_caching" -nn "Cache Object Transform" 
-		-min 0 -max 1 -at "bool" -p "houdiniAssetParm_stdswitcher3_1__folder";
-	setAttr ".otlFilePath" -type "string" "C:/Users/10734984/Documents/2670UVU//assets/houdiniDA/bushes/Small_Bush_SC.hdanc";
-	setAttr ".assetName" -type "string" "Object/Small_Bush";
-	setAttr ".houdiniAssetParm_s__tuple0" 1;
-	setAttr ".houdiniAssetParm_s__tuple1" 1;
-	setAttr ".houdiniAssetParm_s__tuple2" 1;
-	setAttr ".houdiniAssetParm_scale" 1;
-	setAttr ".houdiniAssetParm_display" 1;
-	setAttr ".houdiniAssetParm_outputobj" 1;
-	setAttr ".houdiniAssetParm_visibleobjects" -type "string" "*";
-	setAttr ".houdiniAssetParm_picking" yes;
-	setAttr ".houdiniAssetParm_pickscript" -type "string" "";
-	setAttr ".houdiniAssetParm_caching" yes;
-createNode transform -n "line_object1" -p "Small_Bush14";
-	rename -uid "9666E64D-48C3-EB86-7572-D09424D7F5E4";
-createNode transform -n "color1_0" -p "|Small_Bush14|line_object1";
-	rename -uid "5CCA9A82-484F-F347-3F89-64AE98035D1C";
-	setAttr ".t" -type "double3" -6.934993946817464 0 83.63090063813253 ;
-	setAttr ".s" -type "double3" 0.71762023028460509 0.71762023028460509 0.71762023028460509 ;
-createNode mesh -n "color1_0Shape" -p "|Small_Bush14|line_object1|color1_0";
-	rename -uid "28BB7FD4-4BCC-71BC-ECD6-CA80FFC699FA";
+createNode transform -n "directionalLight1";
+	rename -uid "61ECD123-4447-2898-AF96-738D95FE1903";
+	setAttr ".t" -type "double3" 20.422284659409069 54.502518115265545 103.14782097252885 ;
+	setAttr ".r" -type "double3" -131.80058175127147 183.54347657016143 0 ;
+createNode directionalLight -n "directionalLightShape1" -p "directionalLight1";
+	rename -uid "D7232E49-4ABC-6249-E201-72AB763BBA48";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
+	setAttr -k off ".v" no;
+	setAttr ".in" 1.3772455453872681;
+	setAttr ".childIndex" 0;
+createNode transform -n "pointLight1";
+	rename -uid "3128318F-4F77-E35A-8CD1-A7BC38455C6C";
+	setAttr ".t" -type "double3" 55.064238881730745 2.0291612940708958 56.891199279887914 ;
+createNode pointLight -n "pointLightShape1" -p "pointLight1";
+	rename -uid "74213803-440C-1A01-295E-7AA757CC2875";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
 	setAttr -k off ".v";
-	setAttr ".vir" yes;
-	setAttr ".vif" yes;
-	setAttr -s 2 ".uvst";
-	setAttr ".uvst[0].uvsn" -type "string" "map1";
-	setAttr ".uvst[1].uvsn" -type "string" "uv";
-	setAttr ".cuvs" -type "string" "uv";
-	setAttr ".dcol" yes;
-	setAttr ".dcc" -type "string" "Ambient+Diffuse";
-	setAttr ".ccls" -type "string" "Cd";
-	setAttr ".clst[0].clsn" -type "string" "Cd";
-	setAttr ".covm[0]"  0 1 1;
-	setAttr ".cdvm[0]"  0 1 1;
-createNode transform -n "group1";
-	rename -uid "3B1F20A0-46DB-4D90-BC6B-60AE08D16146";
-	setAttr ".t" -type "double3" 5.7637895813917108 0 32.087363803417396 ;
-	setAttr ".r" -type "double3" 0 87.061086074424935 0 ;
+	setAttr ".in" 0.89820361137390137;
+	setAttr ".us" no;
+	setAttr ".childIndex" 1;
+createNode camera -n "cameraShape1" -p "pointLight1";
+	rename -uid "91B503B7-400E-DCB7-DF26-118F32D4E049";
+	setAttr -k off ".v" no;
+	setAttr ".rnd" no;
+	setAttr ".fl" 12.000000000000002;
+	setAttr ".ncp" 0.001;
+	setAttr ".fcp" 1000;
+createNode transform -n "pointLight2";
+	rename -uid "A2151E5D-40C7-6099-0EE8-17BE48C74A98";
+	setAttr ".t" -type "double3" -35.801065857215129 3.4123081744124724 68.323444146562522 ;
+	setAttr ".r" -type "double3" -18.600000000000776 8.3392844687989918 0 ;
+createNode pointLight -n "pointLightShape2" -p "pointLight2";
+	rename -uid "A1C127D7-4AF7-9B09-35DC-AC8836767E57";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
+	setAttr -k off ".v";
+	setAttr ".cl" -type "float3" 0.75 0.75 0.75 ;
+	setAttr ".in" 1.8562874794006348;
+	setAttr ".childIndex" 2;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "6FE7E9D7-462F-5D6B-D69E-FF97DC4B382B";
-	setAttr -s 559 ".lnk";
-	setAttr -s 559 ".slnk";
+	rename -uid "30B6B08A-4979-616E-2662-3E82BB8421EE";
+	setAttr -s 633 ".lnk";
+	setAttr -s 837 ".ign";
+	setAttr -s 633 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "0EAF2BD6-4ADC-3779-39B9-E183B0299ED6";
+	rename -uid "EBB7FDF6-4544-837D-4AAF-4C80EC980E76";
 	setAttr ".bsdt[0].bscd" -type "Int32Array" 0 ;
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "66C06145-4152-6A21-2150-D38FF78CD3D4";
+	rename -uid "20A65F9E-4D64-E80D-5501-308887DA8077";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "85BC21B1-4019-2218-BFE3-93B5EC378A92";
+	rename -uid "B4100EFF-4D58-9C33-ECC7-40B0EA84503E";
 	setAttr ".cdl" 5;
-	setAttr -s 8 ".dli[1:7]"  6 1 8 4 5 2 7;
-	setAttr -s 7 ".dli";
+	setAttr -s 10 ".dli[1:9]"  6 1 8 3 5 2 7 4 
+		9;
+	setAttr -s 10 ".dli";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "7EEFA473-4D48-8C73-89BC-47BEC5AA502D";
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "2385532D-4E0B-564A-BF4B-4BA5341C7199";
+	rename -uid "2A73CCD2-4E82-1969-318A-2BBE77A7DE0C";
+	setAttr -s 5 ".rlmi[1:5]"  1 2 3 4 5;
+	setAttr -s 6 ".rlmi";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "A049D010-441C-07BA-D3C9-199A61794303";
 	setAttr ".g" yes;
@@ -4162,23 +1780,23 @@ createNode script -n "uiConfigurationScriptNode";
 		"// Maya Mel UI Configuration File.\n//\n//  This script is machine generated.  Edit at your own risk.\n//\n//\n\nglobal string $gMainPane;\nif (`paneLayout -exists $gMainPane`) {\n\n\tglobal int $gUseScenePanelConfig;\n\tint    $useSceneConfig = $gUseScenePanelConfig;\n\tint    $menusOkayInPanels = `optionVar -q allowMenusInPanels`;\tint    $nVisPanes = `paneLayout -q -nvp $gMainPane`;\n\tint    $nPanes = 0;\n\tstring $editorName;\n\tstring $panelName;\n\tstring $itemFilterName;\n\tstring $panelConfig;\n\n\t//\n\t//  get current state of the UI\n\t//\n\tsceneUIReplacement -update $gMainPane;\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Top View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Top View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"top\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n"
 		+ "            -ignorePanZoom 0\n            -wireframeOnShaded 1\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n"
 		+ "            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n"
-		+ "            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n"
+		+ "            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 556\n            -height 333\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Side View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Side View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"side\" \n"
 		+ "            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 1\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n"
 		+ "            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n"
-		+ "            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n"
+		+ "            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 555\n            -height 333\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Front View\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Front View\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"front\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 1\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n"
 		+ "            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n"
-		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1\n            -height 1\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
-		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n"
+		+ "            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 556\n            -height 333\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"Persp View\")) `;\n\tif (\"\" != $panelName) {\n"
+		+ "\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"Persp View\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"persp\" \n            -useInteractiveMode 0\n            -displayLights \"all\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n            -twoSidedLighting 0\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 1\n            -activeComponentsXray 0\n            -displayTextures 1\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n"
 		+ "            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n"
-		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1280\n            -height 710\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
+		+ "            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 1014\n            -height 449\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
 		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"ToggledOutliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"ToggledOutliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n"
-		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 1\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n"
-		+ "            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n"
-		+ "            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n"
-		+ "            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"graphEditor\" (localizedPanelLabel(\"Graph Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Graph Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"OutlineEd\");\n            outlinerEditor -e \n                -showShapes 1\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n"
-		+ "                -showAttributes 1\n                -showConnected 1\n                -showAnimCurvesOnly 1\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 1\n                -showDagOnly 0\n                -showAssets 1\n                -showContainedOnly 0\n                -showPublishedAsConnected 0\n                -showContainerContents 0\n                -ignoreDagHierarchy 0\n                -expandConnections 1\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 0\n                -showLeafs 1\n                -showNumericAttrsOnly 1\n                -highlightActive 0\n                -autoSelectNewObjects 1\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 1\n                -setFilter \"0\" \n                -showSetMembers 0\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n"
-		+ "                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 1\n                -mapMotionTrails 1\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\n\t\t\t$editorName = ($panelName+\"GraphEd\");\n            animCurveEditor -e \n                -displayKeys 1\n                -displayTangents 0\n                -displayActiveKeys 0\n                -displayActiveKeyTangents 1\n                -displayInfinities 0\n"
+		+ "            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"0\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 0\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n"
+		+ "            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -docTag \"isolOutln_fromSeln\" \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 1\n            -showReferenceMembers 1\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n"
+		+ "            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"defaultSetFilter\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n"
+		+ "            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"graphEditor\" (localizedPanelLabel(\"Graph Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Graph Editor\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"OutlineEd\");\n            outlinerEditor -e \n                -showShapes 1\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 1\n"
+		+ "                -showConnected 1\n                -showAnimCurvesOnly 1\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 1\n                -showDagOnly 0\n                -showAssets 1\n                -showContainedOnly 0\n                -showPublishedAsConnected 0\n                -showContainerContents 0\n                -ignoreDagHierarchy 0\n                -expandConnections 1\n                -showUpstreamCurves 1\n                -showUnitlessCurves 1\n                -showCompounds 0\n                -showLeafs 1\n                -showNumericAttrsOnly 1\n                -highlightActive 0\n                -autoSelectNewObjects 1\n                -doNotSelectNewObjects 0\n                -dropIsParent 1\n                -transmitFilters 1\n                -setFilter \"0\" \n                -showSetMembers 0\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n"
+		+ "                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 1\n                -mapMotionTrails 1\n                -ignoreHiddenAttribute 0\n                -ignoreOutlinerColor 0\n                -renderFilterVisible 0\n                $editorName;\n\n\t\t\t$editorName = ($panelName+\"GraphEd\");\n            animCurveEditor -e \n                -displayKeys 1\n                -displayTangents 0\n                -displayActiveKeys 0\n                -displayActiveKeyTangents 1\n                -displayInfinities 0\n"
 		+ "                -displayValues 0\n                -autoFit 1\n                -snapTime \"integer\" \n                -snapValue \"none\" \n                -showResults \"off\" \n                -showBufferCurves \"off\" \n                -smoothness \"fine\" \n                -resultSamples 1\n                -resultScreenSamples 0\n                -resultUpdate \"delayed\" \n                -showUpstreamCurves 1\n                -showCurveNames 0\n                -showActiveCurveNames 0\n                -stackedCurves 0\n                -stackedCurvesMin -1\n                -stackedCurvesMax 1\n                -stackedCurvesSpace 0.2\n                -displayNormalized 0\n                -preSelectionHighlight 0\n                -constrainDrag 0\n                -classicMode 1\n                -valueLinesToggle 1\n                -outliner \"graphEditor1OutlineEd\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"dopeSheetPanel\" (localizedPanelLabel(\"Dope Sheet\")) `;\n"
 		+ "\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Dope Sheet\")) -mbv $menusOkayInPanels  $panelName;\n\n\t\t\t$editorName = ($panelName+\"OutlineEd\");\n            outlinerEditor -e \n                -showShapes 1\n                -showAssignedMaterials 0\n                -showTimeEditor 1\n                -showReferenceNodes 0\n                -showReferenceMembers 0\n                -showAttributes 1\n                -showConnected 1\n                -showAnimCurvesOnly 1\n                -showMuteInfo 0\n                -organizeByLayer 1\n                -showAnimLayerWeight 1\n                -autoExpandLayers 1\n                -autoExpand 0\n                -showDagOnly 0\n                -showAssets 1\n                -showContainedOnly 0\n                -showPublishedAsConnected 0\n                -showContainerContents 0\n                -ignoreDagHierarchy 0\n                -expandConnections 1\n                -showUpstreamCurves 1\n                -showUnitlessCurves 0\n"
 		+ "                -showCompounds 1\n                -showLeafs 1\n                -showNumericAttrsOnly 1\n                -highlightActive 0\n                -autoSelectNewObjects 0\n                -doNotSelectNewObjects 1\n                -dropIsParent 1\n                -transmitFilters 0\n                -setFilter \"0\" \n                -showSetMembers 0\n                -allowMultiSelection 1\n                -alwaysToggleSelect 0\n                -directSelect 0\n                -displayMode \"DAG\" \n                -expandObjects 0\n                -setsIgnoreFilters 1\n                -containersIgnoreFilters 0\n                -editAttrName 0\n                -showAttrValues 0\n                -highlightSecondary 0\n                -showUVAttrsOnly 0\n                -showTextureNodesOnly 0\n                -attrAlphaOrder \"default\" \n                -animLayerFilterOptions \"allAffecting\" \n                -sortOrder \"none\" \n                -longNames 0\n                -niceNames 1\n                -showNamespace 1\n                -showPinIcons 0\n"
@@ -4196,14 +1814,19 @@ createNode script -n "uiConfigurationScriptNode";
 		+ "                -interactiveBackFaceCull 0\n                -sortTransparent 1\n                -nurbsCurves 1\n                -nurbsSurfaces 1\n                -polymeshes 1\n                -subdivSurfaces 1\n                -planes 1\n                -lights 1\n                -cameras 1\n                -controlVertices 1\n                -hulls 1\n                -grid 1\n                -imagePlane 1\n                -joints 1\n                -ikHandles 1\n                -deformers 1\n                -dynamics 1\n                -particleInstancers 1\n                -fluids 1\n                -hairSystems 1\n                -follicles 1\n                -nCloths 1\n                -nParticles 1\n                -nRigids 1\n                -dynamicConstraints 1\n                -locators 1\n                -manipulators 1\n                -pluginShapes 1\n                -dimensions 1\n                -handles 1\n                -pivots 1\n                -textures 1\n                -strokes 1\n                -motionTrails 1\n                -clipGhosts 1\n"
 		+ "                -greasePencils 1\n                -shadows 0\n                -captureSequenceNumber -1\n                -width 0\n                -height 0\n                -sceneRenderFilter 0\n                -displayMode \"centerEye\" \n                -viewColor 0 0 0 1 \n                -useCustomBackground 1\n                $editorName;\n            stereoCameraView -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"hyperShadePanel\" (localizedPanelLabel(\"Hypershade\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Hypershade\")) -mbv $menusOkayInPanels  $panelName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextScriptedPanel \"nodeEditorPanel\" (localizedPanelLabel(\"Node Editor\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tscriptedPanel -edit -l (localizedPanelLabel(\"Node Editor\")) -mbv $menusOkayInPanels  $panelName;\n"
 		+ "\n\t\t\t$editorName = ($panelName+\"NodeEditorEd\");\n            nodeEditor -e \n                -allAttributes 0\n                -allNodes 0\n                -autoSizeNodes 1\n                -consistentNameSize 1\n                -createNodeCommand \"nodeEdCreateNodeCommand\" \n                -defaultPinnedState 0\n                -additiveGraphingMode 0\n                -settingsChangedCallback \"nodeEdSyncControls\" \n                -traversalDepthLimit -1\n                -keyPressCommand \"nodeEdKeyPressCommand\" \n                -nodeTitleMode \"name\" \n                -gridSnap 0\n                -gridVisibility 1\n                -popupMenuScript \"nodeEdBuildPanelMenus\" \n                -showNamespace 1\n                -showShapes 1\n                -showSGShapes 0\n                -showTransforms 1\n                -useAssets 1\n                -syncedSelection 1\n                -extendToShapes 1\n                -activeTab -1\n                -editorMode \"default\" \n                $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n"
-		+ "\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
-		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1280\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
-		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"default\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 0\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1280\\n    -height 710\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"outlinerPanel\" (localizedPanelLabel(\"Outliner\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\toutlinerPanel -edit -l (localizedPanelLabel(\"Outliner\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        outlinerEditor -e \n            -showShapes 0\n            -showAssignedMaterials 0\n            -showTimeEditor 1\n            -showReferenceNodes 0\n            -showReferenceMembers 0\n            -showAttributes 0\n            -showConnected 0\n            -showAnimCurvesOnly 0\n            -showMuteInfo 0\n            -organizeByLayer 1\n            -showAnimLayerWeight 1\n            -autoExpandLayers 1\n            -autoExpand 0\n            -showDagOnly 1\n            -showAssets 1\n            -showContainedOnly 1\n            -showPublishedAsConnected 0\n            -showContainerContents 1\n            -ignoreDagHierarchy 0\n            -expandConnections 0\n            -showUpstreamCurves 1\n            -showUnitlessCurves 1\n"
+		+ "            -showCompounds 1\n            -showLeafs 1\n            -showNumericAttrsOnly 0\n            -highlightActive 1\n            -autoSelectNewObjects 0\n            -doNotSelectNewObjects 0\n            -dropIsParent 1\n            -transmitFilters 0\n            -setFilter \"0\" \n            -showSetMembers 1\n            -allowMultiSelection 1\n            -alwaysToggleSelect 0\n            -directSelect 0\n            -isSet 1\n            -isSetMember 0\n            -displayMode \"DAG\" \n            -expandObjects 0\n            -setsIgnoreFilters 1\n            -containersIgnoreFilters 0\n            -editAttrName 0\n            -showAttrValues 0\n            -highlightSecondary 0\n            -showUVAttrsOnly 0\n            -showTextureNodesOnly 0\n            -attrAlphaOrder \"default\" \n            -animLayerFilterOptions \"allAffecting\" \n            -sortOrder \"none\" \n            -longNames 0\n            -niceNames 1\n            -showNamespace 1\n            -showPinIcons 0\n            -mapMotionTrails 0\n            -ignoreHiddenAttribute 0\n"
+		+ "            -ignoreOutlinerColor 0\n            -renderFilterVisible 0\n            -renderFilterIndex 0\n            -selectionOrder \"chronological\" \n            -expandAttribute 0\n            $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\t$panelName = `sceneUIReplacement -getNextPanel \"modelPanel\" (localizedPanelLabel(\"lightEditorLookThroughModelPanelLabel\")) `;\n\tif (\"\" != $panelName) {\n\t\t$label = `panel -q -label $panelName`;\n\t\tmodelPanel -edit -l (localizedPanelLabel(\"lightEditorLookThroughModelPanelLabel\")) -mbv $menusOkayInPanels  $panelName;\n\t\t$editorName = $panelName;\n        modelEditor -e \n            -camera \"cameraShape1\" \n            -useInteractiveMode 0\n            -displayLights \"default\" \n            -displayAppearance \"smoothShaded\" \n            -activeOnly 0\n            -ignorePanZoom 0\n            -wireframeOnShaded 0\n            -headsUpDisplay 1\n            -holdOuts 1\n            -selectionHiliteDisplay 1\n            -useDefaultMaterial 0\n            -bufferMode \"double\" \n"
+		+ "            -twoSidedLighting 1\n            -backfaceCulling 0\n            -xray 0\n            -jointXray 0\n            -activeComponentsXray 0\n            -displayTextures 0\n            -smoothWireframe 0\n            -lineWidth 1\n            -textureAnisotropic 0\n            -textureHilight 1\n            -textureSampling 2\n            -textureDisplay \"modulate\" \n            -textureMaxSize 16384\n            -fogging 0\n            -fogSource \"fragment\" \n            -fogMode \"linear\" \n            -fogStart 0\n            -fogEnd 100\n            -fogDensity 0.1\n            -fogColor 0.5 0.5 0.5 1 \n            -depthOfFieldPreview 1\n            -maxConstantTransparency 1\n            -rendererName \"vp2Renderer\" \n            -objectFilterShowInHUD 1\n            -isFiltered 0\n            -colorResolution 256 256 \n            -bumpResolution 512 512 \n            -textureCompression 0\n            -transparencyAlgorithm \"frontAndBackCull\" \n            -transpInShadows 0\n            -cullingOverride \"none\" \n            -lowQualityLighting 0\n"
+		+ "            -maximumNumHardwareLights 1\n            -occlusionCulling 0\n            -shadingModel 0\n            -useBaseRenderer 0\n            -useReducedRenderer 0\n            -smallObjectCulling 0\n            -smallObjectThreshold -1 \n            -interactiveDisableShadows 0\n            -interactiveBackFaceCull 0\n            -sortTransparent 1\n            -nurbsCurves 1\n            -nurbsSurfaces 1\n            -polymeshes 1\n            -subdivSurfaces 1\n            -planes 1\n            -lights 1\n            -cameras 1\n            -controlVertices 1\n            -hulls 1\n            -grid 1\n            -imagePlane 1\n            -joints 1\n            -ikHandles 1\n            -deformers 1\n            -dynamics 1\n            -particleInstancers 1\n            -fluids 1\n            -hairSystems 1\n            -follicles 1\n            -nCloths 1\n            -nParticles 1\n            -nRigids 1\n            -dynamicConstraints 1\n            -locators 1\n            -manipulators 1\n            -pluginShapes 1\n            -dimensions 1\n"
+		+ "            -handles 1\n            -pivots 1\n            -textures 1\n            -strokes 1\n            -motionTrails 1\n            -clipGhosts 1\n            -greasePencils 1\n            -shadows 0\n            -captureSequenceNumber -1\n            -width 268\n            -height 179\n            -sceneRenderFilter 0\n            $editorName;\n        modelEditor -e -viewSelected 0 $editorName;\n\t\tif (!$useSceneConfig) {\n\t\t\tpanel -e -l $label $panelName;\n\t\t}\n\t}\n\n\n\tif ($useSceneConfig) {\n        string $configName = `getPanel -cwl (localizedPanelLabel(\"Current Layout\"))`;\n        if (\"\" != $configName) {\n\t\t\tpanelConfiguration -edit -label (localizedPanelLabel(\"Current Layout\")) \n\t\t\t\t-userCreated false\n\t\t\t\t-defaultImage \"vacantCell.xP:/\"\n\t\t\t\t-image \"\"\n\t\t\t\t-sc false\n\t\t\t\t-configString \"global string $gMainPane; paneLayout -e -cn \\\"single\\\" -ps 1 100 100 $gMainPane;\"\n\t\t\t\t-removeAllPanels\n\t\t\t\t-ap false\n\t\t\t\t\t(localizedPanelLabel(\"Persp View\")) \n\t\t\t\t\t\"modelPanel\"\n"
+		+ "\t\t\t\t\t\"$panelName = `modelPanel -unParent -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels `;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"all\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1014\\n    -height 449\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
+		+ "\t\t\t\t\t\"modelPanel -edit -l (localizedPanelLabel(\\\"Persp View\\\")) -mbv $menusOkayInPanels  $panelName;\\n$editorName = $panelName;\\nmodelEditor -e \\n    -cam `findStartUpCamera persp` \\n    -useInteractiveMode 0\\n    -displayLights \\\"all\\\" \\n    -displayAppearance \\\"smoothShaded\\\" \\n    -activeOnly 0\\n    -ignorePanZoom 0\\n    -wireframeOnShaded 0\\n    -headsUpDisplay 1\\n    -holdOuts 1\\n    -selectionHiliteDisplay 1\\n    -useDefaultMaterial 0\\n    -bufferMode \\\"double\\\" \\n    -twoSidedLighting 0\\n    -backfaceCulling 0\\n    -xray 0\\n    -jointXray 1\\n    -activeComponentsXray 0\\n    -displayTextures 1\\n    -smoothWireframe 0\\n    -lineWidth 1\\n    -textureAnisotropic 0\\n    -textureHilight 1\\n    -textureSampling 2\\n    -textureDisplay \\\"modulate\\\" \\n    -textureMaxSize 16384\\n    -fogging 0\\n    -fogSource \\\"fragment\\\" \\n    -fogMode \\\"linear\\\" \\n    -fogStart 0\\n    -fogEnd 100\\n    -fogDensity 0.1\\n    -fogColor 0.5 0.5 0.5 1 \\n    -depthOfFieldPreview 1\\n    -maxConstantTransparency 1\\n    -rendererName \\\"vp2Renderer\\\" \\n    -objectFilterShowInHUD 1\\n    -isFiltered 0\\n    -colorResolution 256 256 \\n    -bumpResolution 512 512 \\n    -textureCompression 0\\n    -transparencyAlgorithm \\\"frontAndBackCull\\\" \\n    -transpInShadows 0\\n    -cullingOverride \\\"none\\\" \\n    -lowQualityLighting 0\\n    -maximumNumHardwareLights 1\\n    -occlusionCulling 0\\n    -shadingModel 0\\n    -useBaseRenderer 0\\n    -useReducedRenderer 0\\n    -smallObjectCulling 0\\n    -smallObjectThreshold -1 \\n    -interactiveDisableShadows 0\\n    -interactiveBackFaceCull 0\\n    -sortTransparent 1\\n    -nurbsCurves 1\\n    -nurbsSurfaces 1\\n    -polymeshes 1\\n    -subdivSurfaces 1\\n    -planes 1\\n    -lights 1\\n    -cameras 1\\n    -controlVertices 1\\n    -hulls 1\\n    -grid 1\\n    -imagePlane 1\\n    -joints 1\\n    -ikHandles 1\\n    -deformers 1\\n    -dynamics 1\\n    -particleInstancers 1\\n    -fluids 1\\n    -hairSystems 1\\n    -follicles 1\\n    -nCloths 1\\n    -nParticles 1\\n    -nRigids 1\\n    -dynamicConstraints 1\\n    -locators 1\\n    -manipulators 1\\n    -pluginShapes 1\\n    -dimensions 1\\n    -handles 1\\n    -pivots 1\\n    -textures 1\\n    -strokes 1\\n    -motionTrails 1\\n    -clipGhosts 1\\n    -greasePencils 1\\n    -shadows 0\\n    -captureSequenceNumber -1\\n    -width 1014\\n    -height 449\\n    -sceneRenderFilter 0\\n    $editorName;\\nmodelEditor -e -viewSelected 0 $editorName\"\n"
 		+ "\t\t\t\t$configName;\n\n            setNamedPanelLayout (localizedPanelLabel(\"Current Layout\"));\n        }\n\n        panelHistory -e -clear mainPanelHistory;\n        sceneUIReplacement -clear;\n\t}\n\n\ngrid -spacing 5 -size 200 -divisions 5 -displayAxes yes -displayGridLines yes -displayDivisionLines yes -displayPerspectiveLabels no -displayOrthographicLabels no -displayAxesBold yes -perspectiveLabelPosition axis -orthographicLabelPosition edge;\nviewManip -drawCompass 0 -compassAngle 0 -frontParameters \"\" -homeParameters \"\" -selectionLockParameters \"\";\n}\n");
 	setAttr ".st" 3;
 createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "62783F05-423E-435E-7BDC-2D8B3818EA7F";
-	setAttr ".b" -type "string" "playbackOptions -min 1 -max 72 -ast 0 -aet 200 ";
+	setAttr ".b" -type "string" "playbackOptions -min 1 -max 72 -ast 0 -aet 72 ";
 	setAttr ".st" 6;
 createNode lambert -n "Bule";
 	rename -uid "E79F5886-4960-237E-72B0-78BF17C37942";
@@ -5960,121 +3583,333 @@ createNode polyCube -n "polyCube3";
 	setAttr ".cuv" 4;
 createNode reference -n "Bamboo_DERN";
 	rename -uid "1BF14ACA-4307-5644-C54B-A49CB1267F68";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN"
 		"Bamboo_DERN" 0
-		"Bamboo_DERN" 4
+		"Bamboo_DERN" 16
 		0 "|Bamboo_DE:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE:Bamboo" "translate" " -type \"double3\" -15.933368718556899 3.4114862990668966 44.662252240958516"
 		
 		2 "|Bamboo|Bamboo_DE:Bamboo" "rotate" " -type \"double3\" 0 65.072579363345326 0"
 		
-		2 "|Bamboo|Bamboo_DE:Bamboo" "scale" " -type \"double3\" 1.5642496547548981 1.5642496547548981 1.5642496547548981";
+		2 "|Bamboo|Bamboo_DE:Bamboo" "scale" " -type \"double3\" 1.5642496547548981 1.5642496547548981 1.5642496547548981"
+		
+		3 "Bamboo_DE:groupId1.groupId" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DERN" "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.instObjGroups" 
+		"Bamboo_DERN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE:Bamboo|Bamboo_DE:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN1";
 	rename -uid "C3B93432-49A2-B9C0-601F-CEB82B5574D9";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN1"
 		"Bamboo_DERN1" 0
-		"Bamboo_DERN1" 3
+		"Bamboo_DERN1" 15
 		0 "|Bamboo_DE1:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE1:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE1:Bamboo" "translate" " -type \"double3\" -13.648071458345079 5.9350770861963991 42.969471527869096"
 		
-		2 "|Bamboo|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 1.9215495562790614 1.9215495562790614 1.9215495562790614";
+		2 "|Bamboo|Bamboo_DE1:Bamboo" "scale" " -type \"double3\" 1.9215495562790614 1.9215495562790614 1.9215495562790614"
+		
+		3 "Bamboo_DE1:groupId1.groupId" "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE1:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DERN1" "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.instObjGroups" 
+		"Bamboo_DERN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE1:Bamboo|Bamboo_DE1:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE1:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE1:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE1:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE1:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE1:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN2";
 	rename -uid "7EFD7C5B-45DC-24D1-9BE1-9AB80E1C5374";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN2"
 		"Bamboo_DERN2" 0
-		"Bamboo_DERN2" 3
+		"Bamboo_DERN2" 15
 		0 "|Bamboo_DE2:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE2:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE2:Bamboo" "translate" " -type \"double3\" -17.081759647622604 2.9509287939256108 39.21794333106628"
 		
-		2 "|Bamboo|Bamboo_DE2:Bamboo" "scale" " -type \"double3\" 1.5744000037348016 1.5744000037348016 1.5744000037348016";
+		2 "|Bamboo|Bamboo_DE2:Bamboo" "scale" " -type \"double3\" 1.5744000037348016 1.5744000037348016 1.5744000037348016"
+		
+		3 "Bamboo_DE2:groupId1.groupId" "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE2:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DERN2" "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.instObjGroups" 
+		"Bamboo_DERN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE2:Bamboo|Bamboo_DE2:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE2:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE2:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE2:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE2:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE2:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN";
 	rename -uid "E34DED77-442C-856F-5E87-0DBC59243F26";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN"
 		"Bamboo_DE2RN" 0
-		"Bamboo_DE2RN" 4
+		"Bamboo_DE2RN" 15
 		0 "|Bamboo_DE3:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE3:Bamboo" "translate" " -type \"double3\" -27.757295419992502 8.6674686817066657 37.465596768388103"
 		
 		2 "|Bamboo|Bamboo_DE3:Bamboo" "rotate" " -type \"double3\" 0 -44.516240935929822 0"
 		
-		2 "|Bamboo|Bamboo_DE3:Bamboo" "scale" " -type \"double3\" 2.56735085359256 2.56735085359256 2.56735085359256";
+		2 "|Bamboo|Bamboo_DE3:Bamboo" "scale" " -type \"double3\" 2.56735085359256 2.56735085359256 2.56735085359256"
+		
+		3 "Bamboo_DE3:groupId1.groupId" "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE3:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE2RN" "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE3:Bamboo|Bamboo_DE3:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE3:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE3:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE3:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE3:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE3:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN";
 	rename -uid "79EF3477-4A53-A803-3506-EA97F97D5187";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN"
 		"Bamboo_DE3RN" 0
-		"Bamboo_DE3RN" 4
+		"Bamboo_DE3RN" 16
 		0 "|Bamboo_DE4:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE4:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE4:Bamboo" "translate" " -type \"double3\" -15.423966988559616 3.7944327618671547 36.05667473848311"
 		
 		2 "|Bamboo|Bamboo_DE4:Bamboo" "rotate" " -type \"double3\" 0 141.10191052326576 0"
 		
-		2 "|Bamboo|Bamboo_DE4:Bamboo" "scale" " -type \"double3\" 1.6640402872179401 1.6640402872179401 1.6640402872179401";
+		2 "|Bamboo|Bamboo_DE4:Bamboo" "scale" " -type \"double3\" 1.6640402872179401 1.6640402872179401 1.6640402872179401"
+		
+		3 "Bamboo_DE4:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE4:groupId1.groupId" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE3RN" "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.instObjGroups" 
+		"Bamboo_DE3RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE4:Bamboo|Bamboo_DE4:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE4:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE4:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE4:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE4:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE4:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN3";
 	rename -uid "956610F7-416D-C306-0B82-CC94D3A3F49B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN3"
 		"Bamboo_DERN3" 0
-		"Bamboo_DERN3" 4
+		"Bamboo_DERN3" 15
 		0 "|Bamboo_DE5:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE5:Bamboo" "translate" " -type \"double3\" -25.379423255599811 6.7849612377280186 41.012410864227945"
 		
 		2 "|Bamboo|Bamboo_DE5:Bamboo" "rotate" " -type \"double3\" 0 54.367459057697467 0"
 		
-		2 "|Bamboo|Bamboo_DE5:Bamboo" "scale" " -type \"double3\" 2.0418969278441454 2.0418969278441454 2.0418969278441454";
+		2 "|Bamboo|Bamboo_DE5:Bamboo" "scale" " -type \"double3\" 2.0418969278441454 2.0418969278441454 2.0418969278441454"
+		
+		3 "Bamboo_DE5:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE5:groupId1.groupId" "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DERN3" "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.instObjGroups" 
+		"Bamboo_DERN3.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE5:Bamboo|Bamboo_DE5:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE5:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE5:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE5:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE5:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE5:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN";
 	rename -uid "50A8DDB7-47D1-7D80-3BB1-729DC0959F6A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN"
 		"Bamboo_DE1RN" 0
-		"Bamboo_DE1RN" 4
+		"Bamboo_DE1RN" 15
 		0 "|Bamboo_DE6:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE6:Bamboo" "translate" " -type \"double3\" -20.008588233299239 2.7753875082215371 47.262421318874786"
 		
 		2 "|Bamboo|Bamboo_DE6:Bamboo" "rotate" " -type \"double3\" 0 -39.205040588945096 0"
 		
-		2 "|Bamboo|Bamboo_DE6:Bamboo" "scale" " -type \"double3\" 1.4903339759747249 1.4903339759747249 1.4903339759747249";
+		2 "|Bamboo|Bamboo_DE6:Bamboo" "scale" " -type \"double3\" 1.4903339759747249 1.4903339759747249 1.4903339759747249"
+		
+		3 "Bamboo_DE6:groupId1.groupId" "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE6:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE1RN" "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.instObjGroups" 
+		"Bamboo_DE1RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE6:Bamboo|Bamboo_DE6:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE6:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE6:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE6:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE6:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE6:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN1";
 	rename -uid "08680CA3-449A-52CE-DDBF-CBA4600A4609";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN1"
 		"Bamboo_DE2RN1" 0
-		"Bamboo_DE2RN1" 4
+		"Bamboo_DE2RN1" 16
 		0 "|Bamboo_DE7:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE7:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE7:Bamboo" "translate" " -type \"double3\" -13.481889680801769 2.4426708418407044 32.009042896454162"
 		
 		2 "|Bamboo|Bamboo_DE7:Bamboo" "rotate" " -type \"double3\" 0 -33.261234992944416 0"
 		
-		2 "|Bamboo|Bamboo_DE7:Bamboo" "scale" " -type \"double3\" 1.422925772231393 1.422925772231393 1.422925772231393";
+		2 "|Bamboo|Bamboo_DE7:Bamboo" "scale" " -type \"double3\" 1.422925772231393 1.422925772231393 1.422925772231393"
+		
+		3 "Bamboo_DE7:groupId1.groupId" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE7:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE2RN1" "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE7:Bamboo|Bamboo_DE7:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE7:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE7:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE7:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE7:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE7:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN";
 	rename -uid "0D3E7484-4320-D5D8-A9BC-B6B766519E70";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN"
 		"Bamboo_DE4RN" 0
-		"Bamboo_DE4RN" 3
+		"Bamboo_DE4RN" 14
 		0 "|Bamboo_DE8:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE8:Bamboo" "translate" " -type \"double3\" -21.969709353873242 1.4107477690125734 33.496172642977413"
 		
-		2 "|Bamboo|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.4446392039734799 1.4446392039734799 1.4446392039734799";
+		2 "|Bamboo|Bamboo_DE8:Bamboo" "scale" " -type \"double3\" 1.4446392039734799 1.4446392039734799 1.4446392039734799"
+		
+		3 "Bamboo_DE8:groupId1.groupId" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE8:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE4RN" "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.instObjGroups" 
+		"Bamboo_DE4RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE8:Bamboo|Bamboo_DE8:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE8:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE8:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE8:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE8:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE8:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode objectSet -n "leaf";
 	rename -uid "BB4E174A-48D9-18B8-5E1F-10AF16A7F8C2";
 	setAttr ".ihi" 0;
-	setAttr -s 2 ".dsm";
-	setAttr -s 2 ".gn";
+	setAttr -s 3 ".dsm";
+	setAttr -s 3 ".gn";
 createNode groupId -n "groupId1";
 	rename -uid "D0495E31-4742-4D13-D3FC-669825A578D2";
 	setAttr ".ihi" 0;
@@ -6084,1203 +3919,3497 @@ createNode groupParts -n "groupParts1";
 	setAttr ".ic" -type "componentList" 32 "vtx[648:707]" "vtx[1248:1307]" "vtx[1848:1907]" "vtx[2448:2507]" "vtx[3078:3137]" "vtx[3678:3737]" "vtx[4278:4337]" "vtx[4878:4937]" "vtx[5508:5567]" "vtx[6108:6167]" "vtx[6708:6767]" "vtx[7308:7367]" "vtx[7938:7997]" "vtx[8538:8597]" "vtx[9138:9197]" "vtx[9738:9797]" "vtx[10368:10427]" "vtx[10968:11027]" "vtx[11568:11627]" "vtx[12168:12227]" "vtx[12798:12857]" "vtx[13398:13457]" "vtx[13998:14057]" "vtx[14598:14657]" "vtx[15228:15287]" "vtx[15828:15887]" "vtx[16428:16487]" "vtx[17028:17087]" "vtx[17658:17717]" "vtx[18258:18317]" "vtx[18858:18917]" "vtx[19458:19517]";
 createNode reference -n "Bamboo_DE8RN";
 	rename -uid "574FEA2F-4EAD-1006-0A2C-279C99240F52";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN"
 		"Bamboo_DE8RN" 0
-		"Bamboo_DE8RN" 4
+		"Bamboo_DE8RN" 16
 		0 "|Bamboo_DE9:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE9:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE9:Bamboo" "translate" " -type \"double3\" -14.739511946902518 3.7213903383031299 20.519509495284652"
 		
 		2 "|Bamboo|Bamboo_DE9:Bamboo" "rotate" " -type \"double3\" 0 -106.8765379821419 0"
 		
-		2 "|Bamboo|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 1.6640307929896136 1.6640307929896136 1.6640307929896136";
+		2 "|Bamboo|Bamboo_DE9:Bamboo" "scale" " -type \"double3\" 1.6640307929896136 1.6640307929896136 1.6640307929896136"
+		
+		3 "Bamboo_DE9:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE9:groupId1.groupId" "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE8RN" "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.instObjGroups" 
+		"Bamboo_DE8RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE9:Bamboo|Bamboo_DE9:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE9:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE9:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE9:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE9:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE9:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN";
 	rename -uid "B04CDB65-4C4B-51A1-63AA-F5BD3E461EE7";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN"
 		"Bamboo_DE7RN" 0
-		"Bamboo_DE7RN" 3
+		"Bamboo_DE7RN" 14
 		0 "|Bamboo_DE10:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE10:Bamboo" "translate" " -type \"double3\" -32.657494878774962 5.6312459524737282 24.352692511873531"
 		
-		2 "|Bamboo|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 2.4526006665181801 2.4526006665181801 2.4526006665181801";
+		2 "|Bamboo|Bamboo_DE10:Bamboo" "scale" " -type \"double3\" 2.4526006665181801 2.4526006665181801 2.4526006665181801"
+		
+		3 "Bamboo_DE10:groupId1.groupId" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE10:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE7RN" "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.instObjGroups" 
+		"Bamboo_DE7RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE10:Bamboo|Bamboo_DE10:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE10:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE10:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE10:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE10:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE10:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN";
 	rename -uid "4B6FB194-4660-497E-B365-42B80FD00047";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN"
 		"Bamboo_DE6RN" 0
-		"Bamboo_DE6RN" 4
+		"Bamboo_DE6RN" 15
 		0 "|Bamboo_DE11:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE11:Bamboo" "translate" " -type \"double3\" -23.99562874577445 8.6930658740897577 35.699503626778473"
 		
 		2 "|Bamboo|Bamboo_DE11:Bamboo" "rotate" " -type \"double3\" 0 164.83108100556439 0"
 		
-		2 "|Bamboo|Bamboo_DE11:Bamboo" "scale" " -type \"double3\" 2.3591667985050115 2.3591667985050115 2.3591667985050115";
+		2 "|Bamboo|Bamboo_DE11:Bamboo" "scale" " -type \"double3\" 2.3591667985050115 2.3591667985050115 2.3591667985050115"
+		
+		3 "Bamboo_DE11:groupId1.groupId" "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE11:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE6RN" "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.instObjGroups" 
+		"Bamboo_DE6RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE11:Bamboo|Bamboo_DE11:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE11:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE11:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE11:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE11:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE11:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN";
 	rename -uid "567FEFB3-4D95-FEDD-F579-23906DBFCE02";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN"
 		"Bamboo_DE5RN" 0
-		"Bamboo_DE5RN" 3
+		"Bamboo_DE5RN" 14
 		0 "|Bamboo_DE12:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE12:Bamboo" "translate" " -type \"double3\" -23.513505716057182 9.2687126389738346 47.010958288039028"
 		
-		2 "|Bamboo|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 2.4350391953486716 2.4350391953486716 2.4350391953486716";
+		2 "|Bamboo|Bamboo_DE12:Bamboo" "scale" " -type \"double3\" 2.4350391953486716 2.4350391953486716 2.4350391953486716"
+		
+		3 "Bamboo_DE12:groupId1.groupId" "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE12:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE5RN" "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.instObjGroups" 
+		"Bamboo_DE5RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE12:Bamboo|Bamboo_DE12:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE12:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE12:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE12:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE12:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE12:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN1";
 	rename -uid "A30B4FAE-4645-EDF1-ED62-7CA1CCDBE910";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN1"
 		"Bamboo_DE4RN1" 0
-		"Bamboo_DE4RN1" 4
+		"Bamboo_DE4RN1" 16
 		0 "|Bamboo_DE13:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE13:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE13:Bamboo" "translate" " -type \"double3\" -15.509469408378859 7.2726481806632659 49.411013825082058"
 		
 		2 "|Bamboo|Bamboo_DE13:Bamboo" "rotate" " -type \"double3\" 0 -33.413848253967039 0"
 		
-		2 "|Bamboo|Bamboo_DE13:Bamboo" "scale" " -type \"double3\" 2.2729156069898839 2.2729156069898839 2.2729156069898839";
+		2 "|Bamboo|Bamboo_DE13:Bamboo" "scale" " -type \"double3\" 2.2729156069898839 2.2729156069898839 2.2729156069898839"
+		
+		3 "Bamboo_DE13:groupId1.groupId" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE13:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE4RN1" "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.instObjGroups" 
+		"Bamboo_DE4RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE13:Bamboo|Bamboo_DE13:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE13:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE13:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE13:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE13:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE13:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN1";
 	rename -uid "4057DB31-4B37-E661-F4FC-26BB7C8DF468";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN1"
 		"Bamboo_DE3RN1" 0
-		"Bamboo_DE3RN1" 3
+		"Bamboo_DE3RN1" 15
 		0 "|Bamboo_DE14:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE14:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE14:Bamboo" "translate" " -type \"double3\" -12.069747405367528 5.818232883487684 27.19447806962274"
 		
-		2 "|Bamboo|Bamboo_DE14:Bamboo" "scale" " -type \"double3\" 1.921550392625154 1.921550392625154 1.921550392625154";
+		2 "|Bamboo|Bamboo_DE14:Bamboo" "scale" " -type \"double3\" 1.921550392625154 1.921550392625154 1.921550392625154"
+		
+		3 "Bamboo_DE14:groupId1.groupId" "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE14:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE3RN1" "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.instObjGroups" 
+		"Bamboo_DE3RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE14:Bamboo|Bamboo_DE14:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE14:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE14:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE14:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE14:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE14:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN2";
 	rename -uid "45C1D42C-4976-76BA-03F7-18B431FB1107";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN2"
 		"Bamboo_DE2RN2" 0
-		"Bamboo_DE2RN2" 4
+		"Bamboo_DE2RN2" 16
 		0 "|Bamboo_DE15:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE15:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE15:Bamboo" "translate" " -type \"double3\" -18.876374338188342 8.4938821657540444 18.74680709630551"
 		
 		2 "|Bamboo|Bamboo_DE15:Bamboo" "rotate" " -type \"double3\" 0 52.658387336419324 0"
 		
-		2 "|Bamboo|Bamboo_DE15:Bamboo" "scale" " -type \"double3\" 2.4833534504570447 2.4833534504570447 2.4833534504570447";
+		2 "|Bamboo|Bamboo_DE15:Bamboo" "scale" " -type \"double3\" 2.4833534504570447 2.4833534504570447 2.4833534504570447"
+		
+		3 "Bamboo_DE15:groupId1.groupId" "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE15:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE2RN2" "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE15:Bamboo|Bamboo_DE15:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE15:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE15:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE15:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE15:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE15:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN4";
 	rename -uid "84AE1592-484B-C903-FA57-AA8A4116AF03";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN4"
 		"Bamboo_DERN4" 0
-		"Bamboo_DERN4" 3
+		"Bamboo_DERN4" 15
 		0 "|Bamboo_DE16:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE16:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE16:Bamboo" "translate" " -type \"double3\" -12.814294727723681 4.8783367452575446 40.466951796848981"
 		
-		2 "|Bamboo|Bamboo_DE16:Bamboo" "scale" " -type \"double3\" 1.8426172591524983 1.8426172591524983 1.8426172591524983";
+		2 "|Bamboo|Bamboo_DE16:Bamboo" "scale" " -type \"double3\" 1.8426172591524983 1.8426172591524983 1.8426172591524983"
+		
+		3 "Bamboo_DE16:groupId1.groupId" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE16:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DERN4" "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.instObjGroups" 
+		"Bamboo_DERN4.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE16:Bamboo|Bamboo_DE16:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE16:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE16:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE16:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE16:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE16:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN1";
 	rename -uid "5AC08FFC-4BC6-C825-01CF-13967440E474";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN1"
 		"Bamboo_DE1RN1" 0
-		"Bamboo_DE1RN1" 4
+		"Bamboo_DE1RN1" 15
 		0 "|Bamboo_DE17:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE17:Bamboo" "translate" " -type \"double3\" -21.795156702860616 8.2568938735343167 28.505245141530093"
 		
 		2 "|Bamboo|Bamboo_DE17:Bamboo" "rotate" " -type \"double3\" 0 -64.293186429056462 0"
 		
-		2 "|Bamboo|Bamboo_DE17:Bamboo" "scale" " -type \"double3\" 2.3610121993638842 2.3610121993638842 2.3610121993638842";
+		2 "|Bamboo|Bamboo_DE17:Bamboo" "scale" " -type \"double3\" 2.3610121993638842 2.3610121993638842 2.3610121993638842"
+		
+		3 "Bamboo_DE17:groupId1.groupId" "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE17:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE1RN1" "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.instObjGroups" 
+		"Bamboo_DE1RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE17:Bamboo|Bamboo_DE17:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE17:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE17:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE17:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE17:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE17:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN";
 	rename -uid "EED2DEF5-4390-AE88-12C1-40BD9806ABA6";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DERN"
 		"Fern_DERN" 0
-		"Fern_DERN" 1
-		2 "|Fern_DE:Bush" "translate" " -type \"double3\" -10.641192479952176 0 41.513734228333277";
+		"Fern_DERN" 13
+		2 "|Fern_DE:Bush" "visibility" " 1"
+		2 "|Fern_DE:Bush" "translate" " -type \"double3\" -10.641192479952176 0 41.513734228333277"
+		
+		3 "Fern_DE:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Fern_DE:groupId2.groupId" "|Fern_DE:Bush|Fern_DE:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE:Bush|Fern_DE:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE:Bush|Fern_DE:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		5 3 "Fern_DERN" "|Fern_DE:Bush|Fern_DE:BushShape.instObjGroups" "Fern_DERN.placeHolderList[1]" 
+		""
+		7 "ignore" ":lightLinker1" 2 "|Fern_DE:Bush|Fern_DE:BushShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN1";
 	rename -uid "74E14991-4021-8A75-055F-C494BEA7CA0F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DERN1"
 		"Fern_DERN1" 0
-		"Fern_DERN1" 2
+		"Fern_DERN1" 13
 		2 "|Fern_DE1:Bush" "translate" " -type \"double3\" 52.018364210784327 0 34.810098313288229"
 		
-		2 "|Fern_DE1:Bush" "scale" " -type \"double3\" 2.3865179098697182 2.3865179098697182 2.3865179098697182";
+		2 "|Fern_DE1:Bush" "scale" " -type \"double3\" 2.3865179098697182 2.3865179098697182 2.3865179098697182"
+		
+		3 "Fern_DE1:groupId2.groupId" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		3 "Fern_DE1:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Fern_DERN1" "|Fern_DE1:Bush|Fern_DE1:BushShape.instObjGroups" "Fern_DERN1.placeHolderList[1]" 
+		""
+		7 "ignore" ":lightLinker1" 2 "|Fern_DE1:Bush|Fern_DE1:BushShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE1:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE1:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE1:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE1:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE1:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE16RN";
 	rename -uid "2E1CF8EA-45C8-4BA1-7660-19BF9F7AB6B9";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE16RN"
 		"Bamboo_DE16RN" 0
-		"Bamboo_DE16RN" 4
+		"Bamboo_DE16RN" 16
 		0 "|Bamboo_DE18:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE18:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE18:Bamboo" "translate" " -type \"double3\" -15.186481519495544 6.7646684660005967 61.233300209843051"
 		
 		2 "|Bamboo|Bamboo_DE18:Bamboo" "rotate" " -type \"double3\" 0 -119.28184722390597 0"
 		
-		2 "|Bamboo|Bamboo_DE18:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE18:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE18:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE18:groupId1.groupId" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE16RN" "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.instObjGroups" 
+		"Bamboo_DE16RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE18:Bamboo|Bamboo_DE18:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE18:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE18:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE18:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE18:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE18:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE11RN";
 	rename -uid "7FD03B65-49AF-ED89-C21D-34A8802047C3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE11RN"
 		"Bamboo_DE11RN" 0
-		"Bamboo_DE11RN" 3
+		"Bamboo_DE11RN" 14
 		0 "|Bamboo_DE19:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE19:Bamboo" "translate" " -type \"double3\" -24.884559613664308 6.7646684660005967 77.70911598173447"
 		
-		2 "|Bamboo|Bamboo_DE19:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE19:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE19:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE19:groupId1.groupId" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE11RN" "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.instObjGroups" 
+		"Bamboo_DE11RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE19:Bamboo|Bamboo_DE19:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE19:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE19:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE19:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE19:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE19:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE13RN";
 	rename -uid "156CDC9F-4985-2191-111F-83AD5A72693C";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE13RN"
 		"Bamboo_DE13RN" 0
-		"Bamboo_DE13RN" 4
+		"Bamboo_DE13RN" 16
 		0 "|Bamboo_DE20:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE20:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE20:Bamboo" "translate" " -type \"double3\" -12.113893683807831 6.7646684660005967 64.829372464771268"
 		
 		2 "|Bamboo|Bamboo_DE20:Bamboo" "rotate" " -type \"double3\" 0 -181.00940839049812 0"
 		
-		2 "|Bamboo|Bamboo_DE20:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE20:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE20:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE20:groupId1.groupId" "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE13RN" "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.instObjGroups" 
+		"Bamboo_DE13RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE20:Bamboo|Bamboo_DE20:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE20:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE20:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE20:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE20:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE20:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE12RN";
 	rename -uid "D828F204-4995-DE79-8861-A5ADF4581F06";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE12RN"
 		"Bamboo_DE12RN" 0
-		"Bamboo_DE12RN" 4
+		"Bamboo_DE12RN" 15
 		0 "|Bamboo_DE21:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE21:Bamboo" "translate" " -type \"double3\" -23.205876655520765 6.7646684660005967 74.131962567033128"
 		
 		2 "|Bamboo|Bamboo_DE21:Bamboo" "rotate" " -type \"double3\" 0 -208.59892637726585 0"
 		
-		2 "|Bamboo|Bamboo_DE21:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE21:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE21:groupId1.groupId" "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE21:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE12RN" "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.instObjGroups" 
+		"Bamboo_DE12RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE21:Bamboo|Bamboo_DE21:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE21:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE21:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE21:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE21:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE21:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN2";
 	rename -uid "B7A68217-4039-F187-5229-C4ABDBE5D747";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN2"
 		"Bamboo_DE4RN2" 0
-		"Bamboo_DE4RN2" 4
+		"Bamboo_DE4RN2" 16
 		0 "|Bamboo_DE22:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE22:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE22:Bamboo" "translate" " -type \"double3\" -12.817723372371466 6.7646684660005967 77.70911598173447"
 		
 		2 "|Bamboo|Bamboo_DE22:Bamboo" "rotate" " -type \"double3\" 0 83.50936848880697 0"
 		
-		2 "|Bamboo|Bamboo_DE22:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE22:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE22:groupId1.groupId" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE22:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE4RN2" "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.instObjGroups" 
+		"Bamboo_DE4RN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE22:Bamboo|Bamboo_DE22:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE22:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE22:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE22:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE22:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE22:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE3RN2";
 	rename -uid "88A206E3-4F75-B858-3DA6-80BFE880E375";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE3RN2"
 		"Bamboo_DE3RN2" 0
-		"Bamboo_DE3RN2" 4
+		"Bamboo_DE3RN2" 15
 		0 "|Bamboo_DE23:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE23:Bamboo" "translate" " -type \"double3\" -23.479062373359042 6.7646684660005967 85.513942749377861"
 		
 		2 "|Bamboo|Bamboo_DE23:Bamboo" "rotate" " -type \"double3\" 0 135.51659624736675 0"
 		
-		2 "|Bamboo|Bamboo_DE23:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE23:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE23:groupId1.groupId" "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE23:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE3RN2" "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.instObjGroups" 
+		"Bamboo_DE3RN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE23:Bamboo|Bamboo_DE23:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE23:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE23:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE23:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE23:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE23:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE8RN1";
 	rename -uid "71B3F381-4B7B-6798-1237-DDAEAF7D2E82";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN1"
 		"Bamboo_DE8RN1" 0
-		"Bamboo_DE8RN1" 4
+		"Bamboo_DE8RN1" 16
 		0 "|Bamboo_DE24:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE24:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE24:Bamboo" "translate" " -type \"double3\" -16.056608648935828 6.7646684660005967 68.085433729838243"
 		
 		2 "|Bamboo|Bamboo_DE24:Bamboo" "rotate" " -type \"double3\" 0 -52.664162969178385 0"
 		
-		2 "|Bamboo|Bamboo_DE24:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265";
+		2 "|Bamboo|Bamboo_DE24:Bamboo" "scale" " -type \"double3\" 2.0560167809294265 2.0560167809294265 2.0560167809294265"
+		
+		3 "Bamboo_DE24:groupId1.groupId" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE24:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE8RN1" "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.instObjGroups" 
+		"Bamboo_DE8RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE24:Bamboo|Bamboo_DE24:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE24:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE24:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE24:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE24:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE24:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN1";
 	rename -uid "79FCB732-4D0B-E662-F1F2-6AA100B097B0";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN1"
 		"Bamboo_DE7RN1" 0
-		"Bamboo_DE7RN1" 3
+		"Bamboo_DE7RN1" 15
 		0 "|Bamboo_DE25:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE25:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE25:Bamboo" "translate" " -type \"double3\" -19.011900345930975 8.1986593167364674 57.109874546118604"
 		
-		2 "|Bamboo|Bamboo_DE25:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE25:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE25:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE25:groupId1.groupId" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE7RN1" "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.instObjGroups" 
+		"Bamboo_DE7RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE25:Bamboo|Bamboo_DE25:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE25:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE25:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE25:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE25:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE25:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN1";
 	rename -uid "E88B546B-4A7D-C492-C390-EBAAFF110767";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN1"
 		"Bamboo_DE6RN1" 0
-		"Bamboo_DE6RN1" 4
+		"Bamboo_DE6RN1" 16
 		0 "|Bamboo_DE26:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE26:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE26:Bamboo" "translate" " -type \"double3\" -14.159911557438091 8.1986593167364674 73.752626622362413"
 		
 		2 "|Bamboo|Bamboo_DE26:Bamboo" "rotate" " -type \"double3\" 0 150.18571137253517 0"
 		
-		2 "|Bamboo|Bamboo_DE26:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE26:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE26:groupId1.groupId" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE26:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE6RN1" "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.instObjGroups" 
+		"Bamboo_DE6RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE26:Bamboo|Bamboo_DE26:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE26:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE26:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE26:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE26:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE26:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN1";
 	rename -uid "12F89A41-4CE1-5788-B2C4-DF9A9FC0DACE";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN1"
 		"Bamboo_DE5RN1" 0
-		"Bamboo_DE5RN1" 3
+		"Bamboo_DE5RN1" 14
 		0 "|Bamboo_DE27:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE27:Bamboo" "translate" " -type \"double3\" -22.491737992756377 8.1986593167364674 63.642823390283525"
 		
-		2 "|Bamboo|Bamboo_DE27:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE27:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE27:groupId1.groupId" "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE27:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE5RN1" "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.instObjGroups" 
+		"Bamboo_DE5RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE27:Bamboo|Bamboo_DE27:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE27:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE27:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE27:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE27:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE27:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN3";
 	rename -uid "BA91EA1E-4809-7ECF-5520-1DB6DD4E4685";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN3"
 		"Bamboo_DE2RN3" 0
-		"Bamboo_DE2RN3" 4
+		"Bamboo_DE2RN3" 16
 		0 "|Bamboo_DE28:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE28:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE28:Bamboo" "translate" " -type \"double3\" -14.317114316059751 8.1986593167364674 83.114124909889014"
 		
 		2 "|Bamboo|Bamboo_DE28:Bamboo" "rotate" " -type \"double3\" 0 -36.057969074512712 0"
 		
-		2 "|Bamboo|Bamboo_DE28:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE28:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE28:groupId1.groupId" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE28:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE2RN3" "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN3.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE28:Bamboo|Bamboo_DE28:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE28:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE28:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE28:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE28:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE28:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN2";
 	rename -uid "41D02257-46E7-3276-02B3-AB8993D77A22";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN2"
 		"Bamboo_DE1RN2" 0
-		"Bamboo_DE1RN2" 4
+		"Bamboo_DE1RN2" 15
 		0 "|Bamboo_DE29:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE29:Bamboo" "translate" " -type \"double3\" -21.158463576800195 8.1986593167364674 70.219029570278195"
 		
 		2 "|Bamboo|Bamboo_DE29:Bamboo" "rotate" " -type \"double3\" 0 64.072072239873989 0"
 		
-		2 "|Bamboo|Bamboo_DE29:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE29:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE29:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE29:groupId1.groupId" "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE1RN2" "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.instObjGroups" 
+		"Bamboo_DE1RN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE29:Bamboo|Bamboo_DE29:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE29:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE29:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE29:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE29:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE29:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN5";
 	rename -uid "90DCF551-41AB-1C6C-7785-89AE2AFE2759";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN5"
 		"Bamboo_DERN5" 0
-		"Bamboo_DERN5" 4
+		"Bamboo_DERN5" 15
 		0 "|Bamboo_DE30:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE30:Bamboo" "translate" " -type \"double3\" -25.992958032263143 8.1986593167364674 52.350879449120036"
 		
 		2 "|Bamboo|Bamboo_DE30:Bamboo" "rotate" " -type \"double3\" 0 47.867237200988932 0"
 		
-		2 "|Bamboo|Bamboo_DE30:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673";
+		2 "|Bamboo|Bamboo_DE30:Bamboo" "scale" " -type \"double3\" 2.3706126713297673 2.3706126713297673 2.3706126713297673"
+		
+		3 "Bamboo_DE30:groupId1.groupId" "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE30:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DERN5" "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.instObjGroups" 
+		"Bamboo_DERN5.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE30:Bamboo|Bamboo_DE30:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE30:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE30:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE30:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE30:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE30:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE29RN";
 	rename -uid "7EE1E7BD-4D79-2E75-60A1-00BCD61B95D8";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE29RN"
 		"Bamboo_DE29RN" 0
-		"Bamboo_DE29RN" 3
+		"Bamboo_DE29RN" 14
 		0 "|Bamboo_DE31:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE31:Bamboo" "translate" " -type \"double3\" -22.338104212597525 8.2007846034004537 92.093936540364339"
 		
-		2 "|Bamboo|Bamboo_DE31:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE31:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE31:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE31:groupId1.groupId" "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE29RN" "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.instObjGroups" 
+		"Bamboo_DE29RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE31:Bamboo|Bamboo_DE31:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE31:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE31:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE31:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE31:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE31:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE28RN";
 	rename -uid "C756C020-409E-18FD-03AB-EFA0025CC3BB";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE28RN"
 		"Bamboo_DE28RN" 0
-		"Bamboo_DE28RN" 4
+		"Bamboo_DE28RN" 15
 		0 "|Bamboo_DE32:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE32:Bamboo" "translate" " -type \"double3\" -24.590290997349761 8.2007846034004537 82.49423367821943"
 		
 		2 "|Bamboo|Bamboo_DE32:Bamboo" "rotate" " -type \"double3\" 0 86.458926064222581 0"
 		
-		2 "|Bamboo|Bamboo_DE32:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE32:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE32:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE32:groupId1.groupId" "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE28RN" "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.instObjGroups" 
+		"Bamboo_DE28RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE32:Bamboo|Bamboo_DE32:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE32:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE32:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE32:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE32:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE32:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE27RN";
 	rename -uid "AA6CEF58-45BD-6E7D-4923-3E9765B8A7B9";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE27RN"
 		"Bamboo_DE27RN" 0
-		"Bamboo_DE27RN" 4
+		"Bamboo_DE27RN" 16
 		0 "|Bamboo_DE33:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE33:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE33:Bamboo" "translate" " -type \"double3\" -17.889146142054557 8.2007846034004537 96.925526580501838"
 		
 		2 "|Bamboo|Bamboo_DE33:Bamboo" "rotate" " -type \"double3\" 0 67.744770942962035 0"
 		
-		2 "|Bamboo|Bamboo_DE33:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE33:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE33:groupId1.groupId" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE33:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE27RN" "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.instObjGroups" 
+		"Bamboo_DE27RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE33:Bamboo|Bamboo_DE33:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE33:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE33:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE33:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE33:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE33:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE26RN";
 	rename -uid "23A3594A-43F7-BDAB-3815-91BA1DA33BCD";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE26RN"
 		"Bamboo_DE26RN" 0
-		"Bamboo_DE26RN" 4
+		"Bamboo_DE26RN" 15
 		0 "|Bamboo_DE34:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE34:Bamboo" "translate" " -type \"double3\" -19.183819837506498 8.2007846034004537 89.668327689729594"
 		
 		2 "|Bamboo|Bamboo_DE34:Bamboo" "rotate" " -type \"double3\" 0 -62.67565640280516 0"
 		
-		2 "|Bamboo|Bamboo_DE34:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE34:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE34:groupId1.groupId" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE34:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE26RN" "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.instObjGroups" 
+		"Bamboo_DE26RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE34:Bamboo|Bamboo_DE34:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE34:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE34:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE34:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE34:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE34:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE22RN";
 	rename -uid "22492F02-4137-3ECA-95E2-E287AC3F842E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE22RN"
 		"Bamboo_DE22RN" 0
-		"Bamboo_DE22RN" 4
+		"Bamboo_DE22RN" 15
 		0 "|Bamboo_DE35:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE35:Bamboo" "translate" " -type \"double3\" -19.796102372153602 8.2007846034004537 100.0942518494507"
 		
 		2 "|Bamboo|Bamboo_DE35:Bamboo" "rotate" " -type \"double3\" 0 -198.57035714225964 0"
 		
-		2 "|Bamboo|Bamboo_DE35:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915";
+		2 "|Bamboo|Bamboo_DE35:Bamboo" "scale" " -type \"double3\" 2.3530351978874915 2.3530351978874915 2.3530351978874915"
+		
+		3 "Bamboo_DE35:groupId1.groupId" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE35:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE22RN" "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.instObjGroups" 
+		"Bamboo_DE22RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE35:Bamboo|Bamboo_DE35:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE35:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE35:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE35:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE35:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE35:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE21RN";
 	rename -uid "0C3CEC15-4B9A-6A24-F93C-7BA03803B51E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE21RN"
 		"Bamboo_DE21RN" 0
-		"Bamboo_DE21RN" 4
+		"Bamboo_DE21RN" 16
 		0 "|Bamboo_DE36:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE36:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE36:Bamboo" "translate" " -type \"double3\" -8.8651707028871556 3.1201218477353079 68.636271776891476"
 		
 		2 "|Bamboo|Bamboo_DE36:Bamboo" "rotate" " -type \"double3\" 0 49.35416084340288 0"
 		
-		2 "|Bamboo|Bamboo_DE36:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE36:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE36:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE36:groupId1.groupId" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE21RN" "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.instObjGroups" 
+		"Bamboo_DE21RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE36:Bamboo|Bamboo_DE36:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE36:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE36:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE36:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE36:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE36:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE20RN";
 	rename -uid "24759A52-4854-B8BE-2C31-69B01A1129F3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE20RN"
 		"Bamboo_DE20RN" 0
-		"Bamboo_DE20RN" 4
+		"Bamboo_DE20RN" 16
 		0 "|Bamboo_DE37:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE37:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE37:Bamboo" "translate" " -type \"double3\" -11.006916006918022 3.1201218477353079 81.271097294578155"
 		
 		2 "|Bamboo|Bamboo_DE37:Bamboo" "rotate" " -type \"double3\" 0 57.989104934585953 0"
 		
-		2 "|Bamboo|Bamboo_DE37:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE37:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE37:groupId1.groupId" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE37:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE20RN" "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.instObjGroups" 
+		"Bamboo_DE20RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE37:Bamboo|Bamboo_DE37:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE37:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE37:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE37:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE37:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE37:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE24RN";
 	rename -uid "A7F9E22E-4322-0C96-2840-4787E7233C76";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE24RN"
 		"Bamboo_DE24RN" 0
-		"Bamboo_DE24RN" 4
+		"Bamboo_DE24RN" 16
 		0 "|Bamboo_DE38:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE38:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE38:Bamboo" "translate" " -type \"double3\" -9.6158917156133867 3.1201218477353079 74.367508594782947"
 		
 		2 "|Bamboo|Bamboo_DE38:Bamboo" "rotate" " -type \"double3\" 0 119.31657957467004 0"
 		
-		2 "|Bamboo|Bamboo_DE38:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE38:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE38:groupId1.groupId" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE38:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE24RN" "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.instObjGroups" 
+		"Bamboo_DE24RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE38:Bamboo|Bamboo_DE38:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE38:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE38:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE38:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE38:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE38:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE23RN";
 	rename -uid "5CDF53DE-49AC-2811-6F16-3CBAD51AAD5F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE23RN"
 		"Bamboo_DE23RN" 0
-		"Bamboo_DE23RN" 4
+		"Bamboo_DE23RN" 16
 		0 "|Bamboo_DE39:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE39:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE39:Bamboo" "translate" " -type \"double3\" -7.3946735099492784 3.1201218477353079 88.732604281857007"
 		
 		2 "|Bamboo|Bamboo_DE39:Bamboo" "rotate" " -type \"double3\" 0 -42.209198971167403 0"
 		
-		2 "|Bamboo|Bamboo_DE39:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE39:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE39:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE39:groupId1.groupId" "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE23RN" "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.instObjGroups" 
+		"Bamboo_DE23RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE39:Bamboo|Bamboo_DE39:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE39:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE39:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE39:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE39:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE39:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE19RN";
 	rename -uid "763CE621-4B2A-8DA6-FB0B-F09B5ADF27BF";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE19RN"
 		"Bamboo_DE19RN" 0
-		"Bamboo_DE19RN" 4
+		"Bamboo_DE19RN" 16
 		0 "|Bamboo_DE40:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE40:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE40:Bamboo" "translate" " -type \"double3\" -13.462901185424057 3.1201218477353079 56.534289515764065"
 		
 		2 "|Bamboo|Bamboo_DE40:Bamboo" "rotate" " -type \"double3\" 0 -115.42938584598987 0"
 		
-		2 "|Bamboo|Bamboo_DE40:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228";
+		2 "|Bamboo|Bamboo_DE40:Bamboo" "scale" " -type \"double3\" 1.4878569977026228 1.4878569977026228 1.4878569977026228"
+		
+		3 "Bamboo_DE40:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE40:groupId1.groupId" "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE19RN" "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.instObjGroups" 
+		"Bamboo_DE19RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE40:Bamboo|Bamboo_DE40:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE40:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE40:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE40:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE40:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE40:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Fern_DERN2";
 	rename -uid "25689A2A-4223-EC75-174C-9B943F838093";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DERN2"
 		"Fern_DERN2" 0
-		"Fern_DERN2" 2
+		"Fern_DERN2" 14
+		2 "|Fern_DE2:Bush" "visibility" " 1"
 		2 "|Fern_DE2:Bush" "translate" " -type \"double3\" -8.5718877023777544 0 77.647109598774293"
 		
-		2 "|Fern_DE2:Bush" "rotate" " -type \"double3\" 0 -28.338105269377891 0";
+		2 "|Fern_DE2:Bush" "rotate" " -type \"double3\" 0 -28.338105269377891 0"
+		3 "Fern_DE2:groupId2.groupId" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		3 "Fern_DE2:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Fern_DERN2" "|Fern_DE2:Bush|Fern_DE2:BushShape.instObjGroups" "Fern_DERN2.placeHolderList[1]" 
+		""
+		7 "ignore" ":lightLinker1" 2 "|Fern_DE2:Bush|Fern_DE2:BushShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE2:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE2:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE2:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE2:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE2:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Fern_DE1RN";
 	rename -uid "31930EF7-4779-B4E6-D202-599EE9A8020F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DE1RN"
 		"Fern_DE1RN" 0
-		"Fern_DE1RN" 2
+		"Fern_DE1RN" 14
+		2 "|Fern_DE3:Bush" "visibility" " 1"
 		2 "|Fern_DE3:Bush" "translate" " -type \"double3\" -9.9882114577035281 0 60.912507918818491"
 		
-		2 "|Fern_DE3:Bush" "rotate" " -type \"double3\" 0 -99.619214134203844 0";
+		2 "|Fern_DE3:Bush" "rotate" " -type \"double3\" 0 -99.619214134203844 0"
+		3 "Fern_DE3:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Fern_DE3:groupId2.groupId" "|Fern_DE3:Bush|Fern_DE3:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE3:Bush|Fern_DE3:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE3:Bush|Fern_DE3:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		5 3 "Fern_DE1RN" "|Fern_DE3:Bush|Fern_DE3:BushShape.instObjGroups" "Fern_DE1RN.placeHolderList[1]" 
+		""
+		7 "ignore" ":lightLinker1" 2 "|Fern_DE3:Bush|Fern_DE3:BushShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE3:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE3:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE3:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE3:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE3:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE38RN";
 	rename -uid "DDA4ADB0-4C4D-D156-F9AA-EB977879AB48";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE38RN"
 		"Bamboo_DE38RN" 0
-		"Bamboo_DE38RN" 4
+		"Bamboo_DE38RN" 15
 		0 "|Bamboo_DE41:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE41:Bamboo" "translate" " -type \"double3\" -23.317574418868798 5.0167859483393817 23.107080992053412"
 		
 		2 "|Bamboo|Bamboo_DE41:Bamboo" "rotate" " -type \"double3\" 0 -16.321553143084671 0"
 		
-		2 "|Bamboo|Bamboo_DE41:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE41:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE41:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE41:groupId1.groupId" "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE38RN" "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.instObjGroups" 
+		"Bamboo_DE38RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE41:Bamboo|Bamboo_DE41:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE41:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE41:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE41:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE41:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE41:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE37RN";
 	rename -uid "BD1E7589-4327-CDE1-5B56-24BC0D0174AF";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE37RN"
 		"Bamboo_DE37RN" 0
-		"Bamboo_DE37RN" 4
+		"Bamboo_DE37RN" 15
 		0 "|Bamboo_DE42:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE42:Bamboo" "translate" " -type \"double3\" -26.753182141196284 5.0167859483393817 80.205018615575412"
 		
 		2 "|Bamboo|Bamboo_DE42:Bamboo" "rotate" " -type \"double3\" 0 -141.05388030979969 0"
 		
-		2 "|Bamboo|Bamboo_DE42:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE42:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE42:groupId1.groupId" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE42:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE37RN" "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.instObjGroups" 
+		"Bamboo_DE37RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE42:Bamboo|Bamboo_DE42:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE42:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE42:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE42:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE42:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE42:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE36RN";
 	rename -uid "016929DB-4416-CE18-8BF5-0A95E18F681D";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE36RN"
 		"Bamboo_DE36RN" 0
-		"Bamboo_DE36RN" 3
+		"Bamboo_DE36RN" 15
 		0 "|Bamboo_DE43:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE43:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE43:Bamboo" "translate" " -type \"double3\" -14.494576907444792 5.0167859483393817 11.752013084616298"
 		
-		2 "|Bamboo|Bamboo_DE43:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE43:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE43:groupId1.groupId" "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE43:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE36RN" "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.instObjGroups" 
+		"Bamboo_DE36RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE43:Bamboo|Bamboo_DE43:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE43:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE43:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE43:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE43:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE43:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE40RN";
 	rename -uid "4DCC8E89-4603-1056-2B56-A384C1238D24";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE40RN"
 		"Bamboo_DE40RN" 0
-		"Bamboo_DE40RN" 4
+		"Bamboo_DE40RN" 15
 		0 "|Bamboo_DE44:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE44:Bamboo" "translate" " -type \"double3\" -19.531582401909624 5.0167859483393817 93.117851247138404"
 		
 		2 "|Bamboo|Bamboo_DE44:Bamboo" "rotate" " -type \"double3\" 0 -53.947621815622718 0"
 		
-		2 "|Bamboo|Bamboo_DE44:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE44:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE44:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE44:groupId1.groupId" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE40RN" "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.instObjGroups" 
+		"Bamboo_DE40RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE44:Bamboo|Bamboo_DE44:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE44:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE44:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE44:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE44:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE44:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE39RN";
 	rename -uid "5FECD868-4641-2BB7-5CB4-42AF13029D13";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE39RN"
 		"Bamboo_DE39RN" 0
-		"Bamboo_DE39RN" 4
+		"Bamboo_DE39RN" 16
 		0 "|Bamboo_DE45:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE45:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE45:Bamboo" "translate" " -type \"double3\" -13.793539049797349 5.0167859483393817 107.4690714331397"
 		
 		2 "|Bamboo|Bamboo_DE45:Bamboo" "rotate" " -type \"double3\" 0 150.55522682514336 0"
 		
-		2 "|Bamboo|Bamboo_DE45:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE45:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE45:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE45:groupId1.groupId" "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE39RN" "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.instObjGroups" 
+		"Bamboo_DE39RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE45:Bamboo|Bamboo_DE45:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE45:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE45:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE45:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE45:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE45:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE35RN";
 	rename -uid "058EB39C-4D77-9FD1-BC42-7687535C7D4A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE35RN"
 		"Bamboo_DE35RN" 0
-		"Bamboo_DE35RN" 3
+		"Bamboo_DE35RN" 15
 		0 "|Bamboo_DE46:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE46:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE46:Bamboo" "translate" " -type \"double3\" -14.251938732712478 5.0167859483393817 101.55113558222936"
 		
-		2 "|Bamboo|Bamboo_DE46:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE46:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE46:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE46:groupId1.groupId" "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE35RN" "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.instObjGroups" 
+		"Bamboo_DE35RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE46:Bamboo|Bamboo_DE46:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE46:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE46:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE46:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE46:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE46:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE34RN";
 	rename -uid "A56EDB79-4DA9-9B8E-5970-FE82D57F2C31";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE34RN"
 		"Bamboo_DE34RN" 0
-		"Bamboo_DE34RN" 3
+		"Bamboo_DE34RN" 15
 		0 "|Bamboo_DE47:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE47:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE47:Bamboo" "translate" " -type \"double3\" -20.325451861586671 7.9170133799621132 8.9848979953458468"
 		
-		2 "|Bamboo|Bamboo_DE47:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE47:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE47:groupId1.groupId" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE47:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE34RN" "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.instObjGroups" 
+		"Bamboo_DE34RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE47:Bamboo|Bamboo_DE47:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE47:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE47:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE47:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE47:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE47:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE33RN";
 	rename -uid "5A0FB346-4992-2737-4020-0888877A395A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE33RN"
 		"Bamboo_DE33RN" 0
-		"Bamboo_DE33RN" 4
+		"Bamboo_DE33RN" 16
 		0 "|Bamboo_DE48:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE48:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE48:Bamboo" "translate" " -type \"double3\" -10.915715314743689 5.0167859483393817 86.72513643743136"
 		
 		2 "|Bamboo|Bamboo_DE48:Bamboo" "rotate" " -type \"double3\" 0 -14.57778904868894 0"
 		
-		2 "|Bamboo|Bamboo_DE48:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE48:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE48:groupId1.groupId" "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE48:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE33RN" "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.instObjGroups" 
+		"Bamboo_DE33RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE48:Bamboo|Bamboo_DE48:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE48:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE48:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE48:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE48:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE48:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE32RN";
 	rename -uid "C0ED2115-493F-5A28-8BFC-54B287B4FCD4";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE32RN"
 		"Bamboo_DE32RN" 0
-		"Bamboo_DE32RN" 3
+		"Bamboo_DE32RN" 14
 		0 "|Bamboo_DE49:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE49:Bamboo" "translate" " -type \"double3\" -23.825496346217882 8.166391482803661 104.26250994532285"
 		
-		2 "|Bamboo|Bamboo_DE49:Bamboo" "scale" " -type \"double3\" 2.2661972546041298 2.2661972546041298 2.2661972546041298";
+		2 "|Bamboo|Bamboo_DE49:Bamboo" "scale" " -type \"double3\" 2.2661972546041298 2.2661972546041298 2.2661972546041298"
+		
+		3 "Bamboo_DE49:groupId1.groupId" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE49:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE32RN" "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.instObjGroups" 
+		"Bamboo_DE32RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE49:Bamboo|Bamboo_DE49:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE49:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE49:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE49:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE49:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE49:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE28RN1";
 	rename -uid "DBE8EE0B-4D5E-94BB-A6EB-93BF1C6C5F4E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE28RN1"
 		"Bamboo_DE28RN1" 0
-		"Bamboo_DE28RN1" 4
+		"Bamboo_DE28RN1" 15
 		0 "|Bamboo_DE50:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE50:Bamboo" "translate" " -type \"double3\" -22.4785532695448 7.9170133799621132 -0.72268522018242454"
 		
 		2 "|Bamboo|Bamboo_DE50:Bamboo" "rotate" " -type \"double3\" 0 -166.0617036442039 0"
 		
-		2 "|Bamboo|Bamboo_DE50:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE50:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE50:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE50:groupId1.groupId" "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE28RN1" "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.instObjGroups" 
+		"Bamboo_DE28RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE50:Bamboo|Bamboo_DE50:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE50:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE50:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE50:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE50:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE50:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE27RN1";
 	rename -uid "166D14AF-4CD6-AAB3-6AA2-61BAAC8A9636";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE27RN1"
 		"Bamboo_DE27RN1" 0
-		"Bamboo_DE27RN1" 4
+		"Bamboo_DE27RN1" 16
 		0 "|Bamboo_DE51:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE51:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE51:Bamboo" "translate" " -type \"double3\" -10.057247027069216 5.0167859483393817 84.953687213463596"
 		
 		2 "|Bamboo|Bamboo_DE51:Bamboo" "rotate" " -type \"double3\" 0 -20.372331762367544 0"
 		
-		2 "|Bamboo|Bamboo_DE51:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE51:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE51:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE51:groupId1.groupId" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE27RN1" "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.instObjGroups" 
+		"Bamboo_DE27RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE51:Bamboo|Bamboo_DE51:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE51:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE51:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE51:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE51:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE51:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE26RN1";
 	rename -uid "F6AE0364-4E97-E19F-AE29-3FAECC23E001";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE26RN1"
 		"Bamboo_DE26RN1" 0
-		"Bamboo_DE26RN1" 4
+		"Bamboo_DE26RN1" 16
 		0 "|Bamboo_DE52:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE52:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE52:Bamboo" "translate" " -type \"double3\" -19.641595204655324 5.0167859483393817 54.93894336154473"
 		
 		2 "|Bamboo|Bamboo_DE52:Bamboo" "rotate" " -type \"double3\" 0 61.035485289293703 0"
 		
-		2 "|Bamboo|Bamboo_DE52:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE52:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE52:groupId1.groupId" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE52:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE26RN1" "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.instObjGroups" 
+		"Bamboo_DE26RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE52:Bamboo|Bamboo_DE52:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE52:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE52:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE52:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE52:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE52:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE31RN";
 	rename -uid "FA0881A8-4266-2B83-355B-CBA994E4691C";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE31RN"
 		"Bamboo_DE31RN" 0
-		"Bamboo_DE31RN" 3
+		"Bamboo_DE31RN" 15
 		0 "|Bamboo_DE53:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE53:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE53:Bamboo" "translate" " -type \"double3\" -20.482350402059499 7.9170133799621132 -15.459898224782275"
 		
-		2 "|Bamboo|Bamboo_DE53:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE53:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE53:groupId1.groupId" "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE53:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE31RN" "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.instObjGroups" 
+		"Bamboo_DE31RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE53:Bamboo|Bamboo_DE53:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE53:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE53:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE53:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE53:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE53:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE30RN";
 	rename -uid "D5A5D189-474C-BE73-C0E1-3A991030D555";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE30RN"
 		"Bamboo_DE30RN" 0
-		"Bamboo_DE30RN" 3
+		"Bamboo_DE30RN" 14
 		0 "|Bamboo_DE54:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE54:Bamboo" "translate" " -type \"double3\" -23.167661769359469 5.0167859483393817 17.497854152138018"
 		
-		2 "|Bamboo|Bamboo_DE54:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE54:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE54:groupId1.groupId" "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE54:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE30RN" "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.instObjGroups" 
+		"Bamboo_DE30RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE54:Bamboo|Bamboo_DE54:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE54:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE54:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE54:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE54:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE54:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE29RN1";
 	rename -uid "15F359F5-4383-D2DE-A2EF-90934B0AC3A8";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE29RN1"
 		"Bamboo_DE29RN1" 0
-		"Bamboo_DE29RN1" 3
+		"Bamboo_DE29RN1" 15
 		0 "|Bamboo_DE55:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE55:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE55:Bamboo" "translate" " -type \"double3\" -10.653719070445163 5.0167859483393817 53.294256351548313"
 		
-		2 "|Bamboo|Bamboo_DE55:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE55:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE55:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE55:groupId1.groupId" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE29RN1" "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.instObjGroups" 
+		"Bamboo_DE29RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE55:Bamboo|Bamboo_DE55:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE55:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE55:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE55:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE55:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE55:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE25RN";
 	rename -uid "239F8BB0-47DF-DDC1-2E3F-41BC4D067C42";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE25RN"
 		"Bamboo_DE25RN" 0
-		"Bamboo_DE25RN" 3
+		"Bamboo_DE25RN" 15
 		0 "|Bamboo_DE56:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE56:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE56:Bamboo" "translate" " -type \"double3\" -12.192989035869328 5.0167859483393817 47.802143923462658"
 		
-		2 "|Bamboo|Bamboo_DE56:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE56:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE56:groupId1.groupId" "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE56:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE25RN" "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.instObjGroups" 
+		"Bamboo_DE25RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE56:Bamboo|Bamboo_DE56:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE56:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE56:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE56:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE56:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE56:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE24RN1";
 	rename -uid "14203292-4F45-385F-FC34-F284EF727ACF";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE24RN1"
 		"Bamboo_DE24RN1" 0
-		"Bamboo_DE24RN1" 4
+		"Bamboo_DE24RN1" 15
 		0 "|Bamboo_DE57:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE57:Bamboo" "translate" " -type \"double3\" -23.501232811184522 5.0167859483393817 3.80909828257386"
 		
 		2 "|Bamboo|Bamboo_DE57:Bamboo" "rotate" " -type \"double3\" 0 132.31067828719389 0"
 		
-		2 "|Bamboo|Bamboo_DE57:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE57:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE57:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE57:groupId1.groupId" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE24RN1" "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.instObjGroups" 
+		"Bamboo_DE24RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE57:Bamboo|Bamboo_DE57:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE57:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE57:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE57:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE57:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE57:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE23RN1";
 	rename -uid "F7E7B343-4817-200E-53C1-6CB635575FEE";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE23RN1"
 		"Bamboo_DE23RN1" 0
-		"Bamboo_DE23RN1" 4
+		"Bamboo_DE23RN1" 16
 		0 "|Bamboo_DE58:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE58:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE58:Bamboo" "translate" " -type \"double3\" -9.087466071370125 5.0167859483393817 91.936577293160383"
 		
 		2 "|Bamboo|Bamboo_DE58:Bamboo" "rotate" " -type \"double3\" 0 -17.025181117366905 0"
 		
-		2 "|Bamboo|Bamboo_DE58:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE58:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE58:groupId1.groupId" "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE58:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE23RN1" "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.instObjGroups" 
+		"Bamboo_DE23RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE58:Bamboo|Bamboo_DE58:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE58:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE58:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE58:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE58:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE58:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE22RN1";
 	rename -uid "FAB992DB-44AA-3F50-F232-BD9D63E3C81E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE22RN1"
 		"Bamboo_DE22RN1" 0
-		"Bamboo_DE22RN1" 4
+		"Bamboo_DE22RN1" 16
 		0 "|Bamboo_DE59:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE59:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE59:Bamboo" "translate" " -type \"double3\" -14.455986679642319 7.9170133799621132 2.3047033496031197"
 		
 		2 "|Bamboo|Bamboo_DE59:Bamboo" "rotate" " -type \"double3\" 0 -118.70415382630763 0"
 		
-		2 "|Bamboo|Bamboo_DE59:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE59:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE59:groupId1.groupId" "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE59:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE22RN1" "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.instObjGroups" 
+		"Bamboo_DE22RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE59:Bamboo|Bamboo_DE59:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE59:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE59:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE59:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE59:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE59:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE21RN1";
 	rename -uid "81192A64-4FB8-01A5-648D-749740EDD553";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE21RN1"
 		"Bamboo_DE21RN1" 0
-		"Bamboo_DE21RN1" 4
+		"Bamboo_DE21RN1" 16
 		0 "|Bamboo_DE60:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE60:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE60:Bamboo" "translate" " -type \"double3\" -12.193975227330405 5.0167859483393817 104.37098739490671"
 		
 		2 "|Bamboo|Bamboo_DE60:Bamboo" "rotate" " -type \"double3\" 0 74.299196288786987 0"
 		
-		2 "|Bamboo|Bamboo_DE60:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE60:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE60:groupId1.groupId" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE60:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE21RN1" "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.instObjGroups" 
+		"Bamboo_DE21RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE60:Bamboo|Bamboo_DE60:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE60:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE60:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE60:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE60:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE60:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE20RN1";
 	rename -uid "8B647F8B-4C9E-600B-27ED-109C07C6D96B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE20RN1"
 		"Bamboo_DE20RN1" 0
-		"Bamboo_DE20RN1" 4
+		"Bamboo_DE20RN1" 16
 		0 "|Bamboo_DE61:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE61:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE61:Bamboo" "translate" " -type \"double3\" -16.45192248497407 7.9170133799621132 -1.0913472327856404"
 		
 		2 "|Bamboo|Bamboo_DE61:Bamboo" "rotate" " -type \"double3\" 0 134.65046374919541 0"
 		
-		2 "|Bamboo|Bamboo_DE61:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE61:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE61:groupId1.groupId" "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE61:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE20RN1" "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.instObjGroups" 
+		"Bamboo_DE20RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE61:Bamboo|Bamboo_DE61:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE61:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE61:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE61:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE61:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE61:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE17RN";
 	rename -uid "BF6D32A2-4922-4767-9B77-849356F29729";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE17RN"
 		"Bamboo_DE17RN" 0
-		"Bamboo_DE17RN" 4
+		"Bamboo_DE17RN" 15
 		0 "|Bamboo_DE62:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE62:Bamboo" "translate" " -type \"double3\" -23.666958271238137 5.0167859483393817 10.252357292860374"
 		
 		2 "|Bamboo|Bamboo_DE62:Bamboo" "rotate" " -type \"double3\" 0 -126.8184191039128 0"
 		
-		2 "|Bamboo|Bamboo_DE62:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE62:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE62:groupId1.groupId" "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE62:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE17RN" "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.instObjGroups" 
+		"Bamboo_DE17RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE62:Bamboo|Bamboo_DE62:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE62:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE62:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE62:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE62:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE62:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE16RN1";
 	rename -uid "F19B3F79-4201-FE42-4343-FE8FE5CBE157";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE16RN1"
 		"Bamboo_DE16RN1" 0
-		"Bamboo_DE16RN1" 4
+		"Bamboo_DE16RN1" 15
 		0 "|Bamboo_DE63:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE63:Bamboo" "translate" " -type \"double3\" -19.468473121746865 5.0167859483393817 38.251035182842507"
 		
 		2 "|Bamboo|Bamboo_DE63:Bamboo" "rotate" " -type \"double3\" 0 -12.928509094985175 0"
 		
-		2 "|Bamboo|Bamboo_DE63:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE63:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE63:groupId1.groupId" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE63:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE16RN1" "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.instObjGroups" 
+		"Bamboo_DE16RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE63:Bamboo|Bamboo_DE63:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE63:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE63:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE63:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE63:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE63:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE19RN1";
 	rename -uid "2BED98AB-4B93-20CF-2662-8281EC937E61";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE19RN1"
 		"Bamboo_DE19RN1" 0
-		"Bamboo_DE19RN1" 4
+		"Bamboo_DE19RN1" 15
 		0 "|Bamboo_DE64:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE64:Bamboo" "translate" " -type \"double3\" -26.387191474855811 5.0167859483393817 18.822287735639033"
 		
 		2 "|Bamboo|Bamboo_DE64:Bamboo" "rotate" " -type \"double3\" 0 12.651803323884643 0"
 		
-		2 "|Bamboo|Bamboo_DE64:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE64:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE64:groupId1.groupId" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE64:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE19RN1" "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.instObjGroups" 
+		"Bamboo_DE19RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE64:Bamboo|Bamboo_DE64:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE64:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE64:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE64:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE64:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE64:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE18RN";
 	rename -uid "E03F9D25-4E90-AD83-B79B-DD9695683860";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE18RN"
 		"Bamboo_DE18RN" 0
-		"Bamboo_DE18RN" 4
+		"Bamboo_DE18RN" 16
 		0 "|Bamboo_DE65:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE65:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE65:Bamboo" "translate" " -type \"double3\" -1.3008646133957606 5.0167859483393817 101.59831930175341"
 		
 		2 "|Bamboo|Bamboo_DE65:Bamboo" "rotate" " -type \"double3\" 0 -60.384494369107408 0"
 		
-		2 "|Bamboo|Bamboo_DE65:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE65:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE65:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE65:groupId1.groupId" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE18RN" "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.instObjGroups" 
+		"Bamboo_DE18RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE65:Bamboo|Bamboo_DE65:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE65:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE65:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE65:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE65:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE65:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE15RN";
 	rename -uid "8B6FB1DC-46E7-680C-EC77-BC8E1884A3E3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE15RN"
 		"Bamboo_DE15RN" 0
-		"Bamboo_DE15RN" 4
+		"Bamboo_DE15RN" 16
 		0 "|Bamboo_DE66:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE66:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE66:Bamboo" "translate" " -type \"double3\" -14.119967201884254 5.0167859483393817 59.047630740449087"
 		
 		2 "|Bamboo|Bamboo_DE66:Bamboo" "rotate" " -type \"double3\" 0 34.263566930663302 0"
 		
-		2 "|Bamboo|Bamboo_DE66:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE66:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE66:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE66:groupId1.groupId" "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE15RN" "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.instObjGroups" 
+		"Bamboo_DE15RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE66:Bamboo|Bamboo_DE66:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE66:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE66:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE66:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE66:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE66:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE14RN";
 	rename -uid "FA018692-4CA3-87F1-05B6-A1B47F399AC1";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE14RN"
 		"Bamboo_DE14RN" 0
-		"Bamboo_DE14RN" 4
+		"Bamboo_DE14RN" 16
 		0 "|Bamboo_DE67:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE67:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE67:Bamboo" "translate" " -type \"double3\" -16.993087161434381 7.9170133799621132 6.4665150640828823"
 		
 		2 "|Bamboo|Bamboo_DE67:Bamboo" "rotate" " -type \"double3\" 0 -27.691249668838452 0"
 		
-		2 "|Bamboo|Bamboo_DE67:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE67:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE67:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE67:groupId1.groupId" "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE14RN" "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.instObjGroups" 
+		"Bamboo_DE14RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE67:Bamboo|Bamboo_DE67:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE67:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE67:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE67:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE67:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE67:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE13RN1";
 	rename -uid "97A02AD1-4FB0-A67F-B776-4494D6856909";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE13RN1"
 		"Bamboo_DE13RN1" 0
-		"Bamboo_DE13RN1" 4
+		"Bamboo_DE13RN1" 15
 		0 "|Bamboo_DE68:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE68:Bamboo" "translate" " -type \"double3\" -23.022290071534172 7.9170133799621132 14.073384949595713"
 		
 		2 "|Bamboo|Bamboo_DE68:Bamboo" "rotate" " -type \"double3\" 0 -87.98702161711617 0"
 		
-		2 "|Bamboo|Bamboo_DE68:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729";
+		2 "|Bamboo|Bamboo_DE68:Bamboo" "scale" " -type \"double3\" 2.3411137776260729 2.3411137776260729 2.3411137776260729"
+		
+		3 "Bamboo_DE68:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE68:groupId1.groupId" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE13RN1" "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.instObjGroups" 
+		"Bamboo_DE13RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE68:Bamboo|Bamboo_DE68:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE68:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE68:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE68:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE68:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE68:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE12RN1";
 	rename -uid "EDD31B91-49F7-73F4-AB12-47B9DD1C47E0";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE12RN1"
 		"Bamboo_DE12RN1" 0
-		"Bamboo_DE12RN1" 4
+		"Bamboo_DE12RN1" 16
 		0 "|Bamboo_DE69:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE69:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE69:Bamboo" "translate" " -type \"double3\" -18.705423460331389 5.0167859483393817 76.093676766973275"
 		
 		2 "|Bamboo|Bamboo_DE69:Bamboo" "rotate" " -type \"double3\" 0 152.56269308480793 0"
 		
-		2 "|Bamboo|Bamboo_DE69:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE69:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE69:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE69:groupId1.groupId" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE12RN1" "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.instObjGroups" 
+		"Bamboo_DE12RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE69:Bamboo|Bamboo_DE69:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE69:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE69:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE69:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE69:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE69:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE9RN";
 	rename -uid "8F62F18D-415C-A9F2-9D0B-D4BB42A86371";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE9RN"
 		"Bamboo_DE9RN" 0
-		"Bamboo_DE9RN" 3
+		"Bamboo_DE9RN" 15
 		0 "|Bamboo_DE70:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE70:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE70:Bamboo" "translate" " -type \"double3\" -17.352141355828039 5.0167859483393817 65.341305142391263"
 		
-		2 "|Bamboo|Bamboo_DE70:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE70:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE70:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE70:groupId1.groupId" "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE9RN" "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.instObjGroups" 
+		"Bamboo_DE9RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE70:Bamboo|Bamboo_DE70:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE70:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE70:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE70:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE70:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE70:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE5RN2";
 	rename -uid "F9FF183F-4A0C-D274-5F41-D9AE5EEFA3DB";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE5RN2"
 		"Bamboo_DE5RN2" 0
-		"Bamboo_DE5RN2" 3
+		"Bamboo_DE5RN2" 15
 		0 "|Bamboo_DE71:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE71:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE71:Bamboo" "translate" " -type \"double3\" -15.540893856456394 5.0167859483393817 71.657828413046801"
 		
-		2 "|Bamboo|Bamboo_DE71:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE71:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE71:groupId1.groupId" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE71:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE5RN2" "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.instObjGroups" 
+		"Bamboo_DE5RN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE71:Bamboo|Bamboo_DE71:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE71:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE71:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE71:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE71:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE71:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE4RN3";
 	rename -uid "04D201E9-47E8-DD31-B62F-1491B05CE79D";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE4RN3"
 		"Bamboo_DE4RN3" 0
-		"Bamboo_DE4RN3" 3
+		"Bamboo_DE4RN3" 14
 		0 "|Bamboo_DE72:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE72:Bamboo" "translate" " -type \"double3\" -21.88349189854371 5.0167859483393817 97.585777589803939"
 		
-		2 "|Bamboo|Bamboo_DE72:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE72:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE72:groupId1.groupId" "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE72:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE4RN3" "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.instObjGroups" 
+		"Bamboo_DE4RN3.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE72:Bamboo|Bamboo_DE72:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE72:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE72:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE72:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE72:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE72:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE8RN2";
 	rename -uid "B46F1304-4E9B-5683-6480-4E9AE6C640AF";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE8RN2"
 		"Bamboo_DE8RN2" 0
-		"Bamboo_DE8RN2" 3
+		"Bamboo_DE8RN2" 15
 		0 "|Bamboo_DE73:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE73:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE73:Bamboo" "translate" " -type \"double3\" -15.800615421030608 5.0167859483393817 51.711291960329973"
 		
-		2 "|Bamboo|Bamboo_DE73:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE73:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE73:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE73:groupId1.groupId" "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE8RN2" "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.instObjGroups" 
+		"Bamboo_DE8RN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE73:Bamboo|Bamboo_DE73:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE73:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE73:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE73:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE73:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE73:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE7RN2";
 	rename -uid "82C26BB0-421B-A63B-6834-E8AFA1AB98F3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE7RN2"
 		"Bamboo_DE7RN2" 0
-		"Bamboo_DE7RN2" 3
+		"Bamboo_DE7RN2" 15
 		0 "|Bamboo_DE74:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE74:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE74:Bamboo" "translate" " -type \"double3\" -15.785655577100417 5.0167859483393817 108.7523789604405"
 		
-		2 "|Bamboo|Bamboo_DE74:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE74:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE74:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE74:groupId1.groupId" "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE7RN2" "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.instObjGroups" 
+		"Bamboo_DE7RN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE74:Bamboo|Bamboo_DE74:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE74:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE74:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE74:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE74:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE74:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE6RN2";
 	rename -uid "F7EF462E-4269-7739-70C8-EE9F2D6FBFD8";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE6RN2"
 		"Bamboo_DE6RN2" 0
-		"Bamboo_DE6RN2" 4
+		"Bamboo_DE6RN2" 16
 		0 "|Bamboo_DE75:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE75:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE75:Bamboo" "translate" " -type \"double3\" -5.4985952627132466 5.0167859483393817 95.45001262699725"
 		
 		2 "|Bamboo|Bamboo_DE75:Bamboo" "rotate" " -type \"double3\" 0 -16.644911050601785 0"
 		
-		2 "|Bamboo|Bamboo_DE75:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE75:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE75:groupId1.groupId" "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE75:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE6RN2" "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.instObjGroups" 
+		"Bamboo_DE6RN2.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE75:Bamboo|Bamboo_DE75:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE75:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE75:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE75:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE75:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE75:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE2RN4";
 	rename -uid "3932C813-463B-0518-A334-859E7AFA7FF8";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE2RN4"
 		"Bamboo_DE2RN4" 0
-		"Bamboo_DE2RN4" 4
+		"Bamboo_DE2RN4" 15
 		0 "|Bamboo_DE76:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE76:Bamboo" "translate" " -type \"double3\" -20.071848215168295 6.7929253108422065 105.94753706585868"
 		
 		2 "|Bamboo|Bamboo_DE76:Bamboo" "rotate" " -type \"double3\" 0 -42.106084719708242 0"
 		
-		2 "|Bamboo|Bamboo_DE76:Bamboo" "scale" " -type \"double3\" 2.1019925907140014 2.1019925907140014 2.1019925907140014";
+		2 "|Bamboo|Bamboo_DE76:Bamboo" "scale" " -type \"double3\" 2.1019925907140014 2.1019925907140014 2.1019925907140014"
+		
+		3 "Bamboo_DE76:groupId1.groupId" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE76:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE2RN4" "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.instObjGroups" 
+		"Bamboo_DE2RN4.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE76:Bamboo|Bamboo_DE76:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE76:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE76:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE76:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE76:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE76:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE1RN3";
 	rename -uid "2139E022-47F1-F205-D1F6-C3B41DAAD9BC";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE1RN3"
 		"Bamboo_DE1RN3" 0
-		"Bamboo_DE1RN3" 3
+		"Bamboo_DE1RN3" 14
 		0 "|Bamboo_DE77:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE77:Bamboo" "translate" " -type \"double3\" -26.122685559396331 5.0167859483393817 86.650024919420048"
 		
-		2 "|Bamboo|Bamboo_DE77:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE77:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE77:groupId1.groupId" "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE77:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE1RN3" "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.instObjGroups" 
+		"Bamboo_DE1RN3.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE77:Bamboo|Bamboo_DE77:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE77:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE77:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE77:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE77:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE77:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DERN6";
 	rename -uid "5B224518-401A-5431-307B-3FB3AD9EC935";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DERN6"
 		"Bamboo_DERN6" 0
-		"Bamboo_DERN6" 3
+		"Bamboo_DERN6" 14
 		0 "|Bamboo_DE78:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE78:Bamboo" "translate" " -type \"double3\" -25.622469868235832 5.0167859483393817 30.610620258654333"
 		
-		2 "|Bamboo|Bamboo_DE78:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919";
+		2 "|Bamboo|Bamboo_DE78:Bamboo" "scale" " -type \"double3\" 1.8332940498004919 1.8332940498004919 1.8332940498004919"
+		
+		3 "Bamboo_DE78:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE78:groupId1.groupId" "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DERN6" "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.instObjGroups" 
+		"Bamboo_DERN6.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE78:Bamboo|Bamboo_DE78:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE78:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE78:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE78:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE78:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE78:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE67RN";
 	rename -uid "02AEC530-4459-6482-965D-3EA205ADD966";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE67RN"
 		"Bamboo_DE67RN" 0
-		"Bamboo_DE67RN" 4
+		"Bamboo_DE67RN" 16
 		0 "|Bamboo_DE79:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE79:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE79:Bamboo" "translate" " -type \"double3\" -13.618500791910325 2.2503651649910053 -5.0645481729057371"
 		
 		2 "|Bamboo|Bamboo_DE79:Bamboo" "rotate" " -type \"double3\" 0 -27.782370266722854 0"
 		
-		2 "|Bamboo|Bamboo_DE79:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE79:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE79:groupId1.groupId" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE79:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE67RN" "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.instObjGroups" 
+		"Bamboo_DE67RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE79:Bamboo|Bamboo_DE79:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE79:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE79:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE79:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE79:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE79:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE62RN";
 	rename -uid "ACD1F3A1-4631-70C4-7F74-BDA60D020837";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE62RN"
 		"Bamboo_DE62RN" 0
-		"Bamboo_DE62RN" 4
+		"Bamboo_DE62RN" 15
 		0 "|Bamboo_DE80:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE80:Bamboo" "translate" " -type \"double3\" -22.323455780489443 2.2503651649910053 -6.9832589741847881"
 		
 		2 "|Bamboo|Bamboo_DE80:Bamboo" "rotate" " -type \"double3\" 0 52.655162978739639 0"
 		
-		2 "|Bamboo|Bamboo_DE80:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE80:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE80:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE80:groupId1.groupId" "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE62RN" "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.instObjGroups" 
+		"Bamboo_DE62RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE80:Bamboo|Bamboo_DE80:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE80:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE80:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE80:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE80:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE80:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE57RN";
 	rename -uid "51BEC5BB-4B5D-1B73-3B5E-F1851035E0AE";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE57RN"
 		"Bamboo_DE57RN" 0
-		"Bamboo_DE57RN" 3
+		"Bamboo_DE57RN" 15
 		0 "|Bamboo_DE81:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE81:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE81:Bamboo" "translate" " -type \"double3\" -14.453312200425863 2.2503651649910053 -13.751706171871081"
 		
-		2 "|Bamboo|Bamboo_DE81:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE81:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE81:groupId1.groupId" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE81:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE57RN" "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.instObjGroups" 
+		"Bamboo_DE57RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE81:Bamboo|Bamboo_DE81:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE81:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE81:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE81:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE81:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE81:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE61RN";
 	rename -uid "2E2F7389-48E3-2DDC-DA85-FBB33473E816";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE61RN"
 		"Bamboo_DE61RN" 0
-		"Bamboo_DE61RN" 4
+		"Bamboo_DE61RN" 16
 		0 "|Bamboo_DE82:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE82:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE82:Bamboo" "translate" " -type \"double3\" -19.910499986152214 2.2503651649910053 -11.448678424708582"
 		
 		2 "|Bamboo|Bamboo_DE82:Bamboo" "rotate" " -type \"double3\" 0 66.581797950645893 0"
 		
-		2 "|Bamboo|Bamboo_DE82:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE82:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE82:groupId1.groupId" "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE82:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE61RN" "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.instObjGroups" 
+		"Bamboo_DE61RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE82:Bamboo|Bamboo_DE82:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE82:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE82:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE82:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE82:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE82:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE59RN";
 	rename -uid "30AC7039-4522-555A-793F-DB8E01739F53";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE59RN"
 		"Bamboo_DE59RN" 0
-		"Bamboo_DE59RN" 4
+		"Bamboo_DE59RN" 16
 		0 "|Bamboo_DE83:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE83:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE83:Bamboo" "translate" " -type \"double3\" -19.33963626340276 4.8199011908308931 -8.5801586598666848"
 		
 		2 "|Bamboo|Bamboo_DE83:Bamboo" "rotate" " -type \"double3\" 0 -215.78978315668098 0"
 		
-		2 "|Bamboo|Bamboo_DE83:Bamboo" "scale" " -type \"double3\" 1.9004445217669812 1.9004445217669812 1.9004445217669812";
+		2 "|Bamboo|Bamboo_DE83:Bamboo" "scale" " -type \"double3\" 1.9004445217669812 1.9004445217669812 1.9004445217669812"
+		
+		3 "Bamboo_DE83:groupId1.groupId" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE83:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE59RN" "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.instObjGroups" 
+		"Bamboo_DE59RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE83:Bamboo|Bamboo_DE83:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE83:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE83:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE83:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE83:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE83:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE50RN";
 	rename -uid "EEFA82B6-4E75-43E3-88B2-D8826C80CD7F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE50RN"
 		"Bamboo_DE50RN" 0
-		"Bamboo_DE50RN" 4
+		"Bamboo_DE50RN" 16
 		0 "|Bamboo_DE84:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE84:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE84:Bamboo" "translate" " -type \"double3\" -16.437602824520063 2.2503651649910053 -7.655083018630112"
 		
 		2 "|Bamboo|Bamboo_DE84:Bamboo" "rotate" " -type \"double3\" 0 -148.07881325110301 0"
 		
-		2 "|Bamboo|Bamboo_DE84:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE84:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE84:groupId1.groupId" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE84:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE50RN" "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.instObjGroups" 
+		"Bamboo_DE50RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE84:Bamboo|Bamboo_DE84:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE84:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE84:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE84:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE84:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE84:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE53RN";
 	rename -uid "4E88907F-4642-16F5-9E93-FDAEEE7FD72F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE53RN"
 		"Bamboo_DE53RN" 0
-		"Bamboo_DE53RN" 4
+		"Bamboo_DE53RN" 16
 		0 "|Bamboo_DE85:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE85:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE85:Bamboo" "translate" " -type \"double3\" -12.455118686322216 2.2503651649910053 -9.8990083955307888"
 		
 		2 "|Bamboo|Bamboo_DE85:Bamboo" "rotate" " -type \"double3\" 0 -31.143045127399958 0"
 		
-		2 "|Bamboo|Bamboo_DE85:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE85:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE85:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE85:groupId1.groupId" "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE53RN" "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.instObjGroups" 
+		"Bamboo_DE53RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE85:Bamboo|Bamboo_DE85:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE85:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE85:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE85:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE85:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE85:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE47RN";
 	rename -uid "9426982E-4DA0-11C5-C8C6-F784879C3A81";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE47RN"
 		"Bamboo_DE47RN" 0
-		"Bamboo_DE47RN" 4
+		"Bamboo_DE47RN" 15
 		0 "|Bamboo_DE86:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE86:Bamboo" "translate" " -type \"double3\" -23.588245219445874 2.2503651649910053 -11.622691183817491"
 		
 		2 "|Bamboo|Bamboo_DE86:Bamboo" "rotate" " -type \"double3\" 0 -138.72459053178594 0"
 		
-		2 "|Bamboo|Bamboo_DE86:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269";
+		2 "|Bamboo|Bamboo_DE86:Bamboo" "scale" " -type \"double3\" 1.4579831447027269 1.4579831447027269 1.4579831447027269"
+		
+		3 "Bamboo_DE86:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE86:groupId1.groupId" "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE47RN" "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.instObjGroups" 
+		"Bamboo_DE47RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE86:Bamboo|Bamboo_DE86:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE86:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE86:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE86:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE86:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE86:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE67RN1";
 	rename -uid "A5B5E7E2-441C-BF6E-3C09-4E8838977EF6";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE67RN1"
 		"Bamboo_DE67RN1" 0
-		"Bamboo_DE67RN1" 4
+		"Bamboo_DE67RN1" 15
 		0 "|Bamboo_DE87:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE87:Bamboo" "translate" " -type \"double3\" -27.265070200968381 5.7178197787152412 -12.411794892063694"
 		
 		2 "|Bamboo|Bamboo_DE87:Bamboo" "rotate" " -type \"double3\" 0 116.04172467296621 0"
 		
-		2 "|Bamboo|Bamboo_DE87:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE87:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE87:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE87:groupId1.groupId" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE67RN1" "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.instObjGroups" 
+		"Bamboo_DE67RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE87:Bamboo|Bamboo_DE87:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE87:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE87:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE87:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE87:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE87:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE57RN1";
 	rename -uid "C1FDD5CD-4060-34EC-E1F1-938BBCC5D3F3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE57RN1"
 		"Bamboo_DE57RN1" 0
-		"Bamboo_DE57RN1" 3
+		"Bamboo_DE57RN1" 15
 		0 "|Bamboo_DE88:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE88:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE88:Bamboo" "translate" " -type \"double3\" -16.446385316865626 0 0"
 		
-		2 "|Bamboo|Bamboo_DE88:Bamboo" "scale" " -type \"double3\" 1.1841015069077698 1.1841015069077698 1.1841015069077698";
+		2 "|Bamboo|Bamboo_DE88:Bamboo" "scale" " -type \"double3\" 1.1841015069077698 1.1841015069077698 1.1841015069077698"
+		
+		3 "Bamboo_DE88:groupId1.groupId" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE88:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE57RN1" "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.instObjGroups" 
+		"Bamboo_DE57RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE88:Bamboo|Bamboo_DE88:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE88:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE88:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE88:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE88:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE88:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE61RN1";
 	rename -uid "7768E615-499A-6BD2-37A1-A59827567C5A";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE61RN1"
 		"Bamboo_DE61RN1" 0
-		"Bamboo_DE61RN1" 4
+		"Bamboo_DE61RN1" 16
 		0 "|Bamboo_DE89:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE89:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE89:Bamboo" "translate" " -type \"double3\" -13.413221605887303 5.7178197787152412 4.8239788146492479"
 		
 		2 "|Bamboo|Bamboo_DE89:Bamboo" "rotate" " -type \"double3\" 0 -62.405660984103719 0"
 		
-		2 "|Bamboo|Bamboo_DE89:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE89:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE89:groupId1.groupId" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE89:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE61RN1" "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.instObjGroups" 
+		"Bamboo_DE61RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE89:Bamboo|Bamboo_DE89:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE89:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE89:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE89:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE89:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE89:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE59RN1";
 	rename -uid "C1502FD9-4B62-8C41-24A3-8585EFBE6125";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE59RN1"
 		"Bamboo_DE59RN1" 0
-		"Bamboo_DE59RN1" 4
+		"Bamboo_DE59RN1" 15
 		0 "|Bamboo_DE90:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE90:Bamboo" "translate" " -type \"double3\" -21.727997974279724 5.7178197787152412 15.096220405052007"
 		
 		2 "|Bamboo|Bamboo_DE90:Bamboo" "rotate" " -type \"double3\" 0 -194.04824470745245 0"
 		
-		2 "|Bamboo|Bamboo_DE90:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE90:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE90:groupId1.groupId" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE90:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE59RN1" "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.instObjGroups" 
+		"Bamboo_DE59RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE90:Bamboo|Bamboo_DE90:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE90:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE90:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE90:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE90:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE90:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE50RN1";
 	rename -uid "1A567FE0-49DD-E59B-29F4-2C9EBE9C491F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE50RN1"
 		"Bamboo_DE50RN1" 0
-		"Bamboo_DE50RN1" 4
+		"Bamboo_DE50RN1" 15
 		0 "|Bamboo_DE91:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE91:Bamboo" "translate" " -type \"double3\" -25.680104317444457 5.7178197787152412 -6.1782305800149482"
 		
 		2 "|Bamboo|Bamboo_DE91:Bamboo" "rotate" " -type \"double3\" 0 116.55427717471154 0"
 		
-		2 "|Bamboo|Bamboo_DE91:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE91:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE91:groupId1.groupId" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE91:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE50RN1" "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.instObjGroups" 
+		"Bamboo_DE50RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE91:Bamboo|Bamboo_DE91:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE91:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE91:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE91:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE91:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE91:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE53RN1";
 	rename -uid "141E45F1-46B6-8038-7078-A98998132E81";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE53RN1"
 		"Bamboo_DE53RN1" 0
-		"Bamboo_DE53RN1" 4
+		"Bamboo_DE53RN1" 16
 		0 "|Bamboo_DE92:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE92:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE92:Bamboo" "translate" " -type \"double3\" -20.817970691440586 5.7178197787152412 21.249751149034125"
 		
 		2 "|Bamboo|Bamboo_DE92:Bamboo" "rotate" " -type \"double3\" 0 132.77801977453666 0"
 		
-		2 "|Bamboo|Bamboo_DE92:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE92:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE92:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE92:groupId1.groupId" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE53RN1" "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.instObjGroups" 
+		"Bamboo_DE53RN1.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE92:Bamboo|Bamboo_DE92:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE92:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE92:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE92:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE92:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE92:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE79RN";
 	rename -uid "CE2FB57A-4601-D313-1865-1093B13FF08B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE79RN"
 		"Bamboo_DE79RN" 0
-		"Bamboo_DE79RN" 3
+		"Bamboo_DE79RN" 14
 		0 "|Bamboo_DE93:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE93:Bamboo" "translate" " -type \"double3\" -22.616608719828253 5.7178197787152412 5.9930351568368865"
 		
-		2 "|Bamboo|Bamboo_DE93:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE93:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE93:groupId1.groupId" "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE93:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE79RN" "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.instObjGroups" 
+		"Bamboo_DE79RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE93:Bamboo|Bamboo_DE93:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE93:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE93:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE93:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE93:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE93:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE84RN";
 	rename -uid "81DA5EA0-4A0A-AD7D-CFE3-548B5850B91B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE84RN"
 		"Bamboo_DE84RN" 0
-		"Bamboo_DE84RN" 4
+		"Bamboo_DE84RN" 15
 		0 "|Bamboo_DE94:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE94:Bamboo" "translate" " -type \"double3\" -23.140365468897578 5.7178197787152412 -14.261910016691061"
 		
 		2 "|Bamboo|Bamboo_DE94:Bamboo" "rotate" " -type \"double3\" 0 62.812073132895598 0"
 		
-		2 "|Bamboo|Bamboo_DE94:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE94:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE94:groupId1.groupId" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE94:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE84RN" "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.instObjGroups" 
+		"Bamboo_DE84RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE94:Bamboo|Bamboo_DE94:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE94:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE94:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE94:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE94:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE94:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE83RN";
 	rename -uid "DC279E90-44C1-D98F-E74A-7DBDA2F1185F";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE83RN"
 		"Bamboo_DE83RN" 0
-		"Bamboo_DE83RN" 4
+		"Bamboo_DE83RN" 16
 		0 "|Bamboo_DE95:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE95:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE95:Bamboo" "translate" " -type \"double3\" -15.713861016824611 5.7178197787152412 8.1725455544566348"
 		
 		2 "|Bamboo|Bamboo_DE95:Bamboo" "rotate" " -type \"double3\" 0 -121.88254842680736 0"
 		
-		2 "|Bamboo|Bamboo_DE95:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE95:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE95:groupId1.groupId" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE95:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE83RN" "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.instObjGroups" 
+		"Bamboo_DE83RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE95:Bamboo|Bamboo_DE95:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE95:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE95:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE95:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE95:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE95:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE82RN";
 	rename -uid "981B28D7-43A4-EDDF-EACE-D9B48C610246";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE82RN"
 		"Bamboo_DE82RN" 0
-		"Bamboo_DE82RN" 4
+		"Bamboo_DE82RN" 15
 		0 "|Bamboo_DE96:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE96:Bamboo" "translate" " -type \"double3\" -26.343108713129034 5.7178197787152412 -13.468354126963803"
 		
 		2 "|Bamboo|Bamboo_DE96:Bamboo" "rotate" " -type \"double3\" 0 -93.575085725051608 0"
 		
-		2 "|Bamboo|Bamboo_DE96:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE96:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE96:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE96:groupId1.groupId" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE82RN" "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.instObjGroups" 
+		"Bamboo_DE82RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE96:Bamboo|Bamboo_DE96:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE96:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE96:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE96:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE96:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE96:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE86RN";
 	rename -uid "721757A3-4041-F39A-98F4-2798AC593E02";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE86RN"
 		"Bamboo_DE86RN" 0
-		"Bamboo_DE86RN" 3
+		"Bamboo_DE86RN" 15
 		0 "|Bamboo_DE97:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE97:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE97:Bamboo" "translate" " -type \"double3\" -17.986647030536542 5.7178197787152412 -4.5266127765722501"
 		
-		2 "|Bamboo|Bamboo_DE97:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE97:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE97:groupId1.groupId" "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "Bamboo_DE97:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Bamboo_DE86RN" "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.instObjGroups" 
+		"Bamboo_DE86RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE97:Bamboo|Bamboo_DE97:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE97:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE97:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE97:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE97:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE97:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE85RN";
 	rename -uid "DF61358E-4DE3-11FF-D67C-6CA4AAC7A36D";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE85RN"
 		"Bamboo_DE85RN" 0
-		"Bamboo_DE85RN" 3
+		"Bamboo_DE85RN" 14
 		0 "|Bamboo_DE98:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE98:Bamboo" "translate" " -type \"double3\" -23.171174080542812 5.7178197787152412 42.430774803049466"
 		
-		2 "|Bamboo|Bamboo_DE98:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE98:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE98:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE98:groupId1.groupId" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE85RN" "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.instObjGroups" 
+		"Bamboo_DE85RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE98:Bamboo|Bamboo_DE98:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE98:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE98:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE98:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE98:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE98:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE81RN";
 	rename -uid "8C4DE2D4-4B80-57AF-57D7-69AC9B6D633B";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE81RN"
 		"Bamboo_DE81RN" 0
-		"Bamboo_DE81RN" 4
+		"Bamboo_DE81RN" 16
 		0 "|Bamboo_DE99:Bamboo" "|Bamboo" "-s -r "
+		2 "|Bamboo|Bamboo_DE99:Bamboo" "visibility" " 1"
 		2 "|Bamboo|Bamboo_DE99:Bamboo" "translate" " -type \"double3\" -20.73152885268032 5.7178197787152412 24.720696516941253"
 		
 		2 "|Bamboo|Bamboo_DE99:Bamboo" "rotate" " -type \"double3\" 0 76.601882003566516 0"
 		
-		2 "|Bamboo|Bamboo_DE99:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436";
+		2 "|Bamboo|Bamboo_DE99:Bamboo" "scale" " -type \"double3\" 1.9798551450070436 1.9798551450070436 1.9798551450070436"
+		
+		3 "Bamboo_DE99:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		3 "Bamboo_DE99:groupId1.groupId" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE81RN" "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.instObjGroups" 
+		"Bamboo_DE81RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE99:Bamboo|Bamboo_DE99:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE99:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE99:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE99:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE99:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE99:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "Bamboo_DE80RN";
 	rename -uid "A5442D43-4180-01D2-1161-F6AA0BD8DBCB";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Bamboo_DE80RN"
 		"Bamboo_DE80RN" 0
-		"Bamboo_DE80RN" 4
+		"Bamboo_DE80RN" 15
 		0 "|Bamboo_DE100:Bamboo" "|Bamboo" "-s -r "
 		2 "|Bamboo|Bamboo_DE100:Bamboo" "translate" " -type \"double3\" -24.63740205877702 6.6398846046408533 -3.8812245859526877"
 		
 		2 "|Bamboo|Bamboo_DE100:Bamboo" "rotate" " -type \"double3\" 0 -28.78580051044905 0"
 		
-		2 "|Bamboo|Bamboo_DE100:Bamboo" "scale" " -type \"double3\" 2.0644432000128505 2.0644432000128505 2.0644432000128505";
+		2 "|Bamboo|Bamboo_DE100:Bamboo" "scale" " -type \"double3\" 2.0644432000128505 2.0644432000128505 2.0644432000128505"
+		
+		3 "Bamboo_DE100:groupId1.message" ":initialShadingGroup.groupNodes" "-na"
+		
+		3 "Bamboo_DE100:groupId1.groupId" "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "Bamboo_DE80RN" "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.instObjGroups" 
+		"Bamboo_DE80RN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Bamboo|Bamboo_DE100:Bamboo|Bamboo_DE100:BambooShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE100:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE100:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE100:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE100:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Bamboo_DE100:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode polyPlane -n "polyPlane1";
 	rename -uid "DF429719-4D5B-24E1-9A1C-848C42F380D4";
 	setAttr ".cuv" 2;
 createNode reference -n "Fern_DE2RN";
 	rename -uid "103CD994-476D-CAA0-00E5-46BD168FF2BC";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Fern_DE2RN"
 		"Fern_DE2RN" 0
-		"Fern_DE2RN" 2
+		"Fern_DE2RN" 13
 		2 "|Fern_DE4:Bush" "translate" " -type \"double3\" 34.46323011593104 0 42.361299111657559"
 		
-		2 "|Fern_DE4:Bush" "rotate" " -type \"double3\" 0 -90.405560222499489 0";
+		2 "|Fern_DE4:Bush" "rotate" " -type \"double3\" 0 -90.405560222499489 0"
+		3 "Fern_DE4:groupId2.groupId" "|Fern_DE4:Bush|Fern_DE4:BushShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Fern_DE4:Bush|Fern_DE4:BushShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Fern_DE4:Bush|Fern_DE4:BushShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		3 "Fern_DE4:groupId2.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Fern_DE2RN" "|Fern_DE4:Bush|Fern_DE4:BushShape.instObjGroups" "Fern_DE2RN.placeHolderList[1]" 
+		""
+		7 "ignore" ":lightLinker1" 2 "|Fern_DE4:Bush|Fern_DE4:BushShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE4:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE4:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE4:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE4:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Fern_DE4:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 lockNode -l 1 ;
 createNode reference -n "boulder2_model_JonathanFranklinRN";
 	rename -uid "C707E1A7-4936-D9E6-8016-AEAAE99277F9";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"boulder2_model_JonathanFranklinRN"
 		"boulder2_model_JonathanFranklinRN" 0
-		"boulder2_model_JonathanFranklinRN" 1
-		2 "|boulder2_model_JonathanFranklin:pCube1" "translate" " -type \"double3\" 41.158310476079414 1.3215403054309807 49.39581320492389";
+		"boulder2_model_JonathanFranklinRN" 5
+		2 "|boulder2_model_JonathanFranklin:pCube1" "translate" " -type \"double3\" 41.158310476079414 1.3215403054309807 49.39581320492389"
+		
+		2 "boulder2_model_JonathanFranklin:threeToneBrightnessShader" "color" " -s 3"
+		
+		2 "boulder2_model_JonathanFranklin:threeToneBrightnessShader" "color[2].color_Position" 
+		" 0.895652174949646"
+		7 "ignore" ":lightLinker1" 2 "|boulder2_model_JonathanFranklin:pCube1|boulder2_model_JonathanFranklin:pCubeShape1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "boulder2_model_JonathanFranklin:rampShader1SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Rock_JonathanFranklinRN";
@@ -7288,10 +7417,23 @@ createNode reference -n "Rock_JonathanFranklinRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Rock_JonathanFranklinRN"
 		"Rock_JonathanFranklinRN" 0
-		"Rock_JonathanFranklinRN" 2
+		"Rock_JonathanFranklinRN" 9
+		2 "|Rock_JonathanFranklin:pCube1" "visibility" " 1"
 		2 "|Rock_JonathanFranklin:pCube1" "translate" " -type \"double3\" -8.108410206769161 0 38.644733680664068"
 		
-		2 "|Rock_JonathanFranklin:pCube1" "scale" " -type \"double3\" 2.5384309503363727 2.5384309503363727 2.5384309503363727";
+		2 "|Rock_JonathanFranklin:pCube1" "scale" " -type \"double3\" 2.5384309503363727 2.5384309503363727 2.5384309503363727"
+		
+		2 "Rock_JonathanFranklin:threeToneBrightnessShader1" "color" " -s 3"
+		2 "Rock_JonathanFranklin:threeToneBrightnessShader1" "color[1].color_Position" 
+		" 0.41739130020141602"
+		2 "Rock_JonathanFranklin:threeToneBrightnessShader1" "color[2].color_Position" 
+		" 0.895652174949646"
+		7 "ignore" ":lightLinker1" 2 "|Rock_JonathanFranklin:pCube1|Rock_JonathanFranklin:pCubeShape1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Rock_JonathanFranklin:rampShader1SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Rock_JonathanFranklin:rampShader2SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "boulder1_model_JonathanFranklinRN";
@@ -7299,31 +7441,62 @@ createNode reference -n "boulder1_model_JonathanFranklinRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"boulder1_model_JonathanFranklinRN"
 		"boulder1_model_JonathanFranklinRN" 0
-		"boulder1_model_JonathanFranklinRN" 2
+		"boulder1_model_JonathanFranklinRN" 8
+		2 "|boulder1_model_JonathanFranklin:pCube1" "visibility" " 1"
 		2 "|boulder1_model_JonathanFranklin:pCube1" "translate" " -type \"double3\" -17.807657568656495 0.31319351092186043 14.526415424691571"
 		
-		2 "|boulder1_model_JonathanFranklin:pCube1" "rotate" " -type \"double3\" 0 -101.53212900842487 13.687976915441329";
+		2 "|boulder1_model_JonathanFranklin:pCube1" "rotate" " -type \"double3\" 0 -101.53212900842487 13.687976915441329"
+		
+		2 "boulder1_model_JonathanFranklin:threeToneBrightnessShader" "color" " -s 3"
+		
+		2 "boulder1_model_JonathanFranklin:threeToneBrightnessShader" "color[1].color_Position" 
+		" 0.37391304969787598"
+		2 "boulder1_model_JonathanFranklin:threeToneBrightnessShader" "color[2].color_Position" 
+		" 0.97391301393508911"
+		7 "ignore" ":lightLinker1" 2 "|boulder1_model_JonathanFranklin:pCube1|boulder1_model_JonathanFranklin:pCubeShape1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "boulder1_model_JonathanFranklin:rampShader1SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "FallenTrunk_DERN";
 	rename -uid "26E6321C-4DC8-29D1-7DAD-6EA5386A7A18";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"FallenTrunk_DERN"
 		"FallenTrunk_DERN" 0
-		"FallenTrunk_DERN" 3
+		"FallenTrunk_DERN" 6
 		2 "|FallenTrunk_DE:FallenTrunk" "translate" " -type \"double3\" 39.888178333843612 0 64.916040012660972"
 		
 		2 "|FallenTrunk_DE:FallenTrunk" "rotate" " -type \"double3\" 0 -52.883994626150695 0"
 		
-		2 "|FallenTrunk_DE:FallenTrunk" "scale" " -type \"double3\" 1.7452850747690081 1.7452850747690081 1.7452850747690081";
+		2 "|FallenTrunk_DE:FallenTrunk" "scale" " -type \"double3\" 1.7452850747690081 1.7452850747690081 1.7452850747690081"
+		
+		3 "|FallenTrunk_DE:FallenTrunk|FallenTrunk_DE:FallenTrunkShape.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "FallenTrunk_DERN" "|FallenTrunk_DE:FallenTrunk|FallenTrunk_DE:FallenTrunkShape.instObjGroups" 
+		"FallenTrunk_DERN.placeHolderList[1]" ":initialShadingGroup.dsm"
+		7 "ignore" ":lightLinker1" 2 "|FallenTrunk_DE:FallenTrunk|FallenTrunk_DE:FallenTrunkShape.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "MushroomBunch1RN";
 	rename -uid "EF159BA4-48FA-02DD-A851-C299E3ECF499";
+	setAttr -s 10 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
+	setAttr ".phl[4]" 0;
+	setAttr ".phl[5]" 0;
+	setAttr ".phl[6]" 0;
+	setAttr ".phl[7]" 0;
+	setAttr ".phl[8]" 0;
+	setAttr ".phl[9]" 0;
+	setAttr ".phl[10]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"MushroomBunch1RN"
 		"MushroomBunch1RN" 0
-		"MushroomBunch1RN" 39
+		"MushroomBunch1RN" 79
 		0 "|MushroomBunch1:pCylinder1" "|Mushroom_Bunch" "-s -r "
 		0 "|MushroomBunch1:pCylinder2" "|Mushroom_Bunch" "-s -r "
 		0 "|MushroomBunch1:pCylinder3" "|Mushroom_Bunch" "-s -r "
@@ -7334,98 +7507,210 @@ createNode reference -n "MushroomBunch1RN";
 		0 "|MushroomBunch1:pCylinder8" "|Mushroom_Bunch" "-s -r "
 		0 "|MushroomBunch1:pCylinder9" "|Mushroom_Bunch" "-s -r "
 		0 "|MushroomBunch1:pCylinder10" "|Mushroom_Bunch" "-s -r "
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder1" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder1" "translate" " -type \"double3\" 36.200754942715847 3.2277362335545741 60.211460742524601"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder1" "scale" " -type \"double3\" 0.21151028177245107 1.4261378854867486 0.21151028177245107"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder2" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder2" "translate" " -type \"double3\" 36.200754942715847 2.602777850661198 61.46734178851284"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder2" "rotate" " -type \"double3\" 9.5440325948557323 0 0"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder2" "scale" " -type \"double3\" 0.18336073962231419 1.2363356300928214 0.18336073962231419"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder3" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder3" "translate" " -type \"double3\" 35.002000775299948 1.5797106098912357 60.717618901566489"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder3" "rotate" " -type \"double3\" -13.500925736077958 4.3146667580410583 17.398372269406266"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder3" "scale" " -type \"double3\" 0.095297825529994426 0.98408087501176966 0.095297825529994426"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder4" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder4" "translate" " -type \"double3\" 37.106127888045876 1.643545898374799 59.471117754327096"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder4" "rotate" " -type \"double3\" -9.6733994916036927 -20.154500949848174 -11.83687656214475"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder4" "scale" " -type \"double3\" 0.095297825529994426 0.98408087501176966 0.095297825529994426"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder5" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder5" "translate" " -type \"double3\" 36.476327637900908 0.61631025140525564 58.900433068324105"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder5" "rotate" " -type \"double3\" -16.41507476336804 -2.5216627851759377 -2.7950493888315782"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder5" "scale" " -type \"double3\" 0.064894725771494216 0.67012713213231523 0.064894725771494216"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder6" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder6" "translate" " -type \"double3\" 35.681309506926596 0.69979770170001521 56.672146487571041"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder6" "rotate" " -type \"double3\" -166.753588432984 62.553403709194569 -161.56060746667012"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder6" "scale" " -type \"double3\" 0.064894725771494216 0.67012713213231523 0.064894725771494216"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder7" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder7" "translate" " -type \"double3\" 36.115573241455365 -0.023281239077248106 57.365949349105932"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder7" "rotate" " -type \"double3\" -189.12933460746177 8.7005747352755627 -178.30349944667941"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder7" "scale" " -type \"double3\" 0.042909735475764849 0.4431019259744145 0.042909735475764849"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder8" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder8" "translate" " -type \"double3\" 36.806225009027457 0.75283127065928346 63.313201423839473"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder8" "rotate" " -type \"double3\" 2.6614752872041505 -29.005095533105699 -16.295172380791097"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder8" "scale" " -type \"double3\" 0.06756800645695675 0.69773242513319278 0.06756800645695675"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder9" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder9" "translate" " -type \"double3\" 35.989966920250154 0.27666830017472099 65.159287875584155"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder9" "rotate" " -type \"double3\" -17.281716963206957 61.384391662155693 -0.44667851575930917"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder9" "scale" " -type \"double3\" 0.052366145055168303 0.54075233679559354 0.052366145055168303"
 		
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10" "visibility" " 0"
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10" "translate" " -type \"double3\" 36.11998161313538 1.2747930331059454 56.369598425504591"
 		
 		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10" "rotate" " -type \"double3\" 11.395184316716616 -77.245433916273242 -16.157977237588085"
 		
-		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10" "scale" " -type \"double3\" 0.082178067032329855 0.84860135750419285 0.082178067032329855";
+		2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10" "scale" " -type \"double3\" 0.082178067032329855 0.84860135750419285 0.082178067032329855"
+		
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder4|MushroomBunch1:pCylinderShape4.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder5|MushroomBunch1:pCylinderShape5.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder3|MushroomBunch1:pCylinderShape3.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder8|MushroomBunch1:pCylinderShape8.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder1|MushroomBunch1:pCylinderShape1.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder6|MushroomBunch1:pCylinderShape6.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder2|MushroomBunch1:pCylinderShape2.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder9|MushroomBunch1:pCylinderShape9.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder10|MushroomBunch1:pCylinderShape10.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|Mushroom_Bunch|MushroomBunch1:pCylinder7|MushroomBunch1:pCylinderShape7.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder1|MushroomBunch1:pCylinderShape1.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[1]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder2|MushroomBunch1:pCylinderShape2.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[2]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder3|MushroomBunch1:pCylinderShape3.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[3]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder4|MushroomBunch1:pCylinderShape4.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[4]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder5|MushroomBunch1:pCylinderShape5.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[5]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder6|MushroomBunch1:pCylinderShape6.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[6]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder7|MushroomBunch1:pCylinderShape7.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[7]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder8|MushroomBunch1:pCylinderShape8.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[8]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder9|MushroomBunch1:pCylinderShape9.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[9]" ":initialShadingGroup.dsm"
+		5 3 "MushroomBunch1RN" "|Mushroom_Bunch|MushroomBunch1:pCylinder10|MushroomBunch1:pCylinderShape10.instObjGroups" 
+		"MushroomBunch1RN.placeHolderList[10]" ":initialShadingGroup.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder1|MushroomBunch1:pCylinderShape1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder2|MushroomBunch1:pCylinderShape2.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder3|MushroomBunch1:pCylinderShape3.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder4|MushroomBunch1:pCylinderShape4.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder5|MushroomBunch1:pCylinderShape5.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder6|MushroomBunch1:pCylinderShape6.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder7|MushroomBunch1:pCylinderShape7.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder8|MushroomBunch1:pCylinderShape8.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder9|MushroomBunch1:pCylinderShape9.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Mushroom_Bunch|MushroomBunch1:pCylinder10|MushroomBunch1:pCylinderShape10.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Grass_DERN";
 	rename -uid "85A12240-4C57-F206-28B5-31BED538FC37";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Grass_DERN"
 		"Grass_DERN" 0
-		"Grass_DERN" 2
+		"Grass_DERN" 14
+		2 "|Grass_DE:Grass" "visibility" " 1"
 		2 "|Grass_DE:Grass" "translate" " -type \"double3\" -11.387599885864443 0 58.435230825099282"
 		
-		2 "|Grass_DE:Grass" "rotate" " -type \"double3\" 0 138.13400079294854 0";
+		2 "|Grass_DE:Grass" "rotate" " -type \"double3\" 0 138.13400079294854 0"
+		3 "Grass_DE:groupId8.groupId" "|Grass_DE:Grass|Grass_DE:GrassShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|Grass_DE:Grass|Grass_DE:GrassShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|Grass_DE:Grass|Grass_DE:GrassShape.instObjGroups.objectGroups[0]" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		3 "Grass_DE:groupId8.message" ":initialShadingGroup.groupNodes" "-na"
+		5 3 "Grass_DERN" "|Grass_DE:Grass|Grass_DE:GrassShape.instObjGroups" 
+		"Grass_DERN.placeHolderList[1]" ""
+		7 "ignore" ":lightLinker1" 2 "|Grass_DE:Grass|Grass_DE:GrassShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Grass_DE:BetterLilBoy03:L_Eye2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Grass_DE:BetterLilBoy03:L_Eye2SG1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Grass_DE:BetterLilBoy03:HeadBandSG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Grass_DE:BetterLilBoy03:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "Grass_DE:BetterLilBoy03:SkinSG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "BigFallenLog_JonathanFranklinRN";
 	rename -uid "54FA9E3B-4856-534A-DB3C-AE90CD5C5F92";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"BigFallenLog_JonathanFranklinRN"
 		"BigFallenLog_JonathanFranklinRN" 0
-		"BigFallenLog_JonathanFranklinRN" 3
+		"BigFallenLog_JonathanFranklinRN" 7
+		2 "|BigFallenLog_JonathanFranklin:pPipe1" "visibility" " 1"
 		2 "|BigFallenLog_JonathanFranklin:pPipe1" "translate" " -type \"double3\" -15.584268902372033 0 87.279392129021787"
 		
 		2 "|BigFallenLog_JonathanFranklin:pPipe1" "rotate" " -type \"double3\" 90 26.500807351692533 0"
 		
-		2 "|BigFallenLog_JonathanFranklin:pPipe1" "scale" " -type \"double3\" 1.7606708240068933 4.2246661930490887 1.7606708240068933";
+		2 "|BigFallenLog_JonathanFranklin:pPipe1" "scale" " -type \"double3\" 1.7606708240068933 4.2246661930490887 1.7606708240068933"
+		
+		3 "|BigFallenLog_JonathanFranklin:pPipe1|BigFallenLog_JonathanFranklin:pPipeShape1.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "BigFallenLog_JonathanFranklinRN" "|BigFallenLog_JonathanFranklin:pPipe1|BigFallenLog_JonathanFranklin:pPipeShape1.instObjGroups" 
+		"BigFallenLog_JonathanFranklinRN.placeHolderList[1]" ":initialShadingGroup.dsm"
+		7 "ignore" ":lightLinker1" 2 "|BigFallenLog_JonathanFranklin:pPipe1|BigFallenLog_JonathanFranklin:pPipeShape1.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "SwampTallTreeNoLeaves_JonathanFranklinRN";
 	rename -uid "CFCA7BE8-4682-1A82-A048-A0BBB1C8A7E3";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SwampTallTreeNoLeaves_JonathanFranklinRN"
 		"SwampTallTreeNoLeaves_JonathanFranklinRN" 0
-		"SwampTallTreeNoLeaves_JonathanFranklinRN" 2
-		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "translate" " -type \"double3\" -22.065384779940672 15.982143803352383 51.400676783830662"
+		"SwampTallTreeNoLeaves_JonathanFranklinRN" 5
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "translate" " -type \"double3\" -22.065384779940672 19.192084184464886 51.400676783830662"
 		
-		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "scale" " -type \"double3\" 1.4227515033645441 16.155239395806788 1.4227515033645441";
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1" "scale" " -type \"double3\" 1.7553921666556909 19.932349829737223 1.7553921666556909"
+		
+		3 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin:pCylinderShape1.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "SwampTallTreeNoLeaves_JonathanFranklinRN" "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin:pCylinderShape1.instObjGroups" 
+		"SwampTallTreeNoLeaves_JonathanFranklinRN.placeHolderList[1]" ":initialShadingGroup.dsm"
+		
+		7 "ignore" ":lightLinker1" 2 "|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin:pCylinderShape1.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode polySplitRing -n "polySplitRing1";
@@ -7482,11 +7767,19 @@ createNode deleteComponent -n "deleteComponent2";
 	setAttr ".dc" -type "componentList" 1 "f[24]";
 createNode reference -n "SwampTallTreeNoLeaves_JonathanFranklinRN1";
 	rename -uid "17513E38-4B89-8BB4-C660-4E9BCF3EB95E";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"SwampTallTreeNoLeaves_JonathanFranklinRN1"
 		"SwampTallTreeNoLeaves_JonathanFranklinRN1" 0
-		"SwampTallTreeNoLeaves_JonathanFranklinRN1" 1
-		2 "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1" "translate" " -type \"double3\" 44.282788738996544 11.246859072099889 70.928387920291456";
+		"SwampTallTreeNoLeaves_JonathanFranklinRN1" 4
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1" "translate" " -type \"double3\" 44.282788738996544 14.038256316745402 70.928387920291456"
+		
+		2 "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1" "scale" " -type \"double3\" 1.236599337303314 14.041495147668332 1.236599337303314"
+		
+		3 "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinderShape1.instObjGroups" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "SwampTallTreeNoLeaves_JonathanFranklinRN1" "|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinderShape1.instObjGroups" 
+		"SwampTallTreeNoLeaves_JonathanFranklinRN1.placeHolderList[1]" ":initialShadingGroup.dsm";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode groupId -n "groupId2";
@@ -7498,16 +7791,46 @@ createNode groupParts -n "groupParts2";
 	setAttr ".ic" -type "componentList" 32 "vtx[648:707]" "vtx[1248:1307]" "vtx[1848:1907]" "vtx[2448:2507]" "vtx[3078:3137]" "vtx[3678:3737]" "vtx[4278:4337]" "vtx[4878:4937]" "vtx[5508:5567]" "vtx[6108:6167]" "vtx[6708:6767]" "vtx[7308:7367]" "vtx[7938:7997]" "vtx[8538:8597]" "vtx[9138:9197]" "vtx[9738:9797]" "vtx[10368:10427]" "vtx[10968:11027]" "vtx[11568:11627]" "vtx[12168:12227]" "vtx[12798:12857]" "vtx[13398:13457]" "vtx[13998:14057]" "vtx[14598:14657]" "vtx[15228:15287]" "vtx[15828:15887]" "vtx[16428:16487]" "vtx[17028:17087]" "vtx[17658:17717]" "vtx[18258:18317]" "vtx[18858:18917]" "vtx[19458:19517]";
 createNode reference -n "BananaTree_SCRN";
 	rename -uid "5EED6CEA-459C-1891-6F3A-64A39EECD69C";
+	setAttr -s 3 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"BananaTree_SCRN"
 		"BananaTree_SCRN" 0
-		"BananaTree_SCRN" 3
+		"BananaTree_SCRN" 16
 		2 "|BananaTree_SC:BananaTree" "translate" " -type \"double3\" -28.929047670857194 0 30.218985736961493"
 		
 		2 "|BananaTree_SC:BananaTree" "scale" " -type \"double3\" 6.8363487069010409 6.8363487069010409 6.8363487069010409"
 		
+		2 "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeavesReversed" "visibility" 
+		" 0"
 		2 "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeavesReversed" "scale" 
-		" -type \"double3\" 1 1 1";
+		" -type \"double3\" 1 1 1"
+		3 "|BananaTree_SC:BananaTree|BananaTree_SC:Bananas|BananaTree_SC:BananasShape.instObjGroups" 
+		"BananaTree_SC:Bananas1.dagSetMembers" "-na"
+		3 "|BananaTree_SC:BananaTree|BananaTree_SC:Trunk|BananaTree_SC:TrunkShape.instObjGroups" 
+		"BananaTree_SC:Trunk1.dagSetMembers" "-na"
+		3 "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeaves|BananaTree_SC:BananaLeavesShape.instObjGroups" 
+		"BananaTree_SC:lambert2SG.dagSetMembers" "-na"
+		5 3 "BananaTree_SCRN" "|BananaTree_SC:BananaTree|BananaTree_SC:Trunk|BananaTree_SC:TrunkShape.instObjGroups" 
+		"BananaTree_SCRN.placeHolderList[1]" "BananaTree_SC:Trunk1.dsm"
+		5 3 "BananaTree_SCRN" "|BananaTree_SC:BananaTree|BananaTree_SC:Bananas|BananaTree_SC:BananasShape.instObjGroups" 
+		"BananaTree_SCRN.placeHolderList[2]" "BananaTree_SC:Bananas1.dsm"
+		5 3 "BananaTree_SCRN" "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeaves|BananaTree_SC:BananaLeavesShape.instObjGroups" 
+		"BananaTree_SCRN.placeHolderList[3]" "BananaTree_SC:lambert2SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|BananaTree_SC:BananaTree|BananaTree_SC:Trunk|BananaTree_SC:TrunkShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|BananaTree_SC:BananaTree|BananaTree_SC:Bananas|BananaTree_SC:BananasShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|BananaTree_SC:BananaTree|BananaTree_SC:BananStem|BananaTree_SC:BananStemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeaves|BananaTree_SC:BananaLeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "BananaTree_SC:Trunk1.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "BananaTree_SC:Bananas1.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "AnotherRock_JonathanFranklinRN";
@@ -7515,67 +7838,124 @@ createNode reference -n "AnotherRock_JonathanFranklinRN";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AnotherRock_JonathanFranklinRN"
 		"AnotherRock_JonathanFranklinRN" 0
-		"AnotherRock_JonathanFranklinRN" 1
-		2 "|AnotherRock_JonathanFranklin:anotherRock:Mesh" "translate" " -type \"double3\" 33.549425704135317 0 19.915705118181812";
+		"AnotherRock_JonathanFranklinRN" 7
+		2 "|AnotherRock_JonathanFranklin:anotherRock:Mesh" "translate" " -type \"double3\" 33.549425704135317 0 19.915705118181812"
+		
+		2 "AnotherRock_JonathanFranklin:threeToneBrightnessShader" "color" " -s 3"
+		
+		2 "AnotherRock_JonathanFranklin:threeToneBrightnessShader" "color[1].color_Position" 
+		" 0.39130434393882751"
+		2 "AnotherRock_JonathanFranklin:threeToneBrightnessShader" "color[2].color_Position" 
+		" 0.92173910140991211"
+		7 "ignore" ":lightLinker1" 2 "|AnotherRock_JonathanFranklin:anotherRock:Mesh|AnotherRock_JonathanFranklin:anotherRock:MeshShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "AnotherRock_JonathanFranklin:anotherRock:Material.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "AnotherRock_JonathanFranklin:rampShader1SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "MushroomRN";
 	rename -uid "3E978B04-4A42-F785-8729-D9B0513B6C76";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"MushroomRN"
 		"MushroomRN" 0
-		"MushroomRN" 3
+		"MushroomRN" 6
 		2 "|Mushroom:pCube1" "translate" " -type \"double3\" 43.422278815293467 0.77680022861590192 63.882165522981666"
 		
 		2 "|Mushroom:pCube1" "rotate" " -type \"double3\" 0 148.14851337895709 0"
 		
-		2 "|Mushroom:pCube1" "scale" " -type \"double3\" 0.37697688709234956 0.22235852846475626 0.22235852846475626";
+		2 "|Mushroom:pCube1" "scale" " -type \"double3\" 0.37697688709234956 0.22235852846475626 0.22235852846475626"
+		
+		3 "|Mushroom:pCube1|Mushroom:pCubeShape1.instObjGroups" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		5 3 "MushroomRN" "|Mushroom:pCube1|Mushroom:pCubeShape1.instObjGroups" 
+		"MushroomRN.placeHolderList[1]" ":initialShadingGroup.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Mushroom:pCube1|Mushroom:pCubeShape1.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Mushroom1RN";
 	rename -uid "D0D704CB-46D6-BFE5-6E42-529A754753B1";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Mushroom1RN"
 		"Mushroom1RN" 0
-		"Mushroom1RN" 2
+		"Mushroom1RN" 5
 		2 "|Mushroom1:pCylinder1" "translate" " -type \"double3\" 45.902822998775811 0.1374530243213421 64.057068853517521"
 		
-		2 "|Mushroom1:pCylinder1" "scale" " -type \"double3\" 0.11226193359598834 0.46694647767389375 0.11226193359598834";
+		2 "|Mushroom1:pCylinder1" "scale" " -type \"double3\" 0.11226193359598834 0.46694647767389375 0.11226193359598834"
+		
+		3 "|Mushroom1:pCylinder1|Mushroom1:pCylinderShape1.instObjGroups" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		5 3 "Mushroom1RN" "|Mushroom1:pCylinder1|Mushroom1:pCylinderShape1.instObjGroups" 
+		"Mushroom1RN.placeHolderList[1]" ":initialShadingGroup.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Mushroom1:pCylinder1|Mushroom1:pCylinderShape1.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "Mushroom2RN";
 	rename -uid "42BFC144-4B44-36BD-13BF-B8B27DA799C6";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"Mushroom2RN"
 		"Mushroom2RN" 0
-		"Mushroom2RN" 2
+		"Mushroom2RN" 5
 		2 "|Mushroom2:pCylinder1" "translate" " -type \"double3\" 46.351297279132119 0.060858175060925168 63.348395543016494"
 		
-		2 "|Mushroom2:pCylinder1" "scale" " -type \"double3\" 0.045549757825112946 0.1894613632068726 0.045549757825112946";
+		2 "|Mushroom2:pCylinder1" "scale" " -type \"double3\" 0.045549757825112946 0.1894613632068726 0.045549757825112946"
+		
+		3 "|Mushroom2:pCylinder1|Mushroom2:pCylinderShape1.instObjGroups" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		5 3 "Mushroom2RN" "|Mushroom2:pCylinder1|Mushroom2:pCylinderShape1.instObjGroups" 
+		"Mushroom2RN.placeHolderList[1]" ":initialShadingGroup.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Mushroom2:pCylinder1|Mushroom2:pCylinderShape1.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "MushroomRN1";
 	rename -uid "4C8C9521-48FC-CE94-F0B3-638DC74E8455";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"MushroomRN1"
 		"MushroomRN1" 0
-		"MushroomRN1" 3
+		"MushroomRN1" 6
 		2 "|Mushroom3:pCube1" "translate" " -type \"double3\" 44.266934183584112 0.63466566300991278 63.408113356696305"
 		
 		2 "|Mushroom3:pCube1" "rotate" " -type \"double3\" 0 158.29927494849213 0"
 		
-		2 "|Mushroom3:pCube1" "scale" " -type \"double3\" 0.25578950187614813 0.15087656347477865 0.15087656347477865";
+		2 "|Mushroom3:pCube1" "scale" " -type \"double3\" 0.25578950187614813 0.15087656347477865 0.15087656347477865"
+		
+		3 "|Mushroom3:pCube1|Mushroom3:pCubeShape1.instObjGroups" ":initialShadingGroup.dagSetMembers" 
+		"-na"
+		5 3 "MushroomRN1" "|Mushroom3:pCube1|Mushroom3:pCubeShape1.instObjGroups" 
+		"MushroomRN1.placeHolderList[1]" ":initialShadingGroup.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Mushroom3:pCube1|Mushroom3:pCubeShape1.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "AddisonM_Rock2RN";
 	rename -uid "6838E36D-4ABE-720D-496F-F7AE97BD9D72";
+	setAttr ".phl[1]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AddisonM_Rock2RN"
 		"AddisonM_Rock2RN" 0
-		"AddisonM_Rock2RN" 2
+		"AddisonM_Rock2RN" 7
 		2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2" "translate" " -type \"double3\" 5.8083097242856088 2.8952453463352228 -37.976268837552695"
 		
-		2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2" "scale" " -type \"double3\" 9.3207305545157215 6.6848819739118026 5.9291777176824327";
+		2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2" "scale" " -type \"double3\" 9.3207305545157215 6.6848819739118026 5.9291777176824327"
+		
+		3 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2|AddisonM_Rock2:pasted__pCubeShape2.instObjGroups" 
+		"AddisonM_Rock2:pasted__lambert3SG.dagSetMembers" "-na"
+		5 3 "AddisonM_Rock2RN" "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2|AddisonM_Rock2:pasted__pCubeShape2.instObjGroups" 
+		"AddisonM_Rock2RN.placeHolderList[1]" "AddisonM_Rock2:pasted__lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2|AddisonM_Rock2:pasted__pCubeShape2.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "AddisonM_Rock2:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "AddisonM_Rock2:pasted__lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode reference -n "AnotherRock_JonathanFranklinRN1";
@@ -7583,28 +7963,2036 @@ createNode reference -n "AnotherRock_JonathanFranklinRN1";
 	setAttr ".ed" -type "dataReferenceEdits" 
 		"AnotherRock_JonathanFranklinRN1"
 		"AnotherRock_JonathanFranklinRN1" 0
-		"AnotherRock_JonathanFranklinRN1" 2
+		"AnotherRock_JonathanFranklinRN1" 7
 		2 "|AnotherRock_JonathanFranklin1:anotherRock:Mesh" "translate" " -type \"double3\" 32.833934841430164 0 56.347986065421821"
 		
-		2 "|AnotherRock_JonathanFranklin1:anotherRock:Mesh" "scale" " -type \"double3\" 1.7504658866564469 1.3292594390659065 1.4586793489678838";
+		2 "|AnotherRock_JonathanFranklin1:anotherRock:Mesh" "scale" " -type \"double3\" 1.7504658866564469 1.3292594390659065 1.4586793489678838"
+		
+		2 "AnotherRock_JonathanFranklin1:threeToneBrightnessShader" "color" " -s 3"
+		
+		2 "AnotherRock_JonathanFranklin1:threeToneBrightnessShader" "color[2].color_Position" 
+		" 0.93913042545318604"
+		7 "ignore" ":lightLinker1" 2 "|AnotherRock_JonathanFranklin1:anotherRock:Mesh|AnotherRock_JonathanFranklin1:anotherRock:MeshShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "AnotherRock_JonathanFranklin1:anotherRock:Material.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "AnotherRock_JonathanFranklin1:rampShader1SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
-createNode reference -n "ImageProjectionRigRN";
-	rename -uid "72F2EE3A-40F4-F632-100D-23875B91F3B3";
+createNode renderLayerManager -n "ImageProjectionRig:renderLayerManager";
+	rename -uid "4D080570-4027-F9C7-52D8-61B978930A1E";
+createNode renderLayer -n "ImageProjectionRig:defaultRenderLayer";
+	rename -uid "05DF0781-4041-1125-ACC6-FCACCC6E2CE9";
+	setAttr ".g" yes;
+createNode lambert -n "ImageProjectionRig:YB___SuperFront";
+	rename -uid "F9950F15-405F-620B-5CE9-759739CE1B67";
+createNode shadingEngine -n "ImageProjectionRig:lambert2SG";
+	rename -uid "41C82024-4659-0B6E-B87E-B29BE3057301";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo1";
+	rename -uid "000BAFCB-425A-E891-9EA1-828B793D171C";
+createNode file -n "ImageProjectionRig:file1";
+	rename -uid "46404137-498A-A4B1-9578-B78397B3437B";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/YoungBoy/1 - SuperFront/SuperFront1.png";
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture1";
+	rename -uid "3EED7889-4BD5-95BF-B944-DB845DFDA222";
+createNode polyPlane -n "ImageProjectionRig:polyPlane1";
+	rename -uid "0D5A54BE-4476-0A5C-EA5C-F0A3D663175F";
+	setAttr ".w" 19.2;
+	setAttr ".h" 10.8;
+	setAttr ".sw" 1;
+	setAttr ".sh" 1;
+	setAttr ".cuv" 2;
+createNode lambert -n "ImageProjectionRig:YB_SuperFront2_Mat";
+	rename -uid "A5E701B1-4D4B-8E1F-70A9-83A20DE77A47";
+createNode shadingEngine -n "ImageProjectionRig:lambert3SG";
+	rename -uid "24AF016C-4223-017C-229B-98AEF20C810B";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo2";
+	rename -uid "073CD0FE-4E01-45E0-EDF0-36B329B60F43";
+createNode file -n "ImageProjectionRig:YB_SuperFront";
+	rename -uid "677763A5-419D-24F1-A0C9-9FB1A509E755";
+	setAttr ".ftn" -type "string" "C:/Users/10734984/Desktop/LBOBRunFrames/final-1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture2";
+	rename -uid "F5BAC264-4ACE-A1A1-2EBC-6B83C85121DA";
+createNode expression -n "ImageProjectionRig:expression1";
+	rename -uid "343C88CE-487D-30E0-64F6-46A4F5F573BC";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode polyTweakUV -n "ImageProjectionRig:polyTweakUV1";
+	rename -uid "2FDC4CBA-48BB-4380-9EBB-0ABD85CE399A";
+	setAttr ".uopa" yes;
+	setAttr -s 3 ".uvtk";
+	setAttr ".uvtk[2]" -type "float2" 0 0.43665284 ;
+	setAttr ".uvtk[3]" -type "float2" 0 0.43665284 ;
+createNode nodeGraphEditorInfo -n "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo";
+	rename -uid "55DEEB9C-4C36-144C-7F03-FA9D393CF318";
+	setAttr ".pee" yes;
+	setAttr ".def" no;
+	setAttr ".tgi[0].tn" -type "string" "Untitled_1";
+	setAttr ".tgi[0].vl" -type "double2" -398.85103619981021 -326.19046322883167 ;
+	setAttr ".tgi[0].vh" -type "double2" 551.23198252568784 338.09522466054091 ;
+	setAttr -s 4 ".tgi[0].ni";
+	setAttr ".tgi[0].ni[0].x" -257.14285278320312;
+	setAttr ".tgi[0].ni[0].y" 150;
+	setAttr ".tgi[0].ni[0].nvs" 1923;
+	setAttr ".tgi[0].ni[1].x" -564.28570556640625;
+	setAttr ".tgi[0].ni[1].y" 127.14286041259766;
+	setAttr ".tgi[0].ni[1].nvs" 1923;
+	setAttr ".tgi[0].ni[2].x" 50;
+	setAttr ".tgi[0].ni[2].y" 150;
+	setAttr ".tgi[0].ni[2].nvs" 1923;
+	setAttr ".tgi[0].ni[3].x" 357.14285278320312;
+	setAttr ".tgi[0].ni[3].y" 127.14286041259766;
+	setAttr ".tgi[0].ni[3].nvs" 1923;
+createNode lambert -n "ImageProjectionRig:YB_Front_Mat";
+	rename -uid "D1D9D75E-4924-EA06-5951-4480D2C2E399";
+createNode shadingEngine -n "ImageProjectionRig:lambert4SG";
+	rename -uid "F5F4579E-4689-EC8A-AD87-0B953880F493";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo3";
+	rename -uid "031B441C-4C34-8BDA-CF30-439805780176";
+createNode file -n "ImageProjectionRig:file2";
+	rename -uid "2DFAE76A-4D76-3549-DD65-62A83E33E59B";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/YoungBoy/2 - Front/Front1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture3";
+	rename -uid "22607F28-4789-8DCF-A0B6-2A9F94FD44AB";
+createNode expression -n "ImageProjectionRig:expression2";
+	rename -uid "15B53922-488F-B1E2-36DD-038AED64EB38";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig:YB_Mid_Mat";
+	rename -uid "0F7A0433-4C5E-9E8D-D37B-D8A8E4EBA299";
+createNode shadingEngine -n "ImageProjectionRig:lambert5SG";
+	rename -uid "0CC975B3-4052-6E03-AEEC-9AB661A2B1C5";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo4";
+	rename -uid "14BFB4A5-44E2-692A-817E-128B0107EC15";
+createNode file -n "ImageProjectionRig:file3";
+	rename -uid "D0FC8DB1-4D05-2F3D-A46A-E487EBB5C917";
+	setAttr ".ftn" -type "string" "C:/Users/10734984/Desktop/OBRunFrames/final-1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture4";
+	rename -uid "BD05E28D-45CA-A8CA-8E33-32ACB09293B7";
+createNode expression -n "ImageProjectionRig:expression3";
+	rename -uid "EBC398D7-45EF-5975-1DDD-DE86B27E5BE4";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig:YB_Back1_Mat";
+	rename -uid "2C8EE300-4A74-33EB-01E0-BF82FEDA90A4";
+createNode shadingEngine -n "ImageProjectionRig:lambert6SG";
+	rename -uid "9C33A1A9-48BC-3E7E-5A57-138D5FDED648";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo5";
+	rename -uid "91E6F70D-496F-5566-426B-02A8F310CDE2";
+createNode file -n "ImageProjectionRig:file4";
+	rename -uid "B4DEE1CD-40E4-DF58-11C9-A39F2EF3BEA5";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/YoungBoy/4 - Back/Back10.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture5";
+	rename -uid "782D156A-476A-600B-343D-8E8A6EB97AEF";
+createNode expression -n "ImageProjectionRig:expression4";
+	rename -uid "5CD9A1A8-4590-8FA9-AE4E-5F8C255F3FC5";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig:YB_SuperBack_Mat";
+	rename -uid "1C8921CB-4537-E318-441A-1B9E7A717A0F";
+createNode shadingEngine -n "ImageProjectionRig:lambert7SG";
+	rename -uid "6D8AB757-457B-0BBC-6343-81A23A2D8D60";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo6";
+	rename -uid "B344277B-406F-A004-0CD1-0585FD8F18D0";
+createNode file -n "ImageProjectionRig:file5";
+	rename -uid "B3375662-4AFD-2930-9EEA-5C8142FFD82C";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/YoungBoy/5 - SuperBack/SuperBack1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture6";
+	rename -uid "091EAB14-40E8-3BA6-1850-3583DB826ED5";
+createNode expression -n "ImageProjectionRig:expression5";
+	rename -uid "8C15A7B2-44F2-BF1E-01C8-19B071128BF0";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode lambert -n "ImageProjectionRig:OB_SuperFront_Mat";
+	rename -uid "A20EB3B3-46B2-AC7E-C3EC-D49954378BA6";
+createNode shadingEngine -n "ImageProjectionRig:lambert8SG";
+	rename -uid "777B96CE-49AA-80E1-7269-A784EFE8B7B5";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo7";
+	rename -uid "65C8443A-4532-1E7D-A3AD-BD9E619D96C7";
+createNode lambert -n "ImageProjectionRig:OB_Front_Mat";
+	rename -uid "36C4CEF9-4C5A-4471-4890-3D836EE05939";
+createNode shadingEngine -n "ImageProjectionRig:lambert9SG";
+	rename -uid "79E7786B-4136-2869-5F8B-B4AE86350919";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo8";
+	rename -uid "AB4C7D6D-4DEA-C9E0-3664-739822FA9710";
+createNode lambert -n "ImageProjectionRig:OB_Mid_Mat";
+	rename -uid "68B9436E-45E5-2A6D-D438-78A0DAF099F7";
+createNode shadingEngine -n "ImageProjectionRig:lambert10SG";
+	rename -uid "AE14AB87-4171-FAF4-6820-4EB4B9F9FBEB";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo9";
+	rename -uid "6FDE02F9-4871-6315-972B-57AC031E55E5";
+createNode lambert -n "ImageProjectionRig:OB_Back_Mat";
+	rename -uid "4381F5FD-4F70-A1F1-B04F-87850F8863A9";
+createNode shadingEngine -n "ImageProjectionRig:lambert11SG";
+	rename -uid "5BA1BFBB-4998-A4FC-083D-58985992552A";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo10";
+	rename -uid "97F3F69A-4A22-D9BB-ADC5-1ABD44AE1AF4";
+createNode lambert -n "ImageProjectionRig:OB_SuperBack_Mat";
+	rename -uid "0C27417F-4D10-BF21-442D-F6926E86123E";
+createNode shadingEngine -n "ImageProjectionRig:lambert12SG";
+	rename -uid "57BFA5F8-487A-EA4A-D5D9-07B47D4BC7AC";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo11";
+	rename -uid "AE678CC4-4F6B-E099-E6D3-41A81FB80CFC";
+createNode file -n "ImageProjectionRig:file6";
+	rename -uid "A36BE961-4809-E086-8D70-D89560B0A96A";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/1 - SuperFront/SuperFront1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture7";
+	rename -uid "6146B0B2-49F3-65C2-0A66-21AF4B75E65B";
+createNode expression -n "ImageProjectionRig:expression6";
+	rename -uid "3862C148-4AD1-9EE8-B640-DFB09CB438EB";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig:file7";
+	rename -uid "3B7400FA-49D1-9FF1-4D70-0FBDC4F50398";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/2 - Front/Front10.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture8";
+	rename -uid "A1CF8AB5-4B5A-7246-6913-5EB7F13ACCCC";
+createNode expression -n "ImageProjectionRig:expression7";
+	rename -uid "B6279824-4286-9703-0132-8B9CDB8B2944";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig:file8";
+	rename -uid "CDB576E4-4442-A99E-C6B2-C78DD808DFC1";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/3 - Mid/Mid10.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture9";
+	rename -uid "7AACA1A6-4205-06F1-0BE2-E290ACC28433";
+createNode expression -n "ImageProjectionRig:expression8";
+	rename -uid "DEFDDEC2-4665-6C38-5A97-30A866015949";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig:file9";
+	rename -uid "3983477E-47B0-FE3A-D0AB-F592448AF176";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/4 - Back/Back100.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture10";
+	rename -uid "3758F090-4C25-F834-9174-7A9F4C70CAA8";
+createNode expression -n "ImageProjectionRig:expression9";
+	rename -uid "3DDB0952-413A-49E1-5178-76A7AC9B84B6";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode file -n "ImageProjectionRig:file10";
+	rename -uid "4FD69B41-46E1-C0D7-CD27-16852ACC0EC0";
+	setAttr ".ftn" -type "string" "C:/Users/10703355/Desktop/SamSceneImages/OlderBoy/5 - SuperBack/SuperBack1.png";
+	setAttr ".ufe" yes;
+	setAttr ".cs" -type "string" "sRGB";
+createNode place2dTexture -n "ImageProjectionRig:place2dTexture11";
+	rename -uid "4223218C-46DA-519D-E820-F382C5CC9237";
+createNode expression -n "ImageProjectionRig:expression10";
+	rename -uid "8C8FE7A7-4E42-43CA-7CC6-47A70E70725F";
+	setAttr -k on ".nds";
+	setAttr ".ixp" -type "string" ".O[0]=frame";
+createNode makeNurbCircle -n "ImageProjectionRig:makeNurbCircle1";
+	rename -uid "4EC895B2-408B-6D85-9E69-3EB60C623C7E";
+	setAttr ".nr" -type "double3" 0 1 0 ;
+createNode transformGeometry -n "ImageProjectionRig:transformGeometry1";
+	rename -uid "2EC1A226-41D4-4B4A-16F9-C398482FD40D";
+	setAttr ".txf" -type "matrix" 4.5692820270988621 0 0 0 0 4.5692820270988621 0 0
+		 0 0 4.5692820270988621 0 0 0 0 1;
+createNode transformGeometry -n "ImageProjectionRig:transformGeometry2";
+	rename -uid "6273F1CF-4CD2-D9CA-4367-E699A58BFA52";
+	setAttr ".txf" -type "matrix" 1 0 0 0 0 2.2204460492503131e-016 1.0000000000000002 0
+		 0 -1.0000000000000002 2.2204460492503131e-016 0 0 5.5487640652250896 1.9372587115937387 1;
+createNode lambert -n "ImageProjectionRig:Bear_Superfront_Mat";
+	rename -uid "D64C9C25-4293-86AB-EE79-0E87A89FD244";
+createNode shadingEngine -n "ImageProjectionRig:lambert13SG";
+	rename -uid "D07B53B9-4792-8550-A0DF-46A07540326E";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo12";
+	rename -uid "74FA19D0-4C04-8F81-C6FC-AE9E7316EDDB";
+createNode lambert -n "ImageProjectionRig:Bear_Front_Mat";
+	rename -uid "F811F911-4A31-AA82-FA26-9A9ED1A6BF1B";
+createNode shadingEngine -n "ImageProjectionRig:lambert14SG";
+	rename -uid "57EE7F5F-4BBC-02D5-5DD6-449D455E6E40";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo13";
+	rename -uid "532A3095-4841-0FB6-3A4C-FCA067F79989";
+createNode lambert -n "ImageProjectionRig:Bear_Mid_Mat";
+	rename -uid "6C77B591-4C37-FF31-5C4D-B6A77043B7CA";
+createNode shadingEngine -n "ImageProjectionRig:lambert15SG";
+	rename -uid "490364E1-42EC-77D4-2A19-2BBB8B0BB4FC";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo14";
+	rename -uid "03B7D214-4F32-DF28-0F53-24902EFFA10B";
+createNode lambert -n "ImageProjectionRig:Bear_Back_Mat";
+	rename -uid "A1EB52FF-496F-0313-3123-5E8BCDD2EBE6";
+createNode shadingEngine -n "ImageProjectionRig:lambert16SG";
+	rename -uid "5DA92B81-47E5-9853-C8BE-18A27E4492CE";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo15";
+	rename -uid "725060B7-4759-5ED5-A6F8-6EAF1E689A0E";
+createNode lambert -n "ImageProjectionRig:Bear_SuperBack_Mat";
+	rename -uid "44C726C7-4C80-3114-7CE2-AFBEDDF686DF";
+createNode shadingEngine -n "ImageProjectionRig:lambert17SG";
+	rename -uid "BF7354FB-4BD0-290B-A796-03A217BCC94C";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "ImageProjectionRig:materialInfo16";
+	rename -uid "93A27821-408C-83E1-C5F7-DCAB27502996";
+createNode displayLayer -n "ImageProjectionRig:YB_lyr";
+	rename -uid "A92A2E94-4078-EB4E-04E6-D4A4FCFDABE7";
+	setAttr ".do" 1;
+createNode displayLayer -n "ImageProjectionRig:OB_lyr";
+	rename -uid "2B0A7645-4A55-1656-ECFC-5AAAB5AAC25A";
+	setAttr ".v" no;
+	setAttr ".do" 2;
+createNode displayLayer -n "ImageProjectionRig:Bear_lyr";
+	rename -uid "968CC45E-49D8-1B53-5952-519F8AF838A9";
+	setAttr ".v" no;
+	setAttr ".do" 3;
+createNode rampShader -n "threeToneBrightnessShader";
+	rename -uid "AF4962E4-4DFC-773E-919A-2D98C0407216";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.066304475 0.16500001 0.0084150005 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.66956520080566406;
+	setAttr ".clr[1].clrc" -type "float3" 0.10072114 0.208 0.025584007 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.947826087474823;
+	setAttr ".clr[2].clrc" -type "float3" 0.22539164 0.40400001 0.08120399 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader1SG";
+	rename -uid "9E12B0C1-41FB-3B6F-E7B4-D8BF0CDD4895";
+	setAttr ".ihi" 0;
+	setAttr -s 101 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo1";
+	rename -uid "E40FA8E5-4C40-9D02-05EF-E2B2445B2AB7";
+createNode rampShader -n "threeToneBrightnessShader1";
+	rename -uid "91AD9247-4A35-35E7-BEBC-9C935DEDD79E";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.052299999 0.0184 0.0154 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.66956520080566406;
+	setAttr ".clr[1].clrc" -type "float3" 0.075000003 0.035735171 0.032850005 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.93043476343154907;
+	setAttr ".clr[2].clrc" -type "float3" 0.121 0.070363618 0.065702997 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader2SG";
+	rename -uid "A316FD9B-42FD-C938-B80E-96AF281FA270";
+	setAttr ".ihi" 0;
+	setAttr -s 2 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo2";
+	rename -uid "BCEDD2B9-463E-BDF3-70B2-A081B78AD67C";
+createNode rampShader -n "threeToneBrightnessShader2";
+	rename -uid "0C8B6D64-44F4-D2C0-1934-5DAFC6CBF1F3";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.050980393 0.015686275 0.011764706 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.074509807 0.035294119 0.031372551 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.11764706 0.06666667 0.062745102 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader3SG";
+	rename -uid "7BDC4485-479F-55BF-2048-94A371E59180";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo3";
+	rename -uid "8C04E20E-42F2-2C46-2A72-489F2B059E04";
+createNode rampShader -n "threeToneBrightnessShader3";
+	rename -uid "DD863AE0-4B58-E27F-88B1-31B41FD1B260";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.050980393 0.015686275 0.011764706 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.074509807 0.035294119 0.031372551 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.11764706 0.06666667 0.062745102 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader4SG";
+	rename -uid "BC20D67C-400F-E58E-FCC4-C593DFA4C38B";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo4";
+	rename -uid "FA195D6F-46DE-44FF-E80E-BFB989C157DF";
+createNode rampShader -n "threeToneBrightnessShader4";
+	rename -uid "1993E090-4D6B-CE3D-908A-FBBD599E8714";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.15294118 0.15294118 0.15294118 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.60000002384185791;
+	setAttr ".clr[1].clrc" -type "float3" 0.33333334 0.33333334 0.33333334 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.947826087474823;
+	setAttr ".clr[2].clrc" -type "float3" 0.50196081 0.50196081 0.50196081 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader5SG";
+	rename -uid "03A28132-4242-9DBC-CEFF-77B007DA9C62";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo5";
+	rename -uid "BF991994-4E5E-B842-9FEB-529631155BDE";
+createNode rampShader -n "threeToneBrightnessShader5";
+	rename -uid "EF4843E3-4202-DF36-CDB8-0A9678E679AE";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.01105434 0.071999997 0.0059759999 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.74782609939575195;
+	setAttr ".clr[1].clrc" -type "float3" 0.018329998 0.093999997 0.050344713 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.93043476343154907;
+	setAttr ".clr[2].clrc" -type "float3" 0.038571 0.12899999 0.11161051 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader6SG";
+	rename -uid "ACB329C4-477F-F051-BA2F-A7B50BBAF0B9";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo6";
+	rename -uid "5B1DF590-4673-A31B-A021-9F8FECED5753";
+createNode rampShader -n "threeToneBrightnessShader6";
+	rename -uid "0DC0C3B5-4750-E8AD-1C56-31865685FFF1";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.20832311 0.41299999 0.058232985 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.31021482 0.61500001 0.086714983 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.40454027 0.80199999 0.11308198 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader7SG";
+	rename -uid "0E221DE4-49CF-5C97-BBD6-59B502AC5661";
+	setAttr ".ihi" 0;
+	setAttr -s 5 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo7";
+	rename -uid "510494D2-493A-D5B8-0884-568920BECD3F";
+createNode reference -n "PalmTree_SCRN";
+	rename -uid "ACFA951B-4A95-7747-09D1-DFA65FAA306B";
+	setAttr -s 3 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
 	setAttr ".ed" -type "dataReferenceEdits" 
-		"ImageProjectionRigRN"
-		"ImageProjectionRigRN" 0
-		"ImageProjectionRigRN" 5
-		0 "|ImageProjectionRig:group1" "|group1" "-s -r "
-		0 "|ImageProjectionRig:YB_Projection_Rig" "|group1" "-s -r "
-		0 "|ImageProjectionRig:OB_Projection_Rig1" "|group1" "-s -r "
-		0 "|ImageProjectionRig:Bear_Projection_Rig" "|group1" "-s -r "
-		2 "|group1|ImageProjectionRig:group1" "translate" " -type \"double3\" 0 0 1.9372587115937403";
+		"PalmTree_SCRN"
+		"PalmTree_SCRN" 0
+		"PalmTree_SCRN" 22
+		2 "|PalmTree_SC:SC_PalmTree" "translate" " -type \"double3\" 39.454584552659341 0 15.131260536962078"
+		
+		2 "|PalmTree_SC:SC_PalmTree" "rotate" " -type \"double3\" 0 85.268419570174046 0"
+		
+		2 "|PalmTree_SC:SC_PalmTree" "scale" " -type \"double3\" 1.6485735848863801 1.6485735848863801 1.6485735848863801"
+		
+		3 "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Leaves|PalmTree_SC:LeavesShape.instObjGroups" 
+		"PalmTree_SC:Leaves2.dagSetMembers" "-na"
+		3 "PalmTree_SC:groupId58.message" ":initialShadingGroup.groupNodes" "-na"
+		
+		3 "PalmTree_SC:groupId57.groupId" "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Stems|PalmTree_SC:StemsShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "PalmTree_SC:lambert3SG.memberWireframeColor" "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Stems|PalmTree_SC:StemsShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Stems|PalmTree_SC:StemsShape.instObjGroups.objectGroups[0]" 
+		"PalmTree_SC:lambert3SG.dagSetMembers" "-na"
+		3 "PalmTree_SC:groupId57.message" "PalmTree_SC:lambert3SG.groupNodes" "-na"
+		
+		3 "PalmTree_SC:groupId58.groupId" "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Trunk|PalmTree_SC:TrunkShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Trunk|PalmTree_SC:TrunkShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Trunk|PalmTree_SC:TrunkShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		5 3 "PalmTree_SCRN" "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Stems|PalmTree_SC:StemsShape.instObjGroups" 
+		"PalmTree_SCRN.placeHolderList[1]" ""
+		5 3 "PalmTree_SCRN" "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Trunk|PalmTree_SC:TrunkShape.instObjGroups" 
+		"PalmTree_SCRN.placeHolderList[2]" ""
+		5 3 "PalmTree_SCRN" "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Leaves|PalmTree_SC:LeavesShape.instObjGroups" 
+		"PalmTree_SCRN.placeHolderList[3]" "PalmTree_SC:Leaves2.dsm"
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Stems|PalmTree_SC:StemsShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Trunk|PalmTree_SC:TrunkShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Leaves|PalmTree_SC:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC:Leaves2.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC:lambert4SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC:lambert5SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
+createNode reference -n "PalmTree_SCRN1";
+	rename -uid "E2FF2DDB-4EEA-CDDA-201E-BDA9A2E48429";
+	setAttr -s 3 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SCRN1"
+		"PalmTree_SCRN1" 0
+		"PalmTree_SCRN1" 25
+		2 "|PalmTree_SC1:SC_PalmTree" "translate" " -type \"double3\" -26.333657686390104 0 74.93028560777536"
+		
+		2 "|PalmTree_SC1:SC_PalmTree" "rotate" " -type \"double3\" 0 141.72467203730548 0"
+		
+		2 "|PalmTree_SC1:SC_PalmTree" "scale" " -type \"double3\" 1.8732575637015858 1.8732575637015858 1.8732575637015858"
+		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems" "scale" " -type \"double3\" 1 1 1"
+		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk" "scale" " -type \"double3\" 1 1 1"
+		
+		2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves" "scale" " -type \"double3\" 1 1 1"
+		
+		3 "PalmTree_SC1:groupId58.message" ":initialShadingGroup.groupNodes" "-na"
+		
+		3 "PalmTree_SC1:groupId57.groupId" "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems|PalmTree_SC1:StemsShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "PalmTree_SC1:lambert3SG.memberWireframeColor" "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems|PalmTree_SC1:StemsShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves|PalmTree_SC1:LeavesShape.instObjGroups" 
+		"PalmTree_SC1:Leaves2.dagSetMembers" "-na"
+		3 "PalmTree_SC1:groupId58.groupId" "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk|PalmTree_SC1:TrunkShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk|PalmTree_SC1:TrunkShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk|PalmTree_SC1:TrunkShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems|PalmTree_SC1:StemsShape.instObjGroups.objectGroups[0]" 
+		"PalmTree_SC1:lambert3SG.dagSetMembers" "-na"
+		3 "PalmTree_SC1:groupId57.message" "PalmTree_SC1:lambert3SG.groupNodes" "-na"
+		
+		5 3 "PalmTree_SCRN1" "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems|PalmTree_SC1:StemsShape.instObjGroups" 
+		"PalmTree_SCRN1.placeHolderList[1]" ""
+		5 3 "PalmTree_SCRN1" "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk|PalmTree_SC1:TrunkShape.instObjGroups" 
+		"PalmTree_SCRN1.placeHolderList[2]" ""
+		5 3 "PalmTree_SCRN1" "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves|PalmTree_SC1:LeavesShape.instObjGroups" 
+		"PalmTree_SCRN1.placeHolderList[3]" "PalmTree_SC1:Leaves2.dsm"
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems|PalmTree_SC1:StemsShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk|PalmTree_SC1:TrunkShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves|PalmTree_SC1:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC1:Leaves2.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC1:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC1:lambert4SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC1:lambert5SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "PalmTree_SC1RN";
+	rename -uid "F9610C02-468C-F285-5C5D-59B62E44626F";
+	setAttr -s 3 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".phl[3]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"PalmTree_SC1RN"
+		"PalmTree_SC1RN" 0
+		"PalmTree_SC1RN" 28
+		2 "|PalmTree_SC2:SC_PalmTree" "translate" " -type \"double3\" -18.503234880983371 0 24.695569532429509"
+		
+		2 "|PalmTree_SC2:SC_PalmTree" "rotate" " -type \"double3\" 0 -52.436204817579529 0"
+		
+		2 "|PalmTree_SC2:SC_PalmTree" "scale" " -type \"double3\" 2.0988304054185258 2.0988304054185258 2.0988304054185258"
+		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems" "visibility" " 0"
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems" "rotate" " -type \"double3\" 0 0 0"
+		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk" "visibility" " 0"
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk" "rotate" " -type \"double3\" 0 0 0"
+		
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves" "visibility" " 0"
+		2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves" "rotate" " -type \"double3\" 0 0 0"
+		
+		3 "PalmTree_SC2:groupId58.groupId" "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk|PalmTree_SC2:TrunkShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk|PalmTree_SC2:TrunkShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk|PalmTree_SC2:TrunkShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "PalmTree_SC2:groupId57.groupId" "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems|PalmTree_SC2:StemsShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "PalmTree_SC2:lambert3SG.memberWireframeColor" "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems|PalmTree_SC2:StemsShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "PalmTree_SC2:groupId58.message" ":initialShadingGroup.groupNodes" "-na"
+		
+		3 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems|PalmTree_SC2:StemsShape.instObjGroups.objectGroups[0]" 
+		"PalmTree_SC2:lambert3SG.dagSetMembers" "-na"
+		3 "PalmTree_SC2:groupId57.message" "PalmTree_SC2:lambert3SG.groupNodes" "-na"
+		
+		3 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves|PalmTree_SC2:LeavesShape.instObjGroups" 
+		"PalmTree_SC2:Leaves2.dagSetMembers" "-na"
+		5 3 "PalmTree_SC1RN" "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems|PalmTree_SC2:StemsShape.instObjGroups" 
+		"PalmTree_SC1RN.placeHolderList[1]" ""
+		5 3 "PalmTree_SC1RN" "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk|PalmTree_SC2:TrunkShape.instObjGroups" 
+		"PalmTree_SC1RN.placeHolderList[2]" ""
+		5 3 "PalmTree_SC1RN" "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves|PalmTree_SC2:LeavesShape.instObjGroups" 
+		"PalmTree_SC1RN.placeHolderList[3]" "PalmTree_SC2:Leaves2.dsm"
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems|PalmTree_SC2:StemsShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk|PalmTree_SC2:TrunkShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves|PalmTree_SC2:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC2:Leaves2.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC2:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC2:lambert4SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "PalmTree_SC2:lambert5SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "ShortPalm_SCRN";
+	rename -uid "E6CC5C31-4D1A-1DE0-FD24-8F889A7D4A40";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"ShortPalm_SCRN"
+		"ShortPalm_SCRN" 0
+		"ShortPalm_SCRN" 34
+		2 "|ShortPalm_SC:ShortPalm:Mesh" "translate" " -type \"double3\" -11.834284072674347 -4.2666200504142644 -1.460966238617913"
+		
+		2 "|ShortPalm_SC:ShortPalm:Mesh" "scale" " -type \"double3\" 0.19758663616652036 0.19758663616652036 0.19758663616652036"
+		
+		2 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Trunk" "visibility" " 0"
+		2 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:TrunkSpikes" "visibility" " 0"
+		
+		2 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves" "visibility" " 0"
+		2 "ShortPalm_SC:groupParts1" "inputRemoveComponent" " -type \"componentList\" 4 \"f[0:1]\" \"f[497]\" \"f[663]\" \"f[1084]\""
+		
+		2 "ShortPalm_SC:groupParts1" "groupId" " 268"
+		2 "ShortPalm_SC:groupParts2" "inputRemoveComponent" " -type \"componentList\" 4 \"f[2:496]\" \"f[498:662]\" \"f[664:1083]\" \"f[1085:1294]\""
+		
+		2 "ShortPalm_SC:groupParts2" "groupId" " 269"
+		2 "ShortPalm_SC:groupParts3" "inputRemoveComponent" " -type \"componentList\" 1 \"f[0:73]\""
+		
+		2 "ShortPalm_SC:groupParts3" "groupId" " 270"
+		3 "ShortPalm_SC:groupId1181.groupId" "ShortPalm_SC:groupParts1.groupId" ""
+		
+		3 "ShortPalm_SC:groupId1181.groupId" "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves|ShortPalm_SC:LeavesShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves|ShortPalm_SC:LeavesShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves|ShortPalm_SC:LeavesShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "ShortPalm_SC:groupId1182.groupId" "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves|ShortPalm_SC:LeavesShape.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "ShortPalm_SC:lambert2SG.memberWireframeColor" "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves|ShortPalm_SC:LeavesShape.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Trunk|ShortPalm_SC:TrunkShape.instObjGroups.objectGroups[0]" 
+		"ShortPalm_SC:lambert3SG.dagSetMembers" "-na"
+		3 "ShortPalm_SC:groupId1183.message" "ShortPalm_SC:lambert3SG.groupNodes" 
+		"-na"
+		3 "ShortPalm_SC:groupId1183.groupId" "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Trunk|ShortPalm_SC:TrunkShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "ShortPalm_SC:lambert3SG.memberWireframeColor" "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Trunk|ShortPalm_SC:TrunkShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "ShortPalm_SC:groupId1182.groupId" "ShortPalm_SC:groupParts2.groupId" ""
+		
+		3 "ShortPalm_SC:groupId1183.groupId" "ShortPalm_SC:groupParts3.groupId" ""
+		
+		3 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves|ShortPalm_SC:LeavesShape.instObjGroups.objectGroups[1]" 
+		"ShortPalm_SC:lambert2SG.dagSetMembers" "-na"
+		3 "ShortPalm_SC:groupId1182.message" "ShortPalm_SC:lambert2SG.groupNodes" 
+		"-na"
+		3 "ShortPalm_SC:groupId1181.message" ":initialShadingGroup.groupNodes" "-na"
+		
+		5 3 "ShortPalm_SCRN" "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Trunk|ShortPalm_SC:TrunkShape.instObjGroups" 
+		"ShortPalm_SCRN.placeHolderList[1]" ""
+		5 3 "ShortPalm_SCRN" "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves|ShortPalm_SC:LeavesShape.instObjGroups" 
+		"ShortPalm_SCRN.placeHolderList[2]" ""
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Trunk|ShortPalm_SC:TrunkShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:TrunkSpikes|ShortPalm_SC:TrunkSpikesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves|ShortPalm_SC:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC:lambert4SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "ShortPalm_SCRN1";
+	rename -uid "2A7BC175-499D-70A6-C12A-C08F4F5C19B9";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"ShortPalm_SCRN1"
+		"ShortPalm_SCRN1" 0
+		"ShortPalm_SCRN1" 33
+		2 "|ShortPalm_SC1:ShortPalm:Mesh" "translate" " -type \"double3\" 49.340963093044877 -3.9211827924920302 57.2814608261885"
+		
+		2 "|ShortPalm_SC1:ShortPalm:Mesh" "scale" " -type \"double3\" 0.21061718151286937 0.21061718151286937 0.21061718151286937"
+		
+		2 "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape" 
+		"instObjGroups.objectGroups" " -s 2"
+		2 "ShortPalm_SC1:groupParts1" "inputRemoveComponent" " -type \"componentList\" 4 \"f[0:1]\" \"f[497]\" \"f[663]\" \"f[1084]\""
+		
+		2 "ShortPalm_SC1:groupParts1" "groupId" " 273"
+		2 "ShortPalm_SC1:groupParts2" "inputRemoveComponent" " -type \"componentList\" 4 \"f[2:496]\" \"f[498:662]\" \"f[664:1083]\" \"f[1085:1294]\""
+		
+		2 "ShortPalm_SC1:groupParts2" "groupId" " 274"
+		3 "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape.instObjGroups.objectGroups[0]" 
+		"ShortPalm_SC1:lambert4SG.dagSetMembers" "-na"
+		3 "ShortPalm_SC1:groupId1179.message" "ShortPalm_SC1:lambert4SG.groupNodes" 
+		"-na"
+		3 "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape.instObjGroups.objectGroups[2]" 
+		"ShortPalm_SC1:lambert3SG.dagSetMembers" "-na"
+		3 "ShortPalm_SC1:groupId1180.message" "ShortPalm_SC1:lambert3SG.groupNodes" 
+		"-na"
+		3 "ShortPalm_SC1:groupId1181.groupId" "ShortPalm_SC1:groupParts1.groupId" 
+		""
+		3 "ShortPalm_SC1:groupId1181.message" ":initialShadingGroup.groupNodes" "-na"
+		
+		3 "ShortPalm_SC1:groupId1181.groupId" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves|ShortPalm_SC1:LeavesShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves|ShortPalm_SC1:LeavesShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves|ShortPalm_SC1:LeavesShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "ShortPalm_SC1:groupId1182.groupId" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves|ShortPalm_SC1:LeavesShape.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "ShortPalm_SC1:lambert2SG.memberWireframeColor" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves|ShortPalm_SC1:LeavesShape.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves|ShortPalm_SC1:LeavesShape.instObjGroups.objectGroups[1]" 
+		"ShortPalm_SC1:lambert2SG.dagSetMembers" "-na"
+		3 "ShortPalm_SC1:groupId1182.message" "ShortPalm_SC1:lambert2SG.groupNodes" 
+		"-na"
+		3 "ShortPalm_SC1:groupId1182.groupId" "ShortPalm_SC1:groupParts2.groupId" 
+		""
+		3 "ShortPalm_SC1:groupId1179.groupId" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "ShortPalm_SC1:lambert4SG.memberWireframeColor" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "ShortPalm_SC1:groupId1180.groupId" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape.instObjGroups.objectGroups[2].objectGroupId" 
+		""
+		3 "ShortPalm_SC1:lambert3SG.memberWireframeColor" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape.instObjGroups.objectGroups[2].objectGrpColor" 
+		""
+		5 3 "ShortPalm_SCRN1" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape.instObjGroups" 
+		"ShortPalm_SCRN1.placeHolderList[1]" ""
+		5 3 "ShortPalm_SCRN1" "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves|ShortPalm_SC1:LeavesShape.instObjGroups" 
+		"ShortPalm_SCRN1.placeHolderList[2]" ""
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Trunk|ShortPalm_SC1:TrunkShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes|ShortPalm_SC1:TrunkSpikesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves|ShortPalm_SC1:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC1:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC1:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC1:lambert4SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "ShortPalm_SC1RN";
+	rename -uid "F6B4A558-4508-3AD0-2953-CA84CA2871F2";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"ShortPalm_SC1RN"
+		"ShortPalm_SC1RN" 0
+		"ShortPalm_SC1RN" 31
+		2 "|ShortPalm_SC2:ShortPalm:Mesh" "translate" " -type \"double3\" -26.405717503476133 -2.3008221039270005 58.087575620531091"
+		
+		2 "|ShortPalm_SC2:ShortPalm:Mesh" "scale" " -type \"double3\" 0.33542689734742176 0.33542689734742176 0.33542689734742176"
+		
+		2 "ShortPalm_SC2:groupParts1" "inputRemoveComponent" " -type \"componentList\" 4 \"f[0:1]\" \"f[497]\" \"f[663]\" \"f[1084]\""
+		
+		2 "ShortPalm_SC2:groupParts1" "groupId" " 278"
+		2 "ShortPalm_SC2:groupParts2" "inputRemoveComponent" " -type \"componentList\" 4 \"f[2:496]\" \"f[498:662]\" \"f[664:1083]\" \"f[1085:1294]\""
+		
+		2 "ShortPalm_SC2:groupParts2" "groupId" " 279"
+		2 "ShortPalm_SC2:groupParts3" "inputRemoveComponent" " -type \"componentList\" 1 \"f[0:73]\""
+		
+		2 "ShortPalm_SC2:groupParts3" "groupId" " 280"
+		3 "ShortPalm_SC2:groupId1182.groupId" "ShortPalm_SC2:groupParts2.groupId" 
+		""
+		3 "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves|ShortPalm_SC2:LeavesShape.instObjGroups.objectGroups[1]" 
+		"ShortPalm_SC2:lambert2SG.dagSetMembers" "-na"
+		3 "ShortPalm_SC2:groupId1182.message" "ShortPalm_SC2:lambert2SG.groupNodes" 
+		"-na"
+		3 "ShortPalm_SC2:groupId1183.groupId" "ShortPalm_SC2:groupParts3.groupId" 
+		""
+		3 "ShortPalm_SC2:groupId1181.groupId" "ShortPalm_SC2:groupParts1.groupId" 
+		""
+		3 "ShortPalm_SC2:groupId1183.groupId" "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Trunk|ShortPalm_SC2:TrunkShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 "ShortPalm_SC2:lambert3SG.memberWireframeColor" "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Trunk|ShortPalm_SC2:TrunkShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "ShortPalm_SC2:groupId1181.message" ":initialShadingGroup.groupNodes" "-na"
+		
+		3 "ShortPalm_SC2:groupId1181.groupId" "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves|ShortPalm_SC2:LeavesShape.instObjGroups.objectGroups[0].objectGroupId" 
+		""
+		3 ":initialShadingGroup.memberWireframeColor" "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves|ShortPalm_SC2:LeavesShape.instObjGroups.objectGroups[0].objectGrpColor" 
+		""
+		3 "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves|ShortPalm_SC2:LeavesShape.instObjGroups.objectGroups[0]" 
+		":initialShadingGroup.dagSetMembers" "-na"
+		3 "ShortPalm_SC2:groupId1182.groupId" "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves|ShortPalm_SC2:LeavesShape.instObjGroups.objectGroups[1].objectGroupId" 
+		""
+		3 "ShortPalm_SC2:lambert2SG.memberWireframeColor" "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves|ShortPalm_SC2:LeavesShape.instObjGroups.objectGroups[1].objectGrpColor" 
+		""
+		3 "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Trunk|ShortPalm_SC2:TrunkShape.instObjGroups.objectGroups[0]" 
+		"ShortPalm_SC2:lambert3SG.dagSetMembers" "-na"
+		3 "ShortPalm_SC2:groupId1183.message" "ShortPalm_SC2:lambert3SG.groupNodes" 
+		"-na"
+		5 3 "ShortPalm_SC1RN" "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Trunk|ShortPalm_SC2:TrunkShape.instObjGroups" 
+		"ShortPalm_SC1RN.placeHolderList[1]" ""
+		5 3 "ShortPalm_SC1RN" "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves|ShortPalm_SC2:LeavesShape.instObjGroups" 
+		"ShortPalm_SC1RN.placeHolderList[2]" ""
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Trunk|ShortPalm_SC2:TrunkShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:TrunkSpikes|ShortPalm_SC2:TrunkSpikesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves|ShortPalm_SC2:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC2:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC2:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "ShortPalm_SC2:lambert4SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN";
+	rename -uid "D1C0F68B-4441-6FF5-4116-C299E3065FB9";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN"
+		"SmallBush_SCRN" 0
+		"SmallBush_SCRN" 17
+		0 "|SmallBush_SC:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "visibility" " 1"
+		2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "translate" " -type \"double3\" -10.083248519932942 0.60545863548882561 28.961590868124446"
+		
+		2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "rotate" " -type \"double3\" 0 -83.320901007418115 0"
+		
+		2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Leaves" "scale" " -type \"double3\" 1.4250616354897263 1.4250616354897263 1.4250616354897263"
+		
+		2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "visibility" " 1"
+		2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "translate" " -type \"double3\" -10.421640490707656 0 29.3807554682203"
+		
+		2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "rotate" " -type \"double3\" 0 71.830097226145156 0"
+		
+		2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Stem" "scale" " -type \"double3\" 1.3002457463963175 1.3002457463963175 1.3002457463963175"
+		
+		3 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Stem|SmallBush_SC:StemShape.instObjGroups" 
+		"SmallBush_SC:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Leaves|SmallBush_SC:LeavesShape.instObjGroups" 
+		"SmallBush_SC:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SCRN" "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Leaves|SmallBush_SC:LeavesShape.instObjGroups" 
+		"SmallBush_SCRN.placeHolderList[1]" "SmallBush_SC:lambert2SG.dsm"
+		5 3 "SmallBush_SCRN" "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Stem|SmallBush_SC:StemShape.instObjGroups" 
+		"SmallBush_SCRN.placeHolderList[2]" "SmallBush_SC:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Leaves|SmallBush_SC:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Stem|SmallBush_SC:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SCRN1";
+	rename -uid "FADC4845-42A4-E95E-843B-0BA31AEE1576";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SCRN1"
+		"SmallBush_SCRN1" 0
+		"SmallBush_SCRN1" 14
+		0 "|SmallBush_SC1:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC1:SmallBush" "translate" " -type \"double3\" -4.5059175530386657 0 8.343605171099794"
+		
+		2 "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves" "visibility" " 1"
+		
+		2 "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves" "translate" " -type \"double3\" -9.0118351060773279 0 16.687210342199613"
+		
+		2 "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem" "visibility" " 1"
+		2 "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem" "translate" " -type \"double3\" -9.0118351060773279 0 16.687210342199613"
+		
+		3 "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves|SmallBush_SC1:LeavesShape.instObjGroups" 
+		"SmallBush_SC1:lambert2SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem|SmallBush_SC1:StemShape.instObjGroups" 
+		"SmallBush_SC1:lambert3SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SCRN1" "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves|SmallBush_SC1:LeavesShape.instObjGroups" 
+		"SmallBush_SCRN1.placeHolderList[1]" "SmallBush_SC1:lambert2SG.dsm"
+		5 3 "SmallBush_SCRN1" "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem|SmallBush_SC1:StemShape.instObjGroups" 
+		"SmallBush_SCRN1.placeHolderList[2]" "SmallBush_SC1:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves|SmallBush_SC1:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem|SmallBush_SC1:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC1:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC1:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC1RN";
+	rename -uid "B2B2DF4F-4D00-3F77-D3C8-F8B3ABD08D27";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC1RN"
+		"SmallBush_SC1RN" 0
+		"SmallBush_SC1RN" 12
+		0 "|SmallBush_SC2:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC2:SmallBush" "translate" " -type \"double3\" -13.225441093533709 0 37.712860983616018"
+		
+		2 "|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves" "visibility" " 1"
+		
+		2 "|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Stem" "visibility" " 1"
+		3 "|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Stem|SmallBush_SC2:StemShape.instObjGroups" 
+		"SmallBush_SC2:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves|SmallBush_SC2:LeavesShape.instObjGroups" 
+		"SmallBush_SC2:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC1RN" "|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves|SmallBush_SC2:LeavesShape.instObjGroups" 
+		"SmallBush_SC1RN.placeHolderList[1]" "SmallBush_SC2:lambert2SG.dsm"
+		5 3 "SmallBush_SC1RN" "|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Stem|SmallBush_SC2:StemShape.instObjGroups" 
+		"SmallBush_SC1RN.placeHolderList[2]" "SmallBush_SC2:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves|SmallBush_SC2:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Stem|SmallBush_SC2:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC2:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC2:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC2RN";
+	rename -uid "145F2436-4786-C712-95F3-598F07191375";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC2RN"
+		"SmallBush_SC2RN" 0
+		"SmallBush_SC2RN" 17
+		0 "|SmallBush_SC3:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC3:SmallBush" "translate" " -type \"double3\" -3.9929857545653507 0 21.572059625427034"
+		
+		2 "|Bushes|SmallBush_SC3:SmallBush" "scale" " -type \"double3\" 1.0554683261432867 1.0554683261432867 1.0554683261432867"
+		
+		2 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves" "visibility" " 1"
+		
+		2 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves" "translate" " -type \"double3\" -7.985971509130696 0 43.235702411313056"
+		
+		2 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves" "scale" " -type \"double3\" 1.1140133874917111 1.1140133874917111 1.1140133874917111"
+		
+		2 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem" "visibility" " 1"
+		2 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem" "translate" " -type \"double3\" -7.985971509130696 0 43.235702411313056"
+		
+		2 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem" "scale" " -type \"double3\" 1.1140133874917111 1.1140133874917111 1.1140133874917111"
+		
+		3 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves|SmallBush_SC3:LeavesShape.instObjGroups" 
+		"SmallBush_SC3:lambert2SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem|SmallBush_SC3:StemShape.instObjGroups" 
+		"SmallBush_SC3:lambert3SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC2RN" "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves|SmallBush_SC3:LeavesShape.instObjGroups" 
+		"SmallBush_SC2RN.placeHolderList[1]" "SmallBush_SC3:lambert2SG.dsm"
+		5 3 "SmallBush_SC2RN" "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem|SmallBush_SC3:StemShape.instObjGroups" 
+		"SmallBush_SC2RN.placeHolderList[2]" "SmallBush_SC3:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves|SmallBush_SC3:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem|SmallBush_SC3:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC3:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC3:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC3RN";
+	rename -uid "5064C15A-40D4-5703-C5AA-6AB424F57A11";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC3RN"
+		"SmallBush_SC3RN" 0
+		"SmallBush_SC3RN" 17
+		0 "|SmallBush_SC4:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC4:SmallBush" "translate" " -type \"double3\" -2.2543035964546636 -0.16432023301964083 24.308929091293059"
+		
+		2 "|Bushes|SmallBush_SC4:SmallBush" "scale" " -type \"double3\" 1.2357579940724863 1.2357579940724863 1.2357579940724863"
+		
+		2 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "visibility" " 1"
+		
+		2 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "translate" " -type \"double3\" -4.508607192909329 -0.26594241559889475 50.24123903605318"
+		
+		2 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves" "scale" " -type \"double3\" 1.5270978199140559 1.5270978199140559 1.5270978199140559"
+		
+		2 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem" "visibility" " 1"
+		2 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem" "translate" " -type \"double3\" -4.508607192909329 -0.26594241559889475 50.24123903605318"
+		
+		2 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem" "scale" " -type \"double3\" 1.5270978199140559 1.5270978199140559 1.5270978199140559"
+		
+		3 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem|SmallBush_SC4:StemShape.instObjGroups" 
+		"SmallBush_SC4:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves|SmallBush_SC4:LeavesShape.instObjGroups" 
+		"SmallBush_SC4:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC3RN" "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves|SmallBush_SC4:LeavesShape.instObjGroups" 
+		"SmallBush_SC3RN.placeHolderList[1]" "SmallBush_SC4:lambert2SG.dsm"
+		5 3 "SmallBush_SC3RN" "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem|SmallBush_SC4:StemShape.instObjGroups" 
+		"SmallBush_SC3RN.placeHolderList[2]" "SmallBush_SC4:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves|SmallBush_SC4:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem|SmallBush_SC4:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC4:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC4:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC4RN";
+	rename -uid "DEF998F4-4832-2E37-4225-88AD5DD964B8";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC4RN"
+		"SmallBush_SC4RN" 0
+		"SmallBush_SC4RN" 13
+		0 "|SmallBush_SC5:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC5:SmallBush" "translate" " -type \"double3\" -6.6149170366968271 0 83.786730628824827"
+		
+		2 "|Bushes|SmallBush_SC5:SmallBush" "scale" " -type \"double3\" 0.73058612864981887 0.73058612864981887 0.73058612864981887"
+		
+		2 "|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves" "visibility" " 1"
+		
+		2 "|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem" "visibility" " 1"
+		3 "|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves|SmallBush_SC5:LeavesShape.instObjGroups" 
+		"SmallBush_SC5:lambert2SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem|SmallBush_SC5:StemShape.instObjGroups" 
+		"SmallBush_SC5:lambert3SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC4RN" "|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves|SmallBush_SC5:LeavesShape.instObjGroups" 
+		"SmallBush_SC4RN.placeHolderList[1]" "SmallBush_SC5:lambert2SG.dsm"
+		5 3 "SmallBush_SC4RN" "|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem|SmallBush_SC5:StemShape.instObjGroups" 
+		"SmallBush_SC4RN.placeHolderList[2]" "SmallBush_SC5:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves|SmallBush_SC5:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem|SmallBush_SC5:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC5:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC5:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC5RN";
+	rename -uid "08C71ABE-409E-3004-4FD0-FEBF1FBF2E9A";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC5RN"
+		"SmallBush_SC5RN" 0
+		"SmallBush_SC5RN" 13
+		0 "|SmallBush_SC6:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC6:SmallBush" "translate" " -type \"double3\" 38.646038825114282 0 38.792470828189693"
+		
+		2 "|Bushes|SmallBush_SC6:SmallBush" "rotate" " -type \"double3\" 0 -81.655440888445014 0"
+		
+		2 "|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves" "translate" " -type \"double3\" 0 0 0"
+		
+		2 "|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem" "translate" " -type \"double3\" 0 0 0"
+		
+		3 "|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem|SmallBush_SC6:StemShape.instObjGroups" 
+		"SmallBush_SC6:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves|SmallBush_SC6:LeavesShape.instObjGroups" 
+		"SmallBush_SC6:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC5RN" "|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves|SmallBush_SC6:LeavesShape.instObjGroups" 
+		"SmallBush_SC5RN.placeHolderList[1]" "SmallBush_SC6:lambert2SG.dsm"
+		5 3 "SmallBush_SC5RN" "|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem|SmallBush_SC6:StemShape.instObjGroups" 
+		"SmallBush_SC5RN.placeHolderList[2]" "SmallBush_SC6:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves|SmallBush_SC6:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem|SmallBush_SC6:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC6:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC6:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC6RN";
+	rename -uid "29F45FB5-47D8-0932-25FF-D89A4A742127";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC6RN"
+		"SmallBush_SC6RN" 0
+		"SmallBush_SC6RN" 11
+		0 "|SmallBush_SC7:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC7:SmallBush" "translate" " -type \"double3\" 44.355767858817366 0 45.391631968549937"
+		
+		2 "|Bushes|SmallBush_SC7:SmallBush" "scale" " -type \"double3\" 0.68464018388508263 0.68464018388508263 0.68464018388508263"
+		
+		3 "|Bushes|SmallBush_SC7:SmallBush|SmallBush_SC7:Stem|SmallBush_SC7:StemShape.instObjGroups" 
+		"SmallBush_SC7:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC7:SmallBush|SmallBush_SC7:Leaves|SmallBush_SC7:LeavesShape.instObjGroups" 
+		"SmallBush_SC7:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC6RN" "|Bushes|SmallBush_SC7:SmallBush|SmallBush_SC7:Leaves|SmallBush_SC7:LeavesShape.instObjGroups" 
+		"SmallBush_SC6RN.placeHolderList[1]" "SmallBush_SC7:lambert2SG.dsm"
+		5 3 "SmallBush_SC6RN" "|Bushes|SmallBush_SC7:SmallBush|SmallBush_SC7:Stem|SmallBush_SC7:StemShape.instObjGroups" 
+		"SmallBush_SC6RN.placeHolderList[2]" "SmallBush_SC7:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC7:SmallBush|SmallBush_SC7:Leaves|SmallBush_SC7:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC7:SmallBush|SmallBush_SC7:Stem|SmallBush_SC7:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC7:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC7:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC7RN";
+	rename -uid "F5A886C8-445A-04CA-22B7-DF883093AE40";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC7RN"
+		"SmallBush_SC7RN" 0
+		"SmallBush_SC7RN" 11
+		0 "|SmallBush_SC8:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC8:SmallBush" "translate" " -type \"double3\" 47.056309449680683 0 76.713928892423709"
+		
+		2 "|Bushes|SmallBush_SC8:SmallBush" "scale" " -type \"double3\" 1.4842200767099625 1.4842200767099625 1.4842200767099625"
+		
+		3 "|Bushes|SmallBush_SC8:SmallBush|SmallBush_SC8:Stem|SmallBush_SC8:StemShape.instObjGroups" 
+		"SmallBush_SC8:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC8:SmallBush|SmallBush_SC8:Leaves|SmallBush_SC8:LeavesShape.instObjGroups" 
+		"SmallBush_SC8:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC7RN" "|Bushes|SmallBush_SC8:SmallBush|SmallBush_SC8:Leaves|SmallBush_SC8:LeavesShape.instObjGroups" 
+		"SmallBush_SC7RN.placeHolderList[1]" "SmallBush_SC8:lambert2SG.dsm"
+		5 3 "SmallBush_SC7RN" "|Bushes|SmallBush_SC8:SmallBush|SmallBush_SC8:Stem|SmallBush_SC8:StemShape.instObjGroups" 
+		"SmallBush_SC7RN.placeHolderList[2]" "SmallBush_SC8:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC8:SmallBush|SmallBush_SC8:Leaves|SmallBush_SC8:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC8:SmallBush|SmallBush_SC8:Stem|SmallBush_SC8:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC8:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC8:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC8RN";
+	rename -uid "C8B9EC5B-4848-A313-3700-9B9C927DCB1C";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC8RN"
+		"SmallBush_SC8RN" 0
+		"SmallBush_SC8RN" 11
+		0 "|SmallBush_SC9:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC9:SmallBush" "translate" " -type \"double3\" 46.143610317263587 0 68.016171935212256"
+		
+		2 "|Bushes|SmallBush_SC9:SmallBush" "rotate" " -type \"double3\" 0 -38.009206281946682 0"
+		
+		3 "|Bushes|SmallBush_SC9:SmallBush|SmallBush_SC9:Stem|SmallBush_SC9:StemShape.instObjGroups" 
+		"SmallBush_SC9:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC9:SmallBush|SmallBush_SC9:Leaves|SmallBush_SC9:LeavesShape.instObjGroups" 
+		"SmallBush_SC9:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC8RN" "|Bushes|SmallBush_SC9:SmallBush|SmallBush_SC9:Leaves|SmallBush_SC9:LeavesShape.instObjGroups" 
+		"SmallBush_SC8RN.placeHolderList[1]" "SmallBush_SC9:lambert2SG.dsm"
+		5 3 "SmallBush_SC8RN" "|Bushes|SmallBush_SC9:SmallBush|SmallBush_SC9:Stem|SmallBush_SC9:StemShape.instObjGroups" 
+		"SmallBush_SC8RN.placeHolderList[2]" "SmallBush_SC9:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC9:SmallBush|SmallBush_SC9:Leaves|SmallBush_SC9:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC9:SmallBush|SmallBush_SC9:Stem|SmallBush_SC9:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC9:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC9:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC9RN";
+	rename -uid "5A221B09-4494-DF08-7FF1-7F9B60E1BCBE";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC9RN"
+		"SmallBush_SC9RN" 0
+		"SmallBush_SC9RN" 12
+		0 "|SmallBush_SC10:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC10:SmallBush" "translate" " -type \"double3\" 39.379784881196429 0 29.423763605536116"
+		
+		2 "|Bushes|SmallBush_SC10:SmallBush" "rotate" " -type \"double3\" 0 65.786202235632047 0"
+		
+		2 "|Bushes|SmallBush_SC10:SmallBush" "scale" " -type \"double3\" 1.2850698766601327 1.2850698766601327 1.2850698766601327"
+		
+		3 "|Bushes|SmallBush_SC10:SmallBush|SmallBush_SC10:Stem|SmallBush_SC10:StemShape.instObjGroups" 
+		"SmallBush_SC10:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC10:SmallBush|SmallBush_SC10:Leaves|SmallBush_SC10:LeavesShape.instObjGroups" 
+		"SmallBush_SC10:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC9RN" "|Bushes|SmallBush_SC10:SmallBush|SmallBush_SC10:Leaves|SmallBush_SC10:LeavesShape.instObjGroups" 
+		"SmallBush_SC9RN.placeHolderList[1]" "SmallBush_SC10:lambert2SG.dsm"
+		5 3 "SmallBush_SC9RN" "|Bushes|SmallBush_SC10:SmallBush|SmallBush_SC10:Stem|SmallBush_SC10:StemShape.instObjGroups" 
+		"SmallBush_SC9RN.placeHolderList[2]" "SmallBush_SC10:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC10:SmallBush|SmallBush_SC10:Leaves|SmallBush_SC10:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC10:SmallBush|SmallBush_SC10:Stem|SmallBush_SC10:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC10:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC10:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC10RN";
+	rename -uid "218BB37C-424A-01F0-7668-2EBB60A967B0";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC10RN"
+		"SmallBush_SC10RN" 0
+		"SmallBush_SC10RN" 12
+		0 "|SmallBush_SC11:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC11:SmallBush" "translate" " -type \"double3\" 51.080593839300931 0 27.033157517706712"
+		
+		2 "|Bushes|SmallBush_SC11:SmallBush" "rotate" " -type \"double3\" 0 96.603318979482765 0"
+		
+		2 "|Bushes|SmallBush_SC11:SmallBush" "scale" " -type \"double3\" 2.0241222792136933 2.0241222792136933 2.0241222792136933"
+		
+		3 "|Bushes|SmallBush_SC11:SmallBush|SmallBush_SC11:Stem|SmallBush_SC11:StemShape.instObjGroups" 
+		"SmallBush_SC11:lambert3SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC11:SmallBush|SmallBush_SC11:Leaves|SmallBush_SC11:LeavesShape.instObjGroups" 
+		"SmallBush_SC11:lambert2SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC10RN" "|Bushes|SmallBush_SC11:SmallBush|SmallBush_SC11:Leaves|SmallBush_SC11:LeavesShape.instObjGroups" 
+		"SmallBush_SC10RN.placeHolderList[1]" "SmallBush_SC11:lambert2SG.dsm"
+		5 3 "SmallBush_SC10RN" "|Bushes|SmallBush_SC11:SmallBush|SmallBush_SC11:Stem|SmallBush_SC11:StemShape.instObjGroups" 
+		"SmallBush_SC10RN.placeHolderList[2]" "SmallBush_SC11:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC11:SmallBush|SmallBush_SC11:Leaves|SmallBush_SC11:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC11:SmallBush|SmallBush_SC11:Stem|SmallBush_SC11:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC11:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC11:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC11RN";
+	rename -uid "8B91538A-43BE-FB84-2CE1-63B925261C0C";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC11RN"
+		"SmallBush_SC11RN" 0
+		"SmallBush_SC11RN" 12
+		0 "|SmallBush_SC12:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC12:SmallBush" "translate" " -type \"double3\" 39.185868452671585 0 18.276428809906893"
+		
+		2 "|Bushes|SmallBush_SC12:SmallBush" "rotate" " -type \"double3\" 0 -94.236450312545699 0"
+		
+		2 "|Bushes|SmallBush_SC12:SmallBush" "scale" " -type \"double3\" 1.4855652740616334 1.4855652740616334 1.4855652740616334"
+		
+		3 "|Bushes|SmallBush_SC12:SmallBush|SmallBush_SC12:Leaves|SmallBush_SC12:LeavesShape.instObjGroups" 
+		"SmallBush_SC12:lambert2SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC12:SmallBush|SmallBush_SC12:Stem|SmallBush_SC12:StemShape.instObjGroups" 
+		"SmallBush_SC12:lambert3SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC11RN" "|Bushes|SmallBush_SC12:SmallBush|SmallBush_SC12:Leaves|SmallBush_SC12:LeavesShape.instObjGroups" 
+		"SmallBush_SC11RN.placeHolderList[1]" "SmallBush_SC12:lambert2SG.dsm"
+		5 3 "SmallBush_SC11RN" "|Bushes|SmallBush_SC12:SmallBush|SmallBush_SC12:Stem|SmallBush_SC12:StemShape.instObjGroups" 
+		"SmallBush_SC11RN.placeHolderList[2]" "SmallBush_SC12:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC12:SmallBush|SmallBush_SC12:Leaves|SmallBush_SC12:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC12:SmallBush|SmallBush_SC12:Stem|SmallBush_SC12:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC12:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC12:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode reference -n "SmallBush_SC12RN";
+	rename -uid "DFA28B73-48C1-9412-F016-E583D7441CA4";
+	setAttr -s 2 ".phl";
+	setAttr ".phl[1]" 0;
+	setAttr ".phl[2]" 0;
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"SmallBush_SC12RN"
+		"SmallBush_SC12RN" 0
+		"SmallBush_SC12RN" 11
+		0 "|SmallBush_SC13:SmallBush" "|Bushes" "-s -r "
+		2 "|Bushes|SmallBush_SC13:SmallBush" "translate" " -type \"double3\" 43.276702441304757 0 16.103137341949235"
+		
+		2 "|Bushes|SmallBush_SC13:SmallBush" "scale" " -type \"double3\" 1.5723279940120645 1.5723279940120645 1.5723279940120645"
+		
+		3 "|Bushes|SmallBush_SC13:SmallBush|SmallBush_SC13:Leaves|SmallBush_SC13:LeavesShape.instObjGroups" 
+		"SmallBush_SC13:lambert2SG.dagSetMembers" "-na"
+		3 "|Bushes|SmallBush_SC13:SmallBush|SmallBush_SC13:Stem|SmallBush_SC13:StemShape.instObjGroups" 
+		"SmallBush_SC13:lambert3SG.dagSetMembers" "-na"
+		5 3 "SmallBush_SC12RN" "|Bushes|SmallBush_SC13:SmallBush|SmallBush_SC13:Leaves|SmallBush_SC13:LeavesShape.instObjGroups" 
+		"SmallBush_SC12RN.placeHolderList[1]" "SmallBush_SC13:lambert2SG.dsm"
+		5 3 "SmallBush_SC12RN" "|Bushes|SmallBush_SC13:SmallBush|SmallBush_SC13:Stem|SmallBush_SC13:StemShape.instObjGroups" 
+		"SmallBush_SC12RN.placeHolderList[2]" "SmallBush_SC13:lambert3SG.dsm"
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC13:SmallBush|SmallBush_SC13:Leaves|SmallBush_SC13:LeavesShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "|Bushes|SmallBush_SC13:SmallBush|SmallBush_SC13:Stem|SmallBush_SC13:StemShape.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC13:lambert2SG.message" "|pointLight1|pointLightShape1.message" 
+		0
+		7 "ignore" ":lightLinker1" 2 "SmallBush_SC13:lambert3SG.message" "|pointLight1|pointLightShape1.message" 
+		0;
+lockNode -l 1 ;
+createNode groupId -n "groupId3";
+	rename -uid "C9F11ACF-4B36-FC6C-13D2-2C9ADFB53F5C";
+	setAttr ".ihi" 0;
+createNode groupParts -n "groupParts3";
+	rename -uid "36F3F250-4DCA-5C12-6AC0-95A6D86EB0C6";
+	setAttr ".ihi" 0;
+	setAttr ".ic" -type "componentList" 32 "vtx[648:707]" "vtx[1248:1307]" "vtx[1848:1907]" "vtx[2448:2507]" "vtx[3078:3137]" "vtx[3678:3737]" "vtx[4278:4337]" "vtx[4878:4937]" "vtx[5508:5567]" "vtx[6108:6167]" "vtx[6708:6767]" "vtx[7308:7367]" "vtx[7938:7997]" "vtx[8538:8597]" "vtx[9138:9197]" "vtx[9738:9797]" "vtx[10368:10427]" "vtx[10968:11027]" "vtx[11568:11627]" "vtx[12168:12227]" "vtx[12798:12857]" "vtx[13398:13457]" "vtx[13998:14057]" "vtx[14598:14657]" "vtx[15228:15287]" "vtx[15828:15887]" "vtx[16428:16487]" "vtx[17028:17087]" "vtx[17658:17717]" "vtx[18258:18317]" "vtx[18858:18917]" "vtx[19458:19517]";
+createNode rampShader -n "threeToneBrightnessShader7";
+	rename -uid "130B3034-4014-0FEF-A28A-139A22E5DB3D";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.03951643 0.097000003 0.0035890001 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.063959584 0.15700001 0.0058090002 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.14095551 0.34599999 0.012801999 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader8SG";
+	rename -uid "468F6906-42AA-570A-E981-FEB19B4C8A43";
+	setAttr ".ihi" 0;
+	setAttr -s 3 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo8";
+	rename -uid "05AB8070-4DE1-5ED7-1814-56B4E6CB4D1F";
+createNode rampShader -n "threeToneBrightnessShader8";
+	rename -uid "C7A457B3-474C-37D4-E78F-7AA3F4584F6F";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.061999999 0.0305 0.0022 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.70434784889221191;
+	setAttr ".clr[1].clrc" -type "float3" 0.104 0.051135376 0.0036400028 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.895652174949646;
+	setAttr ".clr[2].clrc" -type "float3" 0.28999999 0.14258902 0.010150007 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader9SG";
+	rename -uid "10325AB0-4693-4E28-76AA-02A51843D5CC";
+	setAttr ".ihi" 0;
+	setAttr -s 6 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo9";
+	rename -uid "A9D81044-40B3-9491-18F4-A0B3BE90B212";
+createNode rampShader -n "threeToneBrightnessShader9";
+	rename -uid "A1CE52E8-4FAB-51D4-D3ED-DC8BECA4FB0F";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.107 0.014700445 0.010485999 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.17399999 0.023905396 0.017051999 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.228 0.031324312 0.022343997 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader10SG";
+	rename -uid "84E29978-4F43-D8E9-EDFB-AC99BA37C82F";
+	setAttr ".ihi" 0;
+	setAttr -s 14 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo10";
+	rename -uid "787E90BB-4CA7-8B55-7009-1DAD6F818BED";
+createNode rampShader -n "threeToneBrightnessShader10";
+	rename -uid "7698FBFE-4BC6-BF6A-6C8E-93A0FB63DA1D";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.03951643 0.097000003 0.0035890001 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.59130436182022095;
+	setAttr ".clr[1].clrc" -type "float3" 0.063959584 0.15700001 0.0058090002 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.84347826242446899;
+	setAttr ".clr[2].clrc" -type "float3" 0.14095551 0.34599999 0.012801999 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader11SG";
+	rename -uid "C2D0186A-453E-DEAA-B0BD-A7ACF78AC8CE";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo11";
+	rename -uid "BA8B7F3E-4318-4565-DF6F-288EC233D32A";
+createNode rampShader -n "threeToneBrightnessShader11";
+	rename -uid "302CE869-4E8B-26B7-80B9-CC81918474DE";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.061999999 0.0305 0.0022 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.104 0.051135376 0.0036400028 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.28999999 0.14258902 0.010150007 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader12SG";
+	rename -uid "7B463200-4F9B-2A17-26AF-EEAE953E62BF";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo12";
+	rename -uid "C968B9F5-4B6A-ED33-78BC-76B93E4D7481";
+createNode rampShader -n "threeToneBrightnessShader12";
+	rename -uid "E7AFEBA8-4BC1-8DC3-61BE-7696295E0008";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.75 0.75 0.053249985 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.85699999 0.85699999 0 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 1 1 0 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader13SG";
+	rename -uid "6363507D-4656-969B-9C6F-DC8EB7757906";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo13";
+	rename -uid "BE145F65-4D9E-4202-1B7C-B183ACF6BF7C";
+createNode rampShader -n "threeToneBrightnessShader13";
+	rename -uid "1202BCFB-477A-329E-48BF-F8AFABC83A74";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.002664 0.071999997 0.018664427 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.0032190001 0.086999997 0.02255285 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.0043660002 0.118 0.030588925 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader14SG";
+	rename -uid "5EC69EC5-4B1A-755B-58BF-FEAE2DE3501F";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo14";
+	rename -uid "C28A353C-479C-FFB8-05CE-2D8B331ACBC5";
+createNode rampShader -n "threeToneBrightnessShader14";
+	rename -uid "C2A7C582-4065-3F7C-7FED-519B3EDB55A7";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.07111939 0.25400001 0.016256003 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.57391303777694702;
+	setAttr ".clr[1].clrc" -type "float3" 0.11059905 0.39500001 0.025280004 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.86086958646774292;
+	setAttr ".clr[2].clrc" -type "float3" 0.17219852 0.61500001 0.039360005 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader15SG";
+	rename -uid "A62EEE97-4BFA-8306-207C-01A2D89DA2BC";
+	setAttr ".ihi" 0;
+	setAttr -s 3 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo15";
+	rename -uid "5A0C8FA0-4D01-98DD-95D0-F9B37CBCAA41";
+createNode rampShader -n "threeToneBrightnessShader15";
+	rename -uid "CE32FE75-42CE-453A-8ABA-10AAED879D2D";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.05882353 0.027450981 0 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.10196079 0.050980393 0 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.28627452 0.14117648 0.0078431377 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader16SG";
+	rename -uid "356EC677-4B0C-5863-AEA6-808D5943CDD1";
+	setAttr ".ihi" 0;
+	setAttr -s 3 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo16";
+	rename -uid "075C19F9-4E9D-AA14-FB68-259767839814";
+createNode rampShader -n "threeToneBrightnessShader16";
+	rename -uid "8109CEDB-4A92-35B3-99FD-DDBEE2810EB4";
+	setAttr ".dc" 1;
+	setAttr -s 3 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.0605 0.121 0.090750001 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.1019 0.20389999 0.1529 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".clr[2].clrp" 0.76999998092651367;
+	setAttr ".clr[2].clrc" -type "float3" 0.13600001 0.27200001 0.20400001 ;
+	setAttr ".clr[2].clri" 0;
+	setAttr ".cin" 2;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".ec" 0.5;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr -s 2 ".sc";
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0 0 0 ;
+	setAttr ".sc[0].sci" 0;
+	setAttr ".sc[1].scp" 0.95999997854232788;
+	setAttr ".sc[1].scc" -type "float3" 1 1 1 ;
+	setAttr ".sc[1].sci" 0;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader17SG";
+	rename -uid "097B5AC4-4E32-5A94-F567-C3A745A896D3";
+	setAttr ".ihi" 0;
+	setAttr -s 28 ".dsm";
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo17";
+	rename -uid "244B4A90-4146-A8DF-26B0-04B2C390A5E7";
+createNode objectSet -s -n "lightEditorRoot";
+	rename -uid "43436F2F-4214-86BE-9453-7FBB2138173D";
+	addAttr -ci true -sn "isolate" -ln "isolate" -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "wasEnabled" -ln "wasEnabled" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "childIndex" -ln "childIndex" -dv -1 -at "long";
+	addAttr -ci true -sn "lightGroup" -ln "lightGroup" -dv 1 -min 0 -max 1 -at "bool";
+	addAttr -ci true -sn "visibility" -ln "visibility" -dv 1 -min 0 -max 1 -at "bool";
+	setAttr -s 3 ".dsm";
+lockNode -l 1 ;
+createNode renderSetup -n "renderSetup";
+	rename -uid "DCCA66B0-41F1-6CDD-213E-6B8B041DA5DE";
+createNode renderSetupLayer -n "Foreground";
+	rename -uid "CDC993C1-41E2-EE8F-70F3-0496806E2CA8";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+createNode renderLayer -n "rs_Foreground";
+	rename -uid "6582E926-4977-21DE-CBBB-099816DBC14C";
+	setAttr ".do" 1;
+createNode collection -n "Foreground1";
+	rename -uid "94BFC64F-405C-88F8-E7C5-06AE5899F988";
+createNode simpleSelector -n "collection1Selector";
+	rename -uid "DC6DF0A8-4785-C57D-EED2-45B713CC3181";
+	setAttr ".ssl" -type "string" (
+		"|Bushes|SmallBush_SC13:SmallBush|SmallBush_SC13:Stem\n|Bushes|SmallBush_SC11:SmallBush|SmallBush_SC11:Stem\n|Bushes|SmallBush_SC11:SmallBush|SmallBush_SC11:Leaves\n|Bushes|SmallBush_SC13:SmallBush|SmallBush_SC13:Leaves\n|Bushes|SmallBush_SC12:SmallBush|SmallBush_SC12:Stem\n|Bushes|SmallBush_SC12:SmallBush|SmallBush_SC12:Leaves\n|Bushes|SmallBush_SC10:SmallBush|SmallBush_SC10:Leaves\n|Bushes|SmallBush_SC9:SmallBush|SmallBush_SC9:Stem\n|Bushes|SmallBush_SC10:SmallBush|SmallBush_SC10:Stem\n|Bushes|SmallBush_SC7:SmallBush|SmallBush_SC7:Leaves\n|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Stem\n|Bushes|SmallBush_SC7:SmallBush|SmallBush_SC7:Stem\n|Bushes|SmallBush_SC8:SmallBush|SmallBush_SC8:Stem\n|Bushes|SmallBush_SC8:SmallBush|SmallBush_SC8:Leaves\n|Bushes|SmallBush_SC9:SmallBush|SmallBush_SC9:Leaves\n|Bushes|SmallBush_SC6:SmallBush|SmallBush_SC6:Leaves\n|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Leaves\n|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:TrunkSpikes\n|ShortPalm_SC1:ShortPalm:Mesh|ShortPalm_SC1:Trunk\n|PalmTree_SC:SC_PalmTree|PalmTree_SC:Trunk\n"
+		+ "|PalmTree_SC:SC_PalmTree|PalmTree_SC:Stems\n|AnotherRock_JonathanFranklin1:anotherRock:Mesh\n|PalmTree_SC:SC_PalmTree|PalmTree_SC:Leaves\n|AddisonM_Rock2:group|AddisonM_Rock2:pasted__pCube2\n|Mushroom3:pCube1\n|Mushroom2:pCylinder1\n|Mushroom1:pCylinder1\n|Mushroom:pCube1\n|AnotherRock_JonathanFranklin:anotherRock:Mesh\n|SwampTallTreeNoLeaves_JonathanFranklin1:pCylinder1\n|boulder2_model_JonathanFranklin:pCube1\n|Fern_DE4:Bush\n|FallenTrunk_DE:FallenTrunk\n|Fern_DE1:Bush");
+createNode renderSetupLayer -n "Midground";
+	rename -uid "CF352C9E-447B-3695-3260-D89AB32D90AF";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+createNode renderLayer -n "rs_Midground";
+	rename -uid "62126C58-49CD-F282-7992-4381AE594A60";
+	setAttr ".do" 2;
+createNode collection -n "Midground1";
+	rename -uid "4FA75770-4481-CAD2-E1E7-9E94F3CAEB83";
+createNode simpleSelector -n "collection2Selector";
+	rename -uid "E38C5B23-4560-BD28-6A72-B49D481363CC";
+	setAttr ".ssl" -type "string" (
+		"|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Stem\n|Bushes|SmallBush_SC5:SmallBush|SmallBush_SC5:Leaves\n|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Stem\n|Bushes|SmallBush_SC2:SmallBush|SmallBush_SC2:Leaves\n|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Leaves\n|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Leaves\n|Bushes|SmallBush_SC3:SmallBush|SmallBush_SC3:Stem\n|Bushes|SmallBush_SC4:SmallBush|SmallBush_SC4:Stem\n|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Leaves\n|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Stem\n|Bushes|SmallBush_SC1:SmallBush|SmallBush_SC1:Stem\n|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:TrunkSpikes\n|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Trunk\n|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Leaves\n|ShortPalm_SC:ShortPalm:Mesh|ShortPalm_SC:Leaves\n|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Trunk\n|PalmTree_SC2:SC_PalmTree|PalmTree_SC2:Stems\n|BigFallenLog_JonathanFranklin:pPipe1\n|Grass_DE:Grass\n|Fern_DE3:Bush\n|boulder1_model_JonathanFranklin:pCube1\n|Rock_JonathanFranklin:pCube1\n|Fern_DE2:Bush\n|Fern_DE:Bush\n|Bushes|SmallBush_SC:SmallBush|SmallBush_SC:Leaves\n"
+		+ "|Mushroom_Bunch|MushroomBunch1:pCylinder8\n|Mushroom_Bunch|MushroomBunch1:pCylinder7\n|Mushroom_Bunch|MushroomBunch1:pCylinder6\n|Mushroom_Bunch|MushroomBunch1:pCylinder10\n|Mushroom_Bunch|MushroomBunch1:pCylinder9\n|Mushroom_Bunch|MushroomBunch1:pCylinder5\n|Mushroom_Bunch|MushroomBunch1:pCylinder4\n|Mushroom_Bunch|MushroomBunch1:pCylinder3\n|Mushroom_Bunch|MushroomBunch1:pCylinder2\n|Mushroom_Bunch|MushroomBunch1:pCylinder1\n|Bamboo|Bamboo_DE99:Bamboo\n|Bamboo|Bamboo_DE97:Bamboo\n|Bamboo|Bamboo_DE95:Bamboo\n|Bamboo|Bamboo_DE89:Bamboo\n|Bamboo|Bamboo_DE88:Bamboo\n|Bamboo|Bamboo_DE92:Bamboo\n|Bamboo|Bamboo_DE85:Bamboo\n|Bamboo|Bamboo_DE84:Bamboo\n|Bamboo|Bamboo_DE83:Bamboo\n|Bamboo|Bamboo_DE82:Bamboo\n|Bamboo|Bamboo_DE81:Bamboo\n|Bamboo|Bamboo_DE75:Bamboo\n|Bamboo|Bamboo_DE79:Bamboo\n|Bamboo|Bamboo_DE74:Bamboo\n|Bamboo|Bamboo_DE73:Bamboo\n|Bamboo|Bamboo_DE67:Bamboo\n|Bamboo|Bamboo_DE66:Bamboo\n|Bamboo|Bamboo_DE71:Bamboo\n|Bamboo|Bamboo_DE70:Bamboo\n|Bamboo|Bamboo_DE69:Bamboo\n|Bamboo|Bamboo_DE65:Bamboo\n|Bamboo|Bamboo_DE61:Bamboo\n|Bamboo|Bamboo_DE60:Bamboo\n"
+		+ "|Bamboo|Bamboo_DE59:Bamboo\n|Bamboo|Bamboo_DE55:Bamboo\n|Bamboo|Bamboo_DE53:Bamboo\n|Bamboo|Bamboo_DE58:Bamboo\n|Bamboo|Bamboo_DE56:Bamboo\n|Bamboo|Bamboo_DE52:Bamboo\n|Bamboo|Bamboo_DE51:Bamboo\n|Bamboo|Bamboo_DE46:Bamboo\n|Bamboo|Bamboo_DE45:Bamboo\n|Bamboo|Bamboo_DE48:Bamboo\n|Bamboo|Bamboo_DE47:Bamboo\n|Bamboo|Bamboo_DE43:Bamboo\n|Bamboo|Bamboo_DE37:Bamboo\n|Bamboo|Bamboo_DE36:Bamboo\n|Bamboo|Bamboo_DE40:Bamboo\n|Bamboo|Bamboo_DE39:Bamboo\n|Bamboo|Bamboo_DE38:Bamboo\n|Bamboo|Bamboo_DE33:Bamboo\n|Bamboo|Bamboo_DE26:Bamboo\n|Bamboo|Bamboo_DE25:Bamboo\n|Bamboo|Bamboo_DE28:Bamboo\n|Bamboo|Bamboo_DE20:Bamboo\n|Bamboo|Bamboo_DE24:Bamboo\n|Bamboo|Bamboo_DE22:Bamboo\n|Bamboo|Bamboo_DE15:Bamboo\n|Bamboo|Bamboo_DE14:Bamboo\n|Bamboo|Bamboo_DE13:Bamboo\n|Bamboo|Bamboo_DE18:Bamboo\n|Bamboo|Bamboo_DE16:Bamboo\n|Bamboo|Bamboo_DE7:Bamboo\n|Bamboo|Bamboo_DE9:Bamboo\n|Bamboo|Bamboo_DE4:Bamboo\n|Bamboo|Bamboo_DE2:Bamboo\n|Bamboo|Bamboo_DE1:Bamboo\n|Bamboo|Bamboo_DE:Bamboo");
+createNode renderSetupLayer -n "ForeBackground";
+	rename -uid "D8E98726-451A-D4E1-0310-06B8375D2D5C";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+createNode renderLayer -n "rs_ForeBackground";
+	rename -uid "C2D475DE-4555-DA1B-E79B-4BA2724E1353";
+	setAttr ".do" 3;
+createNode collection -n "ForeBackground1";
+	rename -uid "89DDFCD8-4B58-4CF8-C6E0-6AB5699B412D";
+createNode simpleSelector -n "collection3Selector";
+	rename -uid "EB989C1D-47E0-C989-776D-4BB927B5EF21";
+	setAttr ".ssl" -type "string" (
+		"|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:TrunkSpikes\n|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Trunk\n|ShortPalm_SC2:ShortPalm:Mesh|ShortPalm_SC2:Leaves\n|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Leaves\n|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Trunk\n|PalmTree_SC1:SC_PalmTree|PalmTree_SC1:Stems\n|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeaves\n|BananaTree_SC:BananaTree|BananaTree_SC:BananStem\n|BananaTree_SC:BananaTree|BananaTree_SC:Bananas\n|SwampTallTreeNoLeaves_JonathanFranklin:pCylinder1\n|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeavesReversed\n|BananaTree_SC:BananaTree|BananaTree_SC:Trunk\n|Tree_Anna3|Tree_Anna3|merge1_0\n|Tree_Anna2|Tree_Anna2|merge1_0\n|Bamboo|Bamboo_DE100:Bamboo\n|Bamboo|Bamboo_DE98:Bamboo\n|Bamboo|Bamboo_DE96:Bamboo\n|Bamboo|Bamboo_DE94:Bamboo\n|Bamboo|Bamboo_DE90:Bamboo\n|Bamboo|Bamboo_DE93:Bamboo\n|Bamboo|Bamboo_DE91:Bamboo\n|Bamboo|Bamboo_DE87:Bamboo\n|Bamboo|Bamboo_DE86:Bamboo\n|Bamboo|Bamboo_DE77:Bamboo\n|Bamboo|Bamboo_DE76:Bamboo\n|Bamboo|Bamboo_DE80:Bamboo\n|Bamboo|Bamboo_DE78:Bamboo\n|Bamboo|Bamboo_DE72:Bamboo\n"
+		+ "|Bamboo|Bamboo_DE68:Bamboo\n|Bamboo|Bamboo_DE64:Bamboo\n|Bamboo|Bamboo_DE63:Bamboo\n|Bamboo|Bamboo_DE62:Bamboo\n|Bamboo|Bamboo_DE54:Bamboo\n|Bamboo|Bamboo_DE57:Bamboo\n|Bamboo|Bamboo_DE50:Bamboo\n|Bamboo|Bamboo_DE44:Bamboo\n|Bamboo|Bamboo_DE49:Bamboo\n|Bamboo|Bamboo_DE42:Bamboo\n|Bamboo|Bamboo_DE41:Bamboo\n|Bamboo|Bamboo_DE35:Bamboo\n|Bamboo|Bamboo_DE34:Bamboo\n|Bamboo|Bamboo_DE32:Bamboo\n|Bamboo|Bamboo_DE31:Bamboo\n|Bamboo|Bamboo_DE27:Bamboo\n|Bamboo|Bamboo_DE30:Bamboo\n|Bamboo|Bamboo_DE29:Bamboo\n|Bamboo|Bamboo_DE21:Bamboo\n|Bamboo|Bamboo_DE19:Bamboo\n|Bamboo|Bamboo_DE23:Bamboo\n|Bamboo|Bamboo_DE17:Bamboo\n|Bamboo|Bamboo_DE8:Bamboo\n|Bamboo|Bamboo_DE6:Bamboo\n|Bamboo|Bamboo_DE12:Bamboo\n|Bamboo|Bamboo_DE11:Bamboo\n|Bamboo|Bamboo_DE10:Bamboo\n|Bamboo|Bamboo_DE5:Bamboo\n|Bamboo|Bamboo_DE3:Bamboo\n|Tree_Anna1|Tree_Anna1|merge1_0");
+createNode renderSetupLayer -n "Background";
+	rename -uid "6643A870-40C5-3BFC-C2AA-5BBCB0CFA69E";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+createNode renderLayer -n "rs_Background";
+	rename -uid "77C89A46-4983-EED4-6090-859CED53C087";
+	setAttr ".do" 4;
+createNode collection -n "Background1";
+	rename -uid "20C246DA-4B68-9F1D-15AD-4597D92ABEBF";
+createNode simpleSelector -n "collection4Selector";
+	rename -uid "D149AFAC-4311-D504-6F2F-7ABE90D7B5A7";
+	setAttr ".ssl" -type "string" "|pPlane1\n|Ground";
+createNode polyPlane -n "polyPlane2";
+	rename -uid "CA514117-48C3-7643-4765-9483F1B340F7";
+	setAttr ".cuv" 2;
+createNode renderSetupLayer -n "BananaLeaves";
+	rename -uid "97D9CEB5-4617-94EA-833F-0C8A47ED7BCD";
+	addAttr -ci true -sn "expandedState" -ln "expandedState" -min 0 -max 1 -at "bool";
+	setAttr ".expandedState" yes;
+createNode renderLayer -n "rs_BananaLeaves";
+	rename -uid "CF930322-4F46-C80E-A6E1-DDA8C895295C";
+	setAttr ".do" 5;
+createNode collection -n "Bananaleaves";
+	rename -uid "46F17EFF-4DB3-2824-7647-0F9CDC33B651";
+createNode simpleSelector -n "collection5Selector";
+	rename -uid "F987B5D6-4F8D-3132-7DB5-75BFB7C0031E";
+	setAttr ".ssl" -type "string" "|BananaTree_SC:BananaTree|BananaTree_SC:BananaLeavesReversed\n|pointLight1";
+createNode rampShader -n "lightAngleShader";
+	rename -uid "4A504615-45D1-6F7E-F98F-2CABAF52F015";
+	setAttr ".dc" 0;
+	setAttr -s 2 ".clr";
+	setAttr ".clr[0].clrp" 0;
+	setAttr ".clr[0].clrc" -type "float3" 0.012 0.0057274862 0.00022799993 ;
+	setAttr ".clr[0].clri" 0;
+	setAttr ".clr[1].clrp" 0.5;
+	setAttr ".clr[1].clrc" -type "float3" 0.039999999 0.019091619 0.00075999973 ;
+	setAttr ".clr[1].clri" 0;
+	setAttr ".it[0].itp" 0;
+	setAttr ".it[0].itc" -type "float3" 0 0 0 ;
+	setAttr ".it[0].iti" 1;
+	setAttr ".ic[0].icp" 0;
+	setAttr ".ic[0].icc" -type "float3" 0 0 0 ;
+	setAttr ".ic[0].ici" 1;
+	setAttr ".tc" 1;
+	setAttr ".trsd" 1000;
+	setAttr ".spl" 0;
+	setAttr -s 2 ".sro[0:1]"  0 1 2 0.5 0.5 2;
+	setAttr ".sc[0].scp" 0;
+	setAttr ".sc[0].scc" -type "float3" 0.5 0.5 0.5 ;
+	setAttr ".sc[0].sci" 1;
+	setAttr ".rfl[0]"  0 0 1;
+	setAttr ".env[0].envp" 0;
+	setAttr ".env[0].envc" -type "float3" 0 0 0 ;
+	setAttr ".env[0].envi" 1;
+createNode shadingEngine -n "rampShader18SG";
+	rename -uid "6FF4E84F-4760-AC5D-7C4B-C58A5556673C";
+	setAttr ".ihi" 0;
+	setAttr ".ro" yes;
+createNode materialInfo -n "materialInfo18";
+	rename -uid "3024EDA2-40F9-24A3-B8BF-C8999D77F09A";
 select -ne :time1;
-	setAttr ".o" 39;
-	setAttr ".unw" 39;
+	setAttr ".o" 27;
+	setAttr ".unw" 27;
 select -ne :hardwareRenderingGlobals;
 	setAttr ".otfna" -type "stringArray" 22 "NURBS Curves" "NURBS Surfaces" "Polygons" "Subdiv Surface" "Particles" "Particle Instance" "Fluids" "Strokes" "Image Planes" "UI" "Lights" "Cameras" "Locators" "Joints" "IK Handles" "Deformers" "Motion Trails" "Components" "Hair Systems" "Follicles" "Misc. UI" "Ornaments"  ;
 	setAttr ".otfva" -type "Int32Array" 22 0 1 1 1 1 1
@@ -7612,35 +10000,213 @@ select -ne :hardwareRenderingGlobals;
 		 0 0 0 0 ;
 	setAttr ".fprt" yes;
 select -ne :renderPartition;
-	setAttr -s 559 ".st";
+	setAttr -s 633 ".st";
 select -ne :renderGlobalsList1;
 select -ne :defaultShaderList1;
-	setAttr -s 41 ".s";
+	setAttr -s 112 ".s";
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderUtilityList1;
-	setAttr -s 16 ".u";
+	setAttr -s 71 ".u";
 select -ne :defaultRenderingList1;
-	setAttr -s 232 ".r";
+	setAttr -s 257 ".r";
+select -ne :lightList1;
+	setAttr -s 3 ".l";
 select -ne :defaultTextureList1;
-	setAttr -s 16 ".tx";
+	setAttr -s 71 ".tx";
+select -ne :lambert1;
 select -ne :initialShadingGroup;
-	setAttr -s 165 ".dsm";
+	setAttr -s 7 ".dsm";
 	setAttr ".ro" yes;
-	setAttr -s 107 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :initialMaterialInfo;
-	setAttr -s 2 ".t";
+	setAttr -s 16 ".t";
 select -ne :defaultResolution;
 	setAttr ".w" 1920;
 	setAttr ".h" 1080;
 	setAttr ".pa" 1;
 	setAttr ".dar" 1.7777777910232544;
+select -ne :defaultLightSet;
+	setAttr -s 3 ".dsm";
 select -ne :hardwareRenderGlobals;
 	setAttr ".ctrs" 256;
 	setAttr ".btrs" 512;
 select -ne :defaultHideFaceDataSet;
+connectAttr "Bamboo_DERN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE3RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN3.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE1RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE4RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE8RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE7RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE6RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE5RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE4RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE3RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN4.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE1RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Fern_DERN.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "Fern_DERN1.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "Bamboo_DE16RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE11RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE13RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE12RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE4RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE3RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE8RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE7RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE6RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE5RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN3.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE1RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN5.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE29RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE28RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE27RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE26RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE22RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE21RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE20RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE24RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE23RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE19RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Fern_DERN2.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "Fern_DE1RN.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "Bamboo_DE38RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE37RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE36RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE40RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE39RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE35RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE34RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE33RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE32RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE28RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE27RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE26RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE31RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE30RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE29RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE25RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE24RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE23RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE22RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE21RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE20RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE17RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE16RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE19RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE18RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE15RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE14RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE13RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE12RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE9RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE5RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE4RN3.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE8RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE7RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE6RN2.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE2RN4.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE1RN3.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DERN6.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE67RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE62RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE57RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE61RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE59RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE50RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE53RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE47RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE67RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE57RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE61RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE59RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE50RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE53RN1.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE79RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE84RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE83RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE82RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE86RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE85RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE81RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Bamboo_DE80RN.phl[1]" "rampShader1SG.dsm" -na;
+connectAttr "Fern_DE2RN.phl[1]" "rampShader7SG.dsm" -na;
+connectAttr "FallenTrunk_DERN.phl[1]" "rampShader4SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[1]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[2]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[3]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[4]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[5]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[6]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[7]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[8]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[9]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomBunch1RN.phl[10]" "rampShader10SG.dsm" -na;
+connectAttr "Grass_DERN.phl[1]" "rampShader14SG.dsm" -na;
+connectAttr "BigFallenLog_JonathanFranklinRN.phl[1]" "rampShader3SG.dsm" -na;
+connectAttr "SwampTallTreeNoLeaves_JonathanFranklinRN.phl[1]" "rampShader2SG.dsm"
+		 -na;
+connectAttr "SwampTallTreeNoLeaves_JonathanFranklinRN1.phl[1]" "rampShader2SG.dsm"
+		 -na;
+connectAttr "BananaTree_SCRN.phl[1]" "rampShader12SG.dsm" -na;
+connectAttr "BananaTree_SCRN.phl[2]" "rampShader13SG.dsm" -na;
+connectAttr "BananaTree_SCRN.phl[3]" "rampShader11SG.dsm" -na;
+connectAttr "MushroomRN.phl[1]" "rampShader10SG.dsm" -na;
+connectAttr "Mushroom1RN.phl[1]" "rampShader10SG.dsm" -na;
+connectAttr "Mushroom2RN.phl[1]" "rampShader10SG.dsm" -na;
+connectAttr "MushroomRN1.phl[1]" "rampShader10SG.dsm" -na;
+connectAttr "AddisonM_Rock2RN.phl[1]" "rampShader5SG.dsm" -na;
+connectAttr "PalmTree_SCRN.phl[1]" "rampShader9SG.dsm" -na;
+connectAttr "PalmTree_SCRN.phl[2]" "rampShader9SG.dsm" -na;
+connectAttr "PalmTree_SCRN.phl[3]" "rampShader8SG.dsm" -na;
+connectAttr "PalmTree_SCRN1.phl[1]" "rampShader9SG.dsm" -na;
+connectAttr "PalmTree_SCRN1.phl[2]" "rampShader9SG.dsm" -na;
+connectAttr "PalmTree_SCRN1.phl[3]" "rampShader8SG.dsm" -na;
+connectAttr "PalmTree_SC1RN.phl[1]" "rampShader9SG.dsm" -na;
+connectAttr "PalmTree_SC1RN.phl[2]" "rampShader9SG.dsm" -na;
+connectAttr "PalmTree_SC1RN.phl[3]" "rampShader8SG.dsm" -na;
+connectAttr "ShortPalm_SCRN.phl[1]" "rampShader16SG.dsm" -na;
+connectAttr "ShortPalm_SCRN.phl[2]" "rampShader15SG.dsm" -na;
+connectAttr "ShortPalm_SCRN1.phl[1]" "rampShader16SG.dsm" -na;
+connectAttr "ShortPalm_SCRN1.phl[2]" "rampShader15SG.dsm" -na;
+connectAttr "ShortPalm_SC1RN.phl[1]" "rampShader16SG.dsm" -na;
+connectAttr "ShortPalm_SC1RN.phl[2]" "rampShader15SG.dsm" -na;
+connectAttr "SmallBush_SCRN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SCRN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SCRN1.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SCRN1.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC1RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC1RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC2RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC2RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC3RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC3RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC4RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC4RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC5RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC5RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC6RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC6RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC7RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC7RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC8RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC8RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC9RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC9RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC10RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC10RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC11RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC11RN.phl[2]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC12RN.phl[1]" "rampShader17SG.dsm" -na;
+connectAttr "SmallBush_SC12RN.phl[2]" "rampShader17SG.dsm" -na;
 connectAttr "persp_translateX.o" ":persp.tx";
 connectAttr "persp_translateY.o" ":persp.ty";
 connectAttr "persp_translateZ.o" ":persp.tz";
@@ -7653,21 +10219,6 @@ connectAttr "persp_scaleY.o" ":persp.sy";
 connectAttr "persp_scaleZ.o" ":persp.sz";
 connectAttr "polyCube3.out" "pCubeShape5.i";
 connectAttr "deleteComponent2.og" "pCubeShape7.i";
-connectAttr ":time1.o" "Palm_Tree1.inTime";
-connectAttr "Palm_Tree1.outputObjects[0].outputObjectTranslate" "|Palm_Tree1|line_object1.t"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputObjectRotate" "|Palm_Tree1|line_object1.r"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputObjectScale" "|Palm_Tree1|line_object1.s"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Palm_Tree1|line_object1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree1|line_object1|merge3_0|merge3_0Shape.rest"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputGeos[0].outputParts[1].outputPartMeshData" "|Palm_Tree1|line_object1|merge3_1|merge3_1Shape.i"
-		;
-connectAttr "Palm_Tree1.outputObjects[0].outputGeos[0].outputParts[1].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree1|line_object1|merge3_1|merge3_1Shape.rest"
-		;
 connectAttr ":time1.o" "|Tree_Anna1.inTime";
 connectAttr "|Tree_Anna1.outputObjects[0].outputObjectTranslate" "|Tree_Anna1|Tree_Anna1.t"
 		;
@@ -7680,210 +10231,7 @@ connectAttr "groupId1.id" "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog.og[
 connectAttr "leaf.mwc" "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog.og[0].gco"
 		;
 connectAttr "groupParts1.og" "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.i";
-connectAttr ":time1.o" "Small_Bush1.inTime";
-connectAttr "Small_Bush1.outputObjects[0].outputObjectTranslate" "|Small_Bush1|line_object1.t"
-		;
-connectAttr "Small_Bush1.outputObjects[0].outputObjectRotate" "|Small_Bush1|line_object1.r"
-		;
-connectAttr "Small_Bush1.outputObjects[0].outputObjectScale" "|Small_Bush1|line_object1.s"
-		;
-connectAttr "Small_Bush1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush1|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Small_Bush2.inTime";
-connectAttr "Small_Bush2.outputObjects[0].outputObjectTranslate" "|Small_Bush2|line_object1.t"
-		;
-connectAttr "Small_Bush2.outputObjects[0].outputObjectRotate" "|Small_Bush2|line_object1.r"
-		;
-connectAttr "Small_Bush2.outputObjects[0].outputObjectScale" "|Small_Bush2|line_object1.s"
-		;
-connectAttr "Small_Bush2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush2|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Small_Bush3.inTime";
-connectAttr "Small_Bush3.outputObjects[0].outputObjectTranslate" "|Small_Bush3|line_object1.t"
-		;
-connectAttr "Small_Bush3.outputObjects[0].outputObjectRotate" "|Small_Bush3|line_object1.r"
-		;
-connectAttr "Small_Bush3.outputObjects[0].outputObjectScale" "|Small_Bush3|line_object1.s"
-		;
-connectAttr "Small_Bush3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush3|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Small_Bush4.inTime";
-connectAttr "Small_Bush4.outputObjects[0].outputObjectTranslate" "|Small_Bush4|line_object1.t"
-		;
-connectAttr "Small_Bush4.outputObjects[0].outputObjectRotate" "|Small_Bush4|line_object1.r"
-		;
-connectAttr "Small_Bush4.outputObjects[0].outputObjectScale" "|Small_Bush4|line_object1.s"
-		;
-connectAttr "Small_Bush4.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush4|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Small_Bush5.inTime";
-connectAttr "Small_Bush5.outputObjects[0].outputObjectTranslate" "|Small_Bush5|line_object1.t"
-		;
-connectAttr "Small_Bush5.outputObjects[0].outputObjectRotate" "|Small_Bush5|line_object1.r"
-		;
-connectAttr "Small_Bush5.outputObjects[0].outputObjectScale" "|Small_Bush5|line_object1.s"
-		;
-connectAttr "Small_Bush5.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush5|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "|shaun_bush_fern1.inTime";
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern1|shaun_bush_fern1.t"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputObjectRotate" "|shaun_bush_fern1|shaun_bush_fern1.r"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputObjectScale" "|shaun_bush_fern1|shaun_bush_fern1.s"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.i"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchbend"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.leafsize"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchangle"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.branchsize"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.rotation"
-		;
-connectAttr "|shaun_bush_fern1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.leafjitter"
-		;
-connectAttr ":time1.o" "Small_Bush6.inTime";
-connectAttr "Small_Bush6.outputObjects[0].outputObjectTranslate" "|Small_Bush6|line_object1.t"
-		;
-connectAttr "Small_Bush6.outputObjects[0].outputObjectRotate" "|Small_Bush6|line_object1.r"
-		;
-connectAttr "Small_Bush6.outputObjects[0].outputObjectScale" "|Small_Bush6|line_object1.s"
-		;
-connectAttr "Small_Bush6.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush6|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Small_Bush7.inTime";
-connectAttr "Small_Bush7.outputObjects[0].outputObjectTranslate" "|Small_Bush7|line_object1.t"
-		;
-connectAttr "Small_Bush7.outputObjects[0].outputObjectRotate" "|Small_Bush7|line_object1.r"
-		;
-connectAttr "Small_Bush7.outputObjects[0].outputObjectScale" "|Small_Bush7|line_object1.s"
-		;
-connectAttr "Small_Bush7.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush7|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Palm_Tree2.inTime";
-connectAttr "Palm_Tree2.outputObjects[0].outputObjectTranslate" "|Palm_Tree2|line_object1.t"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputObjectRotate" "|Palm_Tree2|line_object1.r"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputObjectScale" "|Palm_Tree2|line_object1.s"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Palm_Tree2|line_object1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree2|line_object1|merge3_0|merge3_0Shape.rest"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[1].outputPartMeshData" "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.i"
-		;
-connectAttr "Palm_Tree2.outputObjects[0].outputGeos[0].outputParts[1].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.rest"
-		;
-connectAttr ":time1.o" "Short_Palm1.inTime";
-connectAttr "Short_Palm1.outputObjects[0].outputObjectTranslate" "|Short_Palm1|grid1.t"
-		;
-connectAttr "Short_Palm1.outputObjects[0].outputObjectRotate" "|Short_Palm1|grid1.r"
-		;
-connectAttr "Short_Palm1.outputObjects[0].outputObjectScale" "|Short_Palm1|grid1.s"
-		;
-connectAttr "Short_Palm1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm1|grid1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Short_Palm1.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm1|grid1|merge3_0|merge3_0Shape.rest"
-		;
-connectAttr ":time1.o" "Small_Bush8.inTime";
-connectAttr "Small_Bush8.outputObjects[0].outputObjectTranslate" "|Small_Bush8|line_object1.t"
-		;
-connectAttr "Small_Bush8.outputObjects[0].outputObjectRotate" "|Small_Bush8|line_object1.r"
-		;
-connectAttr "Small_Bush8.outputObjects[0].outputObjectScale" "|Small_Bush8|line_object1.s"
-		;
-connectAttr "Small_Bush8.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush8|line_object1|color1_0|color1_0Shape.i"
-		;
 connectAttr "polyPlane1.out" "GroundShape.i";
-connectAttr ":time1.o" "Small_Bush9.inTime";
-connectAttr "Small_Bush9.outputObjects[0].outputObjectTranslate" "|Small_Bush9|line_object1.t"
-		;
-connectAttr "Small_Bush9.outputObjects[0].outputObjectRotate" "|Small_Bush9|line_object1.r"
-		;
-connectAttr "Small_Bush9.outputObjects[0].outputObjectScale" "|Small_Bush9|line_object1.s"
-		;
-connectAttr "Small_Bush9.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush9|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Small_Bush10.inTime";
-connectAttr "Small_Bush10.outputObjects[0].outputObjectTranslate" "|Small_Bush10|line_object1.t"
-		;
-connectAttr "Small_Bush10.outputObjects[0].outputObjectRotate" "|Small_Bush10|line_object1.r"
-		;
-connectAttr "Small_Bush10.outputObjects[0].outputObjectScale" "|Small_Bush10|line_object1.s"
-		;
-connectAttr "Small_Bush10.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush10|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "|shaun_bush_fern2.inTime";
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern2|shaun_bush_fern2.t"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectRotate" "|shaun_bush_fern2|shaun_bush_fern2.r"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputObjectScale" "|shaun_bush_fern2|shaun_bush_fern2.s"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.i"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchbend"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.leafsize"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchangle"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.branchsize"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.rotation"
-		;
-connectAttr "|shaun_bush_fern2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.leafjitter"
-		;
-connectAttr ":time1.o" "|shaun_bush_fern3.inTime";
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern3|shaun_bush_fern3.t"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectRotate" "|shaun_bush_fern3|shaun_bush_fern3.r"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputObjectScale" "|shaun_bush_fern3|shaun_bush_fern3.s"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.i"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchbend"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.leafsize"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchangle"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.branchsize"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.rotation"
-		;
-connectAttr "|shaun_bush_fern3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.leafjitter"
-		;
-connectAttr ":time1.o" "Palm_Tree3.inTime";
-connectAttr "Palm_Tree3.outputObjects[0].outputObjectTranslate" "|Palm_Tree3|line_object1.t"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputObjectRotate" "|Palm_Tree3|line_object1.r"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputObjectScale" "|Palm_Tree3|line_object1.s"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.i"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.rest"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[1].outputPartMeshData" "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.i"
-		;
-connectAttr "Palm_Tree3.outputObjects[0].outputGeos[0].outputParts[1].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.rest"
-		;
-connectAttr ":time1.o" "Small_Bush11.inTime";
-connectAttr "Small_Bush11.outputObjects[0].outputObjectTranslate" "|Small_Bush11|line_object1.t"
-		;
-connectAttr "Small_Bush11.outputObjects[0].outputObjectRotate" "|Small_Bush11|line_object1.r"
-		;
-connectAttr "Small_Bush11.outputObjects[0].outputObjectScale" "|Small_Bush11|line_object1.s"
-		;
-connectAttr "Small_Bush11.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush11|line_object1|color1_0|color1_0Shape.i"
-		;
 connectAttr ":time1.o" "|Tree_Anna2.inTime";
 connectAttr "|Tree_Anna2.outputObjects[0].outputObjectTranslate" "|Tree_Anna2|Tree_Anna2.t"
 		;
@@ -7896,80 +10244,162 @@ connectAttr "groupId2.id" "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog.og[
 connectAttr "leaf.mwc" "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog.og[0].gco"
 		;
 connectAttr "groupParts2.og" "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.i";
-connectAttr ":time1.o" "Short_Palm2.inTime";
-connectAttr "Short_Palm2.outputObjects[0].outputObjectTranslate" "|Short_Palm2|grid1.t"
+connectAttr "ImageProjectionRig:YB_lyr.di" "ImageProjectionRig:YB_Projection_Rig.do"
 		;
-connectAttr "Short_Palm2.outputObjects[0].outputObjectRotate" "|Short_Palm2|grid1.r"
+connectAttr "ImageProjectionRig:transformGeometry1.og" "ImageProjectionRig:YB_Projection_RigShape.cr"
 		;
-connectAttr "Short_Palm2.outputObjects[0].outputObjectScale" "|Short_Palm2|grid1.s"
+connectAttr "ImageProjectionRig:transformGeometry2.og" "ImageProjectionRig:YB_SuperFrontShape1.i"
 		;
-connectAttr "Short_Palm2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm2|grid1|merge3_0|merge3_0Shape.i"
+connectAttr "ImageProjectionRig:polyTweakUV1.uvtk[0]" "ImageProjectionRig:YB_SuperFrontShape1.uvst[0].uvtw"
 		;
-connectAttr "Short_Palm2.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm2|grid1|merge3_0|merge3_0Shape.rest"
+connectAttr "ImageProjectionRig:OB_lyr.di" "ImageProjectionRig:OB_Projection_Rig1.do"
 		;
-connectAttr ":time1.o" "Short_Palm3.inTime";
-connectAttr "Short_Palm3.outputObjects[0].outputObjectTranslate" "|Short_Palm3|grid1.t"
+connectAttr "ImageProjectionRig:Bear_lyr.di" "ImageProjectionRig:Bear_Projection_Rig.do"
 		;
-connectAttr "Short_Palm3.outputObjects[0].outputObjectRotate" "|Short_Palm3|grid1.r"
+connectAttr ":time1.o" "|Tree_Anna3.inTime";
+connectAttr "|Tree_Anna3.outputObjects[0].outputObjectTranslate" "|Tree_Anna3|Tree_Anna3.t"
 		;
-connectAttr "Short_Palm3.outputObjects[0].outputObjectScale" "|Short_Palm3|grid1.s"
+connectAttr "|Tree_Anna3.outputObjects[0].outputObjectRotate" "|Tree_Anna3|Tree_Anna3.r"
 		;
-connectAttr "Short_Palm3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Short_Palm3|grid1|merge3_0|merge3_0Shape.i"
+connectAttr "|Tree_Anna3.outputObjects[0].outputObjectScale" "|Tree_Anna3|Tree_Anna3.s"
 		;
-connectAttr "Short_Palm3.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|Short_Palm3|grid1|merge3_0|merge3_0Shape.rest"
+connectAttr "groupId3.id" "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.iog.og[0].gid"
 		;
-connectAttr ":time1.o" "|shaun_bush_fern4.inTime";
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectTranslate" "|shaun_bush_fern4|shaun_bush_fern4.t"
+connectAttr "leaf.mwc" "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.iog.og[0].gco"
 		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectRotate" "|shaun_bush_fern4|shaun_bush_fern4.r"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputObjectScale" "|shaun_bush_fern4|shaun_bush_fern4.s"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.i"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[0].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchbend"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[1].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.leafsize"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[2].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchangle"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[3].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.branchsize"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[4].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.rotation"
-		;
-connectAttr "|shaun_bush_fern4.outputObjects[0].outputGeos[0].outputParts[0].outputPartExtraAttributes[5].outputPartExtraAttributeData" "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.leafjitter"
-		;
-connectAttr ":time1.o" "Small_Bush12.inTime";
-connectAttr "Small_Bush12.outputObjects[0].outputObjectTranslate" "|Small_Bush12|line_object1.t"
-		;
-connectAttr "Small_Bush12.outputObjects[0].outputObjectRotate" "|Small_Bush12|line_object1.r"
-		;
-connectAttr "Small_Bush12.outputObjects[0].outputObjectScale" "|Small_Bush12|line_object1.s"
-		;
-connectAttr "Small_Bush12.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush12|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Small_Bush13.inTime";
-connectAttr "Small_Bush13.outputObjects[0].outputObjectTranslate" "|Small_Bush13|line_object1.t"
-		;
-connectAttr "Small_Bush13.outputObjects[0].outputObjectRotate" "|Small_Bush13|line_object1.r"
-		;
-connectAttr "Small_Bush13.outputObjects[0].outputObjectScale" "|Small_Bush13|line_object1.s"
-		;
-connectAttr "Small_Bush13.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush13|line_object1|color1_0|color1_0Shape.i"
-		;
-connectAttr ":time1.o" "Small_Bush14.inTime";
-connectAttr "Small_Bush14.outputObjects[0].outputObjectTranslate" "|Small_Bush14|line_object1.t"
-		;
-connectAttr "Small_Bush14.outputObjects[0].outputObjectRotate" "|Small_Bush14|line_object1.r"
-		;
-connectAttr "Small_Bush14.outputObjects[0].outputObjectScale" "|Small_Bush14|line_object1.s"
-		;
-connectAttr "Small_Bush14.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "|Small_Bush14|line_object1|color1_0|color1_0Shape.i"
-		;
+connectAttr "groupParts3.og" "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.i";
+connectAttr "polyPlane2.out" "pPlaneShape1.i";
+connectAttr "cameraShape1.coi" "pointLightShape1.col";
 relationship "link" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "link" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert2SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert3SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert5SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert6SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert7SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert8SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert9SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert10SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert11SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert12SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert13SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert14SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert15SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert16SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "ImageProjectionRig:lambert17SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader1SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader2SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader3SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader4SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader5SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader6SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader7SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader8SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader9SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader10SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader11SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader12SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader13SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader14SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader15SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader16SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader17SG.message" ":defaultLightSet.message";
+relationship "link" ":lightLinker1" "rampShader18SG.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defaultLightSet.message";
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert2SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert3SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert5SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert6SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert7SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert8SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert9SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert10SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert11SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert12SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert13SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert14SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert15SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert16SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "ImageProjectionRig:lambert17SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader1SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader2SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader3SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader4SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader5SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader6SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader7SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader8SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader9SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader10SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader11SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader12SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader13SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader14SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader15SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader16SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader17SG.message" ":defaultLightSet.message";
+relationship "shadowLink" ":lightLinker1" "rampShader18SG.message" ":defaultLightSet.message";
+relationship "ignore" ":lightLinker1" "GroundShape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "pCubeShape6.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "pCubeShape5.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "pCubeShape7.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:YB_FrontShape2.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:YB_BackShape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:Bear_SuperBack1Shape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:YB_SuperBack1Shape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:YB_MidShape1.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:YB_SuperFrontShape1.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:OB_SuperFrontShape3.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:OB_MidShape2.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:OB_Back2Shape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:OB_SuperBack2Shape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:OB_FrontShape3.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:Bear_BackShape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:Bear_FrontShape2.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:Bear_MidShape1.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:Bear_SuperFrontShape1.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "pPlaneShape1.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert10SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert11SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert12SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert13SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert14SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert15SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert16SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert17SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert2SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert3SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert4SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert5SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert6SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert7SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert8SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "ImageProjectionRig:lambert9SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" ":initialParticleSE.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" ":initialShadingGroup.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader10SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader11SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader12SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader13SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader14SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader15SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader16SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader17SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader1SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader2SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader3SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader4SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader5SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader6SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader7SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader8SG.message" "pointLightShape1.message";
+relationship "ignore" ":lightLinker1" "rampShader9SG.message" "pointLightShape1.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "Skin.msg" "hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
@@ -7984,9 +10414,12 @@ connectAttr "layerManager.dli[1]" "pasted__LB_geo_TOUCH_GENTLY.id";
 connectAttr "layerManager.dli[3]" "pasted__LB_geo_TOUCH_GENTLY1.id";
 connectAttr "groupId1.msg" "leaf.gn" -na;
 connectAttr "groupId2.msg" "leaf.gn" -na;
+connectAttr "groupId3.msg" "leaf.gn" -na;
 connectAttr "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog.og[0]" "leaf.dsm"
 		 -na;
 connectAttr "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog.og[0]" "leaf.dsm"
+		 -na;
+connectAttr "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.iog.og[0]" "leaf.dsm"
 		 -na;
 connectAttr "|Tree_Anna1.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "groupParts1.ig"
 		;
@@ -8004,6 +10437,813 @@ connectAttr "deleteComponent1.og" "deleteComponent2.ig";
 connectAttr "|Tree_Anna2.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "groupParts2.ig"
 		;
 connectAttr "groupId2.id" "groupParts2.gi";
+connectAttr "ImageProjectionRig:renderLayerManager.rlmi[0]" "ImageProjectionRig:defaultRenderLayer.rlid"
+		;
+connectAttr "ImageProjectionRig:file1.oc" "ImageProjectionRig:YB___SuperFront.c"
+		;
+connectAttr "ImageProjectionRig:file1.ot" "ImageProjectionRig:YB___SuperFront.it"
+		;
+connectAttr "ImageProjectionRig:YB___SuperFront.oc" "ImageProjectionRig:lambert2SG.ss"
+		;
+connectAttr "ImageProjectionRig:lambert2SG.msg" "ImageProjectionRig:materialInfo1.sg"
+		;
+connectAttr "ImageProjectionRig:YB___SuperFront.msg" "ImageProjectionRig:materialInfo1.m"
+		;
+connectAttr "ImageProjectionRig:file1.msg" "ImageProjectionRig:materialInfo1.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file1.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file1.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file1.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file1.ws";
+connectAttr "ImageProjectionRig:place2dTexture1.c" "ImageProjectionRig:file1.c";
+connectAttr "ImageProjectionRig:place2dTexture1.tf" "ImageProjectionRig:file1.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.rf" "ImageProjectionRig:file1.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.mu" "ImageProjectionRig:file1.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.mv" "ImageProjectionRig:file1.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.s" "ImageProjectionRig:file1.s";
+connectAttr "ImageProjectionRig:place2dTexture1.wu" "ImageProjectionRig:file1.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.wv" "ImageProjectionRig:file1.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.re" "ImageProjectionRig:file1.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.of" "ImageProjectionRig:file1.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.r" "ImageProjectionRig:file1.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.n" "ImageProjectionRig:file1.n";
+connectAttr "ImageProjectionRig:place2dTexture1.vt1" "ImageProjectionRig:file1.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.vt2" "ImageProjectionRig:file1.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.vt3" "ImageProjectionRig:file1.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.vc1" "ImageProjectionRig:file1.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.o" "ImageProjectionRig:file1.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.ofs" "ImageProjectionRig:file1.fs"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront.oc" "ImageProjectionRig:YB_SuperFront2_Mat.c"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront.ot" "ImageProjectionRig:YB_SuperFront2_Mat.it"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront2_Mat.oc" "ImageProjectionRig:lambert3SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFrontShape1.iog" "ImageProjectionRig:lambert3SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert3SG.msg" "ImageProjectionRig:materialInfo2.sg"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront2_Mat.msg" "ImageProjectionRig:materialInfo2.m"
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront.msg" "ImageProjectionRig:materialInfo2.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:YB_SuperFront.cme"
+		;
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:YB_SuperFront.cmcf"
+		;
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:YB_SuperFront.cmcp"
+		;
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:YB_SuperFront.ws";
+connectAttr "ImageProjectionRig:place2dTexture2.c" "ImageProjectionRig:YB_SuperFront.c"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.tf" "ImageProjectionRig:YB_SuperFront.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.rf" "ImageProjectionRig:YB_SuperFront.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.mu" "ImageProjectionRig:YB_SuperFront.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.mv" "ImageProjectionRig:YB_SuperFront.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.s" "ImageProjectionRig:YB_SuperFront.s"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.wu" "ImageProjectionRig:YB_SuperFront.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.wv" "ImageProjectionRig:YB_SuperFront.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.re" "ImageProjectionRig:YB_SuperFront.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.of" "ImageProjectionRig:YB_SuperFront.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.r" "ImageProjectionRig:YB_SuperFront.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.n" "ImageProjectionRig:YB_SuperFront.n"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.vt1" "ImageProjectionRig:YB_SuperFront.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.vt2" "ImageProjectionRig:YB_SuperFront.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.vt3" "ImageProjectionRig:YB_SuperFront.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.vc1" "ImageProjectionRig:YB_SuperFront.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.o" "ImageProjectionRig:YB_SuperFront.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture2.ofs" "ImageProjectionRig:YB_SuperFront.fs"
+		;
+connectAttr "ImageProjectionRig:expression1.out[0]" "ImageProjectionRig:YB_SuperFront.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression1.tim";
+connectAttr "ImageProjectionRig:polyPlane1.out" "ImageProjectionRig:polyTweakUV1.ip"
+		;
+connectAttr "ImageProjectionRig:file1.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[0].dn"
+		;
+connectAttr "ImageProjectionRig:place2dTexture1.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[1].dn"
+		;
+connectAttr "ImageProjectionRig:YB___SuperFront.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[2].dn"
+		;
+connectAttr "ImageProjectionRig:lambert2SG.msg" "ImageProjectionRig:hyperShadePrimaryNodeEditorSavedTabsInfo.tgi[0].ni[3].dn"
+		;
+connectAttr "ImageProjectionRig:file2.oc" "ImageProjectionRig:YB_Front_Mat.c";
+connectAttr "ImageProjectionRig:file2.ot" "ImageProjectionRig:YB_Front_Mat.it";
+connectAttr "ImageProjectionRig:YB_Front_Mat.oc" "ImageProjectionRig:lambert4SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_FrontShape2.iog" "ImageProjectionRig:lambert4SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert4SG.msg" "ImageProjectionRig:materialInfo3.sg"
+		;
+connectAttr "ImageProjectionRig:YB_Front_Mat.msg" "ImageProjectionRig:materialInfo3.m"
+		;
+connectAttr "ImageProjectionRig:file2.msg" "ImageProjectionRig:materialInfo3.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file2.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file2.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file2.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file2.ws";
+connectAttr "ImageProjectionRig:place2dTexture3.c" "ImageProjectionRig:file2.c";
+connectAttr "ImageProjectionRig:place2dTexture3.tf" "ImageProjectionRig:file2.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.rf" "ImageProjectionRig:file2.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.mu" "ImageProjectionRig:file2.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.mv" "ImageProjectionRig:file2.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.s" "ImageProjectionRig:file2.s";
+connectAttr "ImageProjectionRig:place2dTexture3.wu" "ImageProjectionRig:file2.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.wv" "ImageProjectionRig:file2.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.re" "ImageProjectionRig:file2.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.of" "ImageProjectionRig:file2.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.r" "ImageProjectionRig:file2.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.n" "ImageProjectionRig:file2.n";
+connectAttr "ImageProjectionRig:place2dTexture3.vt1" "ImageProjectionRig:file2.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.vt2" "ImageProjectionRig:file2.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.vt3" "ImageProjectionRig:file2.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.vc1" "ImageProjectionRig:file2.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.o" "ImageProjectionRig:file2.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture3.ofs" "ImageProjectionRig:file2.fs"
+		;
+connectAttr "ImageProjectionRig:expression2.out[0]" "ImageProjectionRig:file2.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression2.tim";
+connectAttr "ImageProjectionRig:file3.oc" "ImageProjectionRig:YB_Mid_Mat.c";
+connectAttr "ImageProjectionRig:file3.ot" "ImageProjectionRig:YB_Mid_Mat.it";
+connectAttr "ImageProjectionRig:YB_Mid_Mat.oc" "ImageProjectionRig:lambert5SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_MidShape1.iog" "ImageProjectionRig:lambert5SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert5SG.msg" "ImageProjectionRig:materialInfo4.sg"
+		;
+connectAttr "ImageProjectionRig:YB_Mid_Mat.msg" "ImageProjectionRig:materialInfo4.m"
+		;
+connectAttr "ImageProjectionRig:file3.msg" "ImageProjectionRig:materialInfo4.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file3.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file3.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file3.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file3.ws";
+connectAttr "ImageProjectionRig:place2dTexture4.c" "ImageProjectionRig:file3.c";
+connectAttr "ImageProjectionRig:place2dTexture4.tf" "ImageProjectionRig:file3.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.rf" "ImageProjectionRig:file3.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.mu" "ImageProjectionRig:file3.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.mv" "ImageProjectionRig:file3.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.s" "ImageProjectionRig:file3.s";
+connectAttr "ImageProjectionRig:place2dTexture4.wu" "ImageProjectionRig:file3.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.wv" "ImageProjectionRig:file3.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.re" "ImageProjectionRig:file3.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.of" "ImageProjectionRig:file3.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.r" "ImageProjectionRig:file3.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.n" "ImageProjectionRig:file3.n";
+connectAttr "ImageProjectionRig:place2dTexture4.vt1" "ImageProjectionRig:file3.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.vt2" "ImageProjectionRig:file3.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.vt3" "ImageProjectionRig:file3.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.vc1" "ImageProjectionRig:file3.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.o" "ImageProjectionRig:file3.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture4.ofs" "ImageProjectionRig:file3.fs"
+		;
+connectAttr "ImageProjectionRig:expression3.out[0]" "ImageProjectionRig:file3.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression3.tim";
+connectAttr "ImageProjectionRig:file4.oc" "ImageProjectionRig:YB_Back1_Mat.c";
+connectAttr "ImageProjectionRig:file4.ot" "ImageProjectionRig:YB_Back1_Mat.it";
+connectAttr "ImageProjectionRig:YB_Back1_Mat.oc" "ImageProjectionRig:lambert6SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_BackShape.iog" "ImageProjectionRig:lambert6SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert6SG.msg" "ImageProjectionRig:materialInfo5.sg"
+		;
+connectAttr "ImageProjectionRig:YB_Back1_Mat.msg" "ImageProjectionRig:materialInfo5.m"
+		;
+connectAttr "ImageProjectionRig:file4.msg" "ImageProjectionRig:materialInfo5.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file4.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file4.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file4.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file4.ws";
+connectAttr "ImageProjectionRig:place2dTexture5.c" "ImageProjectionRig:file4.c";
+connectAttr "ImageProjectionRig:place2dTexture5.tf" "ImageProjectionRig:file4.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.rf" "ImageProjectionRig:file4.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.mu" "ImageProjectionRig:file4.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.mv" "ImageProjectionRig:file4.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.s" "ImageProjectionRig:file4.s";
+connectAttr "ImageProjectionRig:place2dTexture5.wu" "ImageProjectionRig:file4.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.wv" "ImageProjectionRig:file4.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.re" "ImageProjectionRig:file4.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.of" "ImageProjectionRig:file4.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.r" "ImageProjectionRig:file4.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.n" "ImageProjectionRig:file4.n";
+connectAttr "ImageProjectionRig:place2dTexture5.vt1" "ImageProjectionRig:file4.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.vt2" "ImageProjectionRig:file4.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.vt3" "ImageProjectionRig:file4.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.vc1" "ImageProjectionRig:file4.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.o" "ImageProjectionRig:file4.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture5.ofs" "ImageProjectionRig:file4.fs"
+		;
+connectAttr "ImageProjectionRig:expression4.out[0]" "ImageProjectionRig:file4.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression4.tim";
+connectAttr "ImageProjectionRig:file5.oc" "ImageProjectionRig:YB_SuperBack_Mat.c"
+		;
+connectAttr "ImageProjectionRig:file5.ot" "ImageProjectionRig:YB_SuperBack_Mat.it"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack_Mat.oc" "ImageProjectionRig:lambert7SG.ss"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack1Shape.iog" "ImageProjectionRig:lambert7SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert7SG.msg" "ImageProjectionRig:materialInfo6.sg"
+		;
+connectAttr "ImageProjectionRig:YB_SuperBack_Mat.msg" "ImageProjectionRig:materialInfo6.m"
+		;
+connectAttr "ImageProjectionRig:file5.msg" "ImageProjectionRig:materialInfo6.t" 
+		-na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file5.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file5.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file5.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file5.ws";
+connectAttr "ImageProjectionRig:place2dTexture6.c" "ImageProjectionRig:file5.c";
+connectAttr "ImageProjectionRig:place2dTexture6.tf" "ImageProjectionRig:file5.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.rf" "ImageProjectionRig:file5.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.mu" "ImageProjectionRig:file5.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.mv" "ImageProjectionRig:file5.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.s" "ImageProjectionRig:file5.s";
+connectAttr "ImageProjectionRig:place2dTexture6.wu" "ImageProjectionRig:file5.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.wv" "ImageProjectionRig:file5.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.re" "ImageProjectionRig:file5.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.of" "ImageProjectionRig:file5.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.r" "ImageProjectionRig:file5.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.n" "ImageProjectionRig:file5.n";
+connectAttr "ImageProjectionRig:place2dTexture6.vt1" "ImageProjectionRig:file5.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.vt2" "ImageProjectionRig:file5.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.vt3" "ImageProjectionRig:file5.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.vc1" "ImageProjectionRig:file5.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.o" "ImageProjectionRig:file5.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture6.ofs" "ImageProjectionRig:file5.fs"
+		;
+connectAttr "ImageProjectionRig:expression5.out[0]" "ImageProjectionRig:file5.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression5.tim";
+connectAttr "ImageProjectionRig:file6.oc" "ImageProjectionRig:OB_SuperFront_Mat.c"
+		;
+connectAttr "ImageProjectionRig:file6.ot" "ImageProjectionRig:OB_SuperFront_Mat.it"
+		;
+connectAttr "ImageProjectionRig:OB_SuperFront_Mat.oc" "ImageProjectionRig:lambert8SG.ss"
+		;
+connectAttr "ImageProjectionRig:OB_SuperFrontShape3.iog" "ImageProjectionRig:lambert8SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert8SG.msg" "ImageProjectionRig:materialInfo7.sg"
+		;
+connectAttr "ImageProjectionRig:OB_SuperFront_Mat.msg" "ImageProjectionRig:materialInfo7.m"
+		;
+connectAttr "ImageProjectionRig:file6.msg" "ImageProjectionRig:materialInfo7.t" 
+		-na;
+connectAttr "ImageProjectionRig:file7.oc" "ImageProjectionRig:OB_Front_Mat.c";
+connectAttr "ImageProjectionRig:file7.ot" "ImageProjectionRig:OB_Front_Mat.it";
+connectAttr "ImageProjectionRig:OB_Front_Mat.oc" "ImageProjectionRig:lambert9SG.ss"
+		;
+connectAttr "ImageProjectionRig:OB_FrontShape3.iog" "ImageProjectionRig:lambert9SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert9SG.msg" "ImageProjectionRig:materialInfo8.sg"
+		;
+connectAttr "ImageProjectionRig:OB_Front_Mat.msg" "ImageProjectionRig:materialInfo8.m"
+		;
+connectAttr "ImageProjectionRig:file7.msg" "ImageProjectionRig:materialInfo8.t" 
+		-na;
+connectAttr "ImageProjectionRig:file8.oc" "ImageProjectionRig:OB_Mid_Mat.c";
+connectAttr "ImageProjectionRig:file8.ot" "ImageProjectionRig:OB_Mid_Mat.it";
+connectAttr "ImageProjectionRig:OB_Mid_Mat.oc" "ImageProjectionRig:lambert10SG.ss"
+		;
+connectAttr "ImageProjectionRig:OB_MidShape2.iog" "ImageProjectionRig:lambert10SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert10SG.msg" "ImageProjectionRig:materialInfo9.sg"
+		;
+connectAttr "ImageProjectionRig:OB_Mid_Mat.msg" "ImageProjectionRig:materialInfo9.m"
+		;
+connectAttr "ImageProjectionRig:file8.msg" "ImageProjectionRig:materialInfo9.t" 
+		-na;
+connectAttr "ImageProjectionRig:file9.oc" "ImageProjectionRig:OB_Back_Mat.c";
+connectAttr "ImageProjectionRig:file9.ot" "ImageProjectionRig:OB_Back_Mat.it";
+connectAttr "ImageProjectionRig:OB_Back_Mat.oc" "ImageProjectionRig:lambert11SG.ss"
+		;
+connectAttr "ImageProjectionRig:OB_Back2Shape.iog" "ImageProjectionRig:lambert11SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert11SG.msg" "ImageProjectionRig:materialInfo10.sg"
+		;
+connectAttr "ImageProjectionRig:OB_Back_Mat.msg" "ImageProjectionRig:materialInfo10.m"
+		;
+connectAttr "ImageProjectionRig:file9.msg" "ImageProjectionRig:materialInfo10.t"
+		 -na;
+connectAttr "ImageProjectionRig:file10.oc" "ImageProjectionRig:OB_SuperBack_Mat.c"
+		;
+connectAttr "ImageProjectionRig:file10.ot" "ImageProjectionRig:OB_SuperBack_Mat.it"
+		;
+connectAttr "ImageProjectionRig:OB_SuperBack_Mat.oc" "ImageProjectionRig:lambert12SG.ss"
+		;
+connectAttr "ImageProjectionRig:OB_SuperBack2Shape.iog" "ImageProjectionRig:lambert12SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert12SG.msg" "ImageProjectionRig:materialInfo11.sg"
+		;
+connectAttr "ImageProjectionRig:OB_SuperBack_Mat.msg" "ImageProjectionRig:materialInfo11.m"
+		;
+connectAttr "ImageProjectionRig:file10.msg" "ImageProjectionRig:materialInfo11.t"
+		 -na;
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file6.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file6.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file6.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file6.ws";
+connectAttr "ImageProjectionRig:place2dTexture7.c" "ImageProjectionRig:file6.c";
+connectAttr "ImageProjectionRig:place2dTexture7.tf" "ImageProjectionRig:file6.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.rf" "ImageProjectionRig:file6.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.mu" "ImageProjectionRig:file6.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.mv" "ImageProjectionRig:file6.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.s" "ImageProjectionRig:file6.s";
+connectAttr "ImageProjectionRig:place2dTexture7.wu" "ImageProjectionRig:file6.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.wv" "ImageProjectionRig:file6.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.re" "ImageProjectionRig:file6.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.of" "ImageProjectionRig:file6.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.r" "ImageProjectionRig:file6.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.n" "ImageProjectionRig:file6.n";
+connectAttr "ImageProjectionRig:place2dTexture7.vt1" "ImageProjectionRig:file6.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.vt2" "ImageProjectionRig:file6.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.vt3" "ImageProjectionRig:file6.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.vc1" "ImageProjectionRig:file6.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.o" "ImageProjectionRig:file6.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture7.ofs" "ImageProjectionRig:file6.fs"
+		;
+connectAttr "ImageProjectionRig:expression6.out[0]" "ImageProjectionRig:file6.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression6.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file7.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file7.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file7.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file7.ws";
+connectAttr "ImageProjectionRig:place2dTexture8.c" "ImageProjectionRig:file7.c";
+connectAttr "ImageProjectionRig:place2dTexture8.tf" "ImageProjectionRig:file7.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.rf" "ImageProjectionRig:file7.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.mu" "ImageProjectionRig:file7.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.mv" "ImageProjectionRig:file7.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.s" "ImageProjectionRig:file7.s";
+connectAttr "ImageProjectionRig:place2dTexture8.wu" "ImageProjectionRig:file7.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.wv" "ImageProjectionRig:file7.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.re" "ImageProjectionRig:file7.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.of" "ImageProjectionRig:file7.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.r" "ImageProjectionRig:file7.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.n" "ImageProjectionRig:file7.n";
+connectAttr "ImageProjectionRig:place2dTexture8.vt1" "ImageProjectionRig:file7.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.vt2" "ImageProjectionRig:file7.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.vt3" "ImageProjectionRig:file7.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.vc1" "ImageProjectionRig:file7.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.o" "ImageProjectionRig:file7.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture8.ofs" "ImageProjectionRig:file7.fs"
+		;
+connectAttr "ImageProjectionRig:expression7.out[0]" "ImageProjectionRig:file7.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression7.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file8.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file8.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file8.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file8.ws";
+connectAttr "ImageProjectionRig:place2dTexture9.c" "ImageProjectionRig:file8.c";
+connectAttr "ImageProjectionRig:place2dTexture9.tf" "ImageProjectionRig:file8.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.rf" "ImageProjectionRig:file8.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.mu" "ImageProjectionRig:file8.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.mv" "ImageProjectionRig:file8.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.s" "ImageProjectionRig:file8.s";
+connectAttr "ImageProjectionRig:place2dTexture9.wu" "ImageProjectionRig:file8.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.wv" "ImageProjectionRig:file8.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.re" "ImageProjectionRig:file8.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.of" "ImageProjectionRig:file8.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.r" "ImageProjectionRig:file8.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.n" "ImageProjectionRig:file8.n";
+connectAttr "ImageProjectionRig:place2dTexture9.vt1" "ImageProjectionRig:file8.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.vt2" "ImageProjectionRig:file8.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.vt3" "ImageProjectionRig:file8.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.vc1" "ImageProjectionRig:file8.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.o" "ImageProjectionRig:file8.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture9.ofs" "ImageProjectionRig:file8.fs"
+		;
+connectAttr "ImageProjectionRig:expression8.out[0]" "ImageProjectionRig:file8.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression8.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file9.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file9.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file9.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file9.ws";
+connectAttr "ImageProjectionRig:place2dTexture10.c" "ImageProjectionRig:file9.c"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.tf" "ImageProjectionRig:file9.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.rf" "ImageProjectionRig:file9.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.mu" "ImageProjectionRig:file9.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.mv" "ImageProjectionRig:file9.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.s" "ImageProjectionRig:file9.s"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.wu" "ImageProjectionRig:file9.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.wv" "ImageProjectionRig:file9.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.re" "ImageProjectionRig:file9.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.of" "ImageProjectionRig:file9.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.r" "ImageProjectionRig:file9.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.n" "ImageProjectionRig:file9.n"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.vt1" "ImageProjectionRig:file9.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.vt2" "ImageProjectionRig:file9.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.vt3" "ImageProjectionRig:file9.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.vc1" "ImageProjectionRig:file9.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.o" "ImageProjectionRig:file9.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture10.ofs" "ImageProjectionRig:file9.fs"
+		;
+connectAttr "ImageProjectionRig:expression9.out[0]" "ImageProjectionRig:file9.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression9.tim";
+connectAttr ":defaultColorMgtGlobals.cme" "ImageProjectionRig:file10.cme";
+connectAttr ":defaultColorMgtGlobals.cfe" "ImageProjectionRig:file10.cmcf";
+connectAttr ":defaultColorMgtGlobals.cfp" "ImageProjectionRig:file10.cmcp";
+connectAttr ":defaultColorMgtGlobals.wsn" "ImageProjectionRig:file10.ws";
+connectAttr "ImageProjectionRig:place2dTexture11.c" "ImageProjectionRig:file10.c"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.tf" "ImageProjectionRig:file10.tf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.rf" "ImageProjectionRig:file10.rf"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.mu" "ImageProjectionRig:file10.mu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.mv" "ImageProjectionRig:file10.mv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.s" "ImageProjectionRig:file10.s"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.wu" "ImageProjectionRig:file10.wu"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.wv" "ImageProjectionRig:file10.wv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.re" "ImageProjectionRig:file10.re"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.of" "ImageProjectionRig:file10.of"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.r" "ImageProjectionRig:file10.ro"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.n" "ImageProjectionRig:file10.n"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.vt1" "ImageProjectionRig:file10.vt1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.vt2" "ImageProjectionRig:file10.vt2"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.vt3" "ImageProjectionRig:file10.vt3"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.vc1" "ImageProjectionRig:file10.vc1"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.o" "ImageProjectionRig:file10.uv"
+		;
+connectAttr "ImageProjectionRig:place2dTexture11.ofs" "ImageProjectionRig:file10.fs"
+		;
+connectAttr "ImageProjectionRig:expression10.out[0]" "ImageProjectionRig:file10.fe"
+		;
+connectAttr ":time1.o" "ImageProjectionRig:expression10.tim";
+connectAttr "ImageProjectionRig:makeNurbCircle1.oc" "ImageProjectionRig:transformGeometry1.ig"
+		;
+connectAttr "ImageProjectionRig:polyTweakUV1.out" "ImageProjectionRig:transformGeometry2.ig"
+		;
+connectAttr "ImageProjectionRig:Bear_Superfront_Mat.oc" "ImageProjectionRig:lambert13SG.ss"
+		;
+connectAttr "ImageProjectionRig:Bear_SuperFrontShape1.iog" "ImageProjectionRig:lambert13SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert13SG.msg" "ImageProjectionRig:materialInfo12.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_Superfront_Mat.msg" "ImageProjectionRig:materialInfo12.m"
+		;
+connectAttr "ImageProjectionRig:Bear_Front_Mat.oc" "ImageProjectionRig:lambert14SG.ss"
+		;
+connectAttr "ImageProjectionRig:Bear_FrontShape2.iog" "ImageProjectionRig:lambert14SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert14SG.msg" "ImageProjectionRig:materialInfo13.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_Front_Mat.msg" "ImageProjectionRig:materialInfo13.m"
+		;
+connectAttr "ImageProjectionRig:Bear_Mid_Mat.oc" "ImageProjectionRig:lambert15SG.ss"
+		;
+connectAttr "ImageProjectionRig:Bear_MidShape1.iog" "ImageProjectionRig:lambert15SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert15SG.msg" "ImageProjectionRig:materialInfo14.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_Mid_Mat.msg" "ImageProjectionRig:materialInfo14.m"
+		;
+connectAttr "ImageProjectionRig:Bear_Back_Mat.oc" "ImageProjectionRig:lambert16SG.ss"
+		;
+connectAttr "ImageProjectionRig:Bear_BackShape.iog" "ImageProjectionRig:lambert16SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert16SG.msg" "ImageProjectionRig:materialInfo15.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_Back_Mat.msg" "ImageProjectionRig:materialInfo15.m"
+		;
+connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.oc" "ImageProjectionRig:lambert17SG.ss"
+		;
+connectAttr "ImageProjectionRig:Bear_SuperBack1Shape.iog" "ImageProjectionRig:lambert17SG.dsm"
+		 -na;
+connectAttr "ImageProjectionRig:lambert17SG.msg" "ImageProjectionRig:materialInfo16.sg"
+		;
+connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.msg" "ImageProjectionRig:materialInfo16.m"
+		;
+connectAttr "layerManager.dli[4]" "ImageProjectionRig:YB_lyr.id";
+connectAttr "layerManager.dli[8]" "ImageProjectionRig:OB_lyr.id";
+connectAttr "layerManager.dli[9]" "ImageProjectionRig:Bear_lyr.id";
+connectAttr "threeToneBrightnessShader.oc" "rampShader1SG.ss";
+connectAttr "rampShader1SG.msg" "materialInfo1.sg";
+connectAttr "threeToneBrightnessShader.msg" "materialInfo1.m";
+connectAttr "threeToneBrightnessShader.msg" "materialInfo1.t" -na;
+connectAttr "threeToneBrightnessShader1.oc" "rampShader2SG.ss";
+connectAttr "rampShader2SG.msg" "materialInfo2.sg";
+connectAttr "threeToneBrightnessShader1.msg" "materialInfo2.m";
+connectAttr "threeToneBrightnessShader1.msg" "materialInfo2.t" -na;
+connectAttr "threeToneBrightnessShader2.oc" "rampShader3SG.ss";
+connectAttr "rampShader3SG.msg" "materialInfo3.sg";
+connectAttr "threeToneBrightnessShader2.msg" "materialInfo3.m";
+connectAttr "threeToneBrightnessShader2.msg" "materialInfo3.t" -na;
+connectAttr "threeToneBrightnessShader3.oc" "rampShader4SG.ss";
+connectAttr "rampShader4SG.msg" "materialInfo4.sg";
+connectAttr "threeToneBrightnessShader3.msg" "materialInfo4.m";
+connectAttr "threeToneBrightnessShader3.msg" "materialInfo4.t" -na;
+connectAttr "threeToneBrightnessShader4.oc" "rampShader5SG.ss";
+connectAttr "rampShader5SG.msg" "materialInfo5.sg";
+connectAttr "threeToneBrightnessShader4.msg" "materialInfo5.m";
+connectAttr "threeToneBrightnessShader4.msg" "materialInfo5.t" -na;
+connectAttr "threeToneBrightnessShader5.oc" "rampShader6SG.ss";
+connectAttr "rampShader6SG.msg" "materialInfo6.sg";
+connectAttr "threeToneBrightnessShader5.msg" "materialInfo6.m";
+connectAttr "threeToneBrightnessShader5.msg" "materialInfo6.t" -na;
+connectAttr "threeToneBrightnessShader6.oc" "rampShader7SG.ss";
+connectAttr "rampShader7SG.msg" "materialInfo7.sg";
+connectAttr "threeToneBrightnessShader6.msg" "materialInfo7.m";
+connectAttr "threeToneBrightnessShader6.msg" "materialInfo7.t" -na;
+connectAttr "|Tree_Anna3.outputObjects[0].outputGeos[0].outputParts[0].outputPartMeshData" "groupParts3.ig"
+		;
+connectAttr "groupId3.id" "groupParts3.gi";
+connectAttr "threeToneBrightnessShader7.oc" "rampShader8SG.ss";
+connectAttr "rampShader8SG.msg" "materialInfo8.sg";
+connectAttr "threeToneBrightnessShader7.msg" "materialInfo8.m";
+connectAttr "threeToneBrightnessShader7.msg" "materialInfo8.t" -na;
+connectAttr "threeToneBrightnessShader8.oc" "rampShader9SG.ss";
+connectAttr "rampShader9SG.msg" "materialInfo9.sg";
+connectAttr "threeToneBrightnessShader8.msg" "materialInfo9.m";
+connectAttr "threeToneBrightnessShader8.msg" "materialInfo9.t" -na;
+connectAttr "threeToneBrightnessShader9.oc" "rampShader10SG.ss";
+connectAttr "rampShader10SG.msg" "materialInfo10.sg";
+connectAttr "threeToneBrightnessShader9.msg" "materialInfo10.m";
+connectAttr "threeToneBrightnessShader9.msg" "materialInfo10.t" -na;
+connectAttr "threeToneBrightnessShader10.oc" "rampShader11SG.ss";
+connectAttr "rampShader11SG.msg" "materialInfo11.sg";
+connectAttr "threeToneBrightnessShader10.msg" "materialInfo11.m";
+connectAttr "threeToneBrightnessShader10.msg" "materialInfo11.t" -na;
+connectAttr "threeToneBrightnessShader11.oc" "rampShader12SG.ss";
+connectAttr "rampShader12SG.msg" "materialInfo12.sg";
+connectAttr "threeToneBrightnessShader11.msg" "materialInfo12.m";
+connectAttr "threeToneBrightnessShader11.msg" "materialInfo12.t" -na;
+connectAttr "threeToneBrightnessShader12.oc" "rampShader13SG.ss";
+connectAttr "rampShader13SG.msg" "materialInfo13.sg";
+connectAttr "threeToneBrightnessShader12.msg" "materialInfo13.m";
+connectAttr "threeToneBrightnessShader12.msg" "materialInfo13.t" -na;
+connectAttr "threeToneBrightnessShader13.oc" "rampShader14SG.ss";
+connectAttr "rampShader14SG.msg" "materialInfo14.sg";
+connectAttr "threeToneBrightnessShader13.msg" "materialInfo14.m";
+connectAttr "threeToneBrightnessShader13.msg" "materialInfo14.t" -na;
+connectAttr "threeToneBrightnessShader14.oc" "rampShader15SG.ss";
+connectAttr "rampShader15SG.msg" "materialInfo15.sg";
+connectAttr "threeToneBrightnessShader14.msg" "materialInfo15.m";
+connectAttr "threeToneBrightnessShader14.msg" "materialInfo15.t" -na;
+connectAttr "threeToneBrightnessShader15.oc" "rampShader16SG.ss";
+connectAttr "rampShader16SG.msg" "materialInfo16.sg";
+connectAttr "threeToneBrightnessShader15.msg" "materialInfo16.m";
+connectAttr "threeToneBrightnessShader15.msg" "materialInfo16.t" -na;
+connectAttr "threeToneBrightnessShader16.oc" "rampShader17SG.ss";
+connectAttr "rampShader17SG.msg" "materialInfo17.sg";
+connectAttr "threeToneBrightnessShader16.msg" "materialInfo17.m";
+connectAttr "threeToneBrightnessShader16.msg" "materialInfo17.t" -na;
+connectAttr "directionalLight1.iog" ":lightEditorRoot.dsm" -na;
+connectAttr "pointLight1.iog" ":lightEditorRoot.dsm" -na;
+connectAttr "pointLight2.iog" ":lightEditorRoot.dsm" -na;
+connectAttr "Foreground.msg" "renderSetup.frl";
+connectAttr "BananaLeaves.msg" "renderSetup.lrl";
+connectAttr "rs_Foreground.msg" "Foreground.lrl";
+connectAttr "renderSetup.lit" "Foreground.pls";
+connectAttr "Foreground1.msg" "Foreground.cl";
+connectAttr "Foreground1.msg" "Foreground.ch";
+connectAttr "renderLayerManager.rlmi[1]" "rs_Foreground.rlid";
+connectAttr "collection1Selector.c" "Foreground1.sel";
+connectAttr "Foreground.lit" "Foreground1.pls";
+connectAttr "Foreground.nic" "Foreground1.pic";
+connectAttr "rs_Midground.msg" "Midground.lrl";
+connectAttr "Foreground.nxt" "Midground.prv";
+connectAttr "renderSetup.lit" "Midground.pls";
+connectAttr "Midground1.msg" "Midground.cl";
+connectAttr "Midground1.msg" "Midground.ch";
+connectAttr "renderLayerManager.rlmi[2]" "rs_Midground.rlid";
+connectAttr "collection2Selector.c" "Midground1.sel";
+connectAttr "Midground.lit" "Midground1.pls";
+connectAttr "Midground.nic" "Midground1.pic";
+connectAttr "rs_ForeBackground.msg" "ForeBackground.lrl";
+connectAttr "Midground.nxt" "ForeBackground.prv";
+connectAttr "renderSetup.lit" "ForeBackground.pls";
+connectAttr "ForeBackground1.msg" "ForeBackground.cl";
+connectAttr "ForeBackground1.msg" "ForeBackground.ch";
+connectAttr "renderLayerManager.rlmi[3]" "rs_ForeBackground.rlid";
+connectAttr "collection3Selector.c" "ForeBackground1.sel";
+connectAttr "ForeBackground.lit" "ForeBackground1.pls";
+connectAttr "ForeBackground.nic" "ForeBackground1.pic";
+connectAttr "rs_Background.msg" "Background.lrl";
+connectAttr "ForeBackground.nxt" "Background.prv";
+connectAttr "renderSetup.lit" "Background.pls";
+connectAttr "Background1.msg" "Background.cl";
+connectAttr "Background1.msg" "Background.ch";
+connectAttr "renderLayerManager.rlmi[4]" "rs_Background.rlid";
+connectAttr "collection4Selector.c" "Background1.sel";
+connectAttr "Background.lit" "Background1.pls";
+connectAttr "Background.nic" "Background1.pic";
+connectAttr "rs_BananaLeaves.msg" "BananaLeaves.lrl";
+connectAttr "Background.nxt" "BananaLeaves.prv";
+connectAttr "renderSetup.lit" "BananaLeaves.pls";
+connectAttr "Bananaleaves.msg" "BananaLeaves.cl";
+connectAttr "Bananaleaves.msg" "BananaLeaves.ch";
+connectAttr "renderLayerManager.rlmi[5]" "rs_BananaLeaves.rlid";
+connectAttr "collection5Selector.c" "Bananaleaves.sel";
+connectAttr "BananaLeaves.lit" "Bananaleaves.pls";
+connectAttr "BananaLeaves.nic" "Bananaleaves.pic";
+connectAttr "lightAngleShader.oc" "rampShader18SG.ss";
+connectAttr "GroundShape.iog" "rampShader18SG.dsm" -na;
+connectAttr "rampShader18SG.msg" "materialInfo18.sg";
+connectAttr "lightAngleShader.msg" "materialInfo18.m";
+connectAttr "lightAngleShader.msg" "materialInfo18.t" -na;
+connectAttr "ImageProjectionRig:lambert2SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert3SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert4SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert5SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert6SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert7SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert8SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert9SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert10SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert11SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert12SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert13SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert14SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert15SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert16SG.pa" ":renderPartition.st" -na;
+connectAttr "ImageProjectionRig:lambert17SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader1SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader2SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader3SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader4SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader5SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader6SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader7SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader8SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader9SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader10SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader11SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader12SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader13SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader14SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader15SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader16SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader17SG.pa" ":renderPartition.st" -na;
+connectAttr "rampShader18SG.pa" ":renderPartition.st" -na;
 connectAttr "lambert2.msg" ":defaultShaderList1.s" -na;
 connectAttr "Black.msg" ":defaultShaderList1.s" -na;
 connectAttr "REd.msg" ":defaultShaderList1.s" -na;
@@ -8019,67 +11259,103 @@ connectAttr "pasted__Black1.msg" ":defaultShaderList1.s" -na;
 connectAttr "pasted__REd1.msg" ":defaultShaderList1.s" -na;
 connectAttr "pasted__Bule1.msg" ":defaultShaderList1.s" -na;
 connectAttr "pasted__Skin1.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:YB___SuperFront.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig:YB_SuperFront2_Mat.msg" ":defaultShaderList1.s" 
+		-na;
+connectAttr "ImageProjectionRig:YB_Front_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:YB_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:YB_Back1_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:YB_SuperBack_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig:OB_SuperFront_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig:OB_Front_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:OB_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:OB_Back_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:OB_SuperBack_Mat.msg" ":defaultShaderList1.s" -na
+		;
+connectAttr "ImageProjectionRig:Bear_Superfront_Mat.msg" ":defaultShaderList1.s"
+		 -na;
+connectAttr "ImageProjectionRig:Bear_Front_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:Bear_Mid_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:Bear_Back_Mat.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:Bear_SuperBack_Mat.msg" ":defaultShaderList1.s" 
+		-na;
+connectAttr "threeToneBrightnessShader.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader1.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader2.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader3.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader4.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader5.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader6.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader7.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader8.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader9.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader10.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader11.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader12.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader13.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader14.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader15.msg" ":defaultShaderList1.s" -na;
+connectAttr "threeToneBrightnessShader16.msg" ":defaultShaderList1.s" -na;
+connectAttr "lightAngleShader.msg" ":defaultShaderList1.s" -na;
+connectAttr "ImageProjectionRig:place2dTexture1.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture2.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture3.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture4.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture5.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture6.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture7.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture8.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture9.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture10.msg" ":defaultRenderUtilityList1.u"
+		 -na;
+connectAttr "ImageProjectionRig:place2dTexture11.msg" ":defaultRenderUtilityList1.u"
+		 -na;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
+connectAttr "ImageProjectionRig:defaultRenderLayer.msg" ":defaultRenderingList1.r"
+		 -na;
+connectAttr "rs_Foreground.msg" ":defaultRenderingList1.r" -na;
+connectAttr "rs_Midground.msg" ":defaultRenderingList1.r" -na;
+connectAttr "rs_ForeBackground.msg" ":defaultRenderingList1.r" -na;
+connectAttr "rs_Background.msg" ":defaultRenderingList1.r" -na;
+connectAttr "rs_BananaLeaves.msg" ":defaultRenderingList1.r" -na;
+connectAttr "directionalLightShape1.ltd" ":lightList1.l" -na;
+connectAttr "pointLightShape1.ltd" ":lightList1.l" -na;
+connectAttr "pointLightShape2.ltd" ":lightList1.l" -na;
+connectAttr "ImageProjectionRig:file1.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:YB_SuperFront.msg" ":defaultTextureList1.tx" -na
+		;
+connectAttr "ImageProjectionRig:file2.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file3.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file4.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file5.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file6.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file7.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file8.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file9.msg" ":defaultTextureList1.tx" -na;
+connectAttr "ImageProjectionRig:file10.msg" ":defaultTextureList1.tx" -na;
 connectAttr "pCubeShape5.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape6.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape7.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "|Palm_Tree1|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree1|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
 connectAttr "|Tree_Anna1|Tree_Anna1|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush1|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush2|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush3|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush4|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush5|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|shaun_bush_fern1|shaun_bush_fern1|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush6|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush7|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree2|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree2|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Short_Palm1|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush8|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "GroundShape.iog" ":initialShadingGroup.dsm" -na;
-connectAttr "|Small_Bush9|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush10|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|shaun_bush_fern2|shaun_bush_fern2|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|shaun_bush_fern3|shaun_bush_fern3|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree3|line_object1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Palm_Tree3|line_object1|merge3_1|merge3_1Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush11|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "|Tree_Anna2|Tree_Anna2|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "|Short_Palm2|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
+connectAttr "|Tree_Anna3|Tree_Anna3|merge1_0|merge1_0Shape.iog" ":initialShadingGroup.dsm"
 		 -na;
-connectAttr "|Short_Palm3|grid1|merge3_0|merge3_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|shaun_bush_fern4|shaun_bush_fern4|foreach_end2_0|foreach_end2_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush12|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush13|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
-connectAttr "|Small_Bush14|line_object1|color1_0|color1_0Shape.iog" ":initialShadingGroup.dsm"
-		 -na;
+connectAttr "pPlaneShape1.iog" ":initialShadingGroup.dsm" -na;
+connectAttr "directionalLight1.iog" ":defaultLightSet.dsm" -na;
+connectAttr "pointLight1.iog" ":defaultLightSet.dsm" -na;
+connectAttr "pointLight2.iog" ":defaultLightSet.dsm" -na;
 // End of AnnaRunSet.ma
