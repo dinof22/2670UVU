@@ -85,7 +85,7 @@
      <elementSeq exposures="18" val="12" id="1"/>
      <elementSeq exposures="19" val="13" id="1"/>
     </column>
-    <column type="0" name="ATV-090C93539A2017E4" displayOrder="0" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-090C93539A2017E4" display="false" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
      <elementSeq exposures="2" val="2" id="2"/>
      <elementSeq exposures="3" val="3" id="2"/>
@@ -161,7 +161,7 @@
       <pt constSeg="false" x="1" yLocal="0" y="0"/>
      </points>
     </column>
-    <column type="0" name="ATV-090C93539A2DFD64" displayOrder="0" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-090C93539A2DFD64" display="false" displayOrder="0" width="100" anonymous="true" id="3">
      <elementSeq exposures="1-34" val="1" id="3"/>
      <elementSeq exposures="35" val="2" id="3"/>
     </column>
@@ -336,6 +336,7 @@
      </module>
      <module type="READ" name="TripPlayblast" pos="0,0,0" publishUnderTab="TripPlayblast">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
@@ -444,6 +445,7 @@
      </module>
      <module type="READ" name="tree" pos="0,0,0" publishUnderTab="tree">
       <options>
+       <disabled val="true"/>
        <collapsed val="false"/>
        <version val="1"/>
       </options>
