@@ -18,7 +18,7 @@ MonoBehaviour:
   jumpCount: 0
   jumpLimit: 1
   walkSpeed: 6
-  runSpeed: 10
+  runSpeed: 11
   currentElement: 0
   animals: []
   currentAnimal: {fileID: 0}
