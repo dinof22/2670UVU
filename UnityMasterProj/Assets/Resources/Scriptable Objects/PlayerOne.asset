@@ -13,11 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lookSensitivity: 3
   name: 
-  gravity: 14
+  gravity: 25
   jumpForce: 10
   jumpCount: 0
   jumpLimit: 1
-  walkSpeed: 5
+  walkSpeed: 6
   runSpeed: 10
   currentElement: 0
   animals: []
