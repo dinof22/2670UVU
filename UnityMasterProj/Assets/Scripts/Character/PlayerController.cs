@@ -20,14 +20,6 @@ public class PlayerController : MonoBehaviour
 
     private bool canMove = false;
 
-	void Awake()
-	{
-		//Action Subscriptions
-		GameStateManager.IngameStateAction += StartGame;
-		GameStateManager.PregameStateAction += EndGame;
-		GameStateManager.PostgameStateAction += EndGame;
-	}
-
 	void Start() 
 	{
 		cc = GetComponent<CharacterController>();

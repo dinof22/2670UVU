@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: a994e56fd021063438cc39714bfd9831
+timeCreated: 1520539878
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bottom_Floor_Ring
+    100002: Bottom_Level_Balcony
+    100004: Cannon_Roost
+    100006: curve1
+    100008: House_Mid_Floor
+    100010: House_Mid_Floor1
+    100012: House_Roof
+    100014: House_Top_Floor
+    100016: //RootNode
+    100018: Mid_Floor_Ring
+    100020: Mountain_Exterior
+    100022: pCube4
+    100024: SecondFloorStairs
+    100026: Spiral_Staircase_1
+    100028: Spiral_Staircase_4
+    100030: TYop_Floor_Ring
+    400000: Bottom_Floor_Ring
+    400002: Bottom_Level_Balcony
+    400004: Cannon_Roost
+    400006: curve1
+    400008: House_Mid_Floor
+    400010: House_Mid_Floor1
+    400012: House_Roof
+    400014: House_Top_Floor
+    400016: //RootNode
+    400018: Mid_Floor_Ring
+    400020: Mountain_Exterior
+    400022: pCube4
+    400024: SecondFloorStairs
+    400026: Spiral_Staircase_1
+    400028: Spiral_Staircase_4
+    400030: TYop_Floor_Ring
+    2300000: Bottom_Floor_Ring
+    2300002: Bottom_Level_Balcony
+    2300004: Cannon_Roost
+    2300006: House_Mid_Floor
+    2300008: House_Mid_Floor1
+    2300010: House_Roof
+    2300012: House_Top_Floor
+    2300014: Mid_Floor_Ring
+    2300016: Mountain_Exterior
+    2300018: pCube4
+    2300020: SecondFloorStairs
+    2300022: Spiral_Staircase_1
+    2300024: Spiral_Staircase_4
+    2300026: TYop_Floor_Ring
+    3300000: Bottom_Floor_Ring
+    3300002: Bottom_Level_Balcony
+    3300004: Cannon_Roost
+    3300006: House_Mid_Floor
+    3300008: House_Mid_Floor1
+    3300010: House_Roof
+    3300012: House_Top_Floor
+    3300014: Mid_Floor_Ring
+    3300016: Mountain_Exterior
+    3300018: pCube4
+    3300020: SecondFloorStairs
+    3300022: Spiral_Staircase_1
+    3300024: Spiral_Staircase_4
+    3300026: TYop_Floor_Ring
+    4300000: Mountain_Exterior
+    4300002: House_Roof
+    4300004: House_Top_Floor
+    4300006: House_Mid_Floor
+    4300008: House_Mid_Floor1
+    4300010: Bottom_Floor_Ring
+    4300012: Mid_Floor_Ring
+    4300014: TYop_Floor_Ring
+    4300016: Bottom_Level_Balcony
+    4300018: Spiral_Staircase_1
+    4300020: SecondFloorStairs
+    4300022: Cannon_Roost
+    4300024: Spiral_Staircase_4
+    4300026: pCube4
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -14,7 +14,8 @@ public class PlayerLook : MonoBehaviour
 	void Awake()
 	{
 		//locks the cursor to the center of the screne and turns it invisible
-		Cursor.lockState = CursorLockMode.Locked;
+		//cursor state is now controlled by CursorManager class -AMK
+		//Cursor.lockState = CursorLockMode.Locked;
 	}
 
 	void Update()

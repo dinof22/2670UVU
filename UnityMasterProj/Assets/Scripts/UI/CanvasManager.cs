@@ -7,10 +7,10 @@ public class CanvasManager : MonoBehaviour
 
     public MenuMethods activeMenu;
 
-    void Start()
+    /*void Awake()
     {
         ShowMenu(activeMenu);
-    }
+    }*/
 
     public void ShowMenu(MenuMethods _menu)
     {

@@ -8,47 +8,67 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour 
 {
 
-	public static bool GameIsPaused = false;
-
 	public GameObject pauseMenuUI;
 
-	// Checks for an escape key press, and pauses/unpauses.
-	void Update () 
+   	public GameObject gameStateManager;
+	private Animator gameStateMachine;
+
+	private bool gameRunning;
+	private bool pauseCheckRunning;
+
+	void Start()
 	{
-		if (Input.GetKeyDown(KeyCode.Escape))
+		gameStateMachine = gameStateManager.GetComponent<Animator>();
+	}
+
+	//runs when GameStateManager changes to InGame state.
+	public void StartGame()
+	{
+		gameRunning = true;
+		if(!pauseCheckRunning)
 		{
-			if (GameIsPaused)
-			{
-				Resume();
-			} 
-			else
-			{
-				Pause();
-			}
+			StartCoroutine(PauseCheck());
 		}
+	}
+
+	public void EndGame()
+	{
+		gameRunning = false;
+	}
+
+	// Checks for an escape key press
+	IEnumerator PauseCheck () 
+	{
+		pauseCheckRunning = true;
+
+		while(gameRunning)
+		{
+			if (Input.GetKeyDown(KeyCode.Escape))
+			{
+				//checks isPaused bool in gameStateMachine, then sets to its opposite.
+				gameStateMachine.SetBool("isPaused", !gameStateMachine.GetBool("isPaused"));
+			}
+
+			yield return null;
+		}
+
+		pauseCheckRunning = false;
 	}
 
 	// Deactivates pause menu UI and resumes time.
 	public void Resume()
 	{
-		Cursor.lockState = CursorLockMode.Locked;
 		pauseMenuUI.SetActive(false);
 		Time.timeScale = 1f;
-		GameIsPaused = false;
+
+		//sets isPaused to false when Resume button on Pause Menu is clicked
+		gameStateMachine.SetBool("isPaused", false);
 	}
 
 	// Activates pause menu UI and freezes time.
-	void Pause()
+	public void Pause()
 	{
-		Cursor.lockState = CursorLockMode.None;
 		pauseMenuUI.SetActive(true);
 		Time.timeScale = 0f;
-		GameIsPaused = true;
-	}
-
-	// Closes the game.
-	public void Quit()
-	{
-		Application.Quit();
 	}
 }
